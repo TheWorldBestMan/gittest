@@ -194,31 +194,36 @@ node find-word.js 游戏.cs vdspeeds Nuff
 静态字段（`static` / `const`）不属于实例布局：`MaxV` 只按实例字段算，
 但它们本身仍会输出（和 `parser.sh`、运行时 dump 一致）；想丢掉用 `--statics drop`。
 
-### 转换器会自动解析 fixed 数组
+### 转换器会自动解析 fixed 数组（增量，不改原格式）
 
-默认（dump 格式）转换时，所有 `<xxx_bytes>e__FixedBuffer` 字段都会被解析成：
+默认（dump 格式）转换时，`<xxx_bytes>e__FixedBuffer` 字段会**额外**加上解析结果，
+`type` 保持原样、包装类也全部保留，所以原有工具（含手动翻译）都不会失效：
 
 ```lua
 ['astSkill_bytes'] = {
     ['offset'] = 208,
-    ['type'] = 'ResData.ResDT_SkillInfo',   -- 真实元素类型（原来是包装类型）
-    ['count'] = 6,                          -- 元素个数
-    ['size'] = 20,                          -- 每个元素字节数
-    ['array'] = true,
-    ['rawType'] = 'ResData.ResHeroCfgInfo.<astSkill_bytes>e__FixedBuffer',
+    ['type'] = 'ResData.ResHeroCfgInfo.<astSkill_bytes>e__FixedBuffer',  -- 原样，没动
+    ['elem'] = 'ResData.ResDT_SkillInfo',   -- 新增：真实元素类型
+    ['count'] = 6,                          -- 新增：元素个数
+    ['size'] = 20,                          -- 新增：每个元素字节数
+    ['array'] = true,                       -- 新增：这是定长数组
 },
 ```
 
-同时把 1688 个纯包装类型（`xxx.<字段>_bytes>e__FixedBuffer`）从输出里删掉——它们只是编译器产物。
-元素个数靠「字节跨度 ÷ 元素大小」算，跨度不够时（该字段是类里最后一个字段）
-先用「父类里相邻字段跨度」反推结构体真实大小，仍推不出来就只给 `type`/`size` 不给 `count`，
-展开脚本遇到这种会只取第 1 个元素并在名字上标 `?`。当前这份 12.1.1.1 的数据：
-942 个包装里 513 个能算出个数，429 个只知类型不知个数，0 个完全找不到类型。
+（想要"type 直接换成元素类型 + 删掉包装类"的老行为，用 `--rewrite-array-type --drop-wrappers`。）
+
+元素个数靠「字节跨度 ÷ 元素步长」算，步长按结构体对齐向上取整（例如自身布局 36 → 步长 40），
+跨度带对齐填充时用整除去尾（例如 40 = 3×12 + 4 填充）。当前 12.1.1.1 的数据：
+942 个包装里 **538 个**能算出个数，404 个推不出（376 个是该字段是类里最后一个字段），0 个找不到元素类型。
+推不出个数的条目脚本只取第 1 个元素，不影响其它字段。
 
 ### 配套的 GameGuardian 展开脚本
 
 两个脚本都在，按需取用：
 
+- [展开o_最小改动版.lua](展开o_最小改动版.lua)：**推荐先用这个**。在你能跑的那版上只改 3 处
+  （数组用 `v_.elem or v_.type`、数组补 `offset>0`、T 表修正 Single/Double），
+  并加了 pcall 防崩和 `诊断()`；
 - [展开o自动版.lua](展开o自动版.lua)：你自己改的那版（数组展开、地址换算已经对了），保持原样；
 - [展开o_中文版.lua](展开o_中文版.lua)：在你这版基础上再改两处 —— 字段名/类名显示成
   「中文  英文名」（读 dump 里的 `['zh']`），以及补 `offset>0` 判断、递归深度上限、单数组展开上限。

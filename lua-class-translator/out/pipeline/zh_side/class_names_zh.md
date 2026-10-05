@@ -1,9 +1,9 @@
 # 类名 / 字段名中文对照表
 
 源文件: `C:\Users\zaish\Desktop\Git\lua-class-translator\out\pipeline\sgame.lua`
-类总数: **5790**，字段总数: **0**
+类总数: **6328**，字段总数: **0**
 
-## Res（5790）
+## Res（6328）
 
 ### 资源数据.游戏数据管理器.等级数据表
 
@@ -33742,6 +33742,15 @@
   | `wSaleDiscout` | w出售Discout |
   | `dwRefreshID` | 刷新ID |
 
+### 资源数据.新手引导触发时间道具.<Parambytes>e固定缓冲
+
+- 原类名: `ResData.NewbieGuideTriggerTimeItem.<Param_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.新手引导触发时间道具
 
 - 原类名: `ResData.NewbieGuideTriggerTimeItem`
@@ -33808,6 +33817,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `Param` | 参数 |
+
+### 资源数据.新手引导Weak配置.<Parambytes>e固定缓冲
+
+- 原类名: `ResData.NewbieGuideWeakConf.<Param_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.新手引导Weak配置
 
@@ -35775,6 +35793,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源VIP点券.<Upgrade礼包IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResVIPCoupons.<UpgradeGiftIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源VIP点券
 
 - 原类名: `ResData.ResVIPCoupons`
@@ -35863,6 +35890,15 @@
   | --- | --- |
   | `get_szButtonText` | 获取按钮文本 |
   | `get_szEffectPath` | 获取效果路径 |
+
+### 资源数据.资源活动入口PoXiao.<Iconbytes>e固定缓冲
+
+- 原类名: `ResData.ResActivityEntryPoXiao.<Icon_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源活动入口PoXiao
 
@@ -38921,6 +38957,15 @@
   | `dwSecondaryBranchWinScoreRatio` | 次要分支胜利得分比例 |
   | `dwSecondaryBranchLoseScoreRatio` | 次要分支失败得分比例 |
 
+### 资源数据.资源主匹配结算排行无显示.<Show比例bytes>e固定缓冲
+
+- 原类名: `ResData.ResMasterMatchSettleRankNoShow.<ShowRatio_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源主匹配结算排行无显示
 
 - 原类名: `ResData.ResMasterMatchSettleRankNoShow`
@@ -41530,6 +41575,15 @@
 ### 资源数据.资源结算AIPDThumbDescribe.<ParamAccuracybytes>e固定缓冲
 
 - 原类名: `ResData.ResSettleAIPDThumbDescribe.<ParamAccuracy_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源结算AIPDThumbDescribe.<sz参数类型bytes>e固定缓冲
+
+- 原类名: `ResData.ResSettleAIPDThumbDescribe.<szParamType_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -45199,6 +45253,15 @@
   | --- | --- |
   | `get_szContent` | 获取内容 |
 
+### 资源数据.资源英雄练习能力图.<Max能力值bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeAbilityGraph.<MaxAbilityValue_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄练习能力图
 
 - 原类名: `ResData.ResHeroPracticeAbilityGraph`
@@ -46327,6 +46390,15 @@
   | --- | --- |
   | `get_szName` | 获取名称 |
   | `get_szSoundEventName` | 获取音效事件名称 |
+
+### 资源数据.资源通信资源特权配置.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResCommResPrivilegeCfg.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源通信资源特权配置
 
@@ -47583,6 +47655,24 @@
   | `get_szText2` | 获取文本2 |
   | `get_szText3` | 获取文本3 |
 
+### 资源数据.资源神圣动物套装颜色.<Body部件IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalSuitColor.<BodyPartID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源神圣动物套装颜色.<PartIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalSuitColor.<PartID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源神圣动物套装颜色
 
 - 原类名: `ResData.ResSacredAnimalSuitColor`
@@ -47670,6 +47760,15 @@
   | `PartID` | 部件ID |
   | `BodyPartID` | 躯体部件ID |
 
+### 资源数据.资源神圣动物套装效果.<PartIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalSuitEffect.<PartID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源神圣动物套装效果
 
 - 原类名: `ResData.ResSacredAnimalSuitEffect`
@@ -47715,6 +47814,15 @@
   | `get_szBattlePoint7` | 获取战斗点7 |
   | `get_szBattlePath7` | 获取战斗路径7 |
   | `PartID` | 部件ID |
+
+### 资源数据.资源神圣动物套装.<PartIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalSuit.<PartID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源神圣动物套装
 
@@ -47880,6 +47988,15 @@
   | --- | --- |
   | `get_szRightIcon` | 获取右图标 |
   | `get_szRightDes` | 获取右Des |
+
+### 资源数据.资源LingBao抽奖显示情况配置.<Show情况属性列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResLingBaoLotteryShowCaseConf.<ShowCaseAttributeList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源LingBao抽奖显示情况配置
 
@@ -54549,6 +54666,15 @@
   | `iJumpParam1` | i跳转参数1 |
   | `iJumpParam2` | i跳转参数2 |
 
+### 资源数据.资源数据表通用键值.<Argbytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_Common_KeyValue.<Arg_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表通用键值
 
 - 原类名: `ResData.ResDT_Common_KeyValue`
@@ -54568,6 +54694,15 @@
 ### 资源数据.资源数据表Pve复活信息.<Revive增益bytes>e固定缓冲
 
 - 原类名: `ResData.ResDT_PveReviveInfo.<ReviveBuff_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源数据表Pve复活信息.<ast复活消耗bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_PveReviveInfo.<astReviveCost_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -54617,6 +54752,15 @@
   | --- | --- |
   | `HeroID` | 英雄ID |
 
+### 资源数据.资源数据表未使用技能.<Un使用技能列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_UnUseSkill.<UnUseSkillList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表未使用技能
 
 - 原类名: `ResData.ResDT_UnUseSkill`
@@ -54633,6 +54777,33 @@
   | 原名 | 中文 |
   | --- | --- |
   | `UnUseSkillList` | 未使用技能列表 |
+
+### 资源数据.资源野怪配置信息.<Passive技能IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResMonsterCfgInfo.<PassiveSkillID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源野怪配置信息.<SkillIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResMonsterCfgInfo.<SkillIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源野怪配置信息.<ast神符掉落bytes>e固定缓冲
+
+- 原类名: `ResData.ResMonsterCfgInfo.<astShenfuDrop_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源野怪配置信息
 
@@ -54809,6 +54980,15 @@
   | `stBaoZouJiangShi` | BaoZouJiangShi |
   | `stBaoJun` | BaoJun |
 
+### 资源数据.资源器官配置信息.<SkillIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResOrganCfgInfo.<SkillIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源器官配置信息
 
 - 原类名: `ResData.ResOrganCfgInfo`
@@ -54893,6 +55073,51 @@
   | `get_szLogicGraphPath` | 获取逻辑图路径 |
   | `get_szHeadIconPath` | 获取头部图标路径 |
   | `SkillIDs` | 技能ID |
+
+### 资源数据.资源技能配置信息.<Skill效果类型bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillCfgInfo.<SkillEffectType_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源技能配置信息.<ast范围Appoint类型Pramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillCfgInfo.<astRangeAppointTypePrams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源技能配置信息.<ast技能属性描述信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillCfgInfo.<astSkillPropertyDescInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源技能配置信息.<ast技能使用规则参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillCfgInfo.<astSkillUseRuleParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源技能配置信息.<astWheel类型参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillCfgInfo.<astWheelTypeParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源技能配置信息
 
@@ -55156,6 +55381,24 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源数据表技能函数.<ast技能函数分组bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_SkillFunc.<astSkillFuncGroup_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源数据表技能函数.<ast技能函数参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_SkillFunc.<astSkillFuncParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表技能函数
 
 - 原类名: `ResData.ResDT_SkillFunc`
@@ -55229,6 +55472,24 @@
   | --- | --- |
   | `astConditionParam` | 资源条件参数 |
 
+### 资源数据.资源数据表高亮条件.<ast条件比较bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_HighlightCondition.<astConditionCompare_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源数据表高亮条件.<ast条件参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_HighlightCondition.<astConditionParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表高亮条件
 
 - 原类名: `ResData.ResDT_HighlightCondition`
@@ -55285,6 +55546,15 @@
   | --- | --- |
   | `astSkin` | 资源皮肤 |
 
+### 资源数据.资源技能标记配置信息.<ast层效果名称bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillMarkCfgInfo.<astLayerEffectName_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源技能标记配置信息
 
 - 原类名: `ResData.ResSkillMarkCfgInfo`
@@ -55322,6 +55592,15 @@
   | `get_szMarkDesc` | 获取标记描述 |
   | `get_szActionName` | 获取动作名称 |
   | `astLayerEffectName` | 资源层效果名称 |
+
+### 资源数据.资源随机技能被动规则.<ast随机技能被动ID1bytes>e固定缓冲
+
+- 原类名: `ResData.ResRandomSkillPassiveRule.<astRandomSkillPassiveID1_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源随机技能被动规则.<ast随机技能被动ID2bytes>e固定缓冲
 
@@ -55388,6 +55667,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源伤害属性Bonus信息.<ast属性Bonus信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResHurtPropertyBonusInfo.<astPropBonusInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源伤害属性Bonus信息
 
 - 原类名: `ResData.ResHurtPropertyBonusInfo`
@@ -55406,6 +55694,24 @@
   | --- | --- |
   | `astPropBonusInfo` | 资源属性Bonus信息 |
   | `astCustomPropBonusInfo` | 资源自定义属性Bonus信息 |
+
+### 资源数据.资源PVE天赋配置信息.<ast天赋效果IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPVETalentCfgInfo.<astTalentEffectIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源PVE天赋配置信息.<ast天赋被动IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPVETalentCfgInfo.<astTalentPassiveIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源PVE天赋配置信息
 
@@ -55448,6 +55754,60 @@
   | `get_szTalentDesc` | 获取天赋描述 |
   | `astTalentPassiveIDs` | 资源天赋被动ID |
   | `astTalentEffectIDs` | 资源天赋效果ID |
+
+### 资源数据.资源Pve输出.<Output装备IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPveOutput.<OutputEquipID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Pve输出.<Show输出装备IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPveOutput.<ShowOutputEquipID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Pve输出.<Show输出道具计数bytes>e固定缓冲
+
+- 原类名: `ResData.ResPveOutput.<ShowOutputItemCount_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Pve输出.<Show输出道具IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPveOutput.<ShowOutputItemID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Pve输出.<Show输出皮肤IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPveOutput.<ShowOutputSkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Pve输出.<Total输出装备IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPveOutput.<TotalOutputEquipID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Pve输出
 
@@ -55518,6 +55878,24 @@
   | `ShowOutputItemID` | 显示输出道具ID |
   | `ShowOutputItemCount` | 显示输出道具计数 |
 
+### 资源数据.资源小兵波次信息.<ast分支Wavesbytes>e固定缓冲
+
+- 原类名: `ResData.ResSoldierWaveInfo.<astBranchWaves_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源小兵波次信息.<ast普通小兵信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSoldierWaveInfo.<astNormalSoldierInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源小兵波次信息
 
 - 原类名: `ResData.ResSoldierWaveInfo`
@@ -55550,6 +55928,15 @@
 ### 资源数据.资源数据表前置条件内任务.<astCLIENTCONDITION参数bytes>e固定缓冲
 
 - 原类名: `ResData.ResDT_PrerequisiteInTask.<astCLIENTCONDITIONParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源数据表前置条件内任务.<ast前置条件参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_PrerequisiteInTask.<astPrerequisiteParam_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -55633,6 +56020,24 @@
   | --- | --- |
   | `SubIds` | 子ID |
 
+### 资源数据.资源Optional折扣.<ast折扣信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResOptionalDiscount.<astDiscountInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Optional折扣.<ast奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResOptionalDiscount.<astRewardInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Optional折扣
 
 - 原类名: `ResData.ResOptionalDiscount`
@@ -55691,6 +56096,33 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astCheckRewardList` | 资源检查奖励列表 |
+
+### 资源数据.资源属性信息.<Eft参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResPropInfo.<EftParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源属性信息.<ast货币信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResPropInfo.<astCurrencyInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源属性信息.<ast来源信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResPropInfo.<astSrcInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源属性信息
 
@@ -55803,6 +56235,24 @@
   | `astSrcInfo` | 资源来源信息 |
   | `astCurrencyInfo` | 资源货币信息 |
 
+### 资源数据.资源规格出售自身选择.<Buybytes>e固定缓冲
+
+- 原类名: `ResData.ResSpecSaleSelfSelection.<Buy_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源规格出售自身选择.<Freebytes>e固定缓冲
+
+- 原类名: `ResData.ResSpecSaleSelfSelection.<Free_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源规格出售自身选择
 
 - 原类名: `ResData.ResSpecSaleSelfSelection`
@@ -55859,6 +56309,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astRewardPool` | 资源奖励池 |
+
+### 资源数据.资源装备信息.<ast函数Eft列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResEquipInfo.<astFuncEftList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源装备信息.<ast来源信息bytes>e固定缓冲
 
@@ -55946,6 +56405,15 @@
   | `get_szTitle` | 获取标题 |
   | `astPrivilegeIcon` | 资源特权图标 |
 
+### 资源数据.资源推荐铭文页.<SymbolIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResRcmdSymbolPage.<SymbolID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源推荐铭文页
 
 - 原类名: `ResData.ResRcmdSymbolPage`
@@ -55969,6 +56437,15 @@
   | `get_szOnTimeStr` | 获取开时间字符串 |
   | `get_szOffTimeStr` | 获取关时间字符串 |
   | `SymbolID` | 铭文ID |
+
+### 资源数据.资源角色铭文页.<SymbolIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResRoleSymbolPage.<SymbolID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源角色铭文页
 
@@ -55996,6 +56473,33 @@
   | `get_szOnTimeStr` | 获取开时间字符串 |
   | `get_szOffTimeStr` | 获取关时间字符串 |
   | `SymbolID` | 铭文ID |
+
+### 资源数据.资源铭文信息.<ast函数Eft列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResSymbolInfo.<astFuncEftList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源铭文信息.<astPveEft列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResSymbolInfo.<astPveEftList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源铭文信息.<ast来源信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSymbolInfo.<astSrcInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源铭文信息
 
@@ -56108,6 +56612,15 @@
   | --- | --- |
   | `astRewardInfo` | 资源奖励信息 |
 
+### 资源数据.资源任务奖励.<ast奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResTaskReward.<astRewardInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源任务奖励
 
 - 原类名: `ResData.ResTaskReward`
@@ -56125,6 +56638,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astRewardInfo` | 资源奖励信息 |
+
+### 资源数据.资源任务Dync值.<Param道具bytes>e固定缓冲
+
+- 原类名: `ResData.ResTaskDyncValue.<ParamItem_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源任务Dync值
 
@@ -56145,6 +56667,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `ParamItem` | 参数道具 |
+
+### 资源数据.资源Prayer检查内天气.<Animal交互ID列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResPrayerCheckInWeather.<AnimalInteractIDList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Prayer检查内天气
 
@@ -56172,6 +56703,15 @@
   | `get_szTipImageResourceName` | 获取提示图片资源名称 |
   | `get_szChatSceneName` | 获取聊天场景名称 |
   | `AnimalInteractIDList` | 动物交互ID列表 |
+
+### 资源数据.资源随机奖励商店.<ast奖励细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResRandomRewardStore.<astRewardDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源随机奖励商店
 
@@ -56224,6 +56764,24 @@
   | `get_szRewardDesc` | 获取奖励描述 |
   | `astRewardList` | 资源奖励列表 |
 
+### 资源数据.资源数据表条件信息.<Comparetor细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_ConditionInfo.<ComparetorDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源数据表条件信息.<Key细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_ConditionInfo.<KeyDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表条件信息.<Value细节bytes>e固定缓冲
 
 - 原类名: `ResData.ResDT_ConditionInfo.<ValueDetail_bytes>e__FixedBuffer`
@@ -56255,6 +56813,15 @@
   | `ComparetorDetail` | Comparetor细节 |
   | `ValueDetail` | 值细节 |
 
+### 资源数据.资源数据表拾取规则信息.<Parambytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_PickRuleInfo.<Param_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表拾取规则信息
 
 - 原类名: `ResData.ResDT_PickRuleInfo`
@@ -56272,6 +56839,15 @@
   | --- | --- |
   | `Param` | 参数 |
 
+### 资源数据.资源数据表队伍范围规则.<Rule参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_TeamRangeRule.<RuleParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表队伍范围规则
 
 - 原类名: `ResData.ResDT_TeamRangeRule`
@@ -56287,6 +56863,24 @@
   | 原名 | 中文 |
   | --- | --- |
   | `RuleParam` | 规则参数 |
+
+### 资源数据.资源数据表等级游戏播放信息.<ast金币补偿细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_LevelGamePlayInfo.<astCoinCompensateDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源数据表等级游戏播放信息.<ast经验补偿细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_LevelGamePlayInfo.<astExpCompensateDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表等级游戏播放信息
 
@@ -56416,6 +57010,42 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astCampList` | 资源阵营列表 |
+
+### 资源数据.资源奖励匹配时间信息.<CycleParmbytes>e固定缓冲
+
+- 原类名: `ResData.ResRewardMatchTimeInfo.<CycleParm_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源奖励匹配时间信息.<Sign上循环Parmbytes>e固定缓冲
+
+- 原类名: `ResData.ResRewardMatchTimeInfo.<SignUpCycleParm_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源奖励匹配时间信息.<ast活动时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResRewardMatchTimeInfo.<astActTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源奖励匹配时间信息.<astSign上活动时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResRewardMatchTimeInfo.<astSignUpActTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源奖励匹配时间信息
 
@@ -56558,9 +57188,36 @@
   | --- | --- |
   | `HeroList` | 英雄列表 |
 
+### 资源数据.资源通用结算.<AntiCheat细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResCommonSettle.<AntiCheatDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源通用结算.<ast首个完成奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResCommonSettle.<astFirstCompleteReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源通用结算.<astRaids奖励bytes>e固定缓冲
 
 - 原类名: `ResData.ResCommonSettle.<astRaidsReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源通用结算.<ast随机奖励细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResCommonSettle.<astRandomRewardDetail_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -56600,6 +57257,15 @@
   | `astRandomRewardDetail` | 资源随机奖励细节 |
   | `astFirstCompleteReward` | 资源首个完成奖励 |
   | `astRaidsReward` | 资源Raids奖励 |
+
+### 资源数据.资源数据表刷新信息列表.<Refresh时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_RefreshInfo_List.<RefreshTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表刷新信息列表
 
@@ -56661,6 +57327,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.新手引导主线配置.<ast触发时间bytes>e固定缓冲
+
+- 原类名: `ResData.NewbieGuideMainLineConf.<astTriggerTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.新手引导主线配置
 
 - 原类名: `ResData.NewbieGuideMainLineConf`
@@ -56710,6 +57385,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.新手Weak引导主线配置.<ast触发时间bytes>e固定缓冲
+
+- 原类名: `ResData.NewbieWeakGuideMainLineConf.<astTriggerTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.新手Weak引导主线配置
 
 - 原类名: `ResData.NewbieWeakGuideMainLineConf`
@@ -56744,6 +57428,24 @@
   | `astTriggerCondition` | 资源触发条件 |
   | `astSkipCondition` | 资源跳过条件 |
 
+### 资源数据.新手引导脚本配置.<Parambytes>e固定缓冲
+
+- 原类名: `ResData.NewbieGuideScriptConf.<Param_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.新手引导脚本配置.<ast字符串参数bytes>e固定缓冲
+
+- 原类名: `ResData.NewbieGuideScriptConf.<astStrParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.新手引导脚本配置
 
 - 原类名: `ResData.NewbieGuideScriptConf`
@@ -56765,6 +57467,33 @@
   | --- | --- |
   | `Param` | 参数 |
   | `astStrParam` | 资源字符串参数 |
+
+### 资源数据.资源Knowledge点配置.<PlayIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResKnowledgePointConf.<PlayID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Knowledge点配置.<ast地图列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResKnowledgePointConf.<astMapList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Knowledge点配置.<sz数量的次数bytes>e固定缓冲
+
+- 原类名: `ResData.ResKnowledgePointConf.<szNumOfTimes_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Knowledge点配置
 
@@ -56824,6 +57553,15 @@
   | --- | --- |
   | `astMapIDList` | 资源地图ID列表 |
 
+### 资源数据.资源数据表防御塔状态.<Towerbytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_TowerState.<Tower_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表防御塔状态
 
 - 原类名: `ResData.ResDT_TowerState`
@@ -56840,6 +57578,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `Tower` | 防御塔 |
+
+### 资源数据.新手引导横幅引导配置.<ast图片路径bytes>e固定缓冲
+
+- 原类名: `ResData.NewbieGuideBannerGuideConf.<astPicPath_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.新手引导横幅引导配置
 
@@ -56900,6 +57647,42 @@
   | 原名 | 中文 |
   | --- | --- |
   | `get_szBubbleTips` | 获取气泡提示 |
+
+### 资源数据.资源排行等级配置.<ConLoss得分bytes>e固定缓冲
+
+- 原类名: `ResData.ResRankGradeConf.<ConLossScore_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源排行等级配置.<Con胜利得分bytes>e固定缓冲
+
+- 原类名: `ResData.ResRankGradeConf.<ConWinScore_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源排行等级配置.<MVP得分bytes>e固定缓冲
+
+- 原类名: `ResData.ResRankGradeConf.<MVPScore_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源排行等级配置.<szAI英雄熟练度等级概率bytes>e固定缓冲
+
+- 原类名: `ResData.ResRankGradeConf.<szAIHeroProficiencyLvProbability_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源排行等级配置
 
@@ -57000,6 +57783,15 @@
   | `MVPScore` | MVP得分 |
   | `szAIHeroProficiencyLvProbability` | AI英雄熟练度等级概率 |
 
+### 资源数据.资源主等级配置.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResMasterGradeConf.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源主等级配置
 
 - 原类名: `ResData.ResMasterGradeConf`
@@ -57087,6 +57879,15 @@
   | --- | --- |
   | `UnlockParam` | 解锁参数 |
 
+### 资源数据.资源特殊Fuc解锁.<Unlock数组bytes>e固定缓冲
+
+- 原类名: `ResData.ResSpecialFucUnlock.<UnlockArray_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源特殊Fuc解锁
 
 - 原类名: `ResData.ResSpecialFucUnlock`
@@ -57110,6 +57911,15 @@
   | `get_szUnlockTip` | 获取解锁提示 |
   | `get_szUnlockTipIcon` | 获取解锁提示图标 |
   | `UnlockArray` | 解锁数组 |
+
+### 资源数据.资源License信息.<Unlock数组bytes>e固定缓冲
+
+- 原类名: `ResData.ResLicenseInfo.<UnlockArray_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源License信息
 
@@ -57139,6 +57949,15 @@
 ### 资源数据.资源公会建筑.<Maintain货币bytes>e固定缓冲
 
 - 原类名: `ResData.ResGuildBuilding.<MaintainMoney_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源公会建筑.<Up等级货币bytes>e固定缓冲
+
+- 原类名: `ResData.ResGuildBuilding.<UpGradeMoney_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -57207,6 +58026,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源公会Combat.<RequiredCombat值bytes>e固定缓冲
+
+- 原类名: `ResData.ResGuildCombat.<RequiredCombatValue_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源公会Combat
 
 - 原类名: `ResData.ResGuildCombat`
@@ -57247,6 +58075,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源公会匹配赛季奖励.<ast奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResGuildMatchSeasonReward.<astRewardInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源公会匹配赛季奖励
 
 - 原类名: `ResData.ResGuildMatchSeasonReward`
@@ -57266,6 +58103,15 @@
   | --- | --- |
   | `astRewardInfo` | 资源奖励信息 |
   | `astNextSeasonRewardInfo` | 资源下一个赛季奖励信息 |
+
+### 资源数据.资源公会HuoYue奖励.<ast奖励细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResGuildHuoYueReward.<astRewardDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源公会HuoYue奖励
 
@@ -57288,6 +58134,15 @@
   | `get_szDesc` | 获取描述 |
   | `astRewardDetail` | 资源奖励细节 |
 
+### 资源数据.红Envelope值选择参数.<ast步长参数bytes>e固定缓冲
+
+- 原类名: `ResData.RedEnvelopeValSelectParam.<astStepParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.红Envelope值选择参数
 
 - 原类名: `ResData.RedEnvelopeValSelectParam`
@@ -57303,6 +58158,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astStepParam` | 资源步长参数 |
+
+### 资源数据.资源Robot战斗列表.<Hero列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResRobotBattleList.<HeroList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Robot战斗列表
 
@@ -57356,6 +58220,69 @@
   | --- | --- |
   | `get_szColorName` | 获取颜色名称 |
   | `SymbolDetail` | 铭文细节 |
+
+### 资源数据.资源英雄配置信息.<HeroRelationsbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroCfgInfo.<HeroRelations_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄配置信息.<Sub设置技能IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroCfgInfo.<SubSetSkillID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄配置信息.<astJob特性bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroCfgInfo.<astJobFeature_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄配置信息.<ast技能bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroCfgInfo.<astSkill_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄配置信息.<sz额外Cold分支道路bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroCfgInfo.<szExtraColdBranchRoad_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄配置信息.<sz额外记录分支道路bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroCfgInfo.<szExtraRcdBranchRoad_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄配置信息.<szRecmd分支10v10bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroCfgInfo.<szRecmdBranch10v10_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄配置信息
 
@@ -57569,6 +58496,15 @@
   | `SubSetSkillID` | 子设置技能ID |
   | `szExtraColdBranchRoad` | 额外Cold分支道路 |
 
+### 资源数据.资源Fate英雄信息.<SubFate英雄IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResFateHeroInfo.<SubFateHeroID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Fate英雄信息.<ast子Fate英雄Plotbytes>e固定缓冲
 
 - 原类名: `ResData.ResFateHeroInfo.<astSubFateHeroPlot_bytes>e__FixedBuffer`
@@ -57599,6 +58535,15 @@
   | --- | --- |
   | `SubFateHeroID` | 子Fate英雄ID |
   | `astSubFateHeroPlot` | 资源子Fate英雄Plot |
+
+### 资源数据.资源数据表新英雄活动英雄信息.<ast活动列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_NewHeroActivityHeroInfo.<astActivityList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表新英雄活动英雄信息
 
@@ -57677,6 +58622,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源英雄能量信息.<ast状态bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroEnergyInfo.<astState_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄能量信息
 
 - 原类名: `ResData.ResHeroEnergyInfo`
@@ -57722,6 +58676,24 @@
   | `astState` | 资源状态 |
   | `astParams` | 资源参数 |
 
+### 资源数据.资源英雄Job增益.<BuffIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroJobBuff.<BuffId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄Job增益.<ast属性bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroJobBuff.<astAttr_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄Job增益
 
 - 原类名: `ResData.ResHeroJobBuff`
@@ -57746,6 +58718,24 @@
   | `get_szEnemyCampTipAgePath` | 获取敌方阵营提示推进路径 |
   | `astAttr` | 资源属性 |
   | `BuffId` | 增益ID |
+
+### 资源数据.资源英雄动态增益.<BuffIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroDynamicBuff.<BuffId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄动态增益.<ast属性bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroDynamicBuff.<astAttr_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄动态增益
 
@@ -57778,6 +58768,24 @@
   | `astAttr` | 资源属性 |
   | `BuffId` | 增益ID |
 
+### 资源数据.资源英雄增益.<BuffIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroBuff.<BuffId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄增益.<ast属性bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroBuff.<astAttr_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄增益
 
 - 原类名: `ResData.ResHeroBuff`
@@ -57801,6 +58809,24 @@
   | `get_szEnemyCampTipAgePath` | 获取敌方阵营提示推进路径 |
   | `astAttr` | 资源属性 |
   | `BuffId` | 增益ID |
+
+### 资源数据.资源英雄商店.<PromotionIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroShop.<PromotionID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄商店.<ast礼物道具bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroShop.<astPresentItem_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄商店
 
@@ -57976,6 +59002,24 @@
   | --- | --- |
   | `astWhiteList` | 资源白列表 |
 
+### 资源数据.资源英雄皮肤.<ast属性bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroSkin.<astAttr_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄皮肤.<ast特性bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroSkin.<astFeature_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄皮肤
 
 - 原类名: `ResData.ResHeroSkin`
@@ -58130,6 +59174,24 @@
   | `get_szShowTry` | 获取显示Try |
   | `get_szSkinVoiceEvent` | 获取皮肤语音事件 |
 
+### 资源数据.资源英雄皮肤额外.<ARBorderbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroSkinExtra.<ARBorder_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄皮肤额外.<ARPendantbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroSkinExtra.<ARPendant_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄皮肤额外.<Share图片IDbytes>e固定缓冲
 
 - 原类名: `ResData.ResHeroSkinExtra.<SharePicID_bytes>e__FixedBuffer`
@@ -58165,6 +59227,15 @@
   | `ARBorder` | ARBorder |
   | `ARPendant` | ARPendant |
   | `SharePicID` | 共享图片ID |
+
+### 资源数据.资源商城角色推荐.<ast特性bytes>e固定缓冲
+
+- 原类名: `ResData.ResMallAvatarRecommend.<astFeature_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源商城角色推荐
 
@@ -58242,6 +59313,15 @@
   | `get_szVideoPath` | 获取视频路径 |
   | `astRecommend` | 资源推荐 |
 
+### 资源数据.资源系列皮肤.<ast系列皮肤系统广播击杀文本数组bytes>e固定缓冲
+
+- 原类名: `ResData.ResSeriesSkin.<astSeriesSkinSystemBroadcastKillTextArr_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源系列皮肤
 
 - 原类名: `ResData.ResSeriesSkin`
@@ -58267,6 +59347,24 @@
   | `get_szSeriesSkinSystemBroadcastEncounterText` | 获取系列皮肤系统广播Encounter文本 |
   | `get_szSeriesSkinEncounterParticlePath` | 获取系列皮肤Encounter粒子路径 |
   | `astSeriesSkinSystemBroadcastKillTextArr` | 资源系列皮肤系统广播击杀文本数组 |
+
+### 资源数据.资源英雄皮肤商店.<GroupIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroSkinShop.<GroupIds_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄皮肤商店.<PromotionIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroSkinShop.<PromotionID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄皮肤商店
 
@@ -58514,6 +59612,15 @@
   | `get_szOffTime` | 获取关时间 |
   | `get_szPromotionReason` | 获取晋级原因 |
 
+### 资源数据.资源皮肤Installment.<ast回收道具信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkinInstallment.<astRecycleItemInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源皮肤Installment
 
 - 原类名: `ResData.ResSkinInstallment`
@@ -58557,6 +59664,15 @@
   | `get_szRuleUrl` | 获取规则链接 |
   | `get_szSkinImageUrl` | 获取皮肤图片链接 |
   | `astRecycleItemInfo` | 资源回收道具信息 |
+
+### 资源数据.资源Wander商店.<astProductsbytes>e固定缓冲
+
+- 原类名: `ResData.ResWanderShop.<astProducts_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Wander商店.<ast显示图标bytes>e固定缓冲
 
@@ -58602,6 +59718,15 @@
   | `dwID` | ID |
   | `stItem` | 道具 |
   | `bIsRefresh` | 是否刷新 |
+
+### 资源数据.资源福利检查内.<ast奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealCheckIn.<astReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源福利检查内
 
@@ -58660,6 +59785,24 @@
   | --- | --- |
   | `Price` | 价格 |
 
+### 资源数据.资源福利固定时间.<ast多重时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealFixedTime.<astMultipleTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源福利固定时间.<ast周期bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealFixedTime.<astPeriod_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源福利固定时间
 
 - 原类名: `ResData.ResWealFixedTime`
@@ -58683,6 +59826,15 @@
   | --- | --- |
   | `astMultipleTime` | 资源多重时间 |
   | `astPeriod` | 资源周期 |
+
+### 资源数据.资源数据表福利多重周期.<ast奖励类型bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_WealMultiplePeriod.<astRewardType_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表福利多重周期
 
@@ -58708,6 +59860,24 @@
   | --- | --- |
   | `get_szDesc` | 获取描述 |
   | `astRewardType` | 资源奖励类型 |
+
+### 资源数据.资源数据表福利Con信息.<Jump参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_WealConInfo.<JumpParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源数据表福利Con信息.<ReachCon参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_WealConInfo.<ReachConParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表福利Con信息
 
@@ -58821,6 +59991,15 @@
   | `get_szShareUI` | 获取共享UI |
   | `get_szIconPath` | 获取图标路径 |
 
+### 资源数据.资源数据表福利Con掩码.<sz掩码Bitsbytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_WealConMask.<szMaskBits_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表福利Con掩码
 
 - 原类名: `ResData.ResDT_WealConMask`
@@ -58836,6 +60015,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `szMaskBits` | 掩码Bits |
+
+### 资源数据.资源福利Storage活动.<astStorage活动bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealStorageActivity.<astStorageActivity_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源福利Storage活动
 
@@ -58895,6 +60083,15 @@
   | `get_szActivityPicUrl` | 获取活动图片链接 |
   | `get_szActivityJumpParam3` | 获取活动跳转参数3 |
 
+### 资源数据.资源福利参数.<NextIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResWealParam.<NextId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源福利参数.<Parambytes>e固定缓冲
 
 - 原类名: `ResData.ResWealParam.<Param_bytes>e__FixedBuffer`
@@ -58926,6 +60123,15 @@
   | `NextId` | 下一个ID |
   | `Param` | 参数 |
 
+### 资源数据.资源福利交换.<astCol道具信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealExchange.<astColItemInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源福利交换
 
 - 原类名: `ResData.ResWealExchange`
@@ -58953,6 +60159,15 @@
   | `get_szTagName` | 获取标签名称 |
   | `astColItemInfo` | 资源Col道具信息 |
 
+### 资源数据.资源福利点交换.<ast交换信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealPointExchange.<astExchangeInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源福利点交换
 
 - 原类名: `ResData.ResWealPointExchange`
@@ -58976,6 +60191,24 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astExchangeInfo` | 资源交换信息 |
+
+### 资源数据.资源福利步长.<Weal参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealStep.<WealParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源福利步长.<ast步长信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealStep.<astStepInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源福利步长
 
@@ -59073,6 +60306,15 @@
   | `get_szMailTitle` | 获取邮件标题 |
   | `get_szMailBody` | 获取邮件躯体 |
 
+### 资源数据.资源福利信息同步.<astEvEntIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResWealInfoSync.<astEvEntIDS_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源福利信息同步
 
 - 原类名: `ResData.ResWealInfoSync`
@@ -59136,6 +60378,24 @@
   | --- | --- |
   | `astYStampInfo` | 资源YStamp信息 |
 
+### 资源数据.神符信息.<ast拾取过滤Contion参数bytes>e固定缓冲
+
+- 原类名: `ResData.ShenFuInfo.<astPickFilterContionParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.神符信息.<ast拾取过滤Contion类型bytes>e固定缓冲
+
+- 原类名: `ResData.ShenFuInfo.<astPickFilterContionType_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.神符信息
 
 - 原类名: `ResData.ShenFuInfo`
@@ -59185,6 +60445,15 @@
   | `astPickFilterContionType` | 资源拾取过滤Contion类型 |
   | `astPickFilterContionParam` | 资源拾取过滤Contion参数 |
 
+### 资源数据.Charm库.<astCharmIDbytes>e固定缓冲
+
+- 原类名: `ResData.CharmLib.<astCharmId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.Charm库.<ast概率bytes>e固定缓冲
 
 - 原类名: `ResData.CharmLib.<astProbability_bytes>e__FixedBuffer`
@@ -59216,6 +60485,15 @@
   | --- | --- |
   | `astCharmId` | 资源CharmID |
   | `astProbability` | 资源概率 |
+
+### 资源数据.交互道具信息.<ast神符掉落bytes>e固定缓冲
+
+- 原类名: `ResData.InteractItemInfo.<astShenfuDrop_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.交互道具信息
 
@@ -59253,6 +60531,15 @@
   | `get_szBluePrintPath` | 获取蓝打印路径 |
   | `get_szDeadAni` | 获取死亡动画 |
   | `astShenfuDrop` | 资源神符掉落 |
+
+### 资源数据.资源成就.<ast奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResAchievement.<astReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源成就
 
@@ -59293,6 +60580,15 @@
 ### 资源数据.资源位置标题配置.<Shake列表bytes>e固定缓冲
 
 - 原类名: `ResData.ResPosTitleConf.<ShakeList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源位置标题配置.<ast条件列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResPosTitleConf.<astCondList_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -59359,6 +60655,24 @@
   | --- | --- |
   | `Param` | 参数 |
 
+### 资源数据.资源Trophy等级.<ast邮件奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResTrophyLvl.<astMailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Trophy等级.<ast请求奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResTrophyLvl.<astReqReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Trophy等级
 
 - 原类名: `ResData.ResTrophyLvl`
@@ -59381,6 +60695,24 @@
   | `get_szTrophyDesc` | 获取Trophy描述 |
   | `astMailReward` | 资源邮件奖励 |
   | `astReqReward` | 资源请求奖励 |
+
+### 资源数据.资源位置战斗值2等级.<Pos战斗值头部图片IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPosFightValue2Grade.<PosFightValueHeadImgID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源位置战斗值2等级.<Pos战斗值图标IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPosFightValue2Grade.<PosFightValueIconID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源位置战斗值2等级.<Pos战斗值Signaturebytes>e固定缓冲
 
@@ -59414,6 +60746,33 @@
   | `PosFightValueIconID` | 位置战斗值图标ID |
   | `PosFightValueSignature` | 位置战斗值Signature |
 
+### 资源数据.资源位置战斗值2等级.<Pos战斗值头部图片IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPosFightValue2Lv.<PosFightValueHeadImgID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源位置战斗值2等级.<Pos战斗值图标IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPosFightValue2Lv.<PosFightValueIconID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源位置战斗值2等级.<Pos战斗值Signaturebytes>e固定缓冲
+
+- 原类名: `ResData.ResPosFightValue2Lv.<PosFightValueSignature_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源位置战斗值2等级
 
 - 原类名: `ResData.ResPosFightValue2Lv`
@@ -59438,6 +60797,15 @@
   | `PosFightValueHeadImgID` | 位置战斗值头部图片ID |
   | `PosFightValueIconID` | 位置战斗值图标ID |
   | `PosFightValueSignature` | 位置战斗值Signature |
+
+### 资源数据.资源技能解锁.<Passive技能IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillUnlock.<PassiveSkillID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源技能解锁
 
@@ -59527,6 +60895,15 @@
   | `get_szEndTime` | 获取结束时间 |
   | `astResList` | 资源资源列表 |
 
+### 资源数据.资源VIP大厅入口规则.<szFrequency参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResVipLobbyEntryRule.<szFrequencyParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源VIP大厅入口规则
 
 - 原类名: `ResData.ResVipLobbyEntryRule`
@@ -59577,6 +60954,24 @@
   | --- | --- |
   | `astRewardDetail` | 资源奖励细节 |
 
+### 资源数据.资源主奖励配置.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResMasterRewardConf.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源主奖励配置.<ast奖励细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResMasterRewardConf.<astRewardDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源主奖励配置
 
 - 原类名: `ResData.ResMasterRewardConf`
@@ -59603,6 +60998,15 @@
   | `get_szScoreDiffTip` | 获取得分差异提示 |
   | `Params` | 参数 |
   | `astRewardDetail` | 资源奖励细节 |
+
+### 资源数据.资源主奖励显示配置.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResMasterRewardShowConf.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源主奖励显示配置
 
@@ -59778,6 +61182,24 @@
 ### 资源数据.资源PVE套装.<ast激活技能bytes>e固定缓冲
 
 - 原类名: `ResData.ResPVESuit.<astActiveSkill_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源PVE套装.<ast效果合并bytes>e固定缓冲
+
+- 原类名: `ResData.ResPVESuit.<astEffectCombine_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源PVE套装.<ast被动技能bytes>e固定缓冲
+
+- 原类名: `ResData.ResPVESuit.<astPassiveSkill_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -60094,6 +61516,15 @@
   | --- | --- |
   | `SkillId` | 技能ID |
 
+### 资源数据.资源假账号英雄.<SkinIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResFakeAcntHero.<SkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源假账号英雄
 
 - 原类名: `ResData.ResFakeAcntHero`
@@ -60138,6 +61569,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astHeroList` | 资源英雄列表 |
+
+### 资源数据.资源一键奖励信息.<One键奖励参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResOneKeyAwardInfo.<OneKeyAwardParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源一键奖励信息
 
@@ -60251,6 +61691,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astRewardItem` | 资源奖励道具 |
+
+### 资源数据.资源荣誉.<ast荣誉等级bytes>e固定缓冲
+
+- 原类名: `ResData.ResHonor.<astHonorLevel_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源荣誉
 
@@ -60381,6 +61830,15 @@
   | `get_szDesc` | 获取描述 |
   | `get_szResPreviewDesc` | 获取资源预览描述 |
 
+### 资源数据.资源特殊手抖动.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResSpecialHandShake.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源特殊手抖动
 
 - 原类名: `ResData.ResSpecialHandShake`
@@ -60430,6 +61888,24 @@
   | `get_szAllHandShakeTipsFrameCamp` | 获取全部手抖动提示帧阵营 |
   | `get_szAllHandShakeTipsFrameEnemy` | 获取全部手抖动提示帧敌方 |
   | `Params` | 参数 |
+
+### 资源数据.资源信誉值奖励.<astBonus道具信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResCreditValueReward.<astBonusItemInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源信誉值奖励.<ast可获取奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResCreditValueReward.<astCanGetRewardInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源信誉值奖励
 
@@ -60560,6 +62036,24 @@
   | --- | --- |
   | `Params` | 参数 |
 
+### 资源数据.资源项目8卡牌策略.<ast预条件战斗bytes>e固定缓冲
+
+- 原类名: `ResData.ResProj8CardStrategy.<astPreCondBattle_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源项目8卡牌策略.<ast预条件系统bytes>e固定缓冲
+
+- 原类名: `ResData.ResProj8CardStrategy.<astPreCondSystem_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源项目8卡牌策略
 
 - 原类名: `ResData.ResProj8CardStrategy`
@@ -60674,6 +62168,24 @@
   | --- | --- |
   | `astRangeConfigs` | 资源范围Configs |
 
+### 资源数据.资源PkAI匹配时间.<Cycle参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResPkAIMatchTime.<CycleParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源PkAI匹配时间.<ast活动时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResPkAIMatchTime.<astActTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源PkAI匹配时间
 
 - 原类名: `ResData.ResPkAIMatchTime`
@@ -60703,6 +62215,15 @@
   | `get_szTimeTips` | 获取时间提示 |
   | `CycleParam` | 循环参数 |
   | `astActTime` | 资源活动时间 |
+
+### 资源数据.资源Devic函数配置信息.<szFunctionsbytes>e固定缓冲
+
+- 原类名: `ResData.ResDevicFuncConfigInfo.<szFunctions_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Devic函数配置信息
 
@@ -60754,6 +62275,15 @@
   | --- | --- |
   | `PopularityParam` | 人气参数 |
 
+### 资源数据.资源District名称转换信息.<astCommunity列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResDistrictNameConvertInfo.<astCommunityList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源District名称转换信息
 
 - 原类名: `ResData.ResDistrictNameConvertInfo`
@@ -60790,6 +62320,24 @@
   | `get_szShortestName` | 获取Shortest名称 |
   | `astCommunityList` | 资源Community列表 |
 
+### 资源数据.资源技能多重指示器配置信息.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillMultiIndicatorCfgInfo.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源技能多重指示器配置信息.<ast指示器信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillMultiIndicatorCfgInfo.<astIndicatorInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源技能多重指示器配置信息
 
 - 原类名: `ResData.ResSkillMultiIndicatorCfgInfo`
@@ -60810,6 +62358,15 @@
   | `Params` | 参数 |
   | `astIndicatorInfo` | 资源指示器信息 |
 
+### 资源数据.资源技能特殊动态指示器配置信息.<ast指示器信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillSpecialDynamicIndicatorCfgInfo.<astIndicatorInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源技能特殊动态指示器配置信息
 
 - 原类名: `ResData.ResSkillSpecialDynamicIndicatorCfgInfo`
@@ -60825,6 +62382,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astIndicatorInfo` | 资源指示器信息 |
+
+### 资源数据.资源PerfEft信息.<Bind英雄皮肤IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResPerfEftInfo.<BindHeroSkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源PerfEft信息
 
@@ -60880,6 +62446,24 @@
   | `get_szPreviewImageUrl` | 获取预览图片链接 |
   | `get_szPreviewVideoUrl` | 获取预览视频链接 |
   | `BindHeroSkinID` | 绑定英雄皮肤ID |
+
+### 资源数据.资源引导任务描述配置.<ast任务简介内容bytes>e固定缓冲
+
+- 原类名: `ResData.ResGuideTaskDescConf.<astTaskBriefContent_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源引导任务描述配置.<ast任务内容bytes>e固定缓冲
+
+- 原类名: `ResData.ResGuideTaskDescConf.<astTaskContent_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源引导任务描述配置
 
@@ -60957,6 +62541,15 @@
   | --- | --- |
   | `Parm` | Parm |
 
+### 资源数据.引导任务条件配置.<Parmbytes>e固定缓冲
+
+- 原类名: `ResData.GuideTaskConditionConf.<Parm_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.引导任务条件配置
 
 - 原类名: `ResData.GuideTaskConditionConf`
@@ -60999,6 +62592,24 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astGameStepReward` | 资源游戏步长奖励 |
+
+### 资源数据.资源ESportsTripartite.<Reward道具IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResESportsTripartite.<RewardItemIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源ESportsTripartite.<ast奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResESportsTripartite.<astRewardInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源ESportsTripartite
 
@@ -61051,6 +62662,24 @@
   | `astRewardInfo` | 资源奖励信息 |
   | `RewardItemIDs` | 奖励道具ID |
 
+### 资源数据.资源ESports全国阶段信息.<Awardsbytes>e固定缓冲
+
+- 原类名: `ResData.ResESportsNationalStageInfo.<Awards_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源ESports全国阶段信息.<astQualification信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResESportsNationalStageInfo.<astQualificationInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源ESports全国阶段信息
 
 - 原类名: `ResData.ResESportsNationalStageInfo`
@@ -61077,6 +62706,15 @@
   | `astQualificationInfo` | 资源Qualification信息 |
   | `Awards` | Awards |
 
+### 资源数据.资源ESports全国队伍阶段信息.<ast步长结算信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResESportsNationalTeamStageInfo.<astStepSettleInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源ESports全国队伍阶段信息
 
 - 原类名: `ResData.ResESportsNationalTeamStageInfo`
@@ -61101,6 +62739,15 @@
   | `get_szStageName` | 获取阶段名称 |
   | `get_szCupPath` | 获取Cup路径 |
   | `astStepSettleInfo` | 资源步长结算信息 |
+
+### 资源数据.资源数据表徽章普通信息.<astPriviligebytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_BadgeComInfo.<astPrivilige_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表徽章普通信息
 
@@ -61153,6 +62800,15 @@
   | --- | --- |
   | `astKeywords` | 资源Keywords |
 
+### 资源数据.资源ESports得分奖励.<ast高奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResESportsScoreAward.<astHighAward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源ESports得分奖励.<ast低奖励bytes>e固定缓冲
 
 - 原类名: `ResData.ResESportsScoreAward.<astLowAward_bytes>e__FixedBuffer`
@@ -61184,6 +62840,15 @@
   | --- | --- |
   | `astHighAward` | 资源高奖励 |
   | `astLowAward` | 资源低奖励 |
+
+### 资源数据.资源题目银行规则.<ast寻找帮助规则bytes>e固定缓冲
+
+- 原类名: `ResData.ResQuestionBankRule.<astSeekHelpRule_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源题目银行规则
 
@@ -61222,6 +62887,15 @@
   | `get_szShowTips` | 获取显示提示 |
   | `get_szExitTips` | 获取退出提示 |
   | `astSeekHelpRule` | 资源寻找帮助规则 |
+
+### 资源数据.资源题目Cli.<astOptionsbytes>e固定缓冲
+
+- 原类名: `ResData.ResQuestionCli.<astOptions_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源题目Cli
 
@@ -61308,6 +62982,15 @@
   | `get_szQuestion` | 获取题目 |
   | `get_szQuestionSound` | 获取题目音效 |
   | `astOptions` | 资源Options |
+
+### 资源数据.资源等级切换.<Dying生命值减少速率bytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelSwitch.<DyingHpReduceRate_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源等级切换
 
@@ -61509,6 +63192,15 @@
   | `get_szCloseTime` | 获取关闭时间 |
   | `MultipleParam` | 多重参数 |
 
+### 资源数据.资源战斗Royale参数由MMR.<Evaluate限制bytes>e固定缓冲
+
+- 原类名: `ResData.ResBattleRoyaleParamByMMR.<EvaluateLimit_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源战斗Royale参数由MMR
 
 - 原类名: `ResData.ResBattleRoyaleParamByMMR`
@@ -61537,6 +63229,15 @@
   | `get_szGradeName` | 获取等级名称 |
   | `EvaluateLimit` | 求值限制 |
 
+### 资源数据.资源回流游戏奖励.<ast奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResBackflowGameAward.<astAward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源回流游戏奖励
 
 - 原类名: `ResData.ResBackflowGameAward`
@@ -61561,6 +63262,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astAward` | 资源奖励 |
+
+### 资源数据.资源新手职业目标配置.<JumpParmbytes>e固定缓冲
+
+- 原类名: `ResData.ResNewbieCareerTargetConf.<JumpParm_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源新手职业目标配置
 
@@ -61637,6 +63347,24 @@
   | `get_szIntro` | 获取开场 |
   | `astAward` | 资源奖励 |
 
+### 资源数据.资源用户回流Dialogue.<ast英雄Dialoguebytes>e固定缓冲
+
+- 原类名: `ResData.ResUserBackflowDialogue.<astHeroDialogue_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源用户回流Dialogue.<ast长时间运行关扩展Dialoguebytes>e固定缓冲
+
+- 原类名: `ResData.ResUserBackflowDialogue.<astLongTimeRunOffExtDialogue_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源用户回流Dialogue
 
 - 原类名: `ResData.ResUserBackflowDialogue`
@@ -61689,6 +63417,15 @@
   | `get_szTypeName` | 获取类型名称 |
   | `astNode` | 资源节点 |
 
+### 资源数据.资源回流内容推荐.<Effective条件参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResBackflowContentRecommend.<EffectiveCondParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源回流内容推荐
 
 - 原类名: `ResData.ResBackflowContentRecommend`
@@ -61737,6 +63474,24 @@
   | `get_szEffectiveCondStr` | 获取Effective条件字符串 |
   | `EffectiveCondParam` | Effective条件参数 |
 
+### 资源数据.资源返回流动特权新英雄皮肤.<Privilege类型列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResBackFlowPrivilegeNewHeroSkin.<PrivilegeTypeList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源返回流动特权新英雄皮肤.<SkinID列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResBackFlowPrivilegeNewHeroSkin.<SkinIDList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源返回流动特权新英雄皮肤
 
 - 原类名: `ResData.ResBackFlowPrivilegeNewHeroSkin`
@@ -61758,6 +63513,15 @@
   | --- | --- |
   | `PrivilegeTypeList` | 特权类型列表 |
   | `SkinIDList` | 皮肤ID列表 |
+
+### 资源数据.资源返回流动特权新时间配置.<Replace索引列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResBackFlowPrivilegeNewTimeCfg.<ReplaceIndexList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源返回流动特权新时间配置
 
@@ -61864,6 +63628,24 @@
   | --- | --- |
   | `astTrigChkList` | 资源TrigChk列表 |
 
+### 资源数据.资源地图Program参数.<sz高内存池Chain尺寸bytes>e固定缓冲
+
+- 原类名: `ResData.ResMapProgramParams.<szHighMemoryPoolChainSize_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源地图Program参数.<sz池Chain尺寸bytes>e固定缓冲
+
+- 原类名: `ResData.ResMapProgramParams.<szPoolChainSize_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源地图Program参数
 
 - 原类名: `ResData.ResMapProgramParams`
@@ -61966,6 +63748,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astParticleinfos` | 资源Particleinfos |
+
+### 资源数据.资源赛季回顾表现.<ast表现类型信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSeasonReviewPerform.<astPerformTypeInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源赛季回顾表现
 
@@ -62074,6 +63865,24 @@
   | `get_szTitle` | 获取标题 |
   | `get_szDesc` | 获取描述 |
 
+### 资源数据.资源赛季回顾动作.<ast荣誉信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSeasonReviewAction.<astHonorInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源赛季回顾动作.<ast阈值信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSeasonReviewAction.<astThresholdInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源赛季回顾动作
 
 - 原类名: `ResData.ResSeasonReviewAction`
@@ -62105,6 +63914,24 @@
   | `get_szIcon` | 获取图标 |
   | `astHonorInfo` | 资源荣誉信息 |
   | `astThresholdInfo` | 资源阈值信息 |
+
+### 资源数据.资源赛季回顾图片.<Core标签位bytes>e固定缓冲
+
+- 原类名: `ResData.ResSeasonReviewImage.<CoreLabelBit_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源赛季回顾图片.<Label位bytes>e固定缓冲
+
+- 原类名: `ResData.ResSeasonReviewImage.<LabelBit_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源赛季回顾图片
 
@@ -62169,6 +63996,15 @@
   | --- | --- |
   | `get_szConDesc` | 获取Con描述 |
 
+### 资源数据.资源职业标题信息.<ast标题特性bytes>e固定缓冲
+
+- 原类名: `ResData.ResCareerTitleInfo.<astTitleFeature_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源职业标题信息
 
 - 原类名: `ResData.ResCareerTitleInfo`
@@ -62215,6 +64051,15 @@
   | `get_szValiableTimeContent` | 获取Valiable时间内容 |
   | `astTitleFeature` | 资源标题特性 |
 
+### 资源数据.资源热身战斗英雄.<SkinIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResWarmBattleHero.<SkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源热身战斗英雄
 
 - 原类名: `ResData.ResWarmBattleHero`
@@ -62259,6 +64104,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `SkinID` | 皮肤ID |
+
+### 资源数据.资源新手动态热身战斗英雄.<SkinIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResNewbieDynamicWarmBattleHero.<SkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源新手动态热身战斗英雄
 
@@ -62339,6 +64193,15 @@
   | --- | --- |
   | `Param` | 参数 |
 
+### 资源数据.资源战斗项目8成就.<ast条件bytes>e固定缓冲
+
+- 原类名: `ResData.ResBattleProj8Achieve.<astCond_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源战斗项目8成就
 
 - 原类名: `ResData.ResBattleProj8Achieve`
@@ -62364,6 +64227,15 @@
   | `get_szDesc` | 获取描述 |
   | `get_szIcon` | 获取图标 |
   | `astCond` | 资源条件 |
+
+### 资源数据.资源通用条件.<Con参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResGeneralCond.<ConParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源通用条件
 
@@ -62420,6 +64292,15 @@
   | `iEndRankNo` | i结束排行无 |
   | `stReward` | 奖励 |
 
+### 资源数据.资源宠物信息.<ast宠物Propsbytes>e固定缓冲
+
+- 原类名: `ResData.ResPetInfo.<astPetProps_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源宠物信息
 
 - 原类名: `ResData.ResPetInfo`
@@ -62456,6 +64337,15 @@
   | `get_szShareSkinUrl` | 获取共享皮肤链接 |
   | `get_szShareSkinVideoUrl` | 获取共享皮肤视频链接 |
   | `astPetProps` | 资源宠物Props |
+
+### 资源数据.资源场景皮肤信息.<ast场景皮肤Propsbytes>e固定缓冲
+
+- 原类名: `ResData.ResSceneSkinInfo.<astSceneSkinProps_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源场景皮肤信息
 
@@ -62611,6 +64501,15 @@
   | `get_szActionAgePath` | 获取动作推进路径 |
   | `get_szForceAddAnimNames` | 获取力添加动画名称 |
 
+### 资源数据.资源动作商店.<PromotionIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResActionShop.<PromotionID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源动作商店
 
 - 原类名: `ResData.ResActionShop`
@@ -62657,6 +64556,15 @@
   | `get_szOffTimeStr` | 获取关时间字符串 |
   | `get_szResPreviewDesc` | 获取资源预览描述 |
   | `PromotionID` | 晋级ID |
+
+### 资源数据.资源共享队伍信息.<astSpeaical天bytes>e固定缓冲
+
+- 原类名: `ResData.ResShareTeamInfo.<astSpeaicalDay_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源共享队伍信息.<ast静态时间bytes>e固定缓冲
 
@@ -62803,6 +64711,15 @@
   | `get_szPosPath` | 获取位置路径 |
   | `get_szPrefabPath` | 获取预制体路径 |
   | `astTai1SolderInfos` | 资源Tai1SolderInfos |
+
+### 资源数据.资源战斗Wiki.<ast路径bytes>e固定缓冲
+
+- 原类名: `ResData.ResBattleWiki.<astPath_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源战斗Wiki
 
@@ -62974,6 +64891,33 @@
   | --- | --- |
   | `astAward` | 资源奖励 |
 
+### 资源数据.资源战斗通行证Rights.<Random任务钻石消耗bytes>e固定缓冲
+
+- 原类名: `ResData.ResBattlePassRights.<RandomTaskDiamondCost_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源战斗通行证Rights.<ast奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResBattlePassRights.<astAward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源战斗通行证Rights.<ast购买等级信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResBattlePassRights.<astBuyLevelInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源战斗通行证Rights
 
 - 原类名: `ResData.ResBattlePassRights`
@@ -63118,6 +65062,15 @@
   | `bBattlePassType` | 战斗通行证类型 |
   | `wBattlePassLevel` | w战斗通行证等级 |
 
+### 资源数据.资源战斗通行证受限奖励提示.<ast奖励Itemsbytes>e固定缓冲
+
+- 原类名: `ResData.ResBattlePassLimitedRewardTip.<astRewardItems_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源战斗通行证受限奖励提示
 
 - 原类名: `ResData.ResBattlePassLimitedRewardTip`
@@ -63140,6 +65093,15 @@
   | `get_szTipText` | 获取提示文本 |
   | `get_szValueText` | 获取值文本 |
   | `astRewardItems` | 资源奖励Items |
+
+### 资源数据.资源房间自定义Define.<ast规则bytes>e固定缓冲
+
+- 原类名: `ResData.ResRoomCustomDefine.<astRule_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源房间自定义Define
 
@@ -63198,6 +65160,15 @@
   | --- | --- |
   | `get_szName` | 获取名称 |
   | `szValue` | 值 |
+
+### 资源数据.资源房间自定义战斗效果.<Camp1参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResRoomCustomBattleEffect.<Camp1Param_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源房间自定义战斗效果.<Camp2参数bytes>e固定缓冲
 
@@ -63364,6 +65335,15 @@
   | `get_szEffectIntensity` | 获取效果强度 |
   | `astFightValueSpeedUpRangeInfo` | 资源战斗值速度上范围信息 |
 
+### 资源数据.资源数据表棋盘全局效果信息.<ast效果bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_ChessGlobalEffectInfo.<astEffect_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表棋盘全局效果信息.<ast预效果bytes>e固定缓冲
 
 - 原类名: `ResData.ResDT_ChessGlobalEffectInfo.<astPreEffect_bytes>e__FixedBuffer`
@@ -63393,6 +65373,15 @@
   | `get_szEffectDesc` | 获取效果描述 |
   | `astEffect` | 资源效果 |
   | `astPreEffect` | 资源预效果 |
+
+### 资源数据.资源NB任务配置.<ast触发条件bytes>e固定缓冲
+
+- 原类名: `ResData.ResNBTaskConf.<astTriggerCondition_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源NB任务配置
 
@@ -63498,6 +65487,114 @@
   | 原名 | 中文 |
   | --- | --- |
   | `HeroID` | 英雄ID |
+
+### 资源数据.资源棋盘英雄配置信息.<Charge时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<ChargeTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<Initial技能冷却bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<InitialSkillCD_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<Post清除技能合并IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<PostClearSkillCombineID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<Pre清除技能合并IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<PreClearSkillCombineID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<Recommend装备IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<RecommendEquipID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<Reset被动技能IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<ResetPassiveSkillID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<astCombosbytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<astCombos_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<ast技能bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<astSkill_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<sz棋盘阵营bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<szChessCamp_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<sz棋盘职业bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<szChessCareer_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<sz非AI自动使用bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<szNotAIAutoUse_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘英雄配置信息.<sz目标位置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResChessHeroCfgInfo.<szTargetPosId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源棋盘英雄配置信息
 
@@ -63713,6 +65810,15 @@
   | `get_szFeature` | 获取特性 |
   | `astChessRecommendHeroItemList` | 资源棋盘推荐英雄道具列表 |
 
+### 资源数据.资源项目8帮助描述Items.<astPicsbytes>e固定缓冲
+
+- 原类名: `ResData.ResProj8HelpDescItems.<astPics_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源项目8帮助描述Items
 
 - 原类名: `ResData.ResProj8HelpDescItems`
@@ -63736,6 +65842,42 @@
   | `get_szContent` | 获取内容 |
   | `get_szContentUserBack` | 获取内容用户返回 |
   | `astPics` | 资源Pics |
+
+### 资源数据.资源棋盘圆信息.<Prepare阶段MMR持续时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessRoundInfo.<PreparePhaseMmrDuration_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘圆信息.<Super快速模式Prepare阶段MMR持续时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessRoundInfo.<SuperFastModePreparePhaseMmrDuration_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘圆信息.<astMMRAI战斗得分bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessRoundInfo.<astMmrAIBattleScore_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘圆信息.<ast单人AI战斗得分bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessRoundInfo.<astSoloAIBattleScore_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源棋盘圆信息
 
@@ -63874,6 +66016,24 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源棋盘预设Formation.<ast返回bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessPresetFormation.<astBack_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘预设Formation.<ast前bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessPresetFormation.<astFront_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源棋盘预设Formation
 
 - 原类名: `ResData.ResChessPresetFormation`
@@ -63930,6 +66090,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `Row` | 行 |
+
+### 资源数据.资源棋盘AI等级.<astExceed战斗得分信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessAILevel.<astExceedBattleScoreInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源棋盘AI等级
 
@@ -63992,6 +66161,42 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astPresetDetail` | 资源预设细节 |
+
+### 资源数据.资源棋盘天赋信息.<Condition参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessTalentInfo.<ConditionParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘天赋信息.<Drop等级bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessTalentInfo.<DropLevel_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘天赋信息.<Parambytes>e固定缓冲
+
+- 原类名: `ResData.ResChessTalentInfo.<Param_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘天赋信息.<PositionIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResChessTalentInfo.<PositionID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源棋盘天赋信息.<Promote参数bytes>e固定缓冲
 
@@ -64105,6 +66310,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `HeroID` | 英雄ID |
+
+### 资源数据.资源棋盘天赋位置.<PositionXbytes>e固定缓冲
+
+- 原类名: `ResData.ResChessTalentPosition.<PositionX_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源棋盘天赋位置.<PositionYbytes>e固定缓冲
 
@@ -64226,6 +66440,15 @@
   | `stReward` | 奖励 |
   | `iTaskNum` | i任务数量 |
 
+### 资源数据.资源Wifi铭文页信息.<SymbolIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResWifiSymbolPageInfo.<SymbolID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Wifi铭文页信息
 
 - 原类名: `ResData.ResWifiSymbolPageInfo`
@@ -64246,6 +66469,15 @@
   | --- | --- |
   | `get_szPageName` | 获取页名称 |
   | `SymbolID` | 铭文ID |
+
+### 资源数据.资源满等级铭文页信息.<SymbolIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResFullLvlSymbolPageInfo.<SymbolID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源满等级铭文页信息
 
@@ -64319,6 +66551,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astCondActivity` | 资源条件活动 |
+
+### 资源数据.资源大厅活动游戏模式.<ast特殊变更bytes>e固定缓冲
+
+- 原类名: `ResData.ResLobbyActivityGameMode.<astSpecialChange_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源大厅活动游戏模式
 
@@ -64403,6 +66644,15 @@
   | `get_szActivityDec` | 获取活动减 |
   | `astSpecialChange` | 资源特殊变更 |
 
+### 资源数据.资源大厅激活入口配置.<ast特殊变更bytes>e固定缓冲
+
+- 原类名: `ResData.ResLobbyActiveEntryConf.<astSpecialChange_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源大厅激活入口配置
 
 - 原类名: `ResData.ResLobbyActiveEntryConf`
@@ -64434,6 +66684,15 @@
   | `get_szCloseTime` | 获取关闭时间 |
   | `get_szName` | 获取名称 |
   | `astSpecialChange` | 资源特殊变更 |
+
+### 资源数据.资源Pro玩家.<ast账号列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResProPlayer.<astAcntList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Pro玩家
 
@@ -64508,6 +66767,24 @@
 ### 资源数据.资源Work商店.<astCampsbytes>e固定缓冲
 
 - 原类名: `ResData.ResWorkShop.<astCamps_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Work商店.<astDifficultiesbytes>e固定缓冲
+
+- 原类名: `ResData.ResWorkShop.<astDifficulties_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Work商店.<ast特殊Difficultiesbytes>e固定缓冲
+
+- 原类名: `ResData.ResWorkShop.<astSpecialDifficulties_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -64609,6 +66886,15 @@
   | `wScore` | w得分 |
   | `stAward` | 奖励 |
 
+### 资源数据.资源英雄能力.<sz能力用于显示bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroAbility.<szAbilityForShow_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄能力.<sz外类型bytes>e固定缓冲
 
 - 原类名: `ResData.ResHeroAbility.<szOuterType_bytes>e__FixedBuffer`
@@ -64651,6 +66937,15 @@
   | `stHappyHouseStep2` | Happy家园步长2 |
   | `stHappyHouseStep2RT` | Happy家园步长2RT |
 
+### 资源数据.资源视频引导配置.<ast视频路径bytes>e固定缓冲
+
+- 原类名: `ResData.ResVideoGuideConf.<astVideoPath_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源视频引导配置
 
 - 原类名: `ResData.ResVideoGuideConf`
@@ -64685,6 +66980,33 @@
   | `get_szConfirmBtnName` | 获取确认按钮名称 |
   | `get_szCancleBtnName` | 获取取消按钮名称 |
   | `astVideoPath` | 资源视频路径 |
+
+### 资源数据.资源队伍范围参数.<Base参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResTeamRangeParam.<BaseParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源队伍范围参数.<Max参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResTeamRangeParam.<MaxParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源队伍范围参数.<Min参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResTeamRangeParam.<MinParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源队伍范围参数
 
@@ -64734,6 +67056,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astRewardDetail` | 资源奖励细节 |
+
+### 资源数据.资源棋盘Bounty入口信息.<ast消耗bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessBountyEntryInfo.<astCost_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源棋盘Bounty入口信息
 
@@ -64909,6 +67240,24 @@
   | --- | --- |
   | `astReward` | 资源奖励 |
 
+### 资源数据.资源相册.<HeroIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResAlbum.<HeroID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源相册.<StoryIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResAlbum.<StoryID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源相册
 
 - 原类名: `ResData.ResAlbum`
@@ -64936,6 +67285,24 @@
   | `get_szAbbrName` | 获取Abbr名称 |
   | `HeroID` | 英雄ID |
   | `StoryID` | 剧情ID |
+
+### 资源数据.资源相册额外.<ast阵营Dialoguebytes>e固定缓冲
+
+- 原类名: `ResData.ResAlbumExtra.<astCampDialogue_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源相册额外.<ast等级bytes>e固定缓冲
+
+- 原类名: `ResData.ResAlbumExtra.<astLevel_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源相册额外
 
@@ -64969,6 +67336,24 @@
   | `get_szNodePath` | 获取节点路径 |
   | `astLevel` | 资源等级 |
   | `astCampDialogue` | 资源阵营Dialogue |
+
+### 资源数据.资源英雄Clue.<ast主关系bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroClue.<astMainRelation_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄Clue.<ast关系bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroClue.<astRelation_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄Clue
 
@@ -65116,6 +67501,15 @@
   | `get_szMemoryContent` | 获取内存内容 |
   | `astReply` | 资源Reply |
 
+### 资源数据.资源加载聊天内容.<Custom随机Argsbytes>e固定缓冲
+
+- 原类名: `ResData.ResLoadingChatContent.<CustomRandomArgs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源加载聊天内容
 
 - 原类名: `ResData.ResLoadingChatContent`
@@ -65143,6 +67537,24 @@
   | `get_szMatch2v2Content` | 获取匹配2v2内容 |
   | `CustomRandomArgs` | 自定义随机Args |
 
+### 资源数据.资源坐骑装备继承信息.<BuffIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResMountEquipInheritInfo.<BuffID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源坐骑装备继承信息.<PassiveIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResMountEquipInheritInfo.<PassiveID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源坐骑装备继承信息
 
 - 原类名: `ResData.ResMountEquipInheritInfo`
@@ -65163,6 +67575,78 @@
   | --- | --- |
   | `PassiveID` | 被动ID |
   | `BuffID` | 增益ID |
+
+### 资源数据.资源亲密度等级.<astBestie邮件奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResIntimacyLevel.<astBestieMailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源亲密度等级.<astBroSis邮件奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResIntimacyLevel.<astBroSisMailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源亲密度等级.<astGay邮件奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResIntimacyLevel.<astGayMailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源亲密度等级.<ast亲密度奖励列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResIntimacyLevel.<astIntimacyRewardList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源亲密度等级.<astLover邮件奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResIntimacyLevel.<astLoverMailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源亲密度等级.<astSidekick邮件奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResIntimacyLevel.<astSidekickMailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源亲密度等级.<astSisBro邮件奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResIntimacyLevel.<astSisBroMailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源亲密度等级.<astSister邮件奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResIntimacyLevel.<astSisterMailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源亲密度等级
 
@@ -65318,6 +67802,24 @@
   | --- | --- |
   | `astRewardDetail` | 资源奖励细节 |
 
+### 资源数据.资源套装推荐.<Recommend装备IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSuitRecommend.<RecommendEquipId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源套装推荐.<Recommend铭文IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSuitRecommend.<RecommendSymbolId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源套装推荐
 
 - 原类名: `ResData.ResSuitRecommend`
@@ -65373,6 +67875,15 @@
   | `get_szVideoPath` | 获取视频路径 |
   | `get_szVideoFirstPath` | 获取视频首个路径 |
   | `astVideoFragment` | 资源视频Fragment |
+
+### 资源数据.资源BreakingNews对话.<astChoicebytes>e固定缓冲
+
+- 原类名: `ResData.ResBreakingNewsDialog.<astChoice_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源BreakingNews对话
 
@@ -65501,6 +68012,15 @@
   | --- | --- |
   | `astPrefabName` | 资源预制体名称 |
 
+### 资源数据.资源UGC奖励配置.<ast失败奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResUgcAwardConf.<astLoseAward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源UGC奖励配置
 
 - 原类名: `ResData.ResUgcAwardConf`
@@ -65523,6 +68043,24 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astLoseAward` | 资源失败奖励 |
+
+### 资源数据.资源地图额外函数信息.<Gray参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResMapExtraFuncInfo.<GrayParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源地图额外函数信息.<ast触发任务bytes>e固定缓冲
+
+- 原类名: `ResData.ResMapExtraFuncInfo.<astTriggerTask_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源地图额外函数信息
 
@@ -65592,6 +68130,15 @@
   | `astTriggerTask` | 资源触发任务 |
   | `GrayParam` | 灰度参数 |
 
+### 资源数据.资源全局函数打开时间.<Parambytes>e固定缓冲
+
+- 原类名: `ResData.ResGlobalFuncOpenTime.<Param_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源全局函数打开时间
 
 - 原类名: `ResData.ResGlobalFuncOpenTime`
@@ -65632,6 +68179,15 @@
   | `get_szImageUrl` | 获取图片链接 |
   | `get_szTitle` | 获取标题 |
   | `get_szSubTitle` | 获取子标题 |
+
+### 资源数据.资源通信资源商店.<PromotionIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResCommResShop.<PromotionID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源通信资源商店
 
@@ -65746,6 +68302,33 @@
   | `get_szOffTime` | 获取关时间 |
   | `get_szPromotionReason` | 获取晋级原因 |
 
+### 资源数据.资源高亮信息.<Filter英雄配置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHighlightInfo.<FilterHeroCfgID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源高亮信息.<Hero配置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHighlightInfo.<HeroCfgID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源高亮信息.<ast高亮延迟触发bytes>e固定缓冲
+
+- 原类名: `ResData.ResHighlightInfo.<astHighlightDelayTrigger_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源高亮信息
 
 - 原类名: `ResData.ResHighlightInfo`
@@ -65814,6 +68397,24 @@
   | `HeroCfgID` | 英雄配置ID |
   | `FilterHeroCfgID` | 过滤英雄配置ID |
   | `astHighlightDelayTrigger` | 资源高亮延迟触发 |
+
+### 资源数据.资源电竞高亮信息.<Filter英雄配置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResEsportsHighlightInfo.<FilterHeroCfgID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源电竞高亮信息.<Hero配置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResEsportsHighlightInfo.<HeroCfgID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源电竞高亮信息
 
@@ -65926,6 +68527,24 @@
   | --- | --- |
   | `ParamType` | 参数类型 |
 
+### 资源数据.资源高亮信息有效开始时间.<BuffIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHighlightInfoValidStartTime.<BuffID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源高亮信息有效开始时间.<HighlightIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHighlightInfoValidStartTime.<HighlightID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源高亮信息有效开始时间
 
 - 原类名: `ResData.ResHighlightInfoValidStartTime`
@@ -65974,6 +68593,15 @@
   | --- | --- |
   | `ListParam` | 列表参数 |
 
+### 资源数据.资源战斗行为.<Hero配置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResBattleBehavior.<HeroCfgID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源战斗行为.<Parambytes>e固定缓冲
 
 - 原类名: `ResData.ResBattleBehavior.<Param_bytes>e__FixedBuffer`
@@ -66002,6 +68630,15 @@
   | `HeroCfgID` | 英雄配置ID |
   | `Param` | 参数 |
 
+### 资源数据.资源数据表英雄技巧训练步长条件.<ast条件参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_HeroTrickTrainStepCondition.<astConditionParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表英雄技巧训练步长条件
 
 - 原类名: `ResData.ResDT_HeroTrickTrainStepCondition`
@@ -66019,6 +68656,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astConditionParam` | 资源条件参数 |
+
+### 资源数据.资源英雄技巧训练.<StepIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroTrickTrain.<StepID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄技巧训练
 
@@ -66044,6 +68690,15 @@
   | `get_szTrickTip` | 获取技巧提示 |
   | `get_szTrickTipExtra` | 获取技巧提示额外 |
   | `StepID` | 步长ID |
+
+### 资源数据.资源英雄练习等级信息.<ast练习目标列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeLevelInfo.<astPracticeGoalList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄练习等级信息
 
@@ -66085,6 +68740,15 @@
   | `get_szCampUrl` | 获取阵营链接 |
   | `astPracticeGoalList` | 资源练习目标列表 |
 
+### 资源数据.资源英雄练习累积奖励信息.<ast练习奖励列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeAccumulateRewardInfo.<astPracticeRewardList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄练习累积奖励信息
 
 - 原类名: `ResData.ResHeroPracticeAccumulateRewardInfo`
@@ -66104,6 +68768,15 @@
   | --- | --- |
   | `get_szBubbleTipText` | 获取气泡提示文本 |
   | `astPracticeRewardList` | 资源练习奖励列表 |
+
+### 资源数据.资源阵营英雄提示.<ast提示内容bytes>e固定缓冲
+
+- 原类名: `ResData.ResCampHeroTips.<astTipsContent_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源阵营英雄提示
 
@@ -66326,6 +68999,15 @@
   | --- | --- |
   | `get_szInterestEndTimeStr` | 获取Interest结束时间字符串 |
 
+### 资源数据.资源英雄显示震动信息.<ast震动信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroShowVibrationInfo.<astVibrationInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄显示震动信息
 
 - 原类名: `ResData.ResHeroShowVibrationInfo`
@@ -66341,6 +69023,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astVibrationInfo` | 资源震动信息 |
+
+### 资源数据.资源Sky屏幕.<Bind英雄皮肤IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSkyScreen.<BindHeroSkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Sky屏幕
 
@@ -66503,6 +69194,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `Params` | 参数 |
+
+### 资源数据.资源英雄预设置规则.<Ban分支类型bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPreSettingRule.<BanBranchType_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄预设置规则.<ast唯一地图bytes>e固定缓冲
 
@@ -66795,6 +69495,15 @@
   | --- | --- |
   | `HeroCfgID` | 英雄配置ID |
 
+### 资源数据.资源自定义状态解锁条件.<Cond参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResCustomStatusUnlockCond.<CondParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源自定义状态解锁条件
 
 - 原类名: `ResData.ResCustomStatusUnlockCond`
@@ -66872,6 +69581,15 @@
   | --- | --- |
   | `astRewardDetail` | 资源奖励细节 |
 
+### 资源数据.资源之后游戏交互配置.<ast条件列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResAfterGameInteractionCfg.<astConditionList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源之后游戏交互配置
 
 - 原类名: `ResData.ResAfterGameInteractionCfg`
@@ -66899,6 +69617,15 @@
   | `get_szTeamIcon` | 获取队伍图标 |
   | `astConditionList` | 资源条件列表 |
 
+### 资源数据.资源Thumbs上配置.<ast条件列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResThumbsUpCfg.<astConditionList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Thumbs上配置
 
 - 原类名: `ResData.ResThumbsUpCfg`
@@ -66919,6 +69646,15 @@
   | `get_szDisplayText` | 获取显示文本 |
   | `get_szLabelText` | 获取标签文本 |
   | `astConditionList` | 资源条件列表 |
+
+### 资源数据.资源Collector名称条件.<Cond参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResCollectorNameCondition.<CondParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Collector名称条件
 
@@ -66990,6 +69726,24 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源英雄训练目标信息.<Parmbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroTrainingTargetInfo.<Parm_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄训练目标信息.<ast奖励列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroTrainingTargetInfo.<astAwardList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄训练目标信息
 
 - 原类名: `ResData.ResHeroTrainingTargetInfo`
@@ -67020,6 +69774,15 @@
   | `astAwardList` | 资源奖励列表 |
   | `JumpParm` | 跳转Parm |
 
+### 资源数据.资源英雄训练等级结束奖励信息.<ast奖励列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroTrainingLevelFinishRewardInfo.<astAwardList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄训练等级结束奖励信息
 
 - 原类名: `ResData.ResHeroTrainingLevelFinishRewardInfo`
@@ -67042,6 +69805,24 @@
   | --- | --- |
   | `get_szDesc` | 获取描述 |
   | `astAwardList` | 资源奖励列表 |
+
+### 资源数据.资源英雄练习套装配置.<Recommend装备IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeSuitConf.<RecommendEquipId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄练习套装配置.<Recommend铭文IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeSuitConf.<RecommendSymbolId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄练习套装配置
 
@@ -67081,6 +69862,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源英雄练习一技能连击.<astHostile傀儡位置bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeOneSkillCombo.<astHostilePuppetPos_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄练习一技能连击
 
 - 原类名: `ResData.ResHeroPracticeOneSkillCombo`
@@ -67114,6 +69904,15 @@
   | `astHostilePuppetPos` | 资源Hostile傀儡位置 |
   | `astFriendlyPuppetPos` | 资源友方傀儡位置 |
 
+### 资源数据.资源皮肤Distribution.<astDistribution道具列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkinDistribution.<astDistributionItemList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源皮肤Distribution
 
 - 原类名: `ResData.ResSkinDistribution`
@@ -67131,6 +69930,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astDistributionItemList` | 资源Distribution道具列表 |
+
+### 资源数据.资源数据表新英雄目标.<Condition参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_NewHeroTarget.<ConditionParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表新英雄目标
 
@@ -67150,6 +69958,42 @@
   | --- | --- |
   | `get_szTargetDescription` | 获取目标描述 |
   | `ConditionParam` | 条件参数 |
+
+### 资源数据.资源新英雄练习英雄信息.<Enemy英雄IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResNewHeroPracticeHeroInfo.<EnemyHeroID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源新英雄练习英雄信息.<Friendly英雄IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResNewHeroPracticeHeroInfo.<FriendlyHeroID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源新英雄练习英雄信息.<Lobby任务IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResNewHeroPracticeHeroInfo.<LobbyTaskID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源新英雄练习英雄信息.<TaskIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResNewHeroPracticeHeroInfo.<TaskID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源新英雄练习英雄信息
 
@@ -67178,6 +70022,15 @@
   | `TaskID` | 任务ID |
   | `FriendlyHeroID` | 友方英雄ID |
   | `EnemyHeroID` | 敌方英雄ID |
+
+### 资源数据.资源新英雄练习大厅信息.<ast奖励列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResNewHeroPracticeLobbyInfo.<astAwardList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源新英雄练习大厅信息
 
@@ -67225,6 +70078,15 @@
   | `get_szLimitAwardEndTime` | 获取限制奖励结束时间 |
   | `astAwardList` | 资源奖励列表 |
 
+### 资源数据.资源英雄练习CourtAI英雄池.<SkinIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeCourtAIHeroPool.<SkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄练习CourtAI英雄池
 
 - 原类名: `ResData.ResHeroPracticeCourtAIHeroPool`
@@ -67252,6 +70114,24 @@
   | `get_szSupportBigGrade` | 获取支持大等级 |
   | `get_szKingSubGrade` | 获取King子等级 |
   | `SkinID` | 皮肤ID |
+
+### 资源数据.资源英雄练习大厅配置.<ast连击bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeLobbyCfg.<astCombo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄练习大厅配置.<astSimulativebytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticeLobbyCfg.<astSimulative_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄练习大厅配置
 
@@ -67310,6 +70190,15 @@
   | --- | --- |
   | `astLoadingText` | 资源加载文本 |
 
+### 资源数据.资源全国提示.<astConditionsbytes>e固定缓冲
+
+- 原类名: `ResData.ResNationalTips.<astConditions_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源全国提示
 
 - 原类名: `ResData.ResNationalTips`
@@ -67345,6 +70234,33 @@
   | `get_szVideoPreImgUrl` | 获取视频预图片链接 |
   | `astConditions` | 资源Conditions |
 
+### 资源数据.资源英雄练习Performer英雄配置.<Enemy英雄IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticePerformerHeroConf.<EnemyHeroID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄练习Performer英雄配置.<Friendly英雄IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticePerformerHeroConf.<FriendlyHeroID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄练习Performer英雄配置.<ast连击停止bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroPracticePerformerHeroConf.<astComboStop_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄练习Performer英雄配置
 
 - 原类名: `ResData.ResHeroPracticePerformerHeroConf`
@@ -67376,6 +70292,24 @@
   | `FriendlyHeroID` | 友方英雄ID |
   | `EnemyHeroID` | 敌方英雄ID |
   | `astComboStop` | 资源连击停止 |
+
+### 资源数据.资源Situational挑战信息.<Max能力值bytes>e固定缓冲
+
+- 原类名: `ResData.ResSituationalChallengeInfo.<MaxAbilityValue_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Situational挑战信息.<ast图片路径bytes>e固定缓冲
+
+- 原类名: `ResData.ResSituationalChallengeInfo.<astPicPath_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Situational挑战信息
 
@@ -67423,6 +70357,15 @@
   | `astPicPath` | 资源图片路径 |
   | `MaxAbilityValue` | 最大能力值 |
 
+### 资源数据.资源文本Tmplt.<Suggest触发IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResTxtTmplt.<SuggestTriggerIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源文本Tmplt
 
 - 原类名: `ResData.ResTxtTmplt`
@@ -67440,6 +70383,33 @@
   | --- | --- |
   | `get_szTxt` | 获取文本 |
   | `SuggestTriggerIDs` | Suggest触发ID |
+
+### 资源数据.资源交互效果.<Condition参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResInteractionEffect.<ConditionParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源交互效果.<Effect参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResInteractionEffect.<EffectParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源交互效果.<Object参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResInteractionEffect.<ObjectParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源交互效果
 
@@ -67532,6 +70502,24 @@
   | --- | --- |
   | `astModelResReplacePaths` | 资源模型资源替换路径 |
 
+### 资源数据.资源技能QTE.<Op参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillQTE.<OpParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源技能QTE.<ast步长操作提示bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillQTE.<astStepOpTips_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源技能QTE
 
 - 原类名: `ResData.ResSkillQTE`
@@ -67565,6 +70553,15 @@
   | `get_szStepFailTips` | 获取步长失败提示 |
   | `OpParam` | 操作参数 |
   | `astStepOpTips` | 资源步长操作提示 |
+
+### 资源数据.资源友方经验里程碑配置.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResFriendExperienceMilestoneCfg.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源友方经验里程碑配置
 
@@ -67606,6 +70603,15 @@
   | `get_szBuildIntimacyGuideText` | 获取Build亲密度引导文本 |
   | `get_szChangeIntimacyTitleGuideText` | 获取变更亲密度标题引导文本 |
   | `Params` | 参数 |
+
+### 资源数据.资源主匹配区域配置.<ast等级活动时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResMasterMatchZoneConf.<astLevelActTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源主匹配区域配置
 
@@ -67767,6 +70773,42 @@
   | --- | --- |
   | `get_szEffect` | 获取效果 |
 
+### 资源数据.资源共享国家频道配置.<sz邀请频道bytes>e固定缓冲
+
+- 原类名: `ResData.ResShareNationChannelCfg.<szInviteChannels_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源共享国家频道配置.<sz链接频道bytes>e固定缓冲
+
+- 原类名: `ResData.ResShareNationChannelCfg.<szLinkChannels_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源共享国家频道配置.<szPicture频道bytes>e固定缓冲
+
+- 原类名: `ResData.ResShareNationChannelCfg.<szPictureChannels_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源共享国家频道配置.<sz文本频道bytes>e固定缓冲
+
+- 原类名: `ResData.ResShareNationChannelCfg.<szTextChannels_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源共享国家频道配置.<sz视频频道bytes>e固定缓冲
 
 - 原类名: `ResData.ResShareNationChannelCfg.<szVideoChannels_bytes>e__FixedBuffer`
@@ -67805,6 +70847,15 @@
   | `szTextChannels` | 文本频道 |
   | `szInviteChannels` | 邀请频道 |
   | `szVideoChannels` | 视频频道 |
+
+### 资源数据.资源聊天表情配置.<astPicturesbytes>e固定缓冲
+
+- 原类名: `ResData.ResChatEmojiCfg.<astPictures_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源聊天表情配置
 
@@ -67854,6 +70905,15 @@
 ### 资源数据.聊天高光配置.<EventArgsbytes>e固定缓冲
 
 - 原类名: `ResData.ChatHighLightCfg.<EventArgs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.聊天高光配置.<Event类型bytes>e固定缓冲
+
+- 原类名: `ResData.ChatHighLightCfg.<EventType_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -68027,6 +71087,15 @@
   | `get_szName` | 获取名称 |
   | `get_szDesc` | 获取描述 |
   | `get_szProfitEndTime` | 获取收益结束时间 |
+
+### 资源数据.资源语音礼包配置.<Voice列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResVoicePackageCfg.<VoiceList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源语音礼包配置
 
@@ -68280,6 +71349,15 @@
   | --- | --- |
   | `astContents` | 资源内容 |
 
+### 资源数据.资源令牌信息.<ast礼物令牌Chk资源列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResTokenInfo.<astPresentTokenChkResList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源令牌信息
 
 - 原类名: `ResData.ResTokenInfo`
@@ -68323,6 +71401,15 @@
   | `get_szDesc` | 获取描述 |
   | `astPresentTokenChkResList` | 资源礼物令牌Chk资源列表 |
 
+### 资源数据.资源令牌交换.<LimitInfosbytes>e固定缓冲
+
+- 原类名: `ResData.ResTokenExchange.<LimitInfos_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源令牌交换.<Limit分裂时间bytes>e固定缓冲
 
 - 原类名: `ResData.ResTokenExchange.<LimitSplitTime_bytes>e__FixedBuffer`
@@ -68353,6 +71440,33 @@
   | --- | --- |
   | `LimitInfos` | 限制Infos |
   | `LimitSplitTime` | 限制分裂时间 |
+
+### 资源数据.资源抽奖信息.<Related任务ID列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResLotteryInfo.<RelatedTaskIDList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源抽奖信息.<Related令牌ID列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResLotteryInfo.<RelatedTokenIDList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源抽奖信息.<astMust命中EveryX池限制列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResLotteryInfo.<astMustHitEveryXPoolLimitList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源抽奖信息.<astWelfarebytes>e固定缓冲
 
@@ -68419,9 +71533,36 @@
   | `astMustHitEveryXPoolLimitList` | 资源Must命中EveryX池限制列表 |
   | `astWelfare` | 资源Welfare |
 
+### 资源数据.资源抽奖池信息.<ExtraInfosbytes>e固定缓冲
+
+- 原类名: `ResData.ResLotteryPoolInfo.<ExtraInfos_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源抽奖池信息.<GroupMust命中EveryX计数列表bytes>e固定缓冲
 
 - 原类名: `ResData.ResLotteryPoolInfo.<GroupMustHitEveryXCntList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源抽奖池信息.<Must命中在X计数列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResLotteryPoolInfo.<MustHitAtXCntList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源抽奖池信息.<Must命中EveryX计数列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResLotteryPoolInfo.<MustHitEveryXCntList_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -68486,6 +71627,24 @@
   | `bIsCoreReward` | 是否核心奖励 |
   | `stReissueItem` | 补发道具 |
 
+### 资源数据.资源交换商店商品配置.<ast交换Chk资源列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResExchangeShopProductConf.<astExchangeChkResList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源交换商店商品配置.<ast资源交换商店消耗bytes>e固定缓冲
+
+- 原类名: `ResData.ResExchangeShopProductConf.<astResExchangeShopCost_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源交换商店商品配置
 
 - 原类名: `ResData.ResExchangeShopProductConf`
@@ -68532,6 +71691,33 @@
   | `get_szGetInfoDesc` | 获取获取信息描述 |
   | `astResExchangeShopCost` | 资源资源交换商店消耗 |
   | `astExchangeChkResList` | 资源交换Chk资源列表 |
+
+### 资源数据.资源新幸运抽奖.<astEveryX幸运点规则bytes>e固定缓冲
+
+- 原类名: `ResData.ResNewLuckyDraw.<astEveryXLuckyPointRule_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源新幸运抽奖.<ast幸运抽奖周期bytes>e固定缓冲
+
+- 原类名: `ResData.ResNewLuckyDraw.<astLuckyDrawPeriod_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源新幸运抽奖.<ast幸运点规则bytes>e固定缓冲
+
+- 原类名: `ResData.ResNewLuckyDraw.<astLuckyPointRule_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源新幸运抽奖
 
@@ -68772,6 +71958,42 @@
   | --- | --- |
   | `astCustomProperty` | 资源自定义属性 |
 
+### 资源数据.资源终极觉醒天赋配置.<New添加增益bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateAwakenTalentCfg.<NewAddBuffs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源终极觉醒天赋配置.<Replayce等级增益bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateAwakenTalentCfg.<ReplayceLevelBuffs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源终极觉醒天赋配置.<Talent附加标签列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateAwakenTalentCfg.<TalentAdditionTagList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源终极觉醒天赋配置.<Upgrade等级增益bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateAwakenTalentCfg.<UpgradeLevelBuffs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源终极觉醒天赋配置
 
 - 原类名: `ResData.ResUltimateAwakenTalentCfg`
@@ -68847,6 +72069,15 @@
   | --- | --- |
   | `TalentIDList` | 天赋ID列表 |
 
+### 资源数据.资源觉醒内游戏任务配置.<Target进度参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResAwakenInGameTaskCfg.<TargetProgressParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源觉醒内游戏任务配置
 
 - 原类名: `ResData.ResAwakenInGameTaskCfg`
@@ -68868,6 +72099,42 @@
   | `get_szDesc` | 获取描述 |
   | `get_szBlueprintPath` | 获取蓝图路径 |
   | `TargetProgressParams` | 目标进度参数 |
+
+### 资源数据.资源终极防御试炼事件.<Event开始时间范围bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateDefenseTrialsEvent.<EventStartTimeRange_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源终极防御试炼事件.<Fail奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateDefenseTrialsEvent.<FailReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源终极防御试炼事件.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateDefenseTrialsEvent.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源终极防御试炼事件.<Success奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateDefenseTrialsEvent.<SuccessReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源终极防御试炼事件
 
@@ -68911,6 +72178,15 @@
   | `FailReward` | 失败奖励 |
   | `Params` | 参数 |
   | `EventStartTimeRange` | 事件开始时间范围 |
+
+### 资源数据.资源终极防御试炼等级.<Soldier增益bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltimateDefenseTrialsLevel.<SoldierBuffs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源终极防御试炼等级
 
@@ -68972,6 +72248,33 @@
 ### 资源数据.资源肉鸽Mow抽奖配置.<Hero列表bytes>e固定缓冲
 
 - 原类名: `ResData.ResRogueMowDrawConf.<HeroList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源肉鸽Mow抽奖配置.<Item列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResRogueMowDrawConf.<ItemList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源肉鸽Mow抽奖配置.<Weapon列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResRogueMowDrawConf.<WeaponList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源肉鸽Mow抽奖配置.<ast金币速率bytes>e固定缓冲
+
+- 原类名: `ResData.ResRogueMowDrawConf.<astCoinRate_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -69189,6 +72492,15 @@
   | --- | --- |
   | `ConditionValue` | 条件值 |
 
+### 资源数据.资源肉鸽Mow英雄配置.<Pre选择武器IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResRogueMowHeroConf.<PreChooseWeaponID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源肉鸽Mow英雄配置
 
 - 原类名: `ResData.ResRogueMowHeroConf`
@@ -69219,6 +72531,24 @@
   | `get_szImagePath` | 获取图片路径 |
   | `get_szVideoPath` | 获取视频路径 |
   | `PreChooseWeaponID` | 预选择武器ID |
+
+### 资源数据.资源肉鸽Mow天赋配置.<Mutex天赋IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResRogueMowTalentConf.<MutexTalentID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源肉鸽Mow天赋配置.<Pre天赋IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResRogueMowTalentConf.<PreTalentID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源肉鸽Mow天赋配置
 
@@ -69392,6 +72722,24 @@
   | --- | --- |
   | `RecommendEquipID` | 推荐装备ID |
 
+### 资源数据.资源Customize推荐Offical配置.<Bind英雄或皮肤列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResCustomizeRecommendOfficalConf.<BindHeroOrSkinList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Customize推荐Offical配置.<ast道具列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResCustomizeRecommendOfficalConf.<astItemList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Customize推荐Offical配置
 
 - 原类名: `ResData.ResCustomizeRecommendOfficalConf`
@@ -69423,6 +72771,15 @@
   | `get_szBannerImgPath` | 获取横幅图片路径 |
   | `BindHeroOrSkinList` | 绑定英雄或皮肤列表 |
   | `astItemList` | 资源道具列表 |
+
+### 资源数据.资源Gang上共享配置.<Open条件参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResGangUpShareCfg.<OpenCondParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源Gang上共享配置.<Share池ID列表bytes>e固定缓冲
 
@@ -69481,6 +72838,15 @@
   | --- | --- |
   | `ResourceIDList` | 资源ID列表 |
 
+### 资源数据.资源神圣动物Rights规则.<ast规则图片信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalRightsRule.<astRulePicInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源神圣动物Rights规则
 
 - 原类名: `ResData.ResSacredAnimalRightsRule`
@@ -69502,6 +72868,15 @@
   | --- | --- |
   | `get_szUnlockShowText` | 获取解锁显示文本 |
   | `astRulePicInfo` | 资源规则图片信息 |
+
+### 资源数据.资源神圣动物交互.<Param列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalInteract.<ParamList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源神圣动物交互
 
@@ -69603,6 +72978,15 @@
   | `stSettleInteractRule` | 结算交互规则 |
   | `stFeedInteractRule` | Feed交互规则 |
 
+### 资源数据.资源神圣动物属性规则.<ast规则图片信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalPropRule.<astRulePicInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源神圣动物属性规则
 
 - 原类名: `ResData.ResSacredAnimalPropRule`
@@ -69622,6 +73006,24 @@
   | --- | --- |
   | `get_szPropName` | 获取属性名称 |
   | `astRulePicInfo` | 资源规则图片信息 |
+
+### 资源数据.资源神圣动物亲密度规则.<ast规则图片信息锁定bytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalIntimacyRule.<astRulePicInfoLock_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源神圣动物亲密度规则.<ast规则图片信息解锁bytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalIntimacyRule.<astRulePicInfoUnlock_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源神圣动物亲密度规则
 
@@ -69645,6 +73047,15 @@
   | `get_szLevelName` | 获取等级名称 |
   | `astRulePicInfoUnlock` | 资源规则图片信息解锁 |
   | `astRulePicInfoLock` | 资源规则图片信息锁定 |
+
+### 资源数据.资源LingBao亲密度等级.<Unlock右列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResLingBaoIntimacyLevel.<UnlockRightList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源LingBao亲密度等级
 
@@ -69744,6 +73155,15 @@
   | --- | --- |
   | `SuitIDList` | 套装ID列表 |
 
+### 资源数据.资源LingBao抽奖经验等级配置.<ast解锁右bytes>e固定缓冲
+
+- 原类名: `ResData.ResLingBaoLotteryExpLevelConf.<astUnlockRight_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源LingBao抽奖经验等级配置
 
 - 原类名: `ResData.ResLingBaoLotteryExpLevelConf`
@@ -69766,6 +73186,15 @@
   | --- | --- |
   | `get_szLevelIcon` | 获取等级图标 |
   | `astUnlockRight` | 资源解锁右 |
+
+### 资源数据.资源LingBao抽奖属性规则.<ast规则图片信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResLingBaoLotteryPropRule.<astRulePicInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源LingBao抽奖属性规则
 
@@ -69847,6 +73276,15 @@
   | `get_szModelIcon` | 获取模型图标 |
   | `astShowColors` | 资源显示Colors |
 
+### 资源数据.资源维度抽奖批次.<ast套装信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionLotteryBatch.<astSuitInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度抽奖批次
 
 - 原类名: `ResData.ResDimensionLotteryBatch`
@@ -69873,6 +73311,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astSuitInfo` | 资源套装信息 |
+
+### 资源数据.资源维度抽奖经验等级配置.<ast解锁右bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionLotteryExpLevelConf.<astUnlockRight_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源维度抽奖经验等级配置
 
@@ -69982,6 +73429,15 @@
   | `get_szPropName` | 获取属性名称 |
   | `astRulePicInfo` | 资源规则图片信息 |
 
+### 资源数据.资源队伍上头部图标分组.<HeadIconsbytes>e固定缓冲
+
+- 原类名: `ResData.ResTeamUpHeadIconGroup.<HeadIcons_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源队伍上头部图标分组
 
 - 原类名: `ResData.ResTeamUpHeadIconGroup`
@@ -70035,6 +73491,15 @@
   | `get_szDistrictName` | 获取District名称 |
   | `DistrictIcons` | DistrictIcons |
 
+### 资源数据.资源Ulti觉醒选择英雄等级配置.<ast奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltiAwakenChooseHeroLevelCfg.<astRewardInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Ulti觉醒选择英雄等级配置
 
 - 原类名: `ResData.ResUltiAwakenChooseHeroLevelCfg`
@@ -70066,6 +73531,15 @@
 ### 资源数据.资源Ulti觉醒英雄配置.<Extar天赋标签bytes>e固定缓冲
 
 - 原类名: `ResData.ResUltiAwakenHeroCfg.<ExtarTalentTag_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源Ulti觉醒英雄配置.<Talent标签bytes>e固定缓冲
+
+- 原类名: `ResData.ResUltiAwakenHeroCfg.<TalentTag_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -70126,6 +73600,51 @@
   | --- | --- |
   | `HeroList` | 英雄列表 |
 
+### 资源数据.资源维度英雄属性配置.<Init增益bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHeroPropertyCfg.<InitBuff_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度英雄属性配置.<Passivebytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHeroPropertyCfg.<Passive_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度英雄属性配置.<Remove增益bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHeroPropertyCfg.<RemoveBuff_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度英雄属性配置.<ast效果标签列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHeroPropertyCfg.<astEffectTagList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度英雄属性配置.<ast技能bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHeroPropertyCfg.<astSkill_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度英雄属性配置
 
 - 原类名: `ResData.ResDimensionHeroPropertyCfg`
@@ -70170,6 +73689,15 @@
   | `InitBuff` | 初始化增益 |
   | `RemoveBuff` | 移除增益 |
 
+### 资源数据.资源操作设置配置.<ast等级bytes>e固定缓冲
+
+- 原类名: `ResData.ResOpSettingCfg.<astLevel_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源操作设置配置
 
 - 原类名: `ResData.ResOpSettingCfg`
@@ -70201,6 +73729,15 @@
   | --- | --- |
   | `get_szSettingName` | 获取设置名称 |
   | `astLevel` | 资源等级 |
+
+### 资源数据.资源设置结算提示.<ast设置道具列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResSettingSettleTip.<astSettingItemList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源设置结算提示
 
@@ -70238,6 +73775,15 @@
   | `get_szSystemTipCDNImage` | 获取系统提示CDN图片 |
   | `astSettingItemList` | 资源设置道具列表 |
 
+### 资源数据.资源外部链接配置.<astProtocolbytes>e固定缓冲
+
+- 原类名: `ResData.ResExternalLinkConf.<astProtocol_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源外部链接配置
 
 - 原类名: `ResData.ResExternalLinkConf`
@@ -70257,6 +73803,15 @@
   | `get_szTitle` | 获取标题 |
   | `get_szContent` | 获取内容 |
   | `astProtocol` | 资源Protocol |
+
+### 资源数据.资源小兵皮肤.<ast特性bytes>e固定缓冲
+
+- 原类名: `ResData.ResSoldierSkin.<astFeature_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源小兵皮肤
 
@@ -70418,6 +73973,15 @@
   | `bGender` | 性别 |
   | `stResPartInfo` | 资源部件信息 |
 
+### 资源数据.资源维度部件.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionPart.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度部件
 
 - 原类名: `ResData.ResDimensionPart`
@@ -70578,6 +74142,33 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源维度部件附着.<ast内战斗保持槽位bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionPartAttachment.<astInBattleHoldSlots_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度部件附着.<ast外战斗保持槽位bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionPartAttachment.<astOutBattleHoldSlots_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度部件附着.<ast其余槽位bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionPartAttachment.<astRestSlots_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度部件附着
 
 - 原类名: `ResData.ResDimensionPartAttachment`
@@ -70602,6 +74193,15 @@
   | `astOutBattleHoldSlots` | 资源外战斗保持槽位 |
   | `astRestSlots` | 资源其余槽位 |
   | `astBusinessCardSlots` | 资源业务卡牌槽位 |
+
+### 资源数据.资源维度外观.<PartIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionOutfit.<PartIds_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源维度外观
 
@@ -70696,6 +74296,15 @@
   | `get_szInteractionVoiceEvent` | 获取交互语音事件 |
   | `get_szModelPrefabPath` | 获取模型预制体路径 |
 
+### 资源数据.资源维度引导任务配置.<TaskCompletion参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionGuideTaskCfg.<TaskCompletionParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度引导任务配置
 
 - 原类名: `ResData.ResDimensionGuideTaskCfg`
@@ -70723,6 +74332,42 @@
   | `get_szTaskDesc` | 获取任务描述 |
   | `get_szRemark` | 获取备注 |
   | `TaskCompletionParam` | 任务Completion参数 |
+
+### 资源数据.资源维度新Bie通用引导任务配置.<Condition参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionNewBieGeneralGuideTaskCfg.<ConditionParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度新Bie通用引导任务配置.<Parambytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionNewBieGeneralGuideTaskCfg.<Param_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度新Bie通用引导任务配置.<ast字符串参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionNewBieGeneralGuideTaskCfg.<astStrParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度新Bie通用引导任务配置.<ast任务奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionNewBieGeneralGuideTaskCfg.<astTaskAward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源维度新Bie通用引导任务配置
 
@@ -70835,6 +74480,15 @@
   | `get_szCDNResPath` | 获取CDN资源路径 |
   | `get_szGetDesc` | 获取获取描述 |
 
+### 资源数据.资源维度道具.<Paramsbytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionItem.<Params_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度道具
 
 - 原类名: `ResData.ResDimensionItem`
@@ -70913,6 +74567,24 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astParams` | 资源参数 |
+
+### 资源数据.资源维度道具增益.<ast增益参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionItemBuff.<astBuffParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度道具增益.<astStack参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionItemBuff.<astStackParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源维度道具增益
 
@@ -71166,6 +74838,51 @@
   | `get_szClanSkill` | 获取Clan技能 |
   | `SuccRewardPropIDList` | Succ奖励属性ID列表 |
 
+### 资源数据.资源排行5V5积分.<Lose排行积分bytes>e固定缓冲
+
+- 原类名: `ResData.ResRank5V5Points.<LoseRankPoints_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源排行5V5积分.<Win排行积分bytes>e固定缓冲
+
+- 原类名: `ResData.ResRank5V5Points.<WinRankPoints_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源排行5V5积分.<astCon胜利额外得分列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResRank5V5Points.<astConWinExtraScoreList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源排行5V5积分.<ast等级差异失败信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResRank5V5Points.<astGradeDiffLoseInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源排行5V5积分.<ast等级差异胜利信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResRank5V5Points.<astGradeDiffWinInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源排行5V5积分
 
 - 原类名: `ResData.ResRank5V5Points`
@@ -71217,6 +74934,24 @@
   | `astConWinExtraScoreList` | 资源Con胜利额外得分列表 |
   | `astGradeDiffWinInfo` | 资源等级差异胜利信息 |
   | `astGradeDiffLoseInfo` | 资源等级差异失败信息 |
+
+### 资源数据.资源排行10V10等级.<Lose排行得分bytes>e固定缓冲
+
+- 原类名: `ResData.ResRank10V10Grade.<LoseRankScore_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源排行10V10等级.<Win排行得分bytes>e固定缓冲
+
+- 原类名: `ResData.ResRank10V10Grade.<WinRankScore_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源排行10V10等级
 
@@ -71314,6 +75049,15 @@
   | --- | --- |
   | `astRewardDetail` | 资源奖励细节 |
 
+### 资源数据.资源数据表铭文计数条件.<ast整数参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_InscribeCounterCondition.<astIntParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表铭文计数条件
 
 - 原类名: `ResData.ResDT_InscribeCounterCondition`
@@ -71329,6 +75073,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astIntParam` | 资源整数参数 |
+
+### 资源数据.资源数据表战斗铭文效果.<ast整数参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_BattleInscribeEffect.<astIntParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表战斗铭文效果.<ast资源路径bytes>e固定缓冲
 
@@ -71419,6 +75172,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源时间限制事件.<ast阶段信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResTimeLimitEvent.<astStageInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源时间限制事件
 
 - 原类名: `ResData.ResTimeLimitEvent`
@@ -71445,6 +75207,15 @@
   | `get_szDesc` | 获取描述 |
   | `astStageInfo` | 资源阶段信息 |
   | `astProgressInfo` | 资源进度信息 |
+
+### 资源数据.资源赛季相册折扣奖励池等级奖励.<ast折扣列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResSeasonAlbumDiscountRewardPoolLevelReward.<astDiscountList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源赛季相册折扣奖励池等级奖励
 
@@ -71584,6 +75355,15 @@
   | --- | --- |
   | `BanSkinList` | 禁用皮肤列表 |
 
+### 资源数据.资源神圣动物资源动作.<Bind套装列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalAssetAction.<BindSuitList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源神圣动物资源动作
 
 - 原类名: `ResData.ResSacredAnimalAssetAction`
@@ -71620,6 +75400,15 @@
   | `get_szClipNames` | 获取剪辑名称 |
   | `BindSuitList` | 绑定套装列表 |
 
+### 资源数据.资源神圣动物套装部件.<PartIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalSuitPart.<PartID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源神圣动物套装部件
 
 - 原类名: `ResData.ResSacredAnimalSuitPart`
@@ -71636,6 +75425,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `PartID` | 部件ID |
+
+### 资源数据.资源神圣动物部件信息.<ast槽位信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResSacredAnimalPartInfo.<astSlotsInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源神圣动物部件信息
 
@@ -71987,6 +75785,15 @@
   | `get_szDesc` | 获取描述 |
   | `HeroList` | 英雄列表 |
 
+### 资源数据.资源维度交互对象.<ast动作bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionInteractiveObject.<astAction_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度交互对象
 
 - 原类名: `ResData.ResDimensionInteractiveObject`
@@ -72034,6 +75841,15 @@
   | `get_szInteractionCostIds` | 获取交互消耗ID |
   | `get_szParam3` | 获取参数3 |
   | `astAction` | 资源动作 |
+
+### 资源数据.资源商城热门推荐102.<ast推荐bytes>e固定缓冲
+
+- 原类名: `ResData.ResMallHotRecommend102.<astRecommend_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源商城热门推荐102
 
@@ -72099,6 +75915,15 @@
   | `get_szMaterialID1` | 获取材质ID1 |
   | `get_szMaterialFistFramePath1` | 获取材质Fist帧路径1 |
   | `get_szMaterialID2` | 获取材质ID2 |
+
+### 资源数据.资源JinLi券抽奖批次.<ast抽奖数字条件bytes>e固定缓冲
+
+- 原类名: `ResData.ResJinLiTicketLotteryBatch.<astDrawNumberCond_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源JinLi券抽奖批次
 
@@ -72172,6 +75997,15 @@
   | `get_szLevelDesc` | 获取等级描述 |
   | `get_szLevelPoster` | 获取等级Poster |
   | `get_szBottomTip` | 获取Bottom提示 |
+
+### 资源数据.资源JinLi券抽奖奖励池.<RewardIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResJinLiTicketLotteryRewardPool.<RewardID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源JinLi券抽奖奖励池
 
@@ -72326,6 +76160,15 @@
   | --- | --- |
   | `astChatStrArr` | 资源聊天字符串数组 |
 
+### 资源数据.资源货币背包配置.<ast获取信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResCurrencyBagConf.<astGetInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源货币背包配置
 
 - 原类名: `ResData.ResCurrencyBagConf`
@@ -72378,6 +76221,24 @@
   | --- | --- |
   | `astResDT_Skin60CardAdPicInfo` | 资源资源数据表皮肤60卡牌物理图片信息 |
 
+### 资源数据.资源指挥官AI玩家.<JueWu英雄池bytes>e固定缓冲
+
+- 原类名: `ResData.ResCommanderAIPlayer.<JueWuHeroPool_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源指挥官AI玩家.<Normal英雄池bytes>e固定缓冲
+
+- 原类名: `ResData.ResCommanderAIPlayer.<NormalHeroPool_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源指挥官AI玩家
 
 - 原类名: `ResData.ResCommanderAIPlayer`
@@ -72410,6 +76271,42 @@
   | `get_szPlayerName` | 获取玩家名称 |
   | `NormalHeroPool` | 普通英雄池 |
   | `JueWuHeroPool` | JueWu英雄池 |
+
+### 资源数据.资源OMG武器配置.<Group随机Weightsbytes>e固定缓冲
+
+- 原类名: `ResData.ResOMGWeaponCfg.<GroupRandomWeights_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源OMG武器配置.<Group技能IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResOMGWeaponCfg.<GroupSkillID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源OMG武器配置.<Passive技能IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResOMGWeaponCfg.<PassiveSkillID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源OMG武器配置.<Weapon标签bytes>e固定缓冲
+
+- 原类名: `ResData.ResOMGWeaponCfg.<WeaponTag_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源OMG武器配置
 
@@ -72550,6 +76447,15 @@
   | --- | --- |
   | `szIsInRandomPool` | 是否内随机池 |
 
+### 资源数据.资源OMG武器携带配置.<ast点信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResOMGWeaponCarryCfg.<astPointInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源OMG武器携带配置
 
 - 原类名: `ResData.ResOMGWeaponCarryCfg`
@@ -72640,6 +76546,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源OMG护甲随机配置.<Ramdom池属性bytes>e固定缓冲
+
+- 原类名: `ResData.ResOMGArmorRandomCfg.<RamdomPoolProperty_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源OMG护甲随机配置
 
 - 原类名: `ResData.ResOMGArmorRandomCfg`
@@ -72687,6 +76602,15 @@
   | --- | --- |
   | `get_szSchoolName` | 获取School名称 |
   | `ContactProfession` | ContactProfession |
+
+### 资源数据.资源OMGProfession配置.<Usable武器bytes>e固定缓冲
+
+- 原类名: `ResData.ResOMGProfessionCfg.<UsableWeapon_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源OMGProfession配置
 
@@ -72851,6 +76775,15 @@
   | `get_szRankName` | 获取排行名称 |
   | `get_szIconPath` | 获取图标路径 |
 
+### 资源数据.资源维度炫耀游戏标题配置.<ast统计入口列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionBragGameTitleConf.<astStatEntryList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度炫耀游戏标题配置
 
 - 原类名: `ResData.ResDimensionBragGameTitleConf`
@@ -72873,6 +76806,15 @@
   | `get_szTitleDesc` | 获取标题描述 |
   | `astStatEntryList` | 资源统计入口列表 |
 
+### 资源数据.资源维度家园Customized区域配置.<Function区域列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHouseCustomizedAreaConfig.<FunctionAreaList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度家园Customized区域配置
 
 - 原类名: `ResData.ResDimensionHouseCustomizedAreaConfig`
@@ -72894,6 +76836,15 @@
   | `get_szIcon` | 获取图标 |
   | `get_szCameraParam` | 获取相机参数 |
   | `FunctionAreaList` | 功能区域列表 |
+
+### 资源数据.资源维度家园Customized功能区域配置.<Scene道具区域位置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHouseCustomizedFunctionAreaConfig.<SceneItemAreaPosId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源维度家园Customized功能区域配置
 
@@ -72990,6 +76941,24 @@
   | `get_szIcon` | 获取图标 |
   | `get_szDecorationEffect` | 获取Decoration效果 |
 
+### 资源数据.资源维度家园道具配置.<Decoration积分bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHouseItemConfig.<DecorationPoints_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度家园道具配置.<astBoxesbytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHouseItemConfig.<astBoxes_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度家园道具配置
 
 - 原类名: `ResData.ResDimensionHouseItemConfig`
@@ -73030,6 +76999,24 @@
   | `get_szInstallFXPath` | 获取InstallFX路径 |
   | `astBoxes` | 资源Boxes |
   | `DecorationPoints` | Decoration积分 |
+
+### 资源数据.资源维度家园墙类型配置.<Condition列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHouseWallTypeConfig.<ConditionList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度家园墙类型配置.<Sub列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHouseWallTypeConfig.<SubList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源维度家园墙类型配置
 
@@ -73112,6 +77099,15 @@
   | `get_szName` | 获取名称 |
   | `SubConditionList` | 子条件列表 |
 
+### 资源数据.资源维度家园墙对象配置.<Relation参数U整数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionHouseWallObjConfig.<RelationParamUInt_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度家园墙对象配置
 
 - 原类名: `ResData.ResDimensionHouseWallObjConfig`
@@ -73151,6 +77147,15 @@
   | `get_szWallObjEffect` | 获取墙对象效果 |
   | `get_szTagPatch` | 获取标签Patch |
   | `RelationParamUInt` | 关系参数U整数 |
+
+### 资源数据.资源超级Saturday活动配置.<Preview周无bytes>e固定缓冲
+
+- 原类名: `ResData.ResSuperSaturdayActivityConf.<PreviewWeekNo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源超级Saturday活动配置
 
@@ -73260,6 +77265,24 @@
   | 原名 | 中文 |
   | --- | --- |
   | `HeroID` | 英雄ID |
+
+### 资源数据.资源商城94发现模板配置.<Rec资源IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResMall94DiscoverTemplateConf.<RecResIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源商城94发现模板配置.<ast背景Argsbytes>e固定缓冲
+
+- 原类名: `ResData.ResMall94DiscoverTemplateConf.<astBGArgs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源商城94发现模板配置
 
@@ -73430,6 +77453,24 @@
   | `get_szName` | 获取名称 |
   | `SubTabList` | 子页签列表 |
 
+### 资源数据.资源返回流动Excitation事件配置.<Mutex事件IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResBackFlowExcitationEventConf.<MutexEventID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源返回流动Excitation事件配置.<ast奖励bytes>e固定缓冲
+
+- 原类名: `ResData.ResBackFlowExcitationEventConf.<astReward_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源返回流动Excitation事件配置
 
 - 原类名: `ResData.ResBackFlowExcitationEventConf`
@@ -73457,6 +77498,15 @@
   | `get_szEventDes` | 获取事件Des |
   | `astReward` | 资源奖励 |
   | `MutexEventID` | Mutex事件ID |
+
+### 资源数据.资源灵魂匹配礼包.<ast道具细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResSoulMatchGift.<astItemDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源灵魂匹配礼包
 
@@ -73697,6 +77747,15 @@
   | `get_szEntryContent` | 获取入口内容 |
   | `get_szEntryPrefabPath` | 获取入口预制体路径 |
 
+### 资源数据.资源Work商店Calander.<CycleParmbytes>e固定缓冲
+
+- 原类名: `ResData.ResWorkShopCalander.<CycleParm_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Work商店Calander
 
 - 原类名: `ResData.ResWorkShopCalander`
@@ -73863,6 +77922,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源背包Tertiary分类信息.<szPrimary分类列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResBagTertiaryCategoryInfo.<szPrimaryCategoryList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源背包Tertiary分类信息
 
 - 原类名: `ResData.ResBagTertiaryCategoryInfo`
@@ -73993,9 +78061,27 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源维度新Bie通用引导主线配置.<ast停止时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astStopTime_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度新Bie通用引导主线配置.<ast触发条件bytes>e固定缓冲
 
 - 原类名: `ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astTriggerCondition_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源维度新Bie通用引导主线配置.<ast触发时间bytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astTriggerTime_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -74033,6 +78119,15 @@
   | `astSkipCondition` | 资源跳过条件 |
   | `astStopTime` | 资源停止时间 |
 
+### 资源数据.资源播放抽奖信息.<Batch抽奖bytes>e固定缓冲
+
+- 原类名: `ResData.ResPlayLotteryInfo.<BatchLottery_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源播放抽奖信息
 
 - 原类名: `ResData.ResPlayLotteryInfo`
@@ -74062,6 +78157,24 @@
   | --- | --- |
   | `get_szLotteryName` | 获取抽奖名称 |
   | `BatchLottery` | 批次抽奖 |
+
+### 资源数据.资源播放抽奖池信息.<GroupMust命中EveryX计数列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResPlayLotteryPoolInfo.<GroupMustHitEveryXCntList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源播放抽奖池信息.<Must命中EveryX计数列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResPlayLotteryPoolInfo.<MustHitEveryXCntList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源播放抽奖池信息
 
@@ -74131,6 +78244,15 @@
   | --- | --- |
   | `get_szRankName` | 获取排行名称 |
 
+### 资源数据.资源数据表Guishi道具Commom配置.<Aquire增益IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_GuishiItemCommomCfg.<AquireBuffID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源数据表Guishi道具Commom配置
 
 - 原类名: `ResData.ResDT_GuishiItemCommomCfg`
@@ -74191,6 +78313,24 @@
   | `dwID` | ID |
   | `stEnvEntityCommonCfg` | 环境实体通用配置 |
   | `iCustomIntParam4` | i自定义整数参数4 |
+
+### 资源数据.资源幸运卡牌批次配置.<Binding皮肤IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResLuckyCardBatchCfg.<BindingSkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源幸运卡牌批次配置.<Year限制皮肤IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResLuckyCardBatchCfg.<YearLimitSkinID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源幸运卡牌批次配置
 
@@ -74377,6 +78517,15 @@
   | `get_szPageTip` | 获取页提示 |
   | `get_szTitleBg` | 获取标题背景 |
   | `TaskID` | 任务ID |
+
+### 资源数据.资源游戏播放目标系统宝石效果配置.<ast效果参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResGamePlayGoalSystemGemEffectCfg.<astEffectParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源游戏播放目标系统宝石效果配置
 
@@ -74640,6 +78789,15 @@
   | `get_szIconPath` | 获取图标路径 |
   | `get_szConfirmBtnText` | 获取确认按钮文本 |
 
+### 资源数据.资源Resonance水晶等级配置.<RewardSkillsbytes>e固定缓冲
+
+- 原类名: `ResData.ResResonanceCrystalLevelCfg.<RewardSkills_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Resonance水晶等级配置
 
 - 原类名: `ResData.ResResonanceCrystalLevelCfg`
@@ -74661,6 +78819,15 @@
 ### 资源数据.资源游戏播放Rating等级配置.<Extra列表bytes>e固定缓冲
 
 - 原类名: `ResData.ResGamePlayRatingGradeConf.<ExtraList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源游戏播放Rating等级配置.<ast奖励列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResGamePlayRatingGradeConf.<astRewardList_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -74733,6 +78900,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `BuffTag` | 增益标签 |
+
+### 资源数据.资源内战斗效果购买配置.<Effect购买参数列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResInBattleEffectBuyCfg.<EffectBuyParamList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源内战斗效果购买配置.<ast位置配置bytes>e固定缓冲
 
@@ -74850,6 +79026,15 @@
   | --- | --- |
   | `HeroIDList` | 英雄ID列表 |
 
+### 资源数据.资源游戏播放Relic星等级.<Func参数列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResGamePlayRelicStarLevel.<FuncParamList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源游戏播放Relic星等级
 
 - 原类名: `ResData.ResGamePlayRelicStarLevel`
@@ -74878,6 +79063,15 @@
 ### 资源数据.资源RelicBlind盒掉落规则.<Blind盒掉落速率列表bytes>e固定缓冲
 
 - 原类名: `ResData.ResRelicBlindBoxDropRule.<BlindBoxDropRateList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源RelicBlind盒掉落规则.<Blind盒列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResRelicBlindBoxDropRule.<BlindBoxList_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -75036,9 +79230,90 @@
   | `get_szTaskDesc` | 获取任务描述 |
   | `astOperationArray` | 资源操作数组 |
 
+### 资源数据.资源等级配置信息.<AI英雄IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<AIHeroID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源等级配置信息.<Recommend等级bytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<RecommendLevel_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源等级配置信息.<Recommend威力bytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<RecommendPower_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源等级配置信息.<Self阵营AI英雄IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<SelfCampAIHeroID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源等级配置信息.<Server检查威力bytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<ServerCheckPower_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源等级配置信息.<SettleID细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<SettleIDDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源等级配置信息.<ast地图增益bytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<astMapBuffs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源等级配置信息.<ast复活信息bytes>e固定缓冲
 
 - 原类名: `ResData.ResLevelCfgInfo.<astReviveInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源等级配置信息.<ast奖励显示细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<astRewardShowDetail_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源等级配置信息.<ast星细节bytes>e固定缓冲
+
+- 原类名: `ResData.ResLevelCfgInfo.<astStarDetail_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -75258,6 +79533,24 @@
   | `get_szPassiveAffix` | 获取被动词缀 |
   | `astPassiveConditon` | 资源被动Conditon |
 
+### 资源数据.资源技能合并配置信息.<astMutex配置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillCombineCfgInfo.<astMutexCfgIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源技能合并配置信息.<ast覆盖配置IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillCombineCfgInfo.<astOverrideCfgIDs_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源技能合并配置信息.<ast技能函数信息bytes>e固定缓冲
 
 - 原类名: `ResData.ResSkillCombineCfgInfo.<astSkillFuncInfo_bytes>e__FixedBuffer`
@@ -75397,6 +79690,15 @@
   | `astOverrideCfgIDs` | 资源覆盖配置ID |
   | `astSkillFuncInfo` | 资源技能函数信息 |
 
+### 资源数据.资源规格出售.<Tabbytes>e固定缓冲
+
+- 原类名: `ResData.ResSpecSale.<Tab_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源规格出售
 
 - 原类名: `ResData.ResSpecSale`
@@ -75479,6 +79781,15 @@
   | `get_szIconCollageBG` | 获取图标Collage背景 |
   | `Tab` | 页签 |
 
+### 资源数据.资源自定义队伍任务.<ast打开任务参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResCustomTeamTask.<astOpenTaskParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源自定义队伍任务.<ast前置条件数组bytes>e固定缓冲
 
 - 原类名: `ResData.ResCustomTeamTask.<astPrerequisiteArray_bytes>e__FixedBuffer`
@@ -75532,6 +79843,42 @@
   | `get_szEndTime` | 获取结束时间 |
   | `astOpenTaskParam` | 资源打开任务参数 |
   | `astPrerequisiteArray` | 资源前置条件数组 |
+
+### 资源数据.资源任务.<Extra参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResTask.<ExtraParams_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源任务.<JumpParmbytes>e固定缓冲
+
+- 原类名: `ResData.ResTask.<JumpParm_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源任务.<Next任务IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResTask.<NextTaskID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源任务.<ast打开任务参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResTask.<astOpenTaskParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源任务.<ast前置条件数组bytes>e固定缓冲
 
@@ -75642,6 +79989,15 @@
   | --- | --- |
   | `get_szCondDesc` | 获取条件描述 |
   | `astConditions` | 资源Conditions |
+
+### 资源数据.资源数据表等级通用信息.<Drop道具内战斗规则IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_LevelCommonInfo.<DropItemInBattleRuleID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表等级通用信息
 
@@ -75926,6 +80282,15 @@
   | `bRefreshType` | 刷新类型 |
   | `stRefreshList` | 刷新列表 |
 
+### 资源数据.资源AI野区权重配置.<ast时间数据bytes>e固定缓冲
+
+- 原类名: `ResData.ResAIJungleWeightConf.<astTimeData_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源AI野区权重配置.<ast防御塔状态数据bytes>e固定缓冲
 
 - 原类名: `ResData.ResAIJungleWeightConf.<astTowerStateData_bytes>e__FixedBuffer`
@@ -75957,6 +80322,15 @@
   | --- | --- |
   | `astTimeData` | 资源时间数据 |
   | `astTowerStateData` | 资源防御塔状态数据 |
+
+### 资源数据.资源收益Alloc规则.<Income变更速率bytes>e固定缓冲
+
+- 原类名: `ResData.ResIncomeAllocRule.<IncomeChangeRate_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源收益Alloc规则.<ast收益规则bytes>e固定缓冲
 
@@ -75994,6 +80368,24 @@
   | `get_szDesc` | 获取描述 |
   | `IncomeChangeRate` | 收益变更速率 |
   | `astIncomeRule` | 资源收益规则 |
+
+### 资源数据.资源红Envelope.<Daoju红Thanks表情bytes>e固定缓冲
+
+- 原类名: `ResData.ResRedEnvelope.<DaojuRedThanksEMOJI_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源红Envelope.<ast皮肤红资源路径bytes>e固定缓冲
+
+- 原类名: `ResData.ResRedEnvelope.<astSkinRedResPath_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源红Envelope
 
@@ -76128,6 +80520,15 @@
   | --- | --- |
   | `FixedElementField` | 固定元素字段 |
 
+### 资源数据.资源福利多重.<ast周期bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealMultiple.<astPeriod_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源福利多重
 
 - 原类名: `ResData.ResWealMultiple`
@@ -76150,6 +80551,15 @@
   | --- | --- |
   | `astPeriod` | 资源周期 |
   | `ConInfo` | Con信息 |
+
+### 资源数据.资源福利条件.<astCon信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealCondition.<astConInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源福利条件
 
@@ -76208,9 +80618,27 @@
   | --- | --- |
   | `astConInfo` | 资源Con信息 |
 
+### 资源数据.资源福利Stamp信息.<astX奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealStampInfo.<astXRewardInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源福利Stamp信息.<astXStamp信息bytes>e固定缓冲
 
 - 原类名: `ResData.ResWealStampInfo.<astXStampInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源福利Stamp信息.<astY奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResWealStampInfo.<astYRewardInfo_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -76288,6 +80716,24 @@
   | --- | --- |
   | `astSubCondList` | 资源子条件列表 |
 
+### 资源数据.资源幸运抽奖价格.<astEgg五信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResLuckyDrawPrice.<astEggFiveInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源幸运抽奖价格.<astEgg单个信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResLuckyDrawPrice.<astEggSingleInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源幸运抽奖价格.<ast幸运抽奖周期bytes>e固定缓冲
 
 - 原类名: `ResData.ResLuckyDrawPrice.<astLuckyDrawPeriod_bytes>e__FixedBuffer`
@@ -76334,6 +80780,24 @@
   | `astEggSingleInfo` | 资源Egg单个信息 |
   | `astEggFiveInfo` | 资源Egg五信息 |
   | `astLuckyDrawPeriod` | 资源幸运抽奖周期 |
+
+### 资源数据.资源装备内战斗.<ast激活技能bytes>e固定缓冲
+
+- 原类名: `ResData.ResEquipInBattle.<astActiveSkill_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源装备内战斗.<ast效果合并bytes>e固定缓冲
+
+- 原类名: `ResData.ResEquipInBattle.<astEffectCombine_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源装备内战斗.<ast被动技能bytes>e固定缓冲
 
@@ -76455,6 +80919,24 @@
   | `astEffectCombine` | 资源效果合并 |
   | `astActiveSkill` | 资源激活技能 |
 
+### 资源数据.资源PVE装备内战斗.<ast激活技能bytes>e固定缓冲
+
+- 原类名: `ResData.ResPVEEquipInBattle.<astActiveSkill_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源PVE装备内战斗.<ast效果合并bytes>e固定缓冲
+
+- 原类名: `ResData.ResPVEEquipInBattle.<astEffectCombine_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源PVE装备内战斗.<ast被动技能bytes>e固定缓冲
 
 - 原类名: `ResData.ResPVEEquipInBattle.<astPassiveSkill_bytes>e__FixedBuffer`
@@ -76558,6 +81040,15 @@
   | --- | --- |
   | `astHeroItem` | 资源英雄道具 |
 
+### 资源数据.资源技能动态指示器配置信息.<Common参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResSkillDynamicIndicatorCfgInfo.<CommonParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源技能动态指示器配置信息.<ast角色状态信息bytes>e固定缓冲
 
 - 原类名: `ResData.ResSkillDynamicIndicatorCfgInfo.<astActorStateInfo_bytes>e__FixedBuffer`
@@ -76640,6 +81131,24 @@
   | `astFailCondition` | 资源失败条件 |
   | `astCompleteCondition` | 资源完成条件 |
 
+### 资源数据.资源条件引导任务步长配置.<ast完成条件bytes>e固定缓冲
+
+- 原类名: `ResData.ResCondGuideTaskStepConf.<astCompleteCondition_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源条件引导任务步长配置.<ast失败条件bytes>e固定缓冲
+
+- 原类名: `ResData.ResCondGuideTaskStepConf.<astFailCondition_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源条件引导任务步长配置
 
 - 原类名: `ResData.ResCondGuideTaskStepConf`
@@ -76674,6 +81183,15 @@
   | `dwWinAddExp` | 胜利添加经验 |
   | `dwLoseAddExp` | 失败添加经验 |
 
+### 资源数据.资源职业目标信息.<ast基础目标信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResCareerTargetInfo.<astBaseTargetInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源职业目标信息
 
 - 原类名: `ResData.ResCareerTargetInfo`
@@ -76697,6 +81215,15 @@
   | --- | --- |
   | `get_szTargetContent` | 获取目标内容 |
   | `astBaseTargetInfo` | 资源基础目标信息 |
+
+### 资源数据.资源英雄徽章.<Stage值bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroBadge.<StageValue_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄徽章
 
@@ -76844,6 +81371,15 @@
   | --- | --- |
   | `astAdvanced` | 资源高级 |
 
+### 资源数据.资源战斗通行证等级奖励V2.<ast奖励信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResBattlePassLevelAwardV2.<astAwardInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源战斗通行证等级奖励V2
 
 - 原类名: `ResData.ResBattlePassLevelAwardV2`
@@ -76867,6 +81403,15 @@
 ### 资源数据.资源任务池.<Common任务IDbytes>e固定缓冲
 
 - 原类名: `ResData.ResTaskPool.<CommonTaskID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源任务池.<TaskIDbytes>e固定缓冲
+
+- 原类名: `ResData.ResTaskPool.<TaskID_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -76977,9 +81522,36 @@
   | `get_szMainDesc` | 获取主描述 |
   | `astEffectDetail` | 资源效果细节 |
 
+### 资源数据.资源棋盘装备信息.<ast激活技能bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessEquipInfo.<astActiveSkill_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘装备信息.<ast效果合并bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessEquipInfo.<astEffectCombine_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源棋盘装备信息.<ast被动技能bytes>e固定缓冲
 
 - 原类名: `ResData.ResChessEquipInfo.<astPassiveSkill_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源棋盘装备信息.<sz附加相对bytes>e固定缓冲
+
+- 原类名: `ResData.ResChessEquipInfo.<szAdditionRelative_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -77058,6 +81630,42 @@
   | `astEffectCombine` | 资源效果合并 |
   | `astActiveSkill` | 资源激活技能 |
   | `szAdditionRelative` | 附加相对 |
+
+### 资源数据.资源试炼.<Remain时间Warningbytes>e固定缓冲
+
+- 原类名: `ResData.ResTrial.<RemainTimeWarning_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源试炼.<ast能量抽奖bytes>e固定缓冲
+
+- 原类名: `ResData.ResTrial.<astEnergyDraw_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源试炼.<ast试炼得分出售bytes>e固定缓冲
+
+- 原类名: `ResData.ResTrial.<astTrialScoreSale_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源试炼.<ast试炼阶段bytes>e固定缓冲
+
+- 原类名: `ResData.ResTrial.<astTrialStage_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源试炼
 
@@ -77204,6 +81812,15 @@
   | --- | --- |
   | `astContion` | 资源Contion |
 
+### 资源数据.资源英雄事件.<Trigger时间Parmbytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroEvent.<TriggerTimeParm_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源英雄事件.<ast触发条件bytes>e固定缓冲
 
 - 原类名: `ResData.ResHeroEvent.<astTriggerCond_bytes>e__FixedBuffer`
@@ -77251,6 +81868,15 @@
   | `astTriggerCond` | 资源触发条件 |
   | `astTriggerContent` | 资源触发内容 |
 
+### 资源数据.资源年剧情事件配置.<Int参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResYearStoryEventConfig.<IntParam_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源年剧情事件配置.<ast激活条件bytes>e固定缓冲
 
 - 原类名: `ResData.ResYearStoryEventConfig.<astActiveCondition_bytes>e__FixedBuffer`
@@ -77263,6 +81889,15 @@
 ### 资源数据.资源年剧情事件配置.<ast完成条件bytes>e固定缓冲
 
 - 原类名: `ResData.ResYearStoryEventConfig.<astCompleteCondition_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源年剧情事件配置.<ast字符串参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResYearStoryEventConfig.<astStrParam_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -77355,6 +81990,24 @@
   | 原名 | 中文 |
   | --- | --- |
   | `astHero` | 资源英雄 |
+
+### 资源数据.资源英雄技巧训练步长.<ast步长完成条件bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroTrickTrainStep.<astStepCompleteCondition_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄技巧训练步长.<ast步长上一个条件bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroTrickTrainStep.<astStepPrevCondition_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源英雄技巧训练步长
 
@@ -77546,6 +82199,15 @@
   | `get_szOffTime` | 获取关时间 |
   | `get_szStatusEffectPath` | 获取状态效果路径 |
 
+### 资源数据.资源战斗Hint配置.<Detail开场bytes>e固定缓冲
+
+- 原类名: `ResData.ResBattleHintCfg.<DetailIntro_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源战斗Hint配置
 
 - 原类名: `ResData.ResBattleHintCfg`
@@ -77583,6 +82245,24 @@
 ### 资源数据.资源新英雄练习目标信息.<ast敌方英雄信息bytes>e固定缓冲
 
 - 原类名: `ResData.ResNewHeroPracticeTargetInfo.<astEnemyHeroInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源新英雄练习目标信息.<ast友方英雄信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResNewHeroPracticeTargetInfo.<astFriendlyHeroInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源新英雄练习目标信息.<ast目标bytes>e固定缓冲
+
+- 原类名: `ResData.ResNewHeroPracticeTargetInfo.<astTarget_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -77660,6 +82340,24 @@
   | `get_szPublishDesc` | 获取Publish描述 |
   | `get_szShareText` | 获取共享文本 |
   | `astProfits` | 资源Profits |
+
+### 资源数据.资源觉醒套装推荐配置.<EquipID列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResAwakenSuitRecommendCfg.<EquipIDList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源觉醒套装推荐配置.<Recommend铭文IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResAwakenSuitRecommendCfg.<RecommendSymbolId_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源觉醒套装推荐配置.<ast槽位列表bytes>e固定缓冲
 
@@ -77810,6 +82508,15 @@
   | --- | --- |
   | `astMatiralPlans` | 资源MatiralPlans |
 
+### 资源数据.资源维度地图聚集配置.<Scene事件IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResDimensionMapGatherConf.<SceneEventID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源维度地图聚集配置.<ast触发bytes>e固定缓冲
 
 - 原类名: `ResData.ResDimensionMapGatherConf.<astTrigger_bytes>e__FixedBuffer`
@@ -77878,6 +82585,24 @@
 ### 资源数据.资源英雄铭文信息.<ast效果bytes>e固定缓冲
 
 - 原类名: `ResData.ResHeroInscribeInfo.<astEffect_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄铭文信息.<ast里程碑间隔bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroInscribeInfo.<astMilestoneInterval_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源英雄铭文信息.<ast里程碑阶段bytes>e固定缓冲
+
+- 原类名: `ResData.ResHeroInscribeInfo.<astMilestoneStage_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |
@@ -78013,6 +82738,24 @@
   | `get_szMenuName` | 获取菜单名称 |
   | `astEffectparm` | 资源Effectparm |
 
+### 资源数据.资源觉醒成就配置.<Task键进度内战斗bytes>e固定缓冲
+
+- 原类名: `ResData.ResAwakenAchievementConfig.<TaskKeyProgressInBattle_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源觉醒成就配置.<ast效果列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResAwakenAchievementConfig.<astEffectList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源觉醒成就配置
 
 - 原类名: `ResData.ResAwakenAchievementConfig`
@@ -78049,6 +82792,15 @@
   | `astEffectList` | 资源效果列表 |
   | `TaskKeyProgressInBattle` | 任务键进度内战斗 |
 
+### 资源数据.资源JinLi特权显示信息.<ast等级显示信息bytes>e固定缓冲
+
+- 原类名: `ResData.ResJinLiPrivilegeDisplayInfo.<astLevelDisplayInfo_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源JinLi特权显示信息
 
 - 原类名: `ResData.ResJinLiPrivilegeDisplayInfo`
@@ -78071,6 +82823,15 @@
   | `get_szParentTabName` | 获取父级页签名称 |
   | `astLevelDisplayInfo` | 资源等级显示信息 |
 
+### 资源数据.资源Guishi武器配置.<Active增益IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResGuishiWeaponCfg.<ActiveBuffID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源Guishi武器配置
 
 - 原类名: `ResData.ResGuishiWeaponCfg`
@@ -78089,6 +82850,15 @@
   | 原名 | 中文 |
   | --- | --- |
   | `ActiveBuffID` | 激活增益ID |
+
+### 资源数据.资源数据表Guishi消耗品Commom配置.<Active增益IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_GuishiConsumableCommomCfg.<ActiveBuffID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源数据表Guishi消耗品Commom配置
 
@@ -78166,6 +82936,15 @@
   | `get_szForbidReplaceShopEquip` | 获取禁止替换商店装备 |
   | `astCampsHeroInfo` | 资源Camps英雄信息 |
 
+### 资源数据.资源账号战斗等级信息.<Relation活动地图IDbytes>e固定缓冲
+
+- 原类名: `ResData.ResAcntBattleLevelInfo.<RelationActivityMapID_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
 ### 资源数据.资源账号战斗等级信息
 
 - 原类名: `ResData.ResAcntBattleLevelInfo`
@@ -78187,6 +82966,51 @@
   | 原名 | 中文 |
   | --- | --- |
   | `RelationActivityMapID` | 关系活动地图ID |
+
+### 资源数据.资源计数部件等级信息.<Default复活金币bytes>e固定缓冲
+
+- 原类名: `ResData.ResCounterPartLevelInfo.<DefaultReviveCoin_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源计数部件等级信息.<Mix支付bytes>e固定缓冲
+
+- 原类名: `ResData.ResCounterPartLevelInfo.<MixPay_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源计数部件等级信息.<Revive金币使用限制bytes>e固定缓冲
+
+- 原类名: `ResData.ResCounterPartLevelInfo.<ReviveCoinUseLimit_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源计数部件等级信息.<Revive点券bytes>e固定缓冲
+
+- 原类名: `ResData.ResCounterPartLevelInfo.<ReviveCoupons_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源计数部件等级信息.<sz词缀计数bytes>e固定缓冲
+
+- 原类名: `ResData.ResCounterPartLevelInfo.<szAffixCnt_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源计数部件等级信息
 
@@ -78297,6 +83121,15 @@
   | `bIsCanPVE` | 是否可PVE |
   | `stLevelCommonInfo` | 等级通用信息 |
   | `stLevelGamePlayInfo` | 等级游戏播放信息 |
+
+### 资源数据.资源UGC等级信息.<Only使用UGC数据表表列表bytes>e固定缓冲
+
+- 原类名: `ResData.ResUGCLevelInfo.<OnlyUseUGCDatabinTableList_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
 
 ### 资源数据.资源UGC等级信息
 
@@ -78450,6 +83283,15 @@
 ### 资源数据.资源数据表修改位置Weights.<ast阵营Weightsbytes>e固定缓冲
 
 - 原类名: `ResData.ResDT_ModifyLocWeights.<astCampWeights_bytes>e__FixedBuffer`
+- Fields（键名）:
+
+  | 原名 | 中文 |
+  | --- | --- |
+  | `FixedElementField` | 固定元素字段 |
+
+### 资源数据.资源数据表修改位置Weights.<ast修改参数bytes>e固定缓冲
+
+- 原类名: `ResData.ResDT_ModifyLocWeights.<astModifyParam_bytes>e__FixedBuffer`
 - Fields（键名）:
 
   | 原名 | 中文 |

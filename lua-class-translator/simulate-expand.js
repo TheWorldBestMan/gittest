@@ -127,18 +127,19 @@ function main() {
       for (const [fname, f] of Object.entries(c.Fields)) {
         if (!(f.offset > 0)) continue;
         const addr = base + f.offset - BASE_FIX;
+        const elem = f.elem || f.type;                  // 新 dump：elem 才是数组元素类型
         if (f.array) {
           const n = Math.min(f.count || 1, 64);
           const s = f.size || 4;
           for (let i = 0; i < n; i++) {
             const elem = addr + i * s;
-            if (PRIMITIVE_SIZE[f.type]) items.push({ name: `${fname}[${i}]`, addr: elem, size: s });
-            else walk(f.type, elem, depth + 1);
+            if (PRIMITIVE_SIZE[f.elem || f.type]) items.push({ name: `${fname}[${i}]`, addr: elem, size: s });
+            else walk(f.elem || f.type, elem, depth + 1);
           }
-        } else if (PRIMITIVE_SIZE[f.type]) {
-          items.push({ name: fname, addr, size: PRIMITIVE_SIZE[f.type] });
+        } else if (PRIMITIVE_SIZE[elem]) {
+          items.push({ name: fname, addr, size: PRIMITIVE_SIZE[elem] });
         } else {
-          walk(f.type, addr, depth + 1);
+          walk(elem, addr, depth + 1);
         }
       }
     };

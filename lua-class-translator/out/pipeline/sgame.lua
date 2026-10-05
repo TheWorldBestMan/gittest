@@ -59703,10 +59703,10 @@
 			},
 			['UpdateFrame_bytes'] = { -- table(81b32698)
 				['offset'] = 36,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResMiniMapHeroDynamicScaleParam.<UpdateFrame_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMiniMapHeroDynamicScaleParam.<UpdateFrame_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 36,
@@ -59816,10 +59816,10 @@
 			},
 			['szPriorities_bytes'] = { -- table(f99b6d04)
 				['offset'] = 12,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResMutexMiniIconGroupPriority.<szPriorities_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMutexMiniIconGroupPriority.<szPriorities_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -62446,6 +62446,17 @@
 		},
 		['MaxV'] = 24,
 	},
+	['ResData.NewbieGuideTriggerTimeItem.<Param_bytes>e__FixedBuffer'] = { -- table(3da9306)
+		['Methods'] = { -- table(fa110994)
+		},
+		['Fields'] = { -- table(fa7d04ad)
+			['FixedElementField'] = { -- table(8902326d)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.NewbieGuideTriggerTimeItem'] = { -- table(3831a36e)
 		['Methods'] = { -- table(9d87dd50)
 			['Param'] = { -- table(e7d87d41)
@@ -62464,11 +62475,11 @@
 			},
 			['Param_bytes'] = { -- table(7a95e27a)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.NewbieGuideTriggerTimeItem.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideTriggerTimeItem.<Param_bytes>e__FixedBuffer',
 			},
 			['dwStartIndex'] = { -- table(87fd96e4)
 				['offset'] = 28,
@@ -62506,10 +62517,10 @@
 			},
 			['Param_bytes'] = { -- table(4748b0a8)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.NewbieGuideTriggerConditionItem.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideTriggerConditionItem.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -62543,13 +62554,24 @@
 			},
 			['Param_bytes'] = { -- table(b0036905)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.NewbieGuideSkipConditionItem.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideSkipConditionItem.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.NewbieGuideWeakConf.<Param_bytes>e__FixedBuffer'] = { -- table(e15b7a66)
+		['Methods'] = { -- table(e88803f0)
+		},
+		['Fields'] = { -- table(4daffcc3)
+			['FixedElementField'] = { -- table(f8e0de5b)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.NewbieGuideWeakConf'] = { -- table(84ea274e)
 		['Methods'] = { -- table(bfe8b2e4)
@@ -62605,11 +62627,11 @@
 			},
 			['Param_bytes'] = { -- table(e346a510)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.NewbieGuideWeakConf.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideWeakConf.<Param_bytes>e__FixedBuffer',
 			},
 			['bNotShowArrow'] = { -- table(be747f7a)
 				['offset'] = 44,
@@ -66805,6 +66827,17 @@
 		},
 		['MaxV'] = 8,
 	},
+	['ResData.ResVIPCoupons.<UpgradeGiftIDs_bytes>e__FixedBuffer'] = { -- table(4f046629)
+		['Methods'] = { -- table(b487ffc7)
+		},
+		['Fields'] = { -- table(a0055de2)
+			['FixedElementField'] = { -- table(f89e8f88)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResVIPCoupons'] = { -- table(b83545be)
 		['Methods'] = { -- table(5852befc)
 			['get_szName'] = { -- table(92c43b5b)
@@ -66943,18 +66976,18 @@
 			},
 			['UpgradeGiftIDs_bytes'] = { -- table(81090a5b)
 				['offset'] = 64,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResVIPCoupons.<UpgradeGiftIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResVIPCoupons.<UpgradeGiftIDs_bytes>e__FixedBuffer',
 			},
 			['DowngradeGiftIDs_bytes'] = { -- table(5cb3576a)
 				['offset'] = 84,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResVIPCoupons.<DowngradeGiftIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResVIPCoupons.<DowngradeGiftIDs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 84,
@@ -67036,6 +67069,17 @@
 		},
 		['MaxV'] = 36,
 	},
+	['ResData.ResActivityEntryPoXiao.<Icon_bytes>e__FixedBuffer'] = { -- table(51835cb3)
+		['Methods'] = { -- table(f7f4cf95)
+		},
+		['Fields'] = { -- table(e08710a)
+			['FixedElementField'] = { -- table(8f4360b0)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResActivityEntryPoXiao'] = { -- table(b592b799)
 		['Methods'] = { -- table(d2ad519b)
 			['get_szShortName'] = { -- table(714e157c)
@@ -67094,11 +67138,11 @@
 			},
 			['Icon_bytes'] = { -- table(8a1fa0a3)
 				['offset'] = 64,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResActivityEntryPoXiao.<Icon_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 16,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResActivityEntryPoXiao.<Icon_bytes>e__FixedBuffer',
 			},
 			['strIdDeActiveJumpUrl'] = { -- table(e2ff202e)
 				['offset'] = 128,
@@ -73493,6 +73537,17 @@
 		},
 		['MaxV'] = 60,
 	},
+	['ResData.ResMasterMatchSettleRankNoShow.<ShowRatio_bytes>e__FixedBuffer'] = { -- table(ac7b2bcf)
+		['Methods'] = { -- table(5f92e42d)
+		},
+		['Fields'] = { -- table(479a324c)
+			['FixedElementField'] = { -- table(4d9bd17a)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResMasterMatchSettleRankNoShow'] = { -- table(2e968924)
 		['Methods'] = { -- table(318f944e)
 			['get_szShowtitle'] = { -- table(f7cef247)
@@ -73519,11 +73574,11 @@
 			},
 			['ShowRatio_bytes'] = { -- table(849b24fd)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResMasterMatchSettleRankNoShow.<ShowRatio_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMasterMatchSettleRankNoShow.<ShowRatio_bytes>e__FixedBuffer',
 			},
 			['strIdShowtitle'] = { -- table(98d0175c)
 				['offset'] = 40,
@@ -77860,10 +77915,10 @@
 			},
 			['Param_bytes'] = { -- table(40414cdd)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessTargetPosInfo.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTargetPosInfo.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -78654,6 +78709,17 @@
 		},
 		['MaxV'] = 8,
 	},
+	['ResData.ResSettleAIPDThumbDescribe.<szParamType_bytes>e__FixedBuffer'] = { -- table(173654c3)
+		['Methods'] = { -- table(fa102439)
+		},
+		['Fields'] = { -- table(bf649604)
+			['FixedElementField'] = { -- table(197549b2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSettleAIPDThumbDescribe'] = { -- table(188f6d1e)
 		['Methods'] = { -- table(1d366fe0)
 			['get_szDesc'] = { -- table(2e604c8d)
@@ -78692,18 +78758,18 @@
 			},
 			['szParamType_bytes'] = { -- table(2d41331)
 				['offset'] = 25,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResSettleAIPDThumbDescribe.<szParamType_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 7,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSettleAIPDThumbDescribe.<szParamType_bytes>e__FixedBuffer',
 			},
 			['ParamAccuracy_bytes'] = { -- table(cc32f43)
 				['offset'] = 32,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResSettleAIPDThumbDescribe.<ParamAccuracy_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSettleAIPDThumbDescribe.<ParamAccuracy_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -85514,10 +85580,10 @@
 			},
 			['Param_bytes'] = { -- table(386ca804)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHintTriggerCondItem.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHintTriggerCondItem.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -86571,6 +86637,17 @@
 		},
 		['MaxV'] = 8,
 	},
+	['ResData.ResHeroPracticeAbilityGraph.<MaxAbilityValue_bytes>e__FixedBuffer'] = { -- table(25f4083b)
+		['Methods'] = { -- table(80e45e51)
+		},
+		['Fields'] = { -- table(f0da672e)
+			['FixedElementField'] = { -- table(5694e6c)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResHeroPracticeAbilityGraph'] = { -- table(39a76767)
 		['Methods'] = { -- table(87151acd)
 			['get_szGraphResName'] = { -- table(746ad440)
@@ -86621,11 +86698,11 @@
 			},
 			['MaxAbilityValue_bytes'] = { -- table(92edd87f)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroPracticeAbilityGraph.<MaxAbilityValue_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeAbilityGraph.<MaxAbilityValue_bytes>e__FixedBuffer',
 			},
 			['strIdAbilityDesc'] = { -- table(e4f34387)
 				['offset'] = 64,
@@ -88871,6 +88948,17 @@
 		},
 		['MaxV'] = 36,
 	},
+	['ResData.ResCommResPrivilegeCfg.<Params_bytes>e__FixedBuffer'] = { -- table(944e056e)
+		['Methods'] = { -- table(ba03a1dc)
+		},
+		['Fields'] = { -- table(c64b512f)
+			['FixedElementField'] = { -- table(4789b2af)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResCommResPrivilegeCfg'] = { -- table(999665d)
 		['Methods'] = { -- table(c0d4b6df)
 			['Params'] = { -- table(98b5556d)
@@ -88905,11 +88993,11 @@
 			},
 			['Params_bytes'] = { -- table(86000dcc)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCommResPrivilegeCfg.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommResPrivilegeCfg.<Params_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -91323,6 +91411,28 @@
 		},
 		['MaxV'] = 32,
 	},
+	['ResData.ResSacredAnimalSuitColor.<BodyPartID_bytes>e__FixedBuffer'] = { -- table(4db04077)
+		['Methods'] = { -- table(fa3f610d)
+		},
+		['Fields'] = { -- table(5b57b832)
+			['FixedElementField'] = { -- table(cbe67a78)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSacredAnimalSuitColor.<PartID_bytes>e__FixedBuffer'] = { -- table(9882d8bb)
+		['Methods'] = { -- table(c394d0e9)
+		},
+		['Fields'] = { -- table(9610e1a2)
+			['FixedElementField'] = { -- table(b8024e48)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSacredAnimalSuitColor'] = { -- table(27316d14)
 		['Methods'] = { -- table(72d8c76a)
 			['get_szSuitName'] = { -- table(8576ec08)
@@ -91553,19 +91663,19 @@
 			},
 			['PartID_bytes'] = { -- table(896bb4d3)
 				['offset'] = 160,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSacredAnimalSuitColor.<PartID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalSuitColor.<PartID_bytes>e__FixedBuffer',
 			},
 			['BodyPartID_bytes'] = { -- table(8dfaa07b)
 				['offset'] = 168,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSacredAnimalSuitColor.<BodyPartID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalSuitColor.<BodyPartID_bytes>e__FixedBuffer',
 			},
 			['strIdBattleColor1'] = { -- table(599f55ef)
 				['offset'] = 176,
@@ -91637,6 +91747,17 @@
 			},
 		},
 		['MaxV'] = 300,
+	},
+	['ResData.ResSacredAnimalSuitEffect.<PartID_bytes>e__FixedBuffer'] = { -- table(946b0a37)
+		['Methods'] = { -- table(3162ceb5)
+		},
+		['Fields'] = { -- table(405957f4)
+			['FixedElementField'] = { -- table(967b1cc2)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSacredAnimalSuitEffect'] = { -- table(51677f08)
 		['Methods'] = { -- table(5103a72e)
@@ -91720,11 +91841,11 @@
 			},
 			['PartID_bytes'] = { -- table(81138f65)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSacredAnimalSuitEffect.<PartID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalSuitEffect.<PartID_bytes>e__FixedBuffer',
 			},
 			['strIdBattlePoint1'] = { -- table(c94a12fe)
 				['offset'] = 40,
@@ -91785,6 +91906,17 @@
 		},
 		['MaxV'] = 144,
 	},
+	['ResData.ResSacredAnimalSuit.<PartID_bytes>e__FixedBuffer'] = { -- table(acc11fd4)
+		['Methods'] = { -- table(7e1b7de)
+		},
+		['Fields'] = { -- table(18c9d81f)
+			['FixedElementField'] = { -- table(e7f2323f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSacredAnimalSuit'] = { -- table(3367efd1)
 		['Methods'] = { -- table(521e13ab)
 			['get_szSuitName'] = { -- table(ec2a35d5)
@@ -91827,11 +91959,11 @@
 			},
 			['PartID_bytes'] = { -- table(ffa5e65c)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSacredAnimalSuit.<PartID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalSuit.<PartID_bytes>e__FixedBuffer',
 			},
 			['strIdBattlePoint1'] = { -- table(1e807a7d)
 				['offset'] = 40,
@@ -91900,10 +92032,10 @@
 			},
 			['szActivePath_bytes'] = { -- table(93e5196a)
 				['offset'] = 12,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResSacredAnimalBubbleGamePath.<szActivePath_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalBubbleGamePath.<szActivePath_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -92090,6 +92222,17 @@
 		},
 		['MaxV'] = 24,
 	},
+	['ResData.ResLingBaoLotteryShowCaseConf.<ShowCaseAttributeList_bytes>e__FixedBuffer'] = { -- table(de0e8f6a)
+		['Methods'] = { -- table(5636d30c)
+		},
+		['Fields'] = { -- table(2588277f)
+			['FixedElementField'] = { -- table(1463845f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResLingBaoLotteryShowCaseConf'] = { -- table(ce2a692c)
 		['Methods'] = { -- table(1723844e)
 			['get_szShowCaseName'] = { -- table(687271f8)
@@ -92128,11 +92271,11 @@
 			},
 			['ShowCaseAttributeList_bytes'] = { -- table(60e56614)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLingBaoLotteryShowCaseConf.<ShowCaseAttributeList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoLotteryShowCaseConf.<ShowCaseAttributeList_bytes>e__FixedBuffer',
 			},
 			['strIdShowCaseIcon'] = { -- table(a9e2579)
 				['offset'] = 48,
@@ -92186,10 +92329,10 @@
 			},
 			['PartID_bytes'] = { -- table(f7eb2986)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLingBaoLotteryResConf.<PartID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoLotteryResConf.<PartID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -106006,6 +106149,17 @@
 		},
 		['MaxV'] = 20,
 	},
+	['ResData.ResDT_Common_KeyValue.<Arg_bytes>e__FixedBuffer'] = { -- table(9e935aa)
+		['Methods'] = { -- table(2e82a860)
+		},
+		['Fields'] = { -- table(a48c815f)
+			['FixedElementField'] = { -- table(c836327f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDT_Common_KeyValue'] = { -- table(a06089d1)
 		['Methods'] = { -- table(b89ba127)
 			['Arg'] = { -- table(58d82445)
@@ -106024,11 +106178,11 @@
 			},
 			['Arg_bytes'] = { -- table(511f7a54)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_Common_KeyValue.<Arg_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_Common_KeyValue.<Arg_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -106040,6 +106194,17 @@
 			['FixedElementField'] = { -- table(d8900961)
 				['offset'] = 8,
 				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDT_PveReviveInfo.<astReviveCost_bytes>e__FixedBuffer'] = { -- table(9276980)
+		['Methods'] = { -- table(1b598412)
+		},
+		['Fields'] = { -- table(dd997359)
+			['FixedElementField'] = { -- table(b31b3601)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
 			},
 		},
 		['MaxV'] = 8,
@@ -106066,18 +106231,18 @@
 			},
 			['astReviveCost_bytes'] = { -- table(8a25fe5a)
 				['offset'] = 8,
-				['type'] = 'ResData.ResDT_CostInfo',
+				['type'] = 'ResData.ResDT_PveReviveInfo.<astReviveCost_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CostInfo',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_PveReviveInfo.<astReviveCost_bytes>e__FixedBuffer',
 			},
 			['ReviveBuff_bytes'] = { -- table(9bfaf09a)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_PveReviveInfo.<ReviveBuff_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_PveReviveInfo.<ReviveBuff_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -106111,13 +106276,24 @@
 			},
 			['HeroID_bytes'] = { -- table(55ff6331)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTrainCampHeroInfo.<HeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTrainCampHeroInfo.<HeroID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResDT_UnUseSkill.<UnUseSkillList_bytes>e__FixedBuffer'] = { -- table(94ff7140)
+		['Methods'] = { -- table(eb7ae2fe)
+		},
+		['Fields'] = { -- table(512e8525)
+			['FixedElementField'] = { -- table(bfb7585)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_UnUseSkill'] = { -- table(bd4a9716)
 		['Methods'] = { -- table(efaf709c)
@@ -106137,11 +106313,11 @@
 			},
 			['UnUseSkillList_bytes'] = { -- table(b161e596)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_UnUseSkill.<UnUseSkillList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 8,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_UnUseSkill.<UnUseSkillList_bytes>e__FixedBuffer',
 			},
 			['bForbidSeasonSummonerSkill'] = { -- table(21179a6b)
 				['offset'] = 44,
@@ -106149,6 +106325,39 @@
 			},
 		},
 		['MaxV'] = 44,
+	},
+	['ResData.ResMonsterCfgInfo.<PassiveSkillID_bytes>e__FixedBuffer'] = { -- table(fcc071ca)
+		['Methods'] = { -- table(51dc53c8)
+		},
+		['Fields'] = { -- table(31ff3d21)
+			['FixedElementField'] = { -- table(16f815e9)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResMonsterCfgInfo.<SkillIDs_bytes>e__FixedBuffer'] = { -- table(ca6a920)
+		['Methods'] = { -- table(50613e36)
+		},
+		['Fields'] = { -- table(9969bd9f)
+			['FixedElementField'] = { -- table(278b9abf)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResMonsterCfgInfo.<astShenfuDrop_bytes>e__FixedBuffer'] = { -- table(6afd19ab)
+		['Methods'] = { -- table(ec04b81)
+		},
+		['Fields'] = { -- table(a6231a6a)
+			['FixedElementField'] = { -- table(96c69ad0)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMonsterCfgInfo'] = { -- table(f31196f0)
 		['Methods'] = { -- table(3e187e06)
@@ -106316,19 +106525,19 @@
 			},
 			['SkillIDs_bytes'] = { -- table(1e4b4b7c)
 				['offset'] = 76,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResMonsterCfgInfo.<SkillIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMonsterCfgInfo.<SkillIDs_bytes>e__FixedBuffer',
 			},
 			['PassiveSkillID_bytes'] = { -- table(ea517e72)
 				['offset'] = 116,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResMonsterCfgInfo.<PassiveSkillID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMonsterCfgInfo.<PassiveSkillID_bytes>e__FixedBuffer',
 			},
 			['iBuffID1'] = { -- table(edabc9e3)
 				['offset'] = 156,
@@ -106360,11 +106569,11 @@
 			},
 			['astShenfuDrop_bytes'] = { -- table(aca72d1f)
 				['offset'] = 172,
-				['type'] = 'ResData.ResDT_ShenfuDrop',
+				['type'] = 'ResData.ResMonsterCfgInfo.<astShenfuDrop_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ShenfuDrop',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMonsterCfgInfo.<astShenfuDrop_bytes>e__FixedBuffer',
 			},
 			['bMonsterGrade'] = { -- table(3de7b0f8)
 				['offset'] = 212,
@@ -106796,6 +107005,17 @@
 		},
 		['MaxV'] = 192,
 	},
+	['ResData.ResOrganCfgInfo.<SkillIDs_bytes>e__FixedBuffer'] = { -- table(b54e7427)
+		['Methods'] = { -- table(e51fb45)
+		},
+		['Fields'] = { -- table(84329c1c)
+			['FixedElementField'] = { -- table(70217dea)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResOrganCfgInfo'] = { -- table(ad4e0155)
 		['Methods'] = { -- table(23531a2b)
 			['get_szName'] = { -- table(43d0ae64)
@@ -106938,11 +107158,11 @@
 			},
 			['SkillIDs_bytes'] = { -- table(66e6975)
 				['offset'] = 124,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResOrganCfgInfo.<SkillIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOrganCfgInfo.<SkillIDs_bytes>e__FixedBuffer',
 			},
 			['bOrganType'] = { -- table(12f1180f)
 				['offset'] = 136,
@@ -107099,6 +107319,61 @@
 		},
 		['MaxV'] = 284,
 	},
+	['ResData.ResSkillCfgInfo.<SkillEffectType_bytes>e__FixedBuffer'] = { -- table(8ec151a)
+		['Methods'] = { -- table(cb87d544)
+		},
+		['Fields'] = { -- table(71911c77)
+			['FixedElementField'] = { -- table(891efd7)
+				['offset'] = 8,
+				['type'] = 'System.UInt16',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSkillCfgInfo.<astRangeAppointTypePrams_bytes>e__FixedBuffer'] = { -- table(4ec109a1)
+		['Methods'] = { -- table(51baa03b)
+		},
+		['Fields'] = { -- table(db4d7616)
+			['FixedElementField'] = { -- table(49e458b4)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSkillCfgInfo.<astSkillPropertyDescInfo_bytes>e__FixedBuffer'] = { -- table(cd4d58d3)
+		['Methods'] = { -- table(37578ef9)
+		},
+		['Fields'] = { -- table(5c8f2974)
+			['FixedElementField'] = { -- table(36c00942)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSkillCfgInfo.<astSkillUseRuleParams_bytes>e__FixedBuffer'] = { -- table(e89fced2)
+		['Methods'] = { -- table(ace31074)
+		},
+		['Fields'] = { -- table(75957f0f)
+			['FixedElementField'] = { -- table(998e7b4f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSkillCfgInfo.<astWheelTypeParams_bytes>e__FixedBuffer'] = { -- table(c6520b37)
+		['Methods'] = { -- table(d1655a41)
+		},
+		['Fields'] = { -- table(c82fc9e4)
+			['FixedElementField'] = { -- table(28a75452)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSkillCfgInfo'] = { -- table(9f0e4b59)
 		['Methods'] = { -- table(cb702677)
 			['get_szWheelTypeStrParam'] = { -- table(4f84e362)
@@ -107237,11 +107512,11 @@
 			},
 			['astWheelTypeParams_bytes'] = { -- table(4298b789)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResSkillCfgInfo.<astWheelTypeParams_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillCfgInfo.<astWheelTypeParams_bytes>e__FixedBuffer',
 			},
 			['strIdWheelTypeStrParam'] = { -- table(38e36cad)
 				['offset'] = 40,
@@ -107289,11 +107564,11 @@
 			},
 			['SkillEffectType_bytes'] = { -- table(6d9f7ac8)
 				['offset'] = 114,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResSkillCfgInfo.<SkillEffectType_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['count'] = 2,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillCfgInfo.<SkillEffectType_bytes>e__FixedBuffer',
 			},
 			['wBCanBeAbortBeforeAction'] = { -- table(a1a4d167)
 				['offset'] = 118,
@@ -107413,11 +107688,11 @@
 			},
 			['astRangeAppointTypePrams_bytes'] = { -- table(86dceaaf)
 				['offset'] = 244,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResSkillCfgInfo.<astRangeAppointTypePrams_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillCfgInfo.<astRangeAppointTypePrams_bytes>e__FixedBuffer',
 			},
 			['iRangeRadius'] = { -- table(122d4f76)
 				['offset'] = 252,
@@ -107597,11 +107872,11 @@
 			},
 			['astSkillPropertyDescInfo_bytes'] = { -- table(206b1bfd)
 				['offset'] = 384,
-				['type'] = 'ResData.ResDT_SkillDescription',
+				['type'] = 'ResData.ResSkillCfgInfo.<astSkillPropertyDescInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillDescription',
 				['count'] = 7,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillCfgInfo.<astSkillPropertyDescInfo_bytes>e__FixedBuffer',
 			},
 			['iSkillJoystickAeraWidth'] = { -- table(ac89ded7)
 				['offset'] = 664,
@@ -107873,11 +108148,11 @@
 			},
 			['astSkillUseRuleParams_bytes'] = { -- table(a0215da0)
 				['offset'] = 840,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResSkillCfgInfo.<astSkillUseRuleParams_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillCfgInfo.<astSkillUseRuleParams_bytes>e__FixedBuffer',
 			},
 			['bSkllTagIcon'] = { -- table(10b5e6d)
 				['offset'] = 856,
@@ -107923,10 +108198,10 @@
 			},
 			['astSkillEffectTagList_bytes'] = { -- table(c38c1ca7)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_SkillEffectTagItem',
+				['type'] = 'ResData.ResSkillEffectTagInfo.<astSkillEffectTagList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillEffectTagItem',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillEffectTagInfo.<astSkillEffectTagList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -107956,10 +108231,10 @@
 			},
 			['astStateParam_bytes'] = { -- table(aa737b67)
 				['offset'] = 8,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_SkillDynamicIndicatorActorStateInfo.<astStateParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_SkillDynamicIndicatorActorStateInfo.<astStateParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 8,
@@ -107969,6 +108244,28 @@
 		},
 		['Fields'] = { -- table(e62cbc58)
 			['FixedElementField'] = { -- table(f42b168e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDT_SkillFunc.<astSkillFuncGroup_bytes>e__FixedBuffer'] = { -- table(be0681c5)
+		['Methods'] = { -- table(fe6be807)
+		},
+		['Fields'] = { -- table(80515afc)
+			['FixedElementField'] = { -- table(c2ec648a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDT_SkillFunc.<astSkillFuncParam_bytes>e__FixedBuffer'] = { -- table(6a879733)
+		['Methods'] = { -- table(ac4eceed)
+		},
+		['Fields'] = { -- table(9c9cfd82)
+			['FixedElementField'] = { -- table(89edb668)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -108013,26 +108310,26 @@
 			},
 			['astSkillFuncParam_bytes'] = { -- table(6d5ca663)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_SkillFunc.<astSkillFuncParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 20,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_SkillFunc.<astSkillFuncParam_bytes>e__FixedBuffer',
 			},
 			['astSkillFuncGroup_bytes'] = { -- table(891d6c1)
 				['offset'] = 96,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_SkillFunc.<astSkillFuncGroup_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 20,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_SkillFunc.<astSkillFuncGroup_bytes>e__FixedBuffer',
 			},
 			['astSkillFuncExtraParam_bytes'] = { -- table(da42eb3d)
 				['offset'] = 176,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_SkillFunc.<astSkillFuncExtraParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_SkillFunc.<astSkillFuncExtraParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 176,
@@ -108066,10 +108363,10 @@
 			},
 			['astParam_bytes'] = { -- table(a2b86b43)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_BattleTaskCondition.<astParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_BattleTaskCondition.<astParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -108103,13 +108400,35 @@
 			},
 			['astConditionParam_bytes'] = { -- table(2a12dbfd)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_SkillPassiveCondition.<astConditionParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_SkillPassiveCondition.<astConditionParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResDT_HighlightCondition.<astConditionCompare_bytes>e__FixedBuffer'] = { -- table(fe22164b)
+		['Methods'] = { -- table(7874e7d9)
+		},
+		['Fields'] = { -- table(effcec24)
+			['FixedElementField'] = { -- table(e5d77692)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDT_HighlightCondition.<astConditionParam_bytes>e__FixedBuffer'] = { -- table(595096f9)
+		['Methods'] = { -- table(129ff62f)
+		},
+		['Fields'] = { -- table(47e9aae6)
+			['FixedElementField'] = { -- table(56520c24)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_HighlightCondition'] = { -- table(4d2c4588)
 		['Methods'] = { -- table(c7796bd2)
@@ -108137,11 +108456,11 @@
 			},
 			['astConditionCompare_bytes'] = { -- table(c2107a9d)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_HighlightCompare',
+				['type'] = 'ResData.ResDT_HighlightCondition.<astConditionCompare_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HighlightCompare',
 				['count'] = 2,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_HighlightCondition.<astConditionCompare_bytes>e__FixedBuffer',
 			},
 			['bCompareMethod'] = { -- table(b510351b)
 				['offset'] = 60,
@@ -108165,11 +108484,11 @@
 			},
 			['astConditionParam_bytes'] = { -- table(3728ae03)
 				['offset'] = 80,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_HighlightCondition.<astConditionParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 8,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_HighlightCondition.<astConditionParam_bytes>e__FixedBuffer',
 			},
 			['dwCreateRelyID'] = { -- table(6d61b059)
 				['offset'] = 112,
@@ -108231,10 +108550,21 @@
 			},
 			['astSkin_bytes'] = { -- table(fd7aa8d7)
 				['offset'] = 8,
-				['type'] = 'ResData.ResDT_HighlightSkin',
+				['type'] = 'ResData.ResDT_HighlightHero.<astSkin_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HighlightSkin',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_HighlightHero.<astSkin_bytes>e__FixedBuffer',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSkillMarkCfgInfo.<astLayerEffectName_bytes>e__FixedBuffer'] = { -- table(dbfd4768)
+		['Methods'] = { -- table(503b6122)
+		},
+		['Fields'] = { -- table(6ddbf26f)
+			['FixedElementField'] = { -- table(3e6cb4ef)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
 			},
 		},
 		['MaxV'] = 8,
@@ -108337,11 +108667,11 @@
 			},
 			['astLayerEffectName_bytes'] = { -- table(782fd40c)
 				['offset'] = 80,
-				['type'] = 'ResData.ResDT_SkillMarkLayerEffectName',
+				['type'] = 'ResData.ResSkillMarkCfgInfo.<astLayerEffectName_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillMarkLayerEffectName',
 				['count'] = 12,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillMarkCfgInfo.<astLayerEffectName_bytes>e__FixedBuffer',
 			},
 			['bAgeImmeExcute'] = { -- table(155750ec)
 				['offset'] = 272,
@@ -108353,6 +108683,17 @@
 			},
 		},
 		['MaxV'] = 276,
+	},
+	['ResData.ResRandomSkillPassiveRule.<astRandomSkillPassiveID1_bytes>e__FixedBuffer'] = { -- table(1a03e3a3)
+		['Methods'] = { -- table(d1ee725d)
+		},
+		['Fields'] = { -- table(5c9b3f44)
+			['FixedElementField'] = { -- table(58d0bff2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRandomSkillPassiveRule.<astRandomSkillPassiveID2_bytes>e__FixedBuffer'] = { -- table(d862b500)
 		['Methods'] = { -- table(88d52296)
@@ -108391,18 +108732,18 @@
 			},
 			['astRandomSkillPassiveID1_bytes'] = { -- table(f17c5ec1)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResRandomSkillPassiveRule.<astRandomSkillPassiveID1_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 20,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRandomSkillPassiveRule.<astRandomSkillPassiveID1_bytes>e__FixedBuffer',
 			},
 			['astRandomSkillPassiveID2_bytes'] = { -- table(4a66c11c)
 				['offset'] = 92,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResRandomSkillPassiveRule.<astRandomSkillPassiveID2_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRandomSkillPassiveRule.<astRandomSkillPassiveID2_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 92,
@@ -108448,10 +108789,10 @@
 			},
 			['Params_bytes'] = { -- table(300701b5)
 				['offset'] = 24,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResKillActionInfo.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResKillActionInfo.<Params_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -108461,6 +108802,17 @@
 		},
 		['Fields'] = { -- table(86ff3a48)
 			['FixedElementField'] = { -- table(1564151e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHurtPropertyBonusInfo.<astPropBonusInfo_bytes>e__FixedBuffer'] = { -- table(5a176512)
+		['Methods'] = { -- table(5098a6ac)
+		},
+		['Fields'] = { -- table(f3160cbf)
+			['FixedElementField'] = { -- table(9709119f)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -108493,21 +108845,43 @@
 			},
 			['astPropBonusInfo_bytes'] = { -- table(21dc0bb0)
 				['offset'] = 12,
-				['type'] = 'ResData.ResPropertyBonusInfo',
+				['type'] = 'ResData.ResHurtPropertyBonusInfo.<astPropBonusInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResPropertyBonusInfo',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHurtPropertyBonusInfo.<astPropBonusInfo_bytes>e__FixedBuffer',
 			},
 			['astCustomPropBonusInfo_bytes'] = { -- table(f0c05c29)
 				['offset'] = 52,
-				['type'] = 'ResData.ResCustomPropertyBonusInfo',
+				['type'] = 'ResData.ResHurtPropertyBonusInfo.<astCustomPropBonusInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResCustomPropertyBonusInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHurtPropertyBonusInfo.<astCustomPropBonusInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 52,
+	},
+	['ResData.ResPVETalentCfgInfo.<astTalentEffectIDs_bytes>e__FixedBuffer'] = { -- table(61db9673)
+		['Methods'] = { -- table(bb699e6d)
+		},
+		['Fields'] = { -- table(de7e35bc)
+			['FixedElementField'] = { -- table(c1ed434a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPVETalentCfgInfo.<astTalentPassiveIDs_bytes>e__FixedBuffer'] = { -- table(579bc68d)
+		['Methods'] = { -- table(dc44153)
+		},
+		['Fields'] = { -- table(2a919944)
+			['FixedElementField'] = { -- table(97e7edf2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPVETalentCfgInfo'] = { -- table(b351439b)
 		['Methods'] = { -- table(a6627531)
@@ -108595,19 +108969,19 @@
 			},
 			['astTalentPassiveIDs_bytes'] = { -- table(d45809)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResPVETalentCfgInfo.<astTalentPassiveIDs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPVETalentCfgInfo.<astTalentPassiveIDs_bytes>e__FixedBuffer',
 			},
 			['astTalentEffectIDs_bytes'] = { -- table(9c5f8c3d)
 				['offset'] = 68,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResPVETalentCfgInfo.<astTalentEffectIDs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPVETalentCfgInfo.<astTalentEffectIDs_bytes>e__FixedBuffer',
 			},
 			['strIdSkillDesc'] = { -- table(46031760)
 				['offset'] = 80,
@@ -108643,6 +109017,72 @@
 			},
 		},
 		['MaxV'] = 116,
+	},
+	['ResData.ResPveOutput.<OutputEquipID_bytes>e__FixedBuffer'] = { -- table(b0c5b325)
+		['Methods'] = { -- table(928b66c3)
+		},
+		['Fields'] = { -- table(a19e1cfa)
+			['FixedElementField'] = { -- table(a1bced40)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPveOutput.<ShowOutputEquipID_bytes>e__FixedBuffer'] = { -- table(52684e2c)
+		['Methods'] = { -- table(6c942dfe)
+		},
+		['Fields'] = { -- table(f175ee4f)
+			['FixedElementField'] = { -- table(69f1368f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPveOutput.<ShowOutputItemCount_bytes>e__FixedBuffer'] = { -- table(bfccc29d)
+		['Methods'] = { -- table(ff140603)
+		},
+		['Fields'] = { -- table(2906c9c6)
+			['FixedElementField'] = { -- table(ee5c9c4)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPveOutput.<ShowOutputItemID_bytes>e__FixedBuffer'] = { -- table(b4ece521)
+		['Methods'] = { -- table(4863fee7)
+		},
+		['Fields'] = { -- table(2abfd96c)
+			['FixedElementField'] = { -- table(a0a0e8da)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPveOutput.<ShowOutputSkinID_bytes>e__FixedBuffer'] = { -- table(eb7b42a7)
+		['Methods'] = { -- table(37b677a9)
+		},
+		['Fields'] = { -- table(c6bc13d6)
+			['FixedElementField'] = { -- table(3b334874)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPveOutput.<TotalOutputEquipID_bytes>e__FixedBuffer'] = { -- table(f8278447)
+		['Methods'] = { -- table(956dd1d5)
+		},
+		['Fields'] = { -- table(849f7b0a)
+			['FixedElementField'] = { -- table(a2b39eb0)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPveOutput'] = { -- table(b7acdc2c)
 		['Methods'] = { -- table(f97cef46)
@@ -108742,19 +109182,19 @@
 			},
 			['OutputEquipID_bytes'] = { -- table(1e62758f)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveOutput.<OutputEquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 12,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveOutput.<OutputEquipID_bytes>e__FixedBuffer',
 			},
 			['TotalOutputEquipID_bytes'] = { -- table(8f0e6c0f)
 				['offset'] = 80,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveOutput.<TotalOutputEquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 50,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveOutput.<TotalOutputEquipID_bytes>e__FixedBuffer',
 			},
 			['bTalentRaceTypeCnt'] = { -- table(1a85c4a3)
 				['offset'] = 280,
@@ -108786,11 +109226,11 @@
 			},
 			['ShowOutputEquipID_bytes'] = { -- table(d5cdb8e0)
 				['offset'] = 304,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveOutput.<ShowOutputEquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 12,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveOutput.<ShowOutputEquipID_bytes>e__FixedBuffer',
 			},
 			['strIdLevelDesc'] = { -- table(ba924402)
 				['offset'] = 352,
@@ -108806,27 +109246,27 @@
 			},
 			['ShowOutputSkinID_bytes'] = { -- table(8cbdb30f)
 				['offset'] = 372,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveOutput.<ShowOutputSkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveOutput.<ShowOutputSkinID_bytes>e__FixedBuffer',
 			},
 			['ShowOutputItemID_bytes'] = { -- table(a89f16e5)
 				['offset'] = 384,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveOutput.<ShowOutputItemID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveOutput.<ShowOutputItemID_bytes>e__FixedBuffer',
 			},
 			['ShowOutputItemCount_bytes'] = { -- table(baba8853)
 				['offset'] = 392,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveOutput.<ShowOutputItemCount_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveOutput.<ShowOutputItemCount_bytes>e__FixedBuffer',
 			},
 			['dwOutputCoinLow'] = { -- table(e9a1f0e8)
 				['offset'] = 400,
@@ -108903,6 +109343,28 @@
 		},
 		['MaxV'] = 468,
 	},
+	['ResData.ResSoldierWaveInfo.<astBranchWaves_bytes>e__FixedBuffer'] = { -- table(a86e107c)
+		['Methods'] = { -- table(2b58ab02)
+		},
+		['Fields'] = { -- table(5c784f0d)
+			['FixedElementField'] = { -- table(5494818d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSoldierWaveInfo.<astNormalSoldierInfo_bytes>e__FixedBuffer'] = { -- table(c199a8c7)
+		['Methods'] = { -- table(79092d5d)
+		},
+		['Fields'] = { -- table(f64f8aae)
+			['FixedElementField'] = { -- table(b90dd0ec)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSoldierWaveInfo'] = { -- table(ab1ff75f)
 		['Methods'] = { -- table(67a31851)
 			['astBranchWaves'] = { -- table(e3b732d7)
@@ -108945,11 +109407,11 @@
 			},
 			['astBranchWaves_bytes'] = { -- table(2d747bea)
 				['offset'] = 16,
-				['type'] = 'ResData.ResSoldierWaveBranchInfo',
+				['type'] = 'ResData.ResSoldierWaveInfo.<astBranchWaves_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSoldierWaveBranchInfo',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSoldierWaveInfo.<astBranchWaves_bytes>e__FixedBuffer',
 			},
 			['dwNextSoldierWaveID'] = { -- table(c52e4242)
 				['offset'] = 56,
@@ -108977,11 +109439,11 @@
 			},
 			['astNormalSoldierInfo_bytes'] = { -- table(c35fff47)
 				['offset'] = 80,
-				['type'] = 'ResData.ResSoldierTypeInfo',
+				['type'] = 'ResData.ResSoldierWaveInfo.<astNormalSoldierInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSoldierTypeInfo',
 				['count'] = 15,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSoldierWaveInfo.<astNormalSoldierInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 80,
@@ -108991,6 +109453,17 @@
 		},
 		['Fields'] = { -- table(f887ad1a)
 			['FixedElementField'] = { -- table(40dd8ba0)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDT_PrerequisiteInTask.<astPrerequisiteParam_bytes>e__FixedBuffer'] = { -- table(43823e01)
+		['Methods'] = { -- table(122acae7)
+		},
+		['Fields'] = { -- table(11584b08)
+			['FixedElementField'] = { -- table(bee3a4de)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -109035,11 +109508,11 @@
 			},
 			['astPrerequisiteParam_bytes'] = { -- table(dbfa88a5)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_PrerequisiteInTask.<astPrerequisiteParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 40,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_PrerequisiteInTask.<astPrerequisiteParam_bytes>e__FixedBuffer',
 			},
 			['bOpenPassAnyPvpCheck'] = { -- table(8e83081b)
 				['offset'] = 184,
@@ -109047,10 +109520,10 @@
 			},
 			['astCLIENTCONDITIONParam_bytes'] = { -- table(aa36f1e7)
 				['offset'] = 188,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_PrerequisiteInTask.<astCLIENTCONDITIONParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_PrerequisiteInTask.<astCLIENTCONDITIONParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 188,
@@ -109092,10 +109565,10 @@
 			},
 			['StarCombatEft_bytes'] = { -- table(eef6a4d9)
 				['offset'] = 20,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResHeroLvlUpInfo.<StarCombatEft_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroLvlUpInfo.<StarCombatEft_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -109137,13 +109610,35 @@
 			},
 			['SubIds_bytes'] = { -- table(16b2eac8)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRedPointConf.<SubIds_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRedPointConf.<SubIds_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
+	},
+	['ResData.ResOptionalDiscount.<astDiscountInfo_bytes>e__FixedBuffer'] = { -- table(c7e92659)
+		['Methods'] = { -- table(c5fd13)
+		},
+		['Fields'] = { -- table(8a5ea894)
+			['FixedElementField'] = { -- table(523130a2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResOptionalDiscount.<astRewardInfo_bytes>e__FixedBuffer'] = { -- table(15418df9)
+		['Methods'] = { -- table(526ab9bf)
+		},
+		['Fields'] = { -- table(76062db0)
+			['FixedElementField'] = { -- table(f3c137e6)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResOptionalDiscount'] = { -- table(245f1a17)
 		['Methods'] = { -- table(97b605b1)
@@ -109227,19 +109722,19 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(43f31e61)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_Optional_Reward_info',
+				['type'] = 'ResData.ResOptionalDiscount.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Optional_Reward_info',
 				['count'] = 16,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOptionalDiscount.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 			['astDiscountInfo_bytes'] = { -- table(f2a6d039)
 				['offset'] = 192,
-				['type'] = 'ResData.ResDT_Optional_Discount_Info',
+				['type'] = 'ResData.ResOptionalDiscount.<astDiscountInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Optional_Discount_Info',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOptionalDiscount.<astDiscountInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 192,
@@ -109277,13 +109772,46 @@
 			},
 			['astCheckRewardList_bytes'] = { -- table(f91b6413)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_Item_SimpInfo',
+				['type'] = 'ResData.ResPresentSplitCheck.<astCheckRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Item_SimpInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPresentSplitCheck.<astCheckRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResPropInfo.<EftParam_bytes>e__FixedBuffer'] = { -- table(24396f12)
+		['Methods'] = { -- table(ed0ae598)
+		},
+		['Fields'] = { -- table(5695fa39)
+			['FixedElementField'] = { -- table(977c2ea1)
+				['offset'] = 8,
+				['type'] = 'System.Single',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPropInfo.<astCurrencyInfo_bytes>e__FixedBuffer'] = { -- table(accca13b)
+		['Methods'] = { -- table(5b922699)
+		},
+		['Fields'] = { -- table(571f421a)
+			['FixedElementField'] = { -- table(2cfedaa0)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPropInfo.<astSrcInfo_bytes>e__FixedBuffer'] = { -- table(51b8df1e)
+		['Methods'] = { -- table(2737268)
+		},
+		['Fields'] = { -- table(5088e5)
+			['FixedElementField'] = { -- table(5c1c9a45)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPropInfo'] = { -- table(15a48a11)
 		['Methods'] = { -- table(af4be763)
@@ -109515,19 +110043,20 @@
 			},
 			['EftParam_bytes'] = { -- table(8ba8a27e)
 				['offset'] = 160,
-				['type'] = 'System.Single',
+				['type'] = 'ResData.ResPropInfo.<EftParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Single',
 				['count'] = 9,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPropInfo.<EftParam_bytes>e__FixedBuffer',
 			},
 			['astSrcInfo_bytes'] = { -- table(8e12c906)
 				['offset'] = 196,
-				['type'] = 'ResData.ResDT_ItemSrc_Info',
+				['type'] = 'ResData.ResPropInfo.<astSrcInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ItemSrc_Info',
 				['count'] = 10,
 				['size'] = 8,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPropInfo.<astSrcInfo_bytes>e__FixedBuffer',
 			},
 			['strIdUseStartTime'] = { -- table(1b6854ba)
 				['offset'] = 280,
@@ -109663,11 +110192,11 @@
 			},
 			['astCurrencyInfo_bytes'] = { -- table(fbe30613)
 				['offset'] = 508,
-				['type'] = 'ResData.ResDT_CurrencyInfo',
+				['type'] = 'ResData.ResPropInfo.<astCurrencyInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CurrencyInfo',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPropInfo.<astCurrencyInfo_bytes>e__FixedBuffer',
 			},
 			['bChgCoinType'] = { -- table(bd1db66b)
 				['offset'] = 548,
@@ -109699,6 +110228,28 @@
 			},
 		},
 		['MaxV'] = 576,
+	},
+	['ResData.ResSpecSaleSelfSelection.<Buy_bytes>e__FixedBuffer'] = { -- table(a2375227)
+		['Methods'] = { -- table(78d4f231)
+		},
+		['Fields'] = { -- table(4c0ba0)
+			['FixedElementField'] = { -- table(c3879a76)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSpecSaleSelfSelection.<Free_bytes>e__FixedBuffer'] = { -- table(1b6c45e5)
+		['Methods'] = { -- table(980c7f97)
+		},
+		['Fields'] = { -- table(1bd32848)
+			['FixedElementField'] = { -- table(49423f1e)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSpecSaleSelfSelection'] = { -- table(b0a53cb4)
 		['Methods'] = { -- table(7cbba632)
@@ -109766,19 +110317,19 @@
 			},
 			['Buy_bytes'] = { -- table(ec6957a9)
 				['offset'] = 56,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSpecSaleSelfSelection.<Buy_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 16,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSpecSaleSelfSelection.<Buy_bytes>e__FixedBuffer',
 			},
 			['Free_bytes'] = { -- table(82528a1)
 				['offset'] = 120,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSpecSaleSelfSelection.<Free_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 16,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSpecSaleSelfSelection.<Free_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 120,
@@ -109824,13 +110375,24 @@
 			},
 			['astRewardPool_bytes'] = { -- table(4d40cb8b)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_RandDraw_RewardPool',
+				['type'] = 'ResData.ResRandDrawRate.<astRewardPool_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RandDraw_RewardPool',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRandDrawRate.<astRewardPool_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
+	},
+	['ResData.ResEquipInfo.<astFuncEftList_bytes>e__FixedBuffer'] = { -- table(74cee8fa)
+		['Methods'] = { -- table(4f197474)
+		},
+		['Fields'] = { -- table(40cf9dab)
+			['FixedElementField'] = { -- table(9b7dee23)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResEquipInfo.<astSrcInfo_bytes>e__FixedBuffer'] = { -- table(cd8bad01)
 		['Methods'] = { -- table(253c3d57)
@@ -109969,18 +110531,18 @@
 			},
 			['astFuncEftList_bytes'] = { -- table(fe25aa40)
 				['offset'] = 92,
-				['type'] = 'ResData.ResDT_FuncEft_Obj',
+				['type'] = 'ResData.ResEquipInfo.<astFuncEftList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FuncEft_Obj',
 				['count'] = 6,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEquipInfo.<astFuncEftList_bytes>e__FixedBuffer',
 			},
 			['astSrcInfo_bytes'] = { -- table(f9586fb1)
 				['offset'] = 140,
-				['type'] = 'ResData.ResDT_ItemSrc_Info',
+				['type'] = 'ResData.ResEquipInfo.<astSrcInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ItemSrc_Info',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEquipInfo.<astSrcInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 140,
@@ -110046,13 +110608,24 @@
 			},
 			['astPrivilegeIcon_bytes'] = { -- table(c293b533)
 				['offset'] = 48,
-				['type'] = 'ResData.ResMentorPrivilege',
+				['type'] = 'ResData.ResFamousMentor.<astPrivilegeIcon_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResMentorPrivilege',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFamousMentor.<astPrivilegeIcon_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResRcmdSymbolPage.<SymbolID_bytes>e__FixedBuffer'] = { -- table(cd619ad3)
+		['Methods'] = { -- table(4b8531b9)
+		},
+		['Fields'] = { -- table(6d906df0)
+			['FixedElementField'] = { -- table(b080db26)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRcmdSymbolPage'] = { -- table(658d462d)
 		['Methods'] = { -- table(abdff193)
@@ -110088,11 +110661,11 @@
 			},
 			['SymbolID_bytes'] = { -- table(2c967499)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRcmdSymbolPage.<SymbolID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 30,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRcmdSymbolPage.<SymbolID_bytes>e__FixedBuffer',
 			},
 			['strIdOnTimeStr'] = { -- table(558ee49d)
 				['offset'] = 144,
@@ -110112,6 +110685,17 @@
 			},
 		},
 		['MaxV'] = 164,
+	},
+	['ResData.ResRoleSymbolPage.<SymbolID_bytes>e__FixedBuffer'] = { -- table(6eb4f215)
+		['Methods'] = { -- table(c2c946b3)
+		},
+		['Fields'] = { -- table(6a49a7e6)
+			['FixedElementField'] = { -- table(d14d1324)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRoleSymbolPage'] = { -- table(e3bc03b7)
 		['Methods'] = { -- table(27ddb0d)
@@ -110159,11 +110743,11 @@
 			},
 			['SymbolID_bytes'] = { -- table(808e337)
 				['offset'] = 36,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRoleSymbolPage.<SymbolID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 31,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRoleSymbolPage.<SymbolID_bytes>e__FixedBuffer',
 			},
 			['strIdOnTimeStr'] = { -- table(ffb73de3)
 				['offset'] = 160,
@@ -110183,6 +110767,39 @@
 			},
 		},
 		['MaxV'] = 180,
+	},
+	['ResData.ResSymbolInfo.<astFuncEftList_bytes>e__FixedBuffer'] = { -- table(77f74ada)
+		['Methods'] = { -- table(ae75b374)
+		},
+		['Fields'] = { -- table(c446c9a1)
+			['FixedElementField'] = { -- table(dc0a369)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSymbolInfo.<astPveEftList_bytes>e__FixedBuffer'] = { -- table(69166639)
+		['Methods'] = { -- table(bad93adf)
+		},
+		['Fields'] = { -- table(9256b04c)
+			['FixedElementField'] = { -- table(42a0ab7a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSymbolInfo.<astSrcInfo_bytes>e__FixedBuffer'] = { -- table(b41f4821)
+		['Methods'] = { -- table(8ac28c57)
+		},
+		['Fields'] = { -- table(e06aefae)
+			['FixedElementField'] = { -- table(6eab8fec)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSymbolInfo'] = { -- table(9cee42b0)
 		['Methods'] = { -- table(6b06155e)
@@ -110362,27 +110979,28 @@
 			},
 			['astFuncEftList_bytes'] = { -- table(c4082346)
 				['offset'] = 132,
-				['type'] = 'ResData.ResDT_FuncEft_Obj',
+				['type'] = 'ResData.ResSymbolInfo.<astFuncEftList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FuncEft_Obj',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSymbolInfo.<astFuncEftList_bytes>e__FixedBuffer',
 			},
 			['astPveEftList_bytes'] = { -- table(8d284f0d)
 				['offset'] = 156,
-				['type'] = 'ResData.ResDT_FuncEft_Obj',
+				['type'] = 'ResData.ResSymbolInfo.<astPveEftList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FuncEft_Obj',
 				['count'] = 8,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSymbolInfo.<astPveEftList_bytes>e__FixedBuffer',
 			},
 			['astSrcInfo_bytes'] = { -- table(9858301b)
 				['offset'] = 220,
-				['type'] = 'ResData.ResDT_ItemSrc_Info',
+				['type'] = 'ResData.ResSymbolInfo.<astSrcInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ItemSrc_Info',
 				['count'] = 10,
 				['size'] = 8,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSymbolInfo.<astSrcInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 220,
@@ -110424,10 +111042,10 @@
 			},
 			['astPrerequisiteParam_bytes'] = { -- table(f70fc0f3)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_PrerequisiteInCustomTeamTask.<astPrerequisiteParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_PrerequisiteInCustomTeamTask.<astPrerequisiteParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -110465,13 +111083,24 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(74176b08)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_CustomTeamTaskReward',
+				['type'] = 'ResData.ResCustomTeamTaskReward.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CustomTeamTaskReward',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCustomTeamTaskReward.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResTaskReward.<astRewardInfo_bytes>e__FixedBuffer'] = { -- table(95b96cf0)
+		['Methods'] = { -- table(39e0af16)
+		},
+		['Fields'] = { -- table(9f29f5ad)
+			['FixedElementField'] = { -- table(3660556d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTaskReward'] = { -- table(1325a0d2)
 		['Methods'] = { -- table(4d0faa8c)
@@ -110499,14 +111128,25 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(9028efc6)
 				['offset'] = 16,
-				['type'] = 'ResData.ResTaskRewardDetail',
+				['type'] = 'ResData.ResTaskReward.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResTaskRewardDetail',
 				['count'] = 8,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTaskReward.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResTaskDyncValue.<ParamItem_bytes>e__FixedBuffer'] = { -- table(a15895e7)
+		['Methods'] = { -- table(14687929)
+		},
+		['Fields'] = { -- table(ada88bc4)
+			['FixedElementField'] = { -- table(eeb68d72)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTaskDyncValue'] = { -- table(e03ec20e)
 		['Methods'] = { -- table(581d8704)
@@ -110534,11 +111174,11 @@
 			},
 			['ParamItem_bytes'] = { -- table(79563c19)
 				['offset'] = 20,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResTaskDyncValue.<ParamItem_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTaskDyncValue.<ParamItem_bytes>e__FixedBuffer',
 			},
 			['dwMinDyncValue'] = { -- table(f832fcd9)
 				['offset'] = 40,
@@ -110550,6 +111190,17 @@
 			},
 		},
 		['MaxV'] = 44,
+	},
+	['ResData.ResPrayerCheckInWeather.<AnimalInteractIDList_bytes>e__FixedBuffer'] = { -- table(dea8880)
+		['Methods'] = { -- table(c4a3f846)
+		},
+		['Fields'] = { -- table(e470ba43)
+			['FixedElementField'] = { -- table(bf404edb)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPrayerCheckInWeather'] = { -- table(e69657fe)
 		['Methods'] = { -- table(5b98d974)
@@ -110609,11 +111260,11 @@
 			},
 			['AnimalInteractIDList_bytes'] = { -- table(5ea10304)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPrayerCheckInWeather.<AnimalInteractIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPrayerCheckInWeather.<AnimalInteractIDList_bytes>e__FixedBuffer',
 			},
 			['strIdChatSceneName'] = { -- table(49ce1d5c)
 				['offset'] = 72,
@@ -110621,6 +111272,17 @@
 			},
 		},
 		['MaxV'] = 72,
+	},
+	['ResData.ResRandomRewardStore.<astRewardDetail_bytes>e__FixedBuffer'] = { -- table(e7d6dbe0)
+		['Methods'] = { -- table(14c30ca6)
+		},
+		['Fields'] = { -- table(fb6bf07)
+			['FixedElementField'] = { -- table(c84780c7)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRandomRewardStore'] = { -- table(807f6ca9)
 		['Methods'] = { -- table(d22beb5f)
@@ -110660,11 +111322,11 @@
 			},
 			['astRewardDetail_bytes'] = { -- table(7e629ac8)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_RandomRewardInfo',
+				['type'] = 'ResData.ResRandomRewardStore.<astRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RandomRewardInfo',
 				['count'] = 50,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRandomRewardStore.<astRewardDetail_bytes>e__FixedBuffer',
 			},
 			['bOverseasShield'] = { -- table(d0cd6017)
 				['offset'] = 1236,
@@ -110718,13 +111380,35 @@
 			},
 			['astRewardList_bytes'] = { -- table(d9789428)
 				['offset'] = 28,
-				['type'] = 'ResData.ResDT_DefineRewardInfo',
+				['type'] = 'ResData.ResDefineReward.<astRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DefineRewardInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDefineReward.<astRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
+	},
+	['ResData.ResDT_ConditionInfo.<ComparetorDetail_bytes>e__FixedBuffer'] = { -- table(c3f6250e)
+		['Methods'] = { -- table(4f98b858)
+		},
+		['Fields'] = { -- table(80fc1d4d)
+			['FixedElementField'] = { -- table(2edd27cd)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDT_ConditionInfo.<KeyDetail_bytes>e__FixedBuffer'] = { -- table(ed80783)
+		['Methods'] = { -- table(428ac21)
+		},
+		['Fields'] = { -- table(57e35ede)
+			['FixedElementField'] = { -- table(9e5544fc)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_ConditionInfo.<ValueDetail_bytes>e__FixedBuffer'] = { -- table(5d1d65)
 		['Methods'] = { -- table(1c796ef3)
@@ -110771,29 +111455,40 @@
 			},
 			['KeyDetail_bytes'] = { -- table(fbf8228b)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDT_ConditionInfo.<KeyDetail_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ConditionInfo.<KeyDetail_bytes>e__FixedBuffer',
 			},
 			['ComparetorDetail_bytes'] = { -- table(ff41741a)
 				['offset'] = 28,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDT_ConditionInfo.<ComparetorDetail_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ConditionInfo.<ComparetorDetail_bytes>e__FixedBuffer',
 			},
 			['ValueDetail_bytes'] = { -- table(b9b3d07d)
 				['offset'] = 36,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDT_ConditionInfo.<ValueDetail_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ConditionInfo.<ValueDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 36,
+	},
+	['ResData.ResDT_PickRuleInfo.<Param_bytes>e__FixedBuffer'] = { -- table(76fe8f56)
+		['Methods'] = { -- table(884b67a0)
+		},
+		['Fields'] = { -- table(10866ce9)
+			['FixedElementField'] = { -- table(7508cff1)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_PickRuleInfo'] = { -- table(5aa317de)
 		['Methods'] = { -- table(d2a84b34)
@@ -110813,11 +111508,11 @@
 			},
 			['Param_bytes'] = { -- table(a23bbd36)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_PickRuleInfo.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_PickRuleInfo.<Param_bytes>e__FixedBuffer',
 			},
 			['bAllowSwapHero'] = { -- table(b5bbd8d)
 				['offset'] = 52,
@@ -110825,6 +111520,17 @@
 			},
 		},
 		['MaxV'] = 52,
+	},
+	['ResData.ResDT_TeamRangeRule.<RuleParam_bytes>e__FixedBuffer'] = { -- table(90062341)
+		['Methods'] = { -- table(fcfe9c03)
+		},
+		['Fields'] = { -- table(c385e0b8)
+			['FixedElementField'] = { -- table(621de0ae)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_TeamRangeRule'] = { -- table(c4c333ef)
 		['Methods'] = { -- table(4ff81371)
@@ -110844,14 +111550,36 @@
 			},
 			['RuleParam_bytes'] = { -- table(f08a76ed)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_TeamRangeRule.<RuleParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_TeamRangeRule.<RuleParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResDT_LevelGamePlayInfo.<astCoinCompensateDetail_bytes>e__FixedBuffer'] = { -- table(2a5ac157)
+		['Methods'] = { -- table(d681c20d)
+		},
+		['Fields'] = { -- table(976c549a)
+			['FixedElementField'] = { -- table(25d9da20)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDT_LevelGamePlayInfo.<astExpCompensateDetail_bytes>e__FixedBuffer'] = { -- table(d7ba40eb)
+		['Methods'] = { -- table(1f7803b9)
+		},
+		['Fields'] = { -- table(a264e794)
+			['FixedElementField'] = { -- table(d92b9da2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_LevelGamePlayInfo'] = { -- table(62555f65)
 		['Methods'] = { -- table(41f398b)
@@ -110991,19 +111719,19 @@
 			},
 			['astExpCompensateDetail_bytes'] = { -- table(4b6e1d05)
 				['offset'] = 72,
-				['type'] = 'ResData.ResDT_CompensateInfo',
+				['type'] = 'ResData.ResDT_LevelGamePlayInfo.<astExpCompensateDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CompensateInfo',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_LevelGamePlayInfo.<astExpCompensateDetail_bytes>e__FixedBuffer',
 			},
 			['astCoinCompensateDetail_bytes'] = { -- table(29c9a29f)
 				['offset'] = 112,
-				['type'] = 'ResData.ResDT_CompensateInfo',
+				['type'] = 'ResData.ResDT_LevelGamePlayInfo.<astCoinCompensateDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CompensateInfo',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_LevelGamePlayInfo.<astCoinCompensateDetail_bytes>e__FixedBuffer',
 			},
 			['iExtraSkillId'] = { -- table(1955acfd)
 				['offset'] = 152,
@@ -111265,13 +111993,57 @@
 			},
 			['astCampList_bytes'] = { -- table(f7385764)
 				['offset'] = 14,
-				['type'] = 'ResData.ResCampPlayerInfo',
+				['type'] = 'ResData.ResCampPlayerConf.<astCampList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResCampPlayerInfo',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCampPlayerConf.<astCampList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 14,
+	},
+	['ResData.ResRewardMatchTimeInfo.<CycleParm_bytes>e__FixedBuffer'] = { -- table(5716c302)
+		['Methods'] = { -- table(d41349d4)
+		},
+		['Fields'] = { -- table(f1b5fbd5)
+			['FixedElementField'] = { -- table(89f747d5)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRewardMatchTimeInfo.<SignUpCycleParm_bytes>e__FixedBuffer'] = { -- table(93425e42)
+		['Methods'] = { -- table(77478b90)
+		},
+		['Fields'] = { -- table(b4da0d41)
+			['FixedElementField'] = { -- table(bdb70c49)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRewardMatchTimeInfo.<astActTime_bytes>e__FixedBuffer'] = { -- table(ea95302f)
+		['Methods'] = { -- table(86649e49)
+		},
+		['Fields'] = { -- table(259667f2)
+			['FixedElementField'] = { -- table(6923db38)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRewardMatchTimeInfo.<astSignUpActTime_bytes>e__FixedBuffer'] = { -- table(4be19fb)
+		['Methods'] = { -- table(17478229)
+		},
+		['Fields'] = { -- table(1814dbae)
+			['FixedElementField'] = { -- table(59d313ec)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRewardMatchTimeInfo'] = { -- table(e246c9)
 		['Methods'] = { -- table(a96144e7)
@@ -111371,11 +112143,11 @@
 			},
 			['CycleParm_bytes'] = { -- table(c4a0f0f6)
 				['offset'] = 64,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRewardMatchTimeInfo.<CycleParm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRewardMatchTimeInfo.<CycleParm_bytes>e__FixedBuffer',
 			},
 			['bSignUpCycleParmNum'] = { -- table(53dcb030)
 				['offset'] = 92,
@@ -111383,11 +112155,11 @@
 			},
 			['SignUpCycleParm_bytes'] = { -- table(1b1c63ee)
 				['offset'] = 96,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRewardMatchTimeInfo.<SignUpCycleParm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRewardMatchTimeInfo.<SignUpCycleParm_bytes>e__FixedBuffer',
 			},
 			['dwWeekActEndTime'] = { -- table(fd5f9ab)
 				['offset'] = 120,
@@ -111395,19 +112167,19 @@
 			},
 			['astActTime_bytes'] = { -- table(5421f3af)
 				['offset'] = 124,
-				['type'] = 'ResData.ResActTime',
+				['type'] = 'ResData.ResRewardMatchTimeInfo.<astActTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResActTime',
 				['count'] = 7,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRewardMatchTimeInfo.<astActTime_bytes>e__FixedBuffer',
 			},
 			['astSignUpActTime_bytes'] = { -- table(7869f06f)
 				['offset'] = 180,
-				['type'] = 'ResData.ResActTime',
+				['type'] = 'ResData.ResRewardMatchTimeInfo.<astSignUpActTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResActTime',
 				['count'] = 6,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRewardMatchTimeInfo.<astSignUpActTime_bytes>e__FixedBuffer',
 			},
 			['dwRelateOpenWealType'] = { -- table(ed16f91b)
 				['offset'] = 228,
@@ -111493,10 +112265,10 @@
 			},
 			['ResponseTextID_bytes'] = { -- table(a986b475)
 				['offset'] = 56,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroSelectIntelligentTemplateData.<ResponseTextID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSelectIntelligentTemplateData.<ResponseTextID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
@@ -111562,10 +112334,10 @@
 			},
 			['BuyResID_bytes'] = { -- table(a080a1d2)
 				['offset'] = 40,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResShopInfo.<BuyResID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShopInfo.<BuyResID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -111615,19 +112387,52 @@
 			},
 			['HeroList_bytes'] = { -- table(f395f58e)
 				['offset'] = 40,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroProficiencyExemptLimitConf.<HeroList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroProficiencyExemptLimitConf.<HeroList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResCommonSettle.<AntiCheatDetail_bytes>e__FixedBuffer'] = { -- table(49efd37b)
+		['Methods'] = { -- table(4a72436d)
+		},
+		['Fields'] = { -- table(271af2c2)
+			['FixedElementField'] = { -- table(59862aa8)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCommonSettle.<astFirstCompleteReward_bytes>e__FixedBuffer'] = { -- table(70196ba3)
+		['Methods'] = { -- table(65556c85)
+		},
+		['Fields'] = { -- table(44bcef50)
+			['FixedElementField'] = { -- table(5c4c3f46)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCommonSettle.<astRaidsReward_bytes>e__FixedBuffer'] = { -- table(9cf28c17)
 		['Methods'] = { -- table(27465805)
 		},
 		['Fields'] = { -- table(c2278acc)
 			['FixedElementField'] = { -- table(9582fa)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCommonSettle.<astRandomRewardDetail_bytes>e__FixedBuffer'] = { -- table(c69228aa)
+		['Methods'] = { -- table(aab752b0)
+		},
+		['Fields'] = { -- table(19ef8d1f)
+			['FixedElementField'] = { -- table(f1a7e13f)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -111712,37 +112517,48 @@
 			},
 			['AntiCheatDetail_bytes'] = { -- table(660c049b)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCommonSettle.<AntiCheatDetail_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommonSettle.<AntiCheatDetail_bytes>e__FixedBuffer',
 			},
 			['astRandomRewardDetail_bytes'] = { -- table(994f755c)
 				['offset'] = 68,
-				['type'] = 'ResData.ResDT_RewardInfo',
+				['type'] = 'ResData.ResCommonSettle.<astRandomRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardInfo',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommonSettle.<astRandomRewardDetail_bytes>e__FixedBuffer',
 			},
 			['astFirstCompleteReward_bytes'] = { -- table(7068d58d)
 				['offset'] = 88,
-				['type'] = 'ResData.ResDT_RewardInfo',
+				['type'] = 'ResData.ResCommonSettle.<astFirstCompleteReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardInfo',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommonSettle.<astFirstCompleteReward_bytes>e__FixedBuffer',
 			},
 			['astRaidsReward_bytes'] = { -- table(5400319d)
 				['offset'] = 108,
-				['type'] = 'ResData.ResDT_RewardInfo',
+				['type'] = 'ResData.ResCommonSettle.<astRaidsReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardInfo',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommonSettle.<astRaidsReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 108,
+	},
+	['ResData.ResDT_RefreshInfo_List.<RefreshTime_bytes>e__FixedBuffer'] = { -- table(29b6fca0)
+		['Methods'] = { -- table(fb06ad8a)
+		},
+		['Fields'] = { -- table(30dc14e3)
+			['FixedElementField'] = { -- table(fb65bb)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_RefreshInfo_List'] = { -- table(c8499ac9)
 		['Methods'] = { -- table(ccf173cb)
@@ -111762,11 +112578,11 @@
 			},
 			['RefreshTime_bytes'] = { -- table(78123c1c)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDT_RefreshInfo_List.<RefreshTime_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_RefreshInfo_List.<RefreshTime_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -111804,10 +112620,10 @@
 			},
 			['astSubStoreInfo_bytes'] = { -- table(655957ed)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_SubStore_Info',
+				['type'] = 'ResData.ResShopStoreInfo.<astSubStoreInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SubStore_Info',
 				['size'] = 20,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShopStoreInfo.<astSubStoreInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -111828,6 +112644,17 @@
 		},
 		['Fields'] = { -- table(98427718)
 			['FixedElementField'] = { -- table(6929bc4e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.NewbieGuideMainLineConf.<astTriggerTime_bytes>e__FixedBuffer'] = { -- table(25e54e67)
+		['Methods'] = { -- table(7c89545d)
+		},
+		['Fields'] = { -- table(18510b0c)
+			['FixedElementField'] = { -- table(32048f3a)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -111896,23 +112723,23 @@
 			},
 			['astTriggerTime_bytes'] = { -- table(36df4455)
 				['offset'] = 28,
-				['type'] = 'ResData.NewbieGuideTriggerTimeItem',
+				['type'] = 'ResData.NewbieGuideMainLineConf.<astTriggerTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideTriggerTimeItem',
 				['count'] = 3,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideMainLineConf.<astTriggerTime_bytes>e__FixedBuffer',
 			},
 			['astTriggerCondition_bytes'] = { -- table(bfefd3b9)
 				['offset'] = 100,
-				['type'] = 'ResData.NewbieGuideTriggerConditionItem',
+				['type'] = 'ResData.NewbieGuideMainLineConf.<astTriggerCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideTriggerConditionItem',
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideMainLineConf.<astTriggerCondition_bytes>e__FixedBuffer',
 			},
 			['astSkipCondition_bytes'] = { -- table(5060d6f4)
 				['offset'] = 148,
-				['type'] = 'ResData.NewbieGuideSkipConditionItem',
+				['type'] = 'ResData.NewbieGuideMainLineConf.<astSkipCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideSkipConditionItem',
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideMainLineConf.<astSkipCondition_bytes>e__FixedBuffer',
 			},
 			['strIdRemark'] = { -- table(8256ce0e)
 				['offset'] = 184,
@@ -111941,6 +112768,17 @@
 		},
 		['Fields'] = { -- table(2361cd74)
 			['FixedElementField'] = { -- table(84bb3542)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.NewbieWeakGuideMainLineConf.<astTriggerTime_bytes>e__FixedBuffer'] = { -- table(b3b88aff)
+		['Methods'] = { -- table(b96edb0d)
+		},
+		['Fields'] = { -- table(dcfcbfa8)
+			['FixedElementField'] = { -- table(1cdf3dbe)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -112025,23 +112863,23 @@
 			},
 			['astTriggerTime_bytes'] = { -- table(be21fb91)
 				['offset'] = 36,
-				['type'] = 'ResData.NewbieGuideTriggerTimeItem',
+				['type'] = 'ResData.NewbieWeakGuideMainLineConf.<astTriggerTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideTriggerTimeItem',
 				['count'] = 3,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieWeakGuideMainLineConf.<astTriggerTime_bytes>e__FixedBuffer',
 			},
 			['astTriggerCondition_bytes'] = { -- table(b5a3f405)
 				['offset'] = 108,
-				['type'] = 'ResData.NewbieGuideTriggerConditionItem',
+				['type'] = 'ResData.NewbieWeakGuideMainLineConf.<astTriggerCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideTriggerConditionItem',
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieWeakGuideMainLineConf.<astTriggerCondition_bytes>e__FixedBuffer',
 			},
 			['astSkipCondition_bytes'] = { -- table(8e99ce28)
 				['offset'] = 172,
-				['type'] = 'ResData.NewbieGuideSkipConditionItem',
+				['type'] = 'ResData.NewbieWeakGuideMainLineConf.<astSkipCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideSkipConditionItem',
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieWeakGuideMainLineConf.<astSkipCondition_bytes>e__FixedBuffer',
 			},
 			['strIdMaxShowVersion'] = { -- table(856c5f0f)
 				['offset'] = 208,
@@ -112049,6 +112887,28 @@
 			},
 		},
 		['MaxV'] = 208,
+	},
+	['ResData.NewbieGuideScriptConf.<Param_bytes>e__FixedBuffer'] = { -- table(67e4f61d)
+		['Methods'] = { -- table(b61f639b)
+		},
+		['Fields'] = { -- table(e7a071c0)
+			['FixedElementField'] = { -- table(9c01cd56)
+				['offset'] = 8,
+				['type'] = 'System.Int16',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.NewbieGuideScriptConf.<astStrParam_bytes>e__FixedBuffer'] = { -- table(7d86af02)
+		['Methods'] = { -- table(d095fa34)
+		},
+		['Fields'] = { -- table(cfb46dbb)
+			['FixedElementField'] = { -- table(7a398e13)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.NewbieGuideScriptConf'] = { -- table(badfccad)
 		['Methods'] = { -- table(e68aeaa7)
@@ -112088,22 +112948,55 @@
 			},
 			['Param_bytes'] = { -- table(c56053e5)
 				['offset'] = 18,
-				['type'] = 'System.Int16',
+				['type'] = 'ResData.NewbieGuideScriptConf.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int16',
 				['count'] = 11,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideScriptConf.<Param_bytes>e__FixedBuffer',
 			},
 			['astStrParam_bytes'] = { -- table(e20d610)
 				['offset'] = 40,
-				['type'] = 'ResData.NewbieGuideStrParm',
+				['type'] = 'ResData.NewbieGuideScriptConf.<astStrParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideStrParm',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideScriptConf.<astStrParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResKnowledgePointConf.<PlayID_bytes>e__FixedBuffer'] = { -- table(1f672082)
+		['Methods'] = { -- table(cc33d2e0)
+		},
+		['Fields'] = { -- table(22a88ca9)
+			['FixedElementField'] = { -- table(c5e76bb1)
+				['offset'] = 8,
+				['type'] = 'System.UInt16',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResKnowledgePointConf.<astMapList_bytes>e__FixedBuffer'] = { -- table(fd00b361)
+		['Methods'] = { -- table(1b3726f7)
+		},
+		['Fields'] = { -- table(a7d4af7e)
+			['FixedElementField'] = { -- table(3bc4f85c)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResKnowledgePointConf.<szNumOfTimes_bytes>e__FixedBuffer'] = { -- table(2bb96c7b)
+		['Methods'] = { -- table(b4fbc519)
+		},
+		['Fields'] = { -- table(8b381184)
+			['FixedElementField'] = { -- table(59d05432)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResKnowledgePointConf'] = { -- table(7c3b5068)
 		['Methods'] = { -- table(d6c4a2f2)
@@ -112147,11 +113040,11 @@
 			},
 			['astMapList_bytes'] = { -- table(ba20aca7)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_MapUniq',
+				['type'] = 'ResData.ResKnowledgePointConf.<astMapList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MapUniq',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResKnowledgePointConf.<astMapList_bytes>e__FixedBuffer',
 			},
 			['bPointType'] = { -- table(efcb6f9)
 				['offset'] = 60,
@@ -112167,19 +113060,19 @@
 			},
 			['szNumOfTimes_bytes'] = { -- table(9b6da81)
 				['offset'] = 69,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResKnowledgePointConf.<szNumOfTimes_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 9,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResKnowledgePointConf.<szNumOfTimes_bytes>e__FixedBuffer',
 			},
 			['PlayID_bytes'] = { -- table(c9eee0d6)
 				['offset'] = 78,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResKnowledgePointConf.<PlayID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['count'] = 9,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResKnowledgePointConf.<PlayID_bytes>e__FixedBuffer',
 			},
 			['dwEnhanceLevelID'] = { -- table(166a33b1)
 				['offset'] = 96,
@@ -112237,13 +113130,24 @@
 			},
 			['astMapIDList_bytes'] = { -- table(6155bf85)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_MapUniq',
+				['type'] = 'ResData.ResPlayUniqueSkillIDCfg.<astMapIDList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MapUniq',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPlayUniqueSkillIDCfg.<astMapIDList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResDT_TowerState.<Tower_bytes>e__FixedBuffer'] = { -- table(dee7b4a3)
+		['Methods'] = { -- table(84b7bae5)
+		},
+		['Fields'] = { -- table(121114d4)
+			['FixedElementField'] = { -- table(6efa46e2)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_TowerState'] = { -- table(c403ce3f)
 		['Methods'] = { -- table(f41d1855)
@@ -112259,11 +113163,11 @@
 			},
 			['Tower_bytes'] = { -- table(9fdb2781)
 				['offset'] = 8,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_TowerState.<Tower_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 9,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_TowerState.<Tower_bytes>e__FixedBuffer',
 			},
 			['dwEnemyWeight'] = { -- table(9f19eea7)
 				['offset'] = 44,
@@ -112275,6 +113179,17 @@
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.NewbieGuideBannerGuideConf.<astPicPath_bytes>e__FixedBuffer'] = { -- table(4dc2d5c2)
+		['Methods'] = { -- table(8b1a1ca4)
+		},
+		['Fields'] = { -- table(af90db0f)
+			['FixedElementField'] = { -- table(365d4f4f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.NewbieGuideBannerGuideConf'] = { -- table(4c21284)
 		['Methods'] = { -- table(a82461d2)
@@ -112358,11 +113273,11 @@
 			},
 			['astPicPath_bytes'] = { -- table(1cafea4)
 				['offset'] = 72,
-				['type'] = 'ResData.NewbieGuideBannerPicStr',
+				['type'] = 'ResData.NewbieGuideBannerGuideConf.<astPicPath_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideBannerPicStr',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.NewbieGuideBannerGuideConf.<astPicPath_bytes>e__FixedBuffer',
 			},
 			['strIdFadeInAnim'] = { -- table(92303dbb)
 				['offset'] = 112,
@@ -112437,6 +113352,50 @@
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResRankGradeConf.<ConLossScore_bytes>e__FixedBuffer'] = { -- table(c64f334b)
+		['Methods'] = { -- table(ae45a0d5)
+		},
+		['Fields'] = { -- table(e2688632)
+			['FixedElementField'] = { -- table(a4014478)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRankGradeConf.<ConWinScore_bytes>e__FixedBuffer'] = { -- table(cdfa831c)
+		['Methods'] = { -- table(8a4d53ae)
+		},
+		['Fields'] = { -- table(74a51b53)
+			['FixedElementField'] = { -- table(9095090b)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRankGradeConf.<MVPScore_bytes>e__FixedBuffer'] = { -- table(9603f21)
+		['Methods'] = { -- table(14d9076f)
+		},
+		['Fields'] = { -- table(2a318078)
+			['FixedElementField'] = { -- table(b6eb1b6e)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRankGradeConf.<szAIHeroProficiencyLvProbability_bytes>e__FixedBuffer'] = { -- table(65b093fd)
+		['Methods'] = { -- table(af09c323)
+		},
+		['Fields'] = { -- table(d352d1cc)
+			['FixedElementField'] = { -- table(7af187fa)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRankGradeConf'] = { -- table(7ddb6653)
 		['Methods'] = { -- table(962f5b19)
@@ -112668,27 +113627,27 @@
 			},
 			['ConWinScore_bytes'] = { -- table(46987c5c)
 				['offset'] = 176,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRankGradeConf.<ConWinScore_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRankGradeConf.<ConWinScore_bytes>e__FixedBuffer',
 			},
 			['ConLossScore_bytes'] = { -- table(b531801b)
 				['offset'] = 216,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRankGradeConf.<ConLossScore_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRankGradeConf.<ConLossScore_bytes>e__FixedBuffer',
 			},
 			['MVPScore_bytes'] = { -- table(2c4cc419)
 				['offset'] = 256,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRankGradeConf.<MVPScore_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRankGradeConf.<MVPScore_bytes>e__FixedBuffer',
 			},
 			['dwGoldMedalScore'] = { -- table(b7551e40)
 				['offset'] = 296,
@@ -112780,11 +113739,11 @@
 			},
 			['szAIHeroProficiencyLvProbability_bytes'] = { -- table(7c18556d)
 				['offset'] = 384,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResRankGradeConf.<szAIHeroProficiencyLvProbability_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 8,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRankGradeConf.<szAIHeroProficiencyLvProbability_bytes>e__FixedBuffer',
 			},
 			['iDirectAddScore'] = { -- table(34d452b9)
 				['offset'] = 392,
@@ -112808,6 +113767,17 @@
 			},
 		},
 		['MaxV'] = 408,
+	},
+	['ResData.ResMasterGradeConf.<Params_bytes>e__FixedBuffer'] = { -- table(18b25658)
+		['Methods'] = { -- table(20211ffe)
+		},
+		['Fields'] = { -- table(73ee171d)
+			['FixedElementField'] = { -- table(1d8468fd)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMasterGradeConf'] = { -- table(8fcdaefb)
 		['Methods'] = { -- table(f41a998d)
@@ -112887,11 +113857,11 @@
 			},
 			['Params_bytes'] = { -- table(b43c87a2)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResMasterGradeConf.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMasterGradeConf.<Params_bytes>e__FixedBuffer',
 			},
 			['strIdGradeName'] = { -- table(b3342b1a)
 				['offset'] = 56,
@@ -112945,10 +113915,10 @@
 			},
 			['astIncomeMemberArr_bytes'] = { -- table(c313e9fb)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_AllocRuleParam',
+				['type'] = 'ResData.ResDT_IncomeAttackRule.<astIncomeMemberArr_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_AllocRuleParam',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_IncomeAttackRule.<astIncomeMemberArr_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -112986,13 +113956,24 @@
 			},
 			['UnlockParam_bytes'] = { -- table(44f92147)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResUnlockCondition.<UnlockParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUnlockCondition.<UnlockParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResSpecialFucUnlock.<UnlockArray_bytes>e__FixedBuffer'] = { -- table(597b1d2f)
+		['Methods'] = { -- table(88ddf69d)
+		},
+		['Fields'] = { -- table(e9d8e386)
+			['FixedElementField'] = { -- table(69250884)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSpecialFucUnlock'] = { -- table(690e975f)
 		['Methods'] = { -- table(f50ebb65)
@@ -113024,11 +114005,11 @@
 			},
 			['UnlockArray_bytes'] = { -- table(dd364647)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSpecialFucUnlock.<UnlockArray_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSpecialFucUnlock.<UnlockArray_bytes>e__FixedBuffer',
 			},
 			['bIsShowUnlockTip'] = { -- table(5607f6c2)
 				['offset'] = 28,
@@ -113052,6 +114033,17 @@
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResLicenseInfo.<UnlockArray_bytes>e__FixedBuffer'] = { -- table(9b79a9ef)
+		['Methods'] = { -- table(2445b159)
+		},
+		['Fields'] = { -- table(d5a36670)
+			['FixedElementField'] = { -- table(694d6ca6)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLicenseInfo'] = { -- table(86c97e9f)
 		['Methods'] = { -- table(49cb7561)
@@ -113083,11 +114075,11 @@
 			},
 			['UnlockArray_bytes'] = { -- table(c88997b9)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLicenseInfo.<UnlockArray_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLicenseInfo.<UnlockArray_bytes>e__FixedBuffer',
 			},
 			['strIdLicenseName'] = { -- table(72f5621e)
 				['offset'] = 24,
@@ -113127,6 +114119,17 @@
 		},
 		['MaxV'] = 8,
 	},
+	['ResData.ResGuildBuilding.<UpGradeMoney_bytes>e__FixedBuffer'] = { -- table(99ec63a6)
+		['Methods'] = { -- table(4dc9e59c)
+		},
+		['Fields'] = { -- table(f40fc84b)
+			['FixedElementField'] = { -- table(4616fc83)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResGuildBuilding'] = { -- table(80f2aeff)
 		['Methods'] = { -- table(aeb95aa1)
 			['UpGradeMoney'] = { -- table(cefe0af9)
@@ -113157,18 +114160,18 @@
 			},
 			['UpGradeMoney_bytes'] = { -- table(53d36124)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGuildBuilding.<UpGradeMoney_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuildBuilding.<UpGradeMoney_bytes>e__FixedBuffer',
 			},
 			['MaintainMoney_bytes'] = { -- table(f716b977)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGuildBuilding.<MaintainMoney_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuildBuilding.<MaintainMoney_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 52,
@@ -113234,10 +114237,10 @@
 			},
 			['astGuildAddRate_bytes'] = { -- table(735070f6)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_GuildAddRateInfo',
+				['type'] = 'ResData.ResGuildFight.<astGuildAddRate_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_GuildAddRateInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuildFight.<astGuildAddRate_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
@@ -113247,6 +114250,17 @@
 		},
 		['Fields'] = { -- table(5b07c0bd)
 			['FixedElementField'] = { -- table(f5d347dd)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResGuildCombat.<RequiredCombatValue_bytes>e__FixedBuffer'] = { -- table(7ba629c6)
+		['Methods'] = { -- table(9fd96a70)
+		},
+		['Fields'] = { -- table(fb5b8aa9)
+			['FixedElementField'] = { -- table(4fd7c5b1)
 				['offset'] = 8,
 				['type'] = 'System.UInt32',
 			},
@@ -113323,11 +114337,11 @@
 			},
 			['RequiredCombatValue_bytes'] = { -- table(aa2a1b4a)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGuildCombat.<RequiredCombatValue_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 25,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuildCombat.<RequiredCombatValue_bytes>e__FixedBuffer',
 			},
 			['dwBuffExtraParam'] = { -- table(63a4556f)
 				['offset'] = 152,
@@ -113335,10 +114349,10 @@
 			},
 			['BuffParam_bytes'] = { -- table(f58c970e)
 				['offset'] = 156,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGuildCombat.<BuffParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuildCombat.<BuffParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 156,
@@ -113348,6 +114362,17 @@
 		},
 		['Fields'] = { -- table(672cc3e1)
 			['FixedElementField'] = { -- table(24a19a9)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResGuildMatchSeasonReward.<astRewardInfo_bytes>e__FixedBuffer'] = { -- table(ffcd7404)
+		['Methods'] = { -- table(73942132)
+		},
+		['Fields'] = { -- table(917e884d)
+			['FixedElementField'] = { -- table(8029d8cd)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -113384,21 +114409,32 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(74ef1a66)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_GuildMatchSeasonReward',
+				['type'] = 'ResData.ResGuildMatchSeasonReward.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_GuildMatchSeasonReward',
 				['count'] = 5,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuildMatchSeasonReward.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 			['astNextSeasonRewardInfo_bytes'] = { -- table(1baae666)
 				['offset'] = 76,
-				['type'] = 'ResData.ResDT_GuildMatchSeasonReward',
+				['type'] = 'ResData.ResGuildMatchSeasonReward.<astNextSeasonRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_GuildMatchSeasonReward',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuildMatchSeasonReward.<astNextSeasonRewardInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 76,
+	},
+	['ResData.ResGuildHuoYueReward.<astRewardDetail_bytes>e__FixedBuffer'] = { -- table(596ca390)
+		['Methods'] = { -- table(95c63f46)
+		},
+		['Fields'] = { -- table(4b03a0ab)
+			['FixedElementField'] = { -- table(847ee723)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResGuildHuoYueReward'] = { -- table(ad779639)
 		['Methods'] = { -- table(d9e6cf3f)
@@ -113430,11 +114466,12 @@
 			},
 			['astRewardDetail_bytes'] = { -- table(644cccdc)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_GuildHuoYueReward',
+				['type'] = 'ResData.ResGuildHuoYueReward.<astRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_GuildHuoYueReward',
 				['count'] = 3,
 				['size'] = 12,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuildHuoYueReward.<astRewardDetail_bytes>e__FixedBuffer',
 			},
 			['strIdIcon'] = { -- table(c27a93a1)
 				['offset'] = 56,
@@ -113446,6 +114483,17 @@
 			},
 		},
 		['MaxV'] = 64,
+	},
+	['ResData.RedEnvelopeValSelectParam.<astStepParam_bytes>e__FixedBuffer'] = { -- table(ddba5425)
+		['Methods'] = { -- table(6004ce83)
+		},
+		['Fields'] = { -- table(1eef9106)
+			['FixedElementField'] = { -- table(aca14904)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.RedEnvelopeValSelectParam'] = { -- table(5a71613d)
 		['Methods'] = { -- table(689c1a4b)
@@ -113465,14 +114513,25 @@
 			},
 			['astStepParam_bytes'] = { -- table(d8e54b83)
 				['offset'] = 12,
-				['type'] = 'ResData.RedEnvelopeValSelectStepParam',
+				['type'] = 'ResData.RedEnvelopeValSelectParam.<astStepParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.RedEnvelopeValSelectStepParam',
 				['count'] = 2,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.RedEnvelopeValSelectParam.<astStepParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResRobotBattleList.<HeroList_bytes>e__FixedBuffer'] = { -- table(b342b705)
+		['Methods'] = { -- table(ad12ac87)
+		},
+		['Fields'] = { -- table(ec93bc10)
+			['FixedElementField'] = { -- table(4a6c4006)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRobotBattleList'] = { -- table(9bb97f36)
 		['Methods'] = { -- table(51c61928)
@@ -113492,11 +114551,11 @@
 			},
 			['HeroList_bytes'] = { -- table(c5092609)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRobotBattleList.<HeroList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRobotBattleList.<HeroList_bytes>e__FixedBuffer',
 			},
 			['dwPowerLowLimitTTH'] = { -- table(7ebdf2f4)
 				['offset'] = 24,
@@ -113578,13 +114637,90 @@
 			},
 			['SymbolDetail_bytes'] = { -- table(c7319b9d)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRobotPower.<SymbolDetail_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRobotPower.<SymbolDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResHeroCfgInfo.<HeroRelations_bytes>e__FixedBuffer'] = { -- table(d34d180a)
+		['Methods'] = { -- table(bee779cc)
+		},
+		['Fields'] = { -- table(6e252ab1)
+			['FixedElementField'] = { -- table(29245599)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroCfgInfo.<SubSetSkillID_bytes>e__FixedBuffer'] = { -- table(9e16ba1b)
+		['Methods'] = { -- table(901158b9)
+		},
+		['Fields'] = { -- table(79e5f6a8)
+			['FixedElementField'] = { -- table(ed1012be)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroCfgInfo.<astJobFeature_bytes>e__FixedBuffer'] = { -- table(4abe41d8)
+		['Methods'] = { -- table(418df3ba)
+		},
+		['Fields'] = { -- table(5c826a13)
+			['FixedElementField'] = { -- table(36d802cb)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroCfgInfo.<astSkill_bytes>e__FixedBuffer'] = { -- table(73a59636)
+		['Methods'] = { -- table(7c998da8)
+		},
+		['Fields'] = { -- table(a51ca617)
+			['FixedElementField'] = { -- table(6f8ca837)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroCfgInfo.<szExtraColdBranchRoad_bytes>e__FixedBuffer'] = { -- table(7c57b45a)
+		['Methods'] = { -- table(40110af0)
+		},
+		['Fields'] = { -- table(b0a74ed9)
+			['FixedElementField'] = { -- table(47e36081)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroCfgInfo.<szExtraRcdBranchRoad_bytes>e__FixedBuffer'] = { -- table(5e3306b5)
+		['Methods'] = { -- table(fbc80457)
+		},
+		['Fields'] = { -- table(c2cc28)
+			['FixedElementField'] = { -- table(2dab4b3e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroCfgInfo.<szRecmdBranch10v10_bytes>e__FixedBuffer'] = { -- table(18010155)
+		['Methods'] = { -- table(15206907)
+		},
+		['Fields'] = { -- table(651ae6c0)
+			['FixedElementField'] = { -- table(6e31bc56)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroCfgInfo'] = { -- table(416740f6)
 		['Methods'] = { -- table(4b1c2f8)
@@ -113816,11 +114952,11 @@
 			},
 			['szRecmdBranch10v10_bytes'] = { -- table(c7b94739)
 				['offset'] = 73,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResHeroCfgInfo.<szRecmdBranch10v10_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 10,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroCfgInfo.<szRecmdBranch10v10_bytes>e__FixedBuffer',
 			},
 			['bRouteGuideType'] = { -- table(919660b6)
 				['offset'] = 83,
@@ -113832,11 +114968,11 @@
 			},
 			['szExtraRcdBranchRoad_bytes'] = { -- table(ee9c6941)
 				['offset'] = 85,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResHeroCfgInfo.<szExtraRcdBranchRoad_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 2,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroCfgInfo.<szExtraRcdBranchRoad_bytes>e__FixedBuffer',
 			},
 			['bBuffResourceType'] = { -- table(3decb138)
 				['offset'] = 87,
@@ -113968,11 +115104,11 @@
 			},
 			['astSkill_bytes'] = { -- table(e2a546e4)
 				['offset'] = 208,
-				['type'] = 'ResData.ResDT_SkillInfo',
+				['type'] = 'ResData.ResHeroCfgInfo.<astSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillInfo',
 				['count'] = 6,
 				['size'] = 20,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroCfgInfo.<astSkill_bytes>e__FixedBuffer',
 			},
 			['iInitialStar'] = { -- table(47fdd268)
 				['offset'] = 328,
@@ -114052,11 +115188,11 @@
 			},
 			['astJobFeature_bytes'] = { -- table(666a44b8)
 				['offset'] = 392,
-				['type'] = 'ResData.HeroJobFeature',
+				['type'] = 'ResData.ResHeroCfgInfo.<astJobFeature_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.HeroJobFeature',
 				['count'] = 2,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroCfgInfo.<astJobFeature_bytes>e__FixedBuffer',
 			},
 			['bDamageType'] = { -- table(a7e188c8)
 				['offset'] = 408,
@@ -114220,11 +115356,11 @@
 			},
 			['HeroRelations_bytes'] = { -- table(515645a)
 				['offset'] = 624,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroCfgInfo.<HeroRelations_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroCfgInfo.<HeroRelations_bytes>e__FixedBuffer',
 			},
 			['iAiValid'] = { -- table(ba417fa4)
 				['offset'] = 636,
@@ -114272,11 +115408,11 @@
 			},
 			['SubSetSkillID_bytes'] = { -- table(6b9ff8cd)
 				['offset'] = 676,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResHeroCfgInfo.<SubSetSkillID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 12,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroCfgInfo.<SubSetSkillID_bytes>e__FixedBuffer',
 			},
 			['bHideInMinimap'] = { -- table(f86636fd)
 				['offset'] = 724,
@@ -114412,14 +115548,25 @@
 			},
 			['szExtraColdBranchRoad_bytes'] = { -- table(ffe0ac7e)
 				['offset'] = 901,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResHeroCfgInfo.<szExtraColdBranchRoad_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 3,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroCfgInfo.<szExtraColdBranchRoad_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 901,
+	},
+	['ResData.ResFateHeroInfo.<SubFateHeroID_bytes>e__FixedBuffer'] = { -- table(798a285e)
+		['Methods'] = { -- table(7b297cb0)
+		},
+		['Fields'] = { -- table(e390326f)
+			['FixedElementField'] = { -- table(5add74ef)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResFateHeroInfo.<astSubFateHeroPlot_bytes>e__FixedBuffer'] = { -- table(6b0ee0ec)
 		['Methods'] = { -- table(dfc0f6e2)
@@ -114470,21 +115617,32 @@
 			},
 			['SubFateHeroID_bytes'] = { -- table(dff89e54)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResFateHeroInfo.<SubFateHeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFateHeroInfo.<SubFateHeroID_bytes>e__FixedBuffer',
 			},
 			['astSubFateHeroPlot_bytes'] = { -- table(54644ec0)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_CommonString',
+				['type'] = 'ResData.ResFateHeroInfo.<astSubFateHeroPlot_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CommonString',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFateHeroInfo.<astSubFateHeroPlot_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResDT_NewHeroActivityHeroInfo.<astActivityList_bytes>e__FixedBuffer'] = { -- table(88738fd4)
+		['Methods'] = { -- table(1ea8c5ba)
+		},
+		['Fields'] = { -- table(a188b689)
+			['FixedElementField'] = { -- table(b6454351)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_NewHeroActivityHeroInfo'] = { -- table(3b484478)
 		['Methods'] = { -- table(8df555a6)
@@ -114512,11 +115670,12 @@
 			},
 			['astActivityList_bytes'] = { -- table(1a12fbda)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_NewHeroActivityInfo',
+				['type'] = 'ResData.ResDT_NewHeroActivityHeroInfo.<astActivityList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_NewHeroActivityInfo',
 				['count'] = 5,
 				['size'] = 8,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_NewHeroActivityHeroInfo.<astActivityList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -114550,10 +115709,10 @@
 			},
 			['astBuffFightPoint_bytes'] = { -- table(70b91cc5)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_TaoshaFP',
+				['type'] = 'ResData.ResTaoShaBuffFP.<astBuffFightPoint_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TaoshaFP',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTaoShaBuffFP.<astBuffFightPoint_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -114587,10 +115746,10 @@
 			},
 			['astBuffFightPoint_bytes'] = { -- table(929bfc8c)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_TaoshaFP',
+				['type'] = 'ResData.ResTaoShaEquipFP.<astBuffFightPoint_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TaoshaFP',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTaoShaEquipFP.<astBuffFightPoint_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -114600,6 +115759,17 @@
 		},
 		['Fields'] = { -- table(ec6fad08)
 			['FixedElementField'] = { -- table(3c106ade)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroEnergyInfo.<astState_bytes>e__FixedBuffer'] = { -- table(743ece24)
+		['Methods'] = { -- table(8b882806)
+		},
+		['Fields'] = { -- table(796f23b3)
+			['FixedElementField'] = { -- table(b43a172b)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -114684,11 +115854,11 @@
 			},
 			['astState_bytes'] = { -- table(d8f41f8c)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_EnergyState',
+				['type'] = 'ResData.ResHeroEnergyInfo.<astState_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_EnergyState',
 				['count'] = 2,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEnergyInfo.<astState_bytes>e__FixedBuffer',
 			},
 			['iDisplayInterval'] = { -- table(90a30d5b)
 				['offset'] = 96,
@@ -114744,13 +115914,35 @@
 			},
 			['astParams_bytes'] = { -- table(c5372aad)
 				['offset'] = 136,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResHeroEnergyInfo.<astParams_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEnergyInfo.<astParams_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 136,
+	},
+	['ResData.ResHeroJobBuff.<BuffId_bytes>e__FixedBuffer'] = { -- table(695debb9)
+		['Methods'] = { -- table(9df220db)
+		},
+		['Fields'] = { -- table(e733c64c)
+			['FixedElementField'] = { -- table(5756cd7a)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroJobBuff.<astAttr_bytes>e__FixedBuffer'] = { -- table(4ccbee3c)
+		['Methods'] = { -- table(92d56816)
+		},
+		['Fields'] = { -- table(38caf297)
+			['FixedElementField'] = { -- table(2ba575b7)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroJobBuff'] = { -- table(d7ce84e6)
 		['Methods'] = { -- table(a90a5f58)
@@ -114790,19 +115982,19 @@
 			},
 			['astAttr_bytes'] = { -- table(b6946164)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_FuncEft_Obj',
+				['type'] = 'ResData.ResHeroJobBuff.<astAttr_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FuncEft_Obj',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroJobBuff.<astAttr_bytes>e__FixedBuffer',
 			},
 			['BuffId_bytes'] = { -- table(c865ae25)
 				['offset'] = 36,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResHeroJobBuff.<BuffId_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroJobBuff.<BuffId_bytes>e__FixedBuffer',
 			},
 			['iTipsBuffId'] = { -- table(bfebfbc2)
 				['offset'] = 44,
@@ -114818,6 +116010,28 @@
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResHeroDynamicBuff.<BuffId_bytes>e__FixedBuffer'] = { -- table(876c11cb)
+		['Methods'] = { -- table(27477971)
+		},
+		['Fields'] = { -- table(18c2f132)
+			['FixedElementField'] = { -- table(5a55f578)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroDynamicBuff.<astAttr_bytes>e__FixedBuffer'] = { -- table(99409726)
+		['Methods'] = { -- table(d6b01b4)
+		},
+		['Fields'] = { -- table(4dae2ccd)
+			['FixedElementField'] = { -- table(3e522e4d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroDynamicBuff'] = { -- table(f62c76a8)
 		['Methods'] = { -- table(706ca58e)
@@ -114881,19 +116095,19 @@
 			},
 			['astAttr_bytes'] = { -- table(d6b1301a)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_FuncEft_Obj',
+				['type'] = 'ResData.ResHeroDynamicBuff.<astAttr_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FuncEft_Obj',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroDynamicBuff.<astAttr_bytes>e__FixedBuffer',
 			},
 			['BuffId_bytes'] = { -- table(fac4148b)
 				['offset'] = 56,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResHeroDynamicBuff.<BuffId_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroDynamicBuff.<BuffId_bytes>e__FixedBuffer',
 			},
 			['iTipsBuffId'] = { -- table(af129f44)
 				['offset'] = 64,
@@ -114909,6 +116123,28 @@
 			},
 		},
 		['MaxV'] = 80,
+	},
+	['ResData.ResHeroBuff.<BuffId_bytes>e__FixedBuffer'] = { -- table(191e047c)
+		['Methods'] = { -- table(bdfbb5e)
+		},
+		['Fields'] = { -- table(2f1cc1d3)
+			['FixedElementField'] = { -- table(3c2e048b)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroBuff.<astAttr_bytes>e__FixedBuffer'] = { -- table(538494a7)
+		['Methods'] = { -- table(2b7f98d9)
+		},
+		['Fields'] = { -- table(c4e675ee)
+			['FixedElementField'] = { -- table(387aa52c)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroBuff'] = { -- table(6660e79)
 		['Methods'] = { -- table(b37348c3)
@@ -114948,19 +116184,19 @@
 			},
 			['astAttr_bytes'] = { -- table(d66304fb)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_FuncEft_Obj',
+				['type'] = 'ResData.ResHeroBuff.<astAttr_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FuncEft_Obj',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroBuff.<astAttr_bytes>e__FixedBuffer',
 			},
 			['BuffId_bytes'] = { -- table(33b69548)
 				['offset'] = 40,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResHeroBuff.<BuffId_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroBuff.<BuffId_bytes>e__FixedBuffer',
 			},
 			['strIdSelfCampTipAgePath'] = { -- table(acb18eca)
 				['offset'] = 48,
@@ -114972,6 +116208,28 @@
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResHeroShop.<PromotionID_bytes>e__FixedBuffer'] = { -- table(922a1e6b)
+		['Methods'] = { -- table(22e5229d)
+		},
+		['Fields'] = { -- table(d1fa1a2)
+			['FixedElementField'] = { -- table(82ca8e48)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroShop.<astPresentItem_bytes>e__FixedBuffer'] = { -- table(635eea6f)
+		['Methods'] = { -- table(7bf8241)
+		},
+		['Fields'] = { -- table(3db9d63c)
+			['FixedElementField'] = { -- table(b4c84cca)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroShop'] = { -- table(563ac724)
 		['Methods'] = { -- table(b718ae9a)
@@ -115119,11 +116377,11 @@
 			},
 			['PromotionID_bytes'] = { -- table(6189cc7b)
 				['offset'] = 72,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroShop.<PromotionID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroShop.<PromotionID_bytes>e__FixedBuffer',
 			},
 			['dwChgItemCnt'] = { -- table(a1ccfcde)
 				['offset'] = 92,
@@ -115279,11 +116537,11 @@
 			},
 			['astPresentItem_bytes'] = { -- table(f1cb5101)
 				['offset'] = 272,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResHeroShop.<astPresentItem_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroShop.<astPresentItem_bytes>e__FixedBuffer',
 			},
 			['iPresentItemNum'] = { -- table(a78d0498)
 				['offset'] = 308,
@@ -115483,13 +116741,35 @@
 			},
 			['astWhiteList_bytes'] = { -- table(50035047)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_CommonString',
+				['type'] = 'ResData.ResHeroSkinRootBone.<astWhiteList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CommonString',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinRootBone.<astWhiteList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResHeroSkin.<astAttr_bytes>e__FixedBuffer'] = { -- table(7a3ebcf)
+		['Methods'] = { -- table(85649e9)
+		},
+		['Fields'] = { -- table(574da8b2)
+			['FixedElementField'] = { -- table(aae973f8)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroSkin.<astFeature_bytes>e__FixedBuffer'] = { -- table(b4148442)
+		['Methods'] = { -- table(4695c18c)
+		},
+		['Fields'] = { -- table(85fc946d)
+			['FixedElementField'] = { -- table(1992d22d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroSkin'] = { -- table(aa823951)
 		['Methods'] = { -- table(558441d3)
@@ -115669,11 +116949,11 @@
 			},
 			['astAttr_bytes'] = { -- table(a189331f)
 				['offset'] = 76,
-				['type'] = 'ResData.ResDT_FuncEft_Obj',
+				['type'] = 'ResData.ResHeroSkin.<astAttr_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FuncEft_Obj',
 				['count'] = 2,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkin.<astAttr_bytes>e__FixedBuffer',
 			},
 			['dwPresentHeadImg'] = { -- table(4834d065)
 				['offset'] = 92,
@@ -115725,11 +117005,11 @@
 			},
 			['astFeature_bytes'] = { -- table(db314ace)
 				['offset'] = 168,
-				['type'] = 'ResData.ResDT_SkinFeature',
+				['type'] = 'ResData.ResHeroSkin.<astFeature_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkinFeature',
 				['count'] = 30,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkin.<astFeature_bytes>e__FixedBuffer',
 			},
 			['strIdUrl'] = { -- table(4b41fef7)
 				['offset'] = 888,
@@ -116033,6 +117313,28 @@
 		},
 		['MaxV'] = 152,
 	},
+	['ResData.ResHeroSkinExtra.<ARBorder_bytes>e__FixedBuffer'] = { -- table(84b0d9c7)
+		['Methods'] = { -- table(ddf04011)
+		},
+		['Fields'] = { -- table(c97ed306)
+			['FixedElementField'] = { -- table(4c2baf04)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroSkinExtra.<ARPendant_bytes>e__FixedBuffer'] = { -- table(a9397b4f)
+		['Methods'] = { -- table(c1da6695)
+		},
+		['Fields'] = { -- table(ef1eec10)
+			['FixedElementField'] = { -- table(43ccd006)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResHeroSkinExtra.<SharePicID_bytes>e__FixedBuffer'] = { -- table(a1180e9c)
 		['Methods'] = { -- table(a0eb7336)
 		},
@@ -116098,29 +117400,40 @@
 			},
 			['ARBorder_bytes'] = { -- table(3c89c3a7)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroSkinExtra.<ARBorder_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinExtra.<ARBorder_bytes>e__FixedBuffer',
 			},
 			['ARPendant_bytes'] = { -- table(926d5259)
 				['offset'] = 40,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroSkinExtra.<ARPendant_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinExtra.<ARPendant_bytes>e__FixedBuffer',
 			},
 			['SharePicID_bytes'] = { -- table(4f8ec93a)
 				['offset'] = 60,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroSkinExtra.<SharePicID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinExtra.<SharePicID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 60,
+	},
+	['ResData.ResMallAvatarRecommend.<astFeature_bytes>e__FixedBuffer'] = { -- table(c0fc05d8)
+		['Methods'] = { -- table(4d084212)
+		},
+		['Fields'] = { -- table(77062d79)
+			['FixedElementField'] = { -- table(685849e1)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMallAvatarRecommend'] = { -- table(2a75b097)
 		['Methods'] = { -- table(1b0709c1)
@@ -116236,11 +117549,11 @@
 			},
 			['astFeature_bytes'] = { -- table(142f836a)
 				['offset'] = 112,
-				['type'] = 'ResData.ResDT_SkinFeature',
+				['type'] = 'ResData.ResMallAvatarRecommend.<astFeature_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkinFeature',
 				['count'] = 30,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMallAvatarRecommend.<astFeature_bytes>e__FixedBuffer',
 			},
 			['dwCollectionSeasonID'] = { -- table(7e46ece5)
 				['offset'] = 832,
@@ -116318,13 +117631,24 @@
 			},
 			['astRecommend_bytes'] = { -- table(47a5fce)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_MallHotRecommendItem',
+				['type'] = 'ResData.ResMallHotRecommend.<astRecommend_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MallHotRecommendItem',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMallHotRecommend.<astRecommend_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResSeriesSkin.<astSeriesSkinSystemBroadcastKillTextArr_bytes>e__FixedBuffer'] = { -- table(a1be894d)
+		['Methods'] = { -- table(e077b82f)
+		},
+		['Fields'] = { -- table(19c4a99c)
+			['FixedElementField'] = { -- table(41dde6a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSeriesSkin'] = { -- table(d7c2a618)
 		['Methods'] = { -- table(85689ed6)
@@ -116372,11 +117696,11 @@
 			},
 			['astSeriesSkinSystemBroadcastKillTextArr_bytes'] = { -- table(ed3a6b49)
 				['offset'] = 32,
-				['type'] = 'ResData.ResSeriesSkinKillText',
+				['type'] = 'ResData.ResSeriesSkin.<astSeriesSkinSystemBroadcastKillTextArr_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSeriesSkinKillText',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeriesSkin.<astSeriesSkinSystemBroadcastKillTextArr_bytes>e__FixedBuffer',
 			},
 			['strIdSeriesSkinSystemBroadcastBeKilledText'] = { -- table(f5a23e3c)
 				['offset'] = 72,
@@ -116392,6 +117716,28 @@
 			},
 		},
 		['MaxV'] = 88,
+	},
+	['ResData.ResHeroSkinShop.<GroupIds_bytes>e__FixedBuffer'] = { -- table(f0374ef1)
+		['Methods'] = { -- table(9e19b8cf)
+		},
+		['Fields'] = { -- table(2faf1ce2)
+			['FixedElementField'] = { -- table(f39b7c88)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroSkinShop.<PromotionID_bytes>e__FixedBuffer'] = { -- table(9b9731b2)
+		['Methods'] = { -- table(978a7578)
+		},
+		['Fields'] = { -- table(65dd4f5f)
+			['FixedElementField'] = { -- table(8310fc7f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroSkinShop'] = { -- table(30b5b2dd)
 		['Methods'] = { -- table(33ebd25f)
@@ -116595,11 +117941,11 @@
 			},
 			['PromotionID_bytes'] = { -- table(f3cf3140)
 				['offset'] = 124,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroSkinShop.<PromotionID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinShop.<PromotionID_bytes>e__FixedBuffer',
 			},
 			['dwChgItemType'] = { -- table(8e7acad8)
 				['offset'] = 144,
@@ -116791,11 +118137,11 @@
 			},
 			['GroupIds_bytes'] = { -- table(c4dab053)
 				['offset'] = 384,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroSkinShop.<GroupIds_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinShop.<GroupIds_bytes>e__FixedBuffer',
 			},
 			['bLimitType'] = { -- table(bac8612d)
 				['offset'] = 424,
@@ -116917,10 +118263,10 @@
 			},
 			['SkinQuality_bytes'] = { -- table(a36d98ec)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSkinFeature.<SkinQuality_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkinFeature.<SkinQuality_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
@@ -117199,6 +118545,17 @@
 		},
 		['MaxV'] = 160,
 	},
+	['ResData.ResSkinInstallment.<astRecycleItemInfo_bytes>e__FixedBuffer'] = { -- table(30579e21)
+		['Methods'] = { -- table(47aaa2db)
+		},
+		['Fields'] = { -- table(2bb29818)
+			['FixedElementField'] = { -- table(46106f4e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSkinInstallment'] = { -- table(706ede08)
 		['Methods'] = { -- table(be15bc42)
 			['get_szDepositOnTime'] = { -- table(88e760f0)
@@ -117321,11 +118678,11 @@
 			},
 			['astRecycleItemInfo_bytes'] = { -- table(6514541d)
 				['offset'] = 120,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResSkinInstallment.<astRecycleItemInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 6,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkinInstallment.<astRecycleItemInfo_bytes>e__FixedBuffer',
 			},
 			['strIdSkinImageUrl'] = { -- table(3d5fa5f0)
 				['offset'] = 192,
@@ -117337,6 +118694,17 @@
 			},
 		},
 		['MaxV'] = 200,
+	},
+	['ResData.ResWanderShop.<astProducts_bytes>e__FixedBuffer'] = { -- table(852e893e)
+		['Methods'] = { -- table(de09c77c)
+		},
+		['Fields'] = { -- table(1d9bf70b)
+			['FixedElementField'] = { -- table(7356b43)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWanderShop.<astShowICON_bytes>e__FixedBuffer'] = { -- table(3653053e)
 		['Methods'] = { -- table(1b5682b4)
@@ -117391,11 +118759,11 @@
 			},
 			['astProducts_bytes'] = { -- table(d1c13f8c)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_WanderShopProduct',
+				['type'] = 'ResData.ResWanderShop.<astProducts_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WanderShopProduct',
 				['count'] = 10,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWanderShop.<astProducts_bytes>e__FixedBuffer',
 			},
 			['dwSoldOut'] = { -- table(647dc2d5)
 				['offset'] = 136,
@@ -117407,10 +118775,10 @@
 			},
 			['astShowICON_bytes'] = { -- table(2d2868c)
 				['offset'] = 144,
-				['type'] = 'ResData.ResDT_WanderShopICON',
+				['type'] = 'ResData.ResWanderShop.<astShowICON_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WanderShopICON',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWanderShop.<astShowICON_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 144,
@@ -117433,6 +118801,17 @@
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResWealCheckIn.<astReward_bytes>e__FixedBuffer'] = { -- table(3aa08d16)
+		['Methods'] = { -- table(bd0b4804)
+		},
+		['Fields'] = { -- table(43d79409)
+			['FixedElementField'] = { -- table(a53913d1)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWealCheckIn'] = { -- table(b20bec6c)
 		['Methods'] = { -- table(afded9d2)
@@ -117508,11 +118887,11 @@
 			},
 			['astReward_bytes'] = { -- table(f69b77c6)
 				['offset'] = 296,
-				['type'] = 'ResData.ResDT_WealCheckInDay',
+				['type'] = 'ResData.ResWealCheckIn.<astReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealCheckInDay',
 				['count'] = 32,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealCheckIn.<astReward_bytes>e__FixedBuffer',
 			},
 			['bIsShowInMiniApp'] = { -- table(4f34399)
 				['offset'] = 1064,
@@ -117554,13 +118933,35 @@
 			},
 			['Price_bytes'] = { -- table(af0d8655)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResFillInPrice.<Price_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFillInPrice.<Price_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResWealFixedTime.<astMultipleTime_bytes>e__FixedBuffer'] = { -- table(edf51b3c)
+		['Methods'] = { -- table(94de779a)
+		},
+		['Fields'] = { -- table(b1e43f7)
+			['FixedElementField'] = { -- table(182fbe57)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResWealFixedTime.<astPeriod_bytes>e__FixedBuffer'] = { -- table(7d3b5f50)
+		['Methods'] = { -- table(c50fd32e)
+		},
+		['Fields'] = { -- table(4069463b)
+			['FixedElementField'] = { -- table(d601bf93)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWealFixedTime'] = { -- table(326f7e10)
 		['Methods'] = { -- table(b22c9ab2)
@@ -117608,22 +119009,33 @@
 			},
 			['astMultipleTime_bytes'] = { -- table(5c45c124)
 				['offset'] = 272,
-				['type'] = 'ResData.ResDT_DateTime',
+				['type'] = 'ResData.ResWealFixedTime.<astMultipleTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DateTime',
 				['count'] = 3,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealFixedTime.<astMultipleTime_bytes>e__FixedBuffer',
 			},
 			['astPeriod_bytes'] = { -- table(42cd9818)
 				['offset'] = 392,
-				['type'] = 'ResData.ResDT_WealFixedTimeReward',
+				['type'] = 'ResData.ResWealFixedTime.<astPeriod_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealFixedTimeReward',
 				['count'] = 32,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealFixedTime.<astPeriod_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 392,
+	},
+	['ResData.ResDT_WealMultiplePeriod.<astRewardType_bytes>e__FixedBuffer'] = { -- table(ae3237d7)
+		['Methods'] = { -- table(ce536cf9)
+		},
+		['Fields'] = { -- table(25b448c)
+			['FixedElementField'] = { -- table(330733ba)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_WealMultiplePeriod'] = { -- table(9609f389)
 		['Methods'] = { -- table(bd5bcc1b)
@@ -117679,14 +119091,36 @@
 			},
 			['astRewardType_bytes'] = { -- table(576f4fa1)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_WealMultipleReward',
+				['type'] = 'ResData.ResDT_WealMultiplePeriod.<astRewardType_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealMultipleReward',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_WealMultiplePeriod.<astRewardType_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResDT_WealConInfo.<JumpParam_bytes>e__FixedBuffer'] = { -- table(a3a5f270)
+		['Methods'] = { -- table(dd705d1e)
+		},
+		['Fields'] = { -- table(34fb07c1)
+			['FixedElementField'] = { -- table(72643c9)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDT_WealConInfo.<ReachConParam_bytes>e__FixedBuffer'] = { -- table(21010b11)
+		['Methods'] = { -- table(3caaaef)
+		},
+		['Fields'] = { -- table(907b4c54)
+			['FixedElementField'] = { -- table(ef044562)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_WealConInfo'] = { -- table(acc4f9bc)
 		['Methods'] = { -- table(db75be9a)
@@ -117726,11 +119160,11 @@
 			},
 			['ReachConParam_bytes'] = { -- table(374cf285)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_WealConInfo.<ReachConParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 12,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_WealConInfo.<ReachConParam_bytes>e__FixedBuffer',
 			},
 			['dwFixedRewardID'] = { -- table(8206e0d4)
 				['offset'] = 72,
@@ -117754,11 +119188,11 @@
 			},
 			['JumpParam_bytes'] = { -- table(5d0356e2)
 				['offset'] = 92,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_WealConInfo.<JumpParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_WealConInfo.<JumpParam_bytes>e__FixedBuffer',
 			},
 			['bRewardObj'] = { -- table(c564855f)
 				['offset'] = 100,
@@ -117980,6 +119414,17 @@
 		},
 		['MaxV'] = 104,
 	},
+	['ResData.ResDT_WealConMask.<szMaskBits_bytes>e__FixedBuffer'] = { -- table(765a79e4)
+		['Methods'] = { -- table(2a7862f2)
+		},
+		['Fields'] = { -- table(df49a4ef)
+			['FixedElementField'] = { -- table(6c5b946f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDT_WealConMask'] = { -- table(4e63a78)
 		['Methods'] = { -- table(d32e14aa)
 			['szMaskBits'] = { -- table(99ca3363)
@@ -117998,14 +119443,25 @@
 			},
 			['szMaskBits_bytes'] = { -- table(6b670768)
 				['offset'] = 10,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResDT_WealConMask.<szMaskBits_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 16,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_WealConMask.<szMaskBits_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 10,
+	},
+	['ResData.ResWealStorageActivity.<astStorageActivity_bytes>e__FixedBuffer'] = { -- table(d1f05b12)
+		['Methods'] = { -- table(5a5b7b8)
+		},
+		['Fields'] = { -- table(3ecd54c7)
+			['FixedElementField'] = { -- table(8c56b87)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWealStorageActivity'] = { -- table(12edfdfb)
 		['Methods'] = { -- table(2ceb3249)
@@ -118029,11 +119485,12 @@
 			},
 			['astStorageActivity_bytes'] = { -- table(63589cdc)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_WealStorageActivityInfo',
+				['type'] = 'ResData.ResWealStorageActivity.<astStorageActivity_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealStorageActivityInfo',
 				['count'] = 5,
 				['size'] = 8,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealStorageActivity.<astStorageActivity_bytes>e__FixedBuffer',
 			},
 			['stCommon'] = { -- table(d388f472)
 				['offset'] = 56,
@@ -118161,6 +119618,17 @@
 		},
 		['MaxV'] = 352,
 	},
+	['ResData.ResWealParam.<NextId_bytes>e__FixedBuffer'] = { -- table(4edcc95d)
+		['Methods'] = { -- table(eae3163f)
+		},
+		['Fields'] = { -- table(67f915cc)
+			['FixedElementField'] = { -- table(300993fa)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResWealParam.<Param_bytes>e__FixedBuffer'] = { -- table(dd2954f2)
 		['Methods'] = { -- table(5be91b8)
 		},
@@ -118202,11 +119670,11 @@
 			},
 			['NextId_bytes'] = { -- table(30830795)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResWealParam.<NextId_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealParam.<NextId_bytes>e__FixedBuffer',
 			},
 			['bParamType'] = { -- table(7de16ff2)
 				['offset'] = 36,
@@ -118218,13 +119686,24 @@
 			},
 			['Param_bytes'] = { -- table(700a08d2)
 				['offset'] = 44,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResWealParam.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealParam.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
+	},
+	['ResData.ResWealExchange.<astColItemInfo_bytes>e__FixedBuffer'] = { -- table(35fa9470)
+		['Methods'] = { -- table(20328c5a)
+		},
+		['Fields'] = { -- table(16b0a7b7)
+			['FixedElementField'] = { -- table(19553617)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWealExchange'] = { -- table(7b750e60)
 		['Methods'] = { -- table(1f845bd6)
@@ -118280,11 +119759,12 @@
 			},
 			['astColItemInfo_bytes'] = { -- table(186056c8)
 				['offset'] = 280,
-				['type'] = 'ResData.ResDT_Item_Info',
+				['type'] = 'ResData.ResWealExchange.<astColItemInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Item_Info',
 				['count'] = 3,
 				['size'] = 12,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealExchange.<astColItemInfo_bytes>e__FixedBuffer',
 			},
 			['strIdTagName'] = { -- table(32144824)
 				['offset'] = 320,
@@ -118296,6 +119776,17 @@
 			},
 		},
 		['MaxV'] = 328,
+	},
+	['ResData.ResWealPointExchange.<astExchangeInfo_bytes>e__FixedBuffer'] = { -- table(e18aaf08)
+		['Methods'] = { -- table(12072dee)
+		},
+		['Fields'] = { -- table(35cd76d7)
+			['FixedElementField'] = { -- table(c2d87ef7)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWealPointExchange'] = { -- table(1e1cc23c)
 		['Methods'] = { -- table(ee9c3b3e)
@@ -118343,11 +119834,11 @@
 			},
 			['astExchangeInfo_bytes'] = { -- table(ad556284)
 				['offset'] = 276,
-				['type'] = 'ResData.ResDT_PointExchange',
+				['type'] = 'ResData.ResWealPointExchange.<astExchangeInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PointExchange',
 				['count'] = 15,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealPointExchange.<astExchangeInfo_bytes>e__FixedBuffer',
 			},
 			['bIsEndClr'] = { -- table(a505f723)
 				['offset'] = 636,
@@ -118355,6 +119846,28 @@
 			},
 		},
 		['MaxV'] = 636,
+	},
+	['ResData.ResWealStep.<WealParam_bytes>e__FixedBuffer'] = { -- table(27312cb6)
+		['Methods'] = { -- table(b25dfc5c)
+		},
+		['Fields'] = { -- table(3f3b2d2f)
+			['FixedElementField'] = { -- table(c39e06af)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResWealStep.<astStepInfo_bytes>e__FixedBuffer'] = { -- table(fb0cb42)
+		['Methods'] = { -- table(18e47a4)
+		},
+		['Fields'] = { -- table(fd0df18b)
+			['FixedElementField'] = { -- table(3e7a2c3)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWealStep'] = { -- table(1ab90d0f)
 		['Methods'] = { -- table(c2c1ef6d)
@@ -118418,11 +119931,11 @@
 			},
 			['WealParam_bytes'] = { -- table(37b236c0)
 				['offset'] = 272,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResWealStep.<WealParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealStep.<WealParam_bytes>e__FixedBuffer',
 			},
 			['bIsMailLeftReward'] = { -- table(c9a5ce2d)
 				['offset'] = 296,
@@ -118442,11 +119955,11 @@
 			},
 			['astStepInfo_bytes'] = { -- table(184f28d0)
 				['offset'] = 300,
-				['type'] = 'ResData.ResDT_WealStep_Info',
+				['type'] = 'ResData.ResWealStep.<astStepInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealStep_Info',
 				['count'] = 7,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealStep.<astStepInfo_bytes>e__FixedBuffer',
 			},
 			['strIdMailTitle'] = { -- table(85964f83)
 				['offset'] = 384,
@@ -118520,10 +120033,10 @@
 			},
 			['astCircleInfo_bytes'] = { -- table(cb8133f5)
 				['offset'] = 280,
-				['type'] = 'ResData.ResDT_WealStepLogin_Circle',
+				['type'] = 'ResData.ResWealStepLogin.<astCircleInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealStepLogin_Circle',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealStepLogin.<astCircleInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 280,
@@ -118603,6 +120116,17 @@
 		},
 		['MaxV'] = 304,
 	},
+	['ResData.ResWealInfoSync.<astEvEntIDS_bytes>e__FixedBuffer'] = { -- table(69b43acf)
+		['Methods'] = { -- table(e70708e1)
+		},
+		['Fields'] = { -- table(92aabce2)
+			['FixedElementField'] = { -- table(96b05c88)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResWealInfoSync'] = { -- table(9630dcfa)
 		['Methods'] = { -- table(ff7c441c)
 			['get_szSeriesID'] = { -- table(942ceba0)
@@ -118657,11 +120181,11 @@
 			},
 			['astEvEntIDS_bytes'] = { -- table(c27e4dab)
 				['offset'] = 24,
-				['type'] = 'ResData.WealEventID',
+				['type'] = 'ResData.ResWealInfoSync.<astEvEntIDS_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.WealEventID',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealInfoSync.<astEvEntIDS_bytes>e__FixedBuffer',
 			},
 			['strIdWealName'] = { -- table(1ecb9e69)
 				['offset'] = 64,
@@ -118747,10 +120271,32 @@
 			},
 			['astYStampInfo_bytes'] = { -- table(727437d8)
 				['offset'] = 8,
-				['type'] = 'ResData.ResDT_WealStamp_CellInfo',
+				['type'] = 'ResData.Rest_WealStamp_XStampInfo.<astYStampInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealStamp_CellInfo',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.Rest_WealStamp_XStampInfo.<astYStampInfo_bytes>e__FixedBuffer',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ShenFuInfo.<astPickFilterContionParam_bytes>e__FixedBuffer'] = { -- table(8897f5e8)
+		['Methods'] = { -- table(72c40fde)
+		},
+		['Fields'] = { -- table(5bbe720b)
+			['FixedElementField'] = { -- table(84274c43)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ShenFuInfo.<astPickFilterContionType_bytes>e__FixedBuffer'] = { -- table(45dc5c2f)
+		['Methods'] = { -- table(4b999135)
+		},
+		['Fields'] = { -- table(8f2cc17e)
+			['FixedElementField'] = { -- table(5a2ace5c)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
 			},
 		},
 		['MaxV'] = 8,
@@ -118893,19 +120439,19 @@
 			},
 			['astPickFilterContionType_bytes'] = { -- table(1b60391f)
 				['offset'] = 96,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ShenFuInfo.<astPickFilterContionType_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ShenFuInfo.<astPickFilterContionType_bytes>e__FixedBuffer',
 			},
 			['astPickFilterContionParam_bytes'] = { -- table(e3c8319c)
 				['offset'] = 104,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ShenFuInfo.<astPickFilterContionParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ShenFuInfo.<astPickFilterContionParam_bytes>e__FixedBuffer',
 			},
 			['strIdMinimapIconPath'] = { -- table(4c057f6f)
 				['offset'] = 112,
@@ -118917,6 +120463,17 @@
 			},
 		},
 		['MaxV'] = 120,
+	},
+	['ResData.CharmLib.<astCharmId_bytes>e__FixedBuffer'] = { -- table(397c499d)
+		['Methods'] = { -- table(c8faab3)
+		},
+		['Fields'] = { -- table(68c78ccc)
+			['FixedElementField'] = { -- table(a28e28fa)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.CharmLib.<astProbability_bytes>e__FixedBuffer'] = { -- table(944fa06e)
 		['Methods'] = { -- table(317d37bc)
@@ -118971,21 +120528,32 @@
 			},
 			['astCharmId_bytes'] = { -- table(99c33d69)
 				['offset'] = 28,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.CharmLib.<astCharmId_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 70,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.CharmLib.<astCharmId_bytes>e__FixedBuffer',
 			},
 			['astProbability_bytes'] = { -- table(cd054884)
 				['offset'] = 308,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.CharmLib.<astProbability_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.CharmLib.<astProbability_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 308,
+	},
+	['ResData.InteractItemInfo.<astShenfuDrop_bytes>e__FixedBuffer'] = { -- table(a98e07e8)
+		['Methods'] = { -- table(e5295cea)
+		},
+		['Fields'] = { -- table(76c23333)
+			['FixedElementField'] = { -- table(13e21dab)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.InteractItemInfo'] = { -- table(49ca0a53)
 		['Methods'] = { -- table(1d6a0c3d)
@@ -119069,11 +120637,11 @@
 			},
 			['astShenfuDrop_bytes'] = { -- table(e8694fa8)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_ShenfuDrop',
+				['type'] = 'ResData.InteractItemInfo.<astShenfuDrop_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ShenfuDrop',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.InteractItemInfo.<astShenfuDrop_bytes>e__FixedBuffer',
 			},
 			['bLODHDShow'] = { -- table(9feeb458)
 				['offset'] = 104,
@@ -119097,6 +120665,17 @@
 			},
 		},
 		['MaxV'] = 108,
+	},
+	['ResData.ResAchievement.<astReward_bytes>e__FixedBuffer'] = { -- table(442220ad)
+		['Methods'] = { -- table(895d6adb)
+		},
+		['Fields'] = { -- table(aacf1efa)
+			['FixedElementField'] = { -- table(4b89340)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResAchievement'] = { -- table(b3411447)
 		['Methods'] = { -- table(35fbc30d)
@@ -119192,11 +120771,11 @@
 			},
 			['astReward_bytes'] = { -- table(5c68b2af)
 				['offset'] = 76,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResAchievement.<astReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAchievement.<astReward_bytes>e__FixedBuffer',
 			},
 			['bShowProcess'] = { -- table(f83c1f10)
 				['offset'] = 112,
@@ -119212,6 +120791,17 @@
 			['FixedElementField'] = { -- table(ff7e0cc8)
 				['offset'] = 8,
 				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPosTitleConf.<astCondList_bytes>e__FixedBuffer'] = { -- table(58e24ab5)
+		['Methods'] = { -- table(c29c63df)
+		},
+		['Fields'] = { -- table(5d3e5428)
+			['FixedElementField'] = { -- table(6418633e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
 			},
 		},
 		['MaxV'] = 8,
@@ -119286,11 +120876,11 @@
 			},
 			['astCondList_bytes'] = { -- table(5087b549)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_PosTitleCond',
+				['type'] = 'ResData.ResPosTitleConf.<astCondList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PosTitleCond',
 				['count'] = 10,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosTitleConf.<astCondList_bytes>e__FixedBuffer',
 			},
 			['dwShakeNum'] = { -- table(7f20e9fc)
 				['offset'] = 464,
@@ -119298,10 +120888,10 @@
 			},
 			['ShakeList_bytes'] = { -- table(51991187)
 				['offset'] = 468,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPosTitleConf.<ShakeList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosTitleConf.<ShakeList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 468,
@@ -119351,13 +120941,35 @@
 			},
 			['Param_bytes'] = { -- table(f9ef7b64)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_PosTitleCond_SubCond.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_PosTitleCond_SubCond.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
+	},
+	['ResData.ResTrophyLvl.<astMailReward_bytes>e__FixedBuffer'] = { -- table(95cca32b)
+		['Methods'] = { -- table(7ee71f49)
+		},
+		['Fields'] = { -- table(db9f81e8)
+			['FixedElementField'] = { -- table(d80c77fe)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTrophyLvl.<astReqReward_bytes>e__FixedBuffer'] = { -- table(6a928312)
+		['Methods'] = { -- table(301fec88)
+		},
+		['Fields'] = { -- table(1d338bb3)
+			['FixedElementField'] = { -- table(b1c7cf2b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTrophyLvl'] = { -- table(3f8983a0)
 		['Methods'] = { -- table(459b66ae)
@@ -119401,22 +121013,45 @@
 			},
 			['astMailReward_bytes'] = { -- table(d0052e1d)
 				['offset'] = 28,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResTrophyLvl.<astMailReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTrophyLvl.<astMailReward_bytes>e__FixedBuffer',
 			},
 			['astReqReward_bytes'] = { -- table(e474798c)
 				['offset'] = 64,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResTrophyLvl.<astReqReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTrophyLvl.<astReqReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 64,
+	},
+	['ResData.ResPosFightValue2Grade.<PosFightValueHeadImgID_bytes>e__FixedBuffer'] = { -- table(21bfe1fe)
+		['Methods'] = { -- table(5a1d71dc)
+		},
+		['Fields'] = { -- table(c3b61967)
+			['FixedElementField'] = { -- table(bd2956e7)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPosFightValue2Grade.<PosFightValueIconID_bytes>e__FixedBuffer'] = { -- table(d48c1ec8)
+		['Methods'] = { -- table(60a36a62)
+		},
+		['Fields'] = { -- table(187bc473)
+			['FixedElementField'] = { -- table(9f738feb)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPosFightValue2Grade.<PosFightValueSignature_bytes>e__FixedBuffer'] = { -- table(ddcba020)
 		['Methods'] = { -- table(609b15da)
@@ -119467,29 +121102,62 @@
 			},
 			['PosFightValueHeadImgID_bytes'] = { -- table(7c43058c)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPosFightValue2Grade.<PosFightValueHeadImgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosFightValue2Grade.<PosFightValueHeadImgID_bytes>e__FixedBuffer',
 			},
 			['PosFightValueIconID_bytes'] = { -- table(5eb27e4c)
 				['offset'] = 36,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPosFightValue2Grade.<PosFightValueIconID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosFightValue2Grade.<PosFightValueIconID_bytes>e__FixedBuffer',
 			},
 			['PosFightValueSignature_bytes'] = { -- table(546ef526)
 				['offset'] = 56,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPosFightValue2Grade.<PosFightValueSignature_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosFightValue2Grade.<PosFightValueSignature_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResPosFightValue2Lv.<PosFightValueHeadImgID_bytes>e__FixedBuffer'] = { -- table(f751efcf)
+		['Methods'] = { -- table(dd6c3d0d)
+		},
+		['Fields'] = { -- table(1082c22c)
+			['FixedElementField'] = { -- table(7134699a)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPosFightValue2Lv.<PosFightValueIconID_bytes>e__FixedBuffer'] = { -- table(c08d078b)
+		['Methods'] = { -- table(f67fea75)
+		},
+		['Fields'] = { -- table(702e0952)
+			['FixedElementField'] = { -- table(b0be2858)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPosFightValue2Lv.<PosFightValueSignature_bytes>e__FixedBuffer'] = { -- table(81b499c1)
+		['Methods'] = { -- table(f7763333)
+		},
+		['Fields'] = { -- table(1eae2eea)
+			['FixedElementField'] = { -- table(cfd44050)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPosFightValue2Lv'] = { -- table(afbf13b7)
 		['Methods'] = { -- table(7839d001)
@@ -119533,27 +121201,27 @@
 			},
 			['PosFightValueHeadImgID_bytes'] = { -- table(3ef477a5)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPosFightValue2Lv.<PosFightValueHeadImgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosFightValue2Lv.<PosFightValueHeadImgID_bytes>e__FixedBuffer',
 			},
 			['PosFightValueIconID_bytes'] = { -- table(42445583)
 				['offset'] = 40,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPosFightValue2Lv.<PosFightValueIconID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosFightValue2Lv.<PosFightValueIconID_bytes>e__FixedBuffer',
 			},
 			['PosFightValueSignature_bytes'] = { -- table(50ecec6b)
 				['offset'] = 60,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPosFightValue2Lv.<PosFightValueSignature_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosFightValue2Lv.<PosFightValueSignature_bytes>e__FixedBuffer',
 			},
 			['dwSingleHeroLimitScore'] = { -- table(19b78980)
 				['offset'] = 80,
@@ -119561,6 +121229,17 @@
 			},
 		},
 		['MaxV'] = 80,
+	},
+	['ResData.ResSkillUnlock.<PassiveSkillID_bytes>e__FixedBuffer'] = { -- table(cfab1f19)
+		['Methods'] = { -- table(a1669ba3)
+		},
+		['Fields'] = { -- table(a87bcb1c)
+			['FixedElementField'] = { -- table(340fbaea)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSkillUnlock'] = { -- table(dfddfdd5)
 		['Methods'] = { -- table(4a804ab7)
@@ -119596,11 +121275,11 @@
 			},
 			['PassiveSkillID_bytes'] = { -- table(283fe6b1)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSkillUnlock.<PassiveSkillID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillUnlock.<PassiveSkillID_bytes>e__FixedBuffer',
 			},
 			['strIdIntroVedioURL'] = { -- table(3ef316a2)
 				['offset'] = 32,
@@ -119674,10 +121353,10 @@
 			},
 			['LevelActIDs_bytes'] = { -- table(70bdc27a)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResVipFestivalCfg.<LevelActIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResVipFestivalCfg.<LevelActIDs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -119743,13 +121422,24 @@
 			},
 			['astResList_bytes'] = { -- table(5b8834b5)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_VipRes',
+				['type'] = 'ResData.ResVipRotate.<astResList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_VipRes',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResVipRotate.<astResList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
+	},
+	['ResData.ResVipLobbyEntryRule.<szFrequencyParam_bytes>e__FixedBuffer'] = { -- table(c0c8636a)
+		['Methods'] = { -- table(5cc54660)
+		},
+		['Fields'] = { -- table(a71a778b)
+			['FixedElementField'] = { -- table(103f14c3)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResVipLobbyEntryRule'] = { -- table(d273ae71)
 		['Methods'] = { -- table(4123a5d7)
@@ -119805,11 +121495,11 @@
 			},
 			['szFrequencyParam_bytes'] = { -- table(89b91b34)
 				['offset'] = 45,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResVipLobbyEntryRule.<szFrequencyParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 3,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResVipLobbyEntryRule.<szFrequencyParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 45,
@@ -119843,13 +121533,35 @@
 			},
 			['astRewardDetail_bytes'] = { -- table(c749cec8)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_ChapterRewardInfo',
+				['type'] = 'ResData.ResRankRewardConf.<astRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChapterRewardInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRankRewardConf.<astRewardDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResMasterRewardConf.<Params_bytes>e__FixedBuffer'] = { -- table(c831da48)
+		['Methods'] = { -- table(fccbcb16)
+		},
+		['Fields'] = { -- table(f8567117)
+			['FixedElementField'] = { -- table(3acd7937)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResMasterRewardConf.<astRewardDetail_bytes>e__FixedBuffer'] = { -- table(309670f2)
+		['Methods'] = { -- table(2c1bdebc)
+		},
+		['Fields'] = { -- table(7f7257d3)
+			['FixedElementField'] = { -- table(7ef5a68b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMasterRewardConf'] = { -- table(96cdcc0b)
 		['Methods'] = { -- table(44625555)
@@ -119885,19 +121597,19 @@
 			},
 			['Params_bytes'] = { -- table(1e3381b4)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResMasterRewardConf.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMasterRewardConf.<Params_bytes>e__FixedBuffer',
 			},
 			['astRewardDetail_bytes'] = { -- table(6901b864)
 				['offset'] = 24,
-				['type'] = 'ResData.ResMasterRewardDetailInfo',
+				['type'] = 'ResData.ResMasterRewardConf.<astRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResMasterRewardDetailInfo',
 				['count'] = 5,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMasterRewardConf.<astRewardDetail_bytes>e__FixedBuffer',
 			},
 			['bIsLastSeasonReward'] = { -- table(2a2de052)
 				['offset'] = 184,
@@ -119925,6 +121637,17 @@
 			},
 		},
 		['MaxV'] = 208,
+	},
+	['ResData.ResMasterRewardShowConf.<Params_bytes>e__FixedBuffer'] = { -- table(d3ec30fb)
+		['Methods'] = { -- table(aa4c1f55)
+		},
+		['Fields'] = { -- table(3d2696f4)
+			['FixedElementField'] = { -- table(9dfa89c2)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMasterRewardShowConf'] = { -- table(372fd85e)
 		['Methods'] = { -- table(bc949bc)
@@ -119980,11 +121703,11 @@
 			},
 			['Params_bytes'] = { -- table(353c135)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResMasterRewardShowConf.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMasterRewardShowConf.<Params_bytes>e__FixedBuffer',
 			},
 			['bIsPercent'] = { -- table(f5d4fe50)
 				['offset'] = 32,
@@ -120120,10 +121843,10 @@
 			},
 			['astReward_bytes'] = { -- table(411524d3)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_LuckyDrawExternReward',
+				['type'] = 'ResData.ResLuckyDrawExternReward.<astReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LuckyDrawExternReward',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLuckyDrawExternReward.<astReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -120165,10 +121888,10 @@
 			},
 			['astNumberLevel_bytes'] = { -- table(601ea8a5)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_LuckyNumberLevel',
+				['type'] = 'ResData.ResLuckyNumberLevel.<astNumberLevel_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LuckyNumberLevel',
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLuckyNumberLevel.<astNumberLevel_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -120214,10 +121937,10 @@
 			},
 			['PassiveRmvSkillFuncID_bytes'] = { -- table(679889d)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPassiveSkill.<PassiveRmvSkillFuncID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPassiveSkill.<PassiveRmvSkillFuncID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
@@ -120263,10 +121986,10 @@
 			},
 			['EquipIDArray_bytes'] = { -- table(99964bc1)
 				['offset'] = 24,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResHeroEquipLibraryInBattle.<EquipIDArray_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEquipLibraryInBattle.<EquipIDArray_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -120276,6 +121999,28 @@
 		},
 		['Fields'] = { -- table(42150b1f)
 			['FixedElementField'] = { -- table(9bb7bb3f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPVESuit.<astEffectCombine_bytes>e__FixedBuffer'] = { -- table(28ccd17d)
+		['Methods'] = { -- table(69914cf3)
+		},
+		['Fields'] = { -- table(fc93c324)
+			['FixedElementField'] = { -- table(ced32b92)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPVESuit.<astPassiveSkill_bytes>e__FixedBuffer'] = { -- table(5a956899)
+		['Methods'] = { -- table(bbb089ab)
+		},
+		['Fields'] = { -- table(4fec801a)
+			['FixedElementField'] = { -- table(da71f4a0)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -120348,19 +122093,20 @@
 			},
 			['astPassiveSkill_bytes'] = { -- table(c11211b)
 				['offset'] = 36,
-				['type'] = 'ResData.ResSuitPassiveSkill',
+				['type'] = 'ResData.ResPVESuit.<astPassiveSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSuitPassiveSkill',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPVESuit.<astPassiveSkill_bytes>e__FixedBuffer',
 			},
 			['astEffectCombine_bytes'] = { -- table(8fa8a1d)
 				['offset'] = 60,
-				['type'] = 'ResData.ResSuitEffectCombine',
+				['type'] = 'ResData.ResPVESuit.<astEffectCombine_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSuitEffectCombine',
 				['count'] = 3,
 				['size'] = 8,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPVESuit.<astEffectCombine_bytes>e__FixedBuffer',
 			},
 			['strIdDesc'] = { -- table(465ec0a6)
 				['offset'] = 88,
@@ -120368,10 +122114,10 @@
 			},
 			['astActiveSkill_bytes'] = { -- table(b3f04710)
 				['offset'] = 96,
-				['type'] = 'ResData.ResActiveSkill',
+				['type'] = 'ResData.ResPVESuit.<astActiveSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResActiveSkill',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPVESuit.<astActiveSkill_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 96,
@@ -120405,10 +122151,10 @@
 			},
 			['MutexEquipID_bytes'] = { -- table(a34f7b80)
 				['offset'] = 10,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResMutexEquipInfo.<MutexEquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMutexEquipInfo.<MutexEquipID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 10,
@@ -120442,10 +122188,10 @@
 			},
 			['EquipID_bytes'] = { -- table(7452c864)
 				['offset'] = 10,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResMutexEquipGroup.<EquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMutexEquipGroup.<EquipID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 10,
@@ -120479,10 +122225,10 @@
 			},
 			['Weight_bytes'] = { -- table(dd2b79b4)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroEquipPriceTypeWeight.<Weight_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEquipPriceTypeWeight.<Weight_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -120544,10 +122290,10 @@
 			},
 			['RecommendEquipID_bytes'] = { -- table(3654089)
 				['offset'] = 40,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResRecommendEquipInBattle.<RecommendEquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRecommendEquipInBattle.<RecommendEquipID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -120617,10 +122363,10 @@
 			},
 			['RecommendEquipID_bytes'] = { -- table(9a498b7c)
 				['offset'] = 48,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResProfessionalEquipInBattle.<RecommendEquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProfessionalEquipInBattle.<RecommendEquipID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
@@ -120658,10 +122404,10 @@
 			},
 			['EquipId_bytes'] = { -- table(62adf432)
 				['offset'] = 14,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResRecommendEquipSimple.<EquipId_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRecommendEquipSimple.<EquipId_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 14,
@@ -120723,10 +122469,10 @@
 			},
 			['astPeriodInfo_bytes'] = { -- table(f3b617d5)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_HuoYueDuReward_PeriodInfo',
+				['type'] = 'ResData.ResHuoYueDuReward.<astPeriodInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HuoYueDuReward_PeriodInfo',
 				['size'] = 48,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHuoYueDuReward.<astPeriodInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -120776,10 +122522,10 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(295c6e75)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_LevelReward_Info',
+				['type'] = 'ResData.ResPvpLevelReward.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LevelReward_Info',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPvpLevelReward.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -120813,10 +122559,10 @@
 			},
 			['astLockInfo_bytes'] = { -- table(17cfb68)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_LevelReward_UnlockInfo',
+				['type'] = 'ResData.ResPvpLevelUnlockInfo.<astLockInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LevelReward_UnlockInfo',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPvpLevelUnlockInfo.<astLockInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -120854,13 +122600,24 @@
 			},
 			['SkillId_bytes'] = { -- table(ee45a771)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResFakeAcntSkill.<SkillId_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFakeAcntSkill.<SkillId_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResFakeAcntHero.<SkinID_bytes>e__FixedBuffer'] = { -- table(a9bb28ee)
+		['Methods'] = { -- table(297e76dc)
+		},
+		['Fields'] = { -- table(25c9f9e1)
+			['FixedElementField'] = { -- table(21ca9ba9)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResFakeAcntHero'] = { -- table(3d490aef)
 		['Methods'] = { -- table(2389a1cd)
@@ -120884,11 +122641,11 @@
 			},
 			['SkinID_bytes'] = { -- table(36306e66)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResFakeAcntHero.<SkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFakeAcntHero.<SkinID_bytes>e__FixedBuffer',
 			},
 			['dwSkinRate'] = { -- table(cc294840)
 				['offset'] = 36,
@@ -120934,13 +122691,24 @@
 			},
 			['astHeroList_bytes'] = { -- table(224b762d)
 				['offset'] = 24,
-				['type'] = 'ResData.ResAIHeroInfo',
+				['type'] = 'ResData.ResAIHeroCfg.<astHeroList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResAIHeroInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAIHeroCfg.<astHeroList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResOneKeyAwardInfo.<OneKeyAwardParam_bytes>e__FixedBuffer'] = { -- table(13788be8)
+		['Methods'] = { -- table(46748ee)
+		},
+		['Fields'] = { -- table(ab588501)
+			['FixedElementField'] = { -- table(8abed409)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResOneKeyAwardInfo'] = { -- table(cbaa82ec)
 		['Methods'] = { -- table(85f961f6)
@@ -120972,11 +122740,11 @@
 			},
 			['OneKeyAwardParam_bytes'] = { -- table(7def66fa)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOneKeyAwardInfo.<OneKeyAwardParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOneKeyAwardInfo.<OneKeyAwardParam_bytes>e__FixedBuffer',
 			},
 			['strIdAwardName'] = { -- table(15b64fb3)
 				['offset'] = 56,
@@ -121038,10 +122806,10 @@
 			},
 			['astBanHero_bytes'] = { -- table(83f1274d)
 				['offset'] = 24,
-				['type'] = 'ResData.ResBanHeroDetail',
+				['type'] = 'ResData.ResBanHeroConf.<astBanHero_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResBanHeroDetail',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBanHeroConf.<astBanHero_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -121079,10 +122847,10 @@
 			},
 			['BanHero_bytes'] = { -- table(cca4d4b6)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveBanHeroConf.<BanHero_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveBanHeroConf.<BanHero_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -121135,13 +122903,24 @@
 			},
 			['astRewardItem_bytes'] = { -- table(e314ed9c)
 				['offset'] = 16,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResRewardMatchReward.<astRewardItem_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRewardMatchReward.<astRewardItem_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResHonor.<astHonorLevel_bytes>e__FixedBuffer'] = { -- table(39eb94e1)
+		['Methods'] = { -- table(d04155ab)
+		},
+		['Fields'] = { -- table(7bb93b5a)
+			['FixedElementField'] = { -- table(809f7ce0)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHonor'] = { -- table(1b7a9af0)
 		['Methods'] = { -- table(98e7e3e2)
@@ -121177,11 +122956,11 @@
 			},
 			['astHonorLevel_bytes'] = { -- table(f78ae51b)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_HonorLevel_Info',
+				['type'] = 'ResData.ResHonor.<astHonorLevel_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HonorLevel_Info',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHonor.<astHonorLevel_bytes>e__FixedBuffer',
 			},
 			['dwIsOff'] = { -- table(6ed117bb)
 				['offset'] = 48,
@@ -121322,10 +123101,10 @@
 			},
 			['astVideoArray_bytes'] = { -- table(bb8b5bf3)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_VideoClipPlaySetting',
+				['type'] = 'ResData.ResLobbyBottomVideoConfig.<astVideoArray_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_VideoClipPlaySetting',
 				['size'] = 48,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLobbyBottomVideoConfig.<astVideoArray_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -121477,6 +123256,17 @@
 		},
 		['MaxV'] = 176,
 	},
+	['ResData.ResSpecialHandShake.<Params_bytes>e__FixedBuffer'] = { -- table(91b854bd)
+		['Methods'] = { -- table(2eb61383)
+		},
+		['Fields'] = { -- table(257c977a)
+			['FixedElementField'] = { -- table(39ca4c0)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSpecialHandShake'] = { -- table(eeea9914)
 		['Methods'] = { -- table(7e8740f6)
 			['get_szHandShakeTipsTxt'] = { -- table(c64f7507)
@@ -121563,11 +123353,11 @@
 			},
 			['Params_bytes'] = { -- table(5ddd415b)
 				['offset'] = 16,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResSpecialHandShake.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSpecialHandShake.<Params_bytes>e__FixedBuffer',
 			},
 			['bIsDefaultHandShake'] = { -- table(dd4228c3)
 				['offset'] = 36,
@@ -121639,6 +123429,28 @@
 			},
 		},
 		['MaxV'] = 160,
+	},
+	['ResData.ResCreditValueReward.<astBonusItemInfo_bytes>e__FixedBuffer'] = { -- table(e16e6c80)
+		['Methods'] = { -- table(83867a6)
+		},
+		['Fields'] = { -- table(ae301b81)
+			['FixedElementField'] = { -- table(4cb29f89)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCreditValueReward.<astCanGetRewardInfo_bytes>e__FixedBuffer'] = { -- table(db545c35)
+		['Methods'] = { -- table(66f9eb8f)
+		},
+		['Fields'] = { -- table(54704996)
+			['FixedElementField'] = { -- table(4318eb34)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCreditValueReward'] = { -- table(84e58cbd)
 		['Methods'] = { -- table(dbc3c1af)
@@ -121790,11 +123602,11 @@
 			},
 			['astCanGetRewardInfo_bytes'] = { -- table(5de3522f)
 				['offset'] = 112,
-				['type'] = 'ResData.ResDT_CreditValueRewardItem',
+				['type'] = 'ResData.ResCreditValueReward.<astCanGetRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CreditValueRewardItem',
 				['count'] = 3,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCreditValueReward.<astCanGetRewardInfo_bytes>e__FixedBuffer',
 			},
 			['iBonusNum'] = { -- table(5f5594c8)
 				['offset'] = 184,
@@ -121806,11 +123618,11 @@
 			},
 			['astBonusItemInfo_bytes'] = { -- table(b2d76c3a)
 				['offset'] = 200,
-				['type'] = 'ResData.ResDT_CreditValueBonusItem',
+				['type'] = 'ResData.ResCreditValueReward.<astBonusItemInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CreditValueBonusItem',
 				['count'] = 15,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCreditValueReward.<astBonusItemInfo_bytes>e__FixedBuffer',
 			},
 			['strIdLevelTextTips'] = { -- table(35a74a23)
 				['offset'] = 680,
@@ -121908,10 +123720,10 @@
 			},
 			['astIntervals_bytes'] = { -- table(d2af14b5)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_DigitFloatInterval',
+				['type'] = 'ResData.ResDigitFloatTextCfgInfo.<astIntervals_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DigitFloatInterval',
 				['size'] = 20,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDigitFloatTextCfgInfo.<astIntervals_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 64,
@@ -121989,13 +123801,35 @@
 			},
 			['Params_bytes'] = { -- table(79f379bf)
 				['offset'] = 56,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResBattleInteraction.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleInteraction.<Params_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResProj8CardStrategy.<astPreCondBattle_bytes>e__FixedBuffer'] = { -- table(72eb1bbc)
+		['Methods'] = { -- table(fe58d8ea)
+		},
+		['Fields'] = { -- table(ac488db1)
+			['FixedElementField'] = { -- table(61416e99)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResProj8CardStrategy.<astPreCondSystem_bytes>e__FixedBuffer'] = { -- table(316b3f51)
+		['Methods'] = { -- table(6d3efbd3)
+		},
+		['Fields'] = { -- table(127ee19c)
+			['FixedElementField'] = { -- table(731e066a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResProj8CardStrategy'] = { -- table(e350207e)
 		['Methods'] = { -- table(8e8641a0)
@@ -122039,19 +123873,19 @@
 			},
 			['astPreCondSystem_bytes'] = { -- table(f14d89cd)
 				['offset'] = 16,
-				['type'] = 'ResData.Proj8CardStrategyCond',
+				['type'] = 'ResData.ResProj8CardStrategy.<astPreCondSystem_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.Proj8CardStrategyCond',
 				['count'] = 2,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProj8CardStrategy.<astPreCondSystem_bytes>e__FixedBuffer',
 			},
 			['astPreCondBattle_bytes'] = { -- table(74061016)
 				['offset'] = 48,
-				['type'] = 'ResData.Proj8CardStrategyCond',
+				['type'] = 'ResData.ResProj8CardStrategy.<astPreCondBattle_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.Proj8CardStrategyCond',
 				['count'] = 4,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProj8CardStrategy.<astPreCondBattle_bytes>e__FixedBuffer',
 			},
 			['wRate'] = { -- table(4827a01c)
 				['offset'] = 112,
@@ -122117,10 +123951,10 @@
 			},
 			['astFilterCond_bytes'] = { -- table(ce80794c)
 				['offset'] = 12,
-				['type'] = 'ResData.Proj8CardStrategyCond',
+				['type'] = 'ResData.ResProj8CardFilter.<astFilterCond_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.Proj8CardStrategyCond',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProj8CardFilter.<astFilterCond_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -122166,10 +124000,10 @@
 			},
 			['astRangeConfigs_bytes'] = { -- table(d342f333)
 				['offset'] = 12,
-				['type'] = 'ResData.ResSpeedAdjustRangeConfig',
+				['type'] = 'ResData.ResSpeedAdjustConfig.<astRangeConfigs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSpeedAdjustRangeConfig',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSpeedAdjustConfig.<astRangeConfigs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -122223,13 +124057,35 @@
 			},
 			['astRangeConfigs_bytes'] = { -- table(543dd8a)
 				['offset'] = 20,
-				['type'] = 'ResData.ResSpeedAdjustRangeConfig',
+				['type'] = 'ResData.ResActorPropertyAdjustConfig.<astRangeConfigs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSpeedAdjustRangeConfig',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResActorPropertyAdjustConfig.<astRangeConfigs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
+	},
+	['ResData.ResPkAIMatchTime.<CycleParam_bytes>e__FixedBuffer'] = { -- table(fee02925)
+		['Methods'] = { -- table(5add15b7)
+		},
+		['Fields'] = { -- table(5ad88e48)
+			['FixedElementField'] = { -- table(8cca511e)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPkAIMatchTime.<astActTime_bytes>e__FixedBuffer'] = { -- table(5475bd9b)
+		['Methods'] = { -- table(b4baf0a1)
+		},
+		['Fields'] = { -- table(5c2c318a)
+			['FixedElementField'] = { -- table(98e0ca30)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPkAIMatchTime'] = { -- table(613f31f5)
 		['Methods'] = { -- table(5269203f)
@@ -122269,19 +124125,19 @@
 			},
 			['CycleParam_bytes'] = { -- table(8d949d95)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPkAIMatchTime.<CycleParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPkAIMatchTime.<CycleParam_bytes>e__FixedBuffer',
 			},
 			['astActTime_bytes'] = { -- table(e6b8b6c7)
 				['offset'] = 36,
-				['type'] = 'ResData.ResActTime',
+				['type'] = 'ResData.ResPkAIMatchTime.<astActTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResActTime',
 				['count'] = 7,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPkAIMatchTime.<astActTime_bytes>e__FixedBuffer',
 			},
 			['bCycleType'] = { -- table(ede3ea86)
 				['offset'] = 92,
@@ -122318,6 +124174,17 @@
 		},
 		['MaxV'] = 120,
 	},
+	['ResData.ResDevicFuncConfigInfo.<szFunctions_bytes>e__FixedBuffer'] = { -- table(1399c72a)
+		['Methods'] = { -- table(24c999c0)
+		},
+		['Fields'] = { -- table(2b424f59)
+			['FixedElementField'] = { -- table(d32a8a01)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDevicFuncConfigInfo'] = { -- table(780dd1bf)
 		['Methods'] = { -- table(762eb1bd)
 			['get_szDeviceName'] = { -- table(aead1144)
@@ -122352,11 +124219,11 @@
 			},
 			['szFunctions_bytes'] = { -- table(dd5e8902)
 				['offset'] = 24,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResDevicFuncConfigInfo.<szFunctions_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 16,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDevicFuncConfigInfo.<szFunctions_bytes>e__FixedBuffer',
 			},
 			['fMemoryUseMax'] = { -- table(1ef2d062)
 				['offset'] = 40,
@@ -122410,13 +124277,24 @@
 			},
 			['PopularityParam_bytes'] = { -- table(ff02115e)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPopularity.<PopularityParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPopularity.<PopularityParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResDistrictNameConvertInfo.<astCommunityList_bytes>e__FixedBuffer'] = { -- table(4f9606b4)
+		['Methods'] = { -- table(84c95db6)
+		},
+		['Fields'] = { -- table(c2c6a305)
+			['FixedElementField'] = { -- table(8534f3a5)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDistrictNameConvertInfo'] = { -- table(2e5cee30)
 		['Methods'] = { -- table(3ff57a5a)
@@ -122500,11 +124378,11 @@
 			},
 			['astCommunityList_bytes'] = { -- table(5e62aeea)
 				['offset'] = 80,
-				['type'] = 'ResData.ResCommunityInfo',
+				['type'] = 'ResData.ResDistrictNameConvertInfo.<astCommunityList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResCommunityInfo',
 				['count'] = 10,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDistrictNameConvertInfo.<astCommunityList_bytes>e__FixedBuffer',
 			},
 			['dwFakeAIAdCode'] = { -- table(64bfeb1d)
 				['offset'] = 240,
@@ -122524,6 +124402,28 @@
 			},
 		},
 		['MaxV'] = 256,
+	},
+	['ResData.ResSkillMultiIndicatorCfgInfo.<Params_bytes>e__FixedBuffer'] = { -- table(1548cbbc)
+		['Methods'] = { -- table(c86ed81e)
+		},
+		['Fields'] = { -- table(c72816bf)
+			['FixedElementField'] = { -- table(bd5a4f9f)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSkillMultiIndicatorCfgInfo.<astIndicatorInfo_bytes>e__FixedBuffer'] = { -- table(b8cd0a45)
+		['Methods'] = { -- table(a296ce57)
+		},
+		['Fields'] = { -- table(1a41dede)
+			['FixedElementField'] = { -- table(10f8c4fc)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSkillMultiIndicatorCfgInfo'] = { -- table(a3516f3f)
 		['Methods'] = { -- table(63200f2d)
@@ -122555,22 +124455,33 @@
 			},
 			['Params_bytes'] = { -- table(b33ebc5c)
 				['offset'] = 16,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResSkillMultiIndicatorCfgInfo.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillMultiIndicatorCfgInfo.<Params_bytes>e__FixedBuffer',
 			},
 			['astIndicatorInfo_bytes'] = { -- table(829611b)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_SkillMultiIndicatorInfo',
+				['type'] = 'ResData.ResSkillMultiIndicatorCfgInfo.<astIndicatorInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillMultiIndicatorInfo',
 				['count'] = 4,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillMultiIndicatorCfgInfo.<astIndicatorInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResSkillSpecialDynamicIndicatorCfgInfo.<astIndicatorInfo_bytes>e__FixedBuffer'] = { -- table(7f9543f4)
+		['Methods'] = { -- table(71423082)
+		},
+		['Fields'] = { -- table(a2a3e849)
+			['FixedElementField'] = { -- table(b7075b11)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSkillSpecialDynamicIndicatorCfgInfo'] = { -- table(3e2d8df4)
 		['Methods'] = { -- table(b2b06f4e)
@@ -122590,14 +124501,25 @@
 			},
 			['astIndicatorInfo_bytes'] = { -- table(24eccfe2)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_SkillSpecialDynamicIndicatorInfo',
+				['type'] = 'ResData.ResSkillSpecialDynamicIndicatorCfgInfo.<astIndicatorInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillSpecialDynamicIndicatorInfo',
 				['count'] = 3,
 				['size'] = 28,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillSpecialDynamicIndicatorCfgInfo.<astIndicatorInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResPerfEftInfo.<BindHeroSkinID_bytes>e__FixedBuffer'] = { -- table(8585b6ca)
+		['Methods'] = { -- table(d78712dc)
+		},
+		['Fields'] = { -- table(2bc83a27)
+			['FixedElementField'] = { -- table(830341a7)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPerfEftInfo'] = { -- table(85ee4e0c)
 		['Methods'] = { -- table(b119e406)
@@ -122721,11 +124643,11 @@
 			},
 			['BindHeroSkinID_bytes'] = { -- table(e8185180)
 				['offset'] = 92,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPerfEftInfo.<BindHeroSkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPerfEftInfo.<BindHeroSkinID_bytes>e__FixedBuffer',
 			},
 			['bUseType'] = { -- table(49f265e6)
 				['offset'] = 132,
@@ -122782,6 +124704,28 @@
 		},
 		['MaxV'] = 196,
 	},
+	['ResData.ResGuideTaskDescConf.<astTaskBriefContent_bytes>e__FixedBuffer'] = { -- table(374ea899)
+		['Methods'] = { -- table(b7d7a1c7)
+		},
+		['Fields'] = { -- table(55ebee1a)
+			['FixedElementField'] = { -- table(c96a9ea0)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResGuideTaskDescConf.<astTaskContent_bytes>e__FixedBuffer'] = { -- table(44241e83)
+		['Methods'] = { -- table(86687939)
+		},
+		['Fields'] = { -- table(47df107a)
+			['FixedElementField'] = { -- table(6535dfc0)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResGuideTaskDescConf'] = { -- table(848bf706)
 		['Methods'] = { -- table(de3fe85c)
 			['get_szTaskTitle'] = { -- table(6465f231)
@@ -122820,11 +124764,11 @@
 			},
 			['astTaskContent_bytes'] = { -- table(2c147b9f)
 				['offset'] = 16,
-				['type'] = 'ResData.ResGuideTaskDescText',
+				['type'] = 'ResData.ResGuideTaskDescConf.<astTaskContent_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResGuideTaskDescText',
 				['count'] = 2,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuideTaskDescConf.<astTaskContent_bytes>e__FixedBuffer',
 			},
 			['strIdTaskBriefTitle'] = { -- table(c8408efa)
 				['offset'] = 32,
@@ -122832,11 +124776,11 @@
 			},
 			['astTaskBriefContent_bytes'] = { -- table(7995dad7)
 				['offset'] = 40,
-				['type'] = 'ResData.ResGuideTaskDescText',
+				['type'] = 'ResData.ResGuideTaskDescConf.<astTaskBriefContent_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResGuideTaskDescText',
 				['count'] = 2,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuideTaskDescConf.<astTaskBriefContent_bytes>e__FixedBuffer',
 			},
 			['iImageName'] = { -- table(b02546e2)
 				['offset'] = 56,
@@ -122882,10 +124826,10 @@
 			},
 			['Param_bytes'] = { -- table(6327ca3)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ComboGuideFailContidionConf.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ComboGuideFailContidionConf.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -122919,13 +124863,24 @@
 			},
 			['Parm_bytes'] = { -- table(de67ee5d)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ComboGuideCompleteConditionConf.<Parm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ComboGuideCompleteConditionConf.<Parm_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.GuideTaskConditionConf.<Parm_bytes>e__FixedBuffer'] = { -- table(83138fcb)
+		['Methods'] = { -- table(c089d6ed)
+		},
+		['Fields'] = { -- table(46fa29f6)
+			['FixedElementField'] = { -- table(5c1440d4)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.GuideTaskConditionConf'] = { -- table(44eb4a12)
 		['Methods'] = { -- table(4445f2fc)
@@ -122945,11 +124900,11 @@
 			},
 			['Parm_bytes'] = { -- table(e2ac5b)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.GuideTaskConditionConf.<Parm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.GuideTaskConditionConf.<Parm_bytes>e__FixedBuffer',
 			},
 			['dwTargetVal'] = { -- table(5a66383c)
 				['offset'] = 20,
@@ -122991,13 +124946,35 @@
 			},
 			['astGameStepReward_bytes'] = { -- table(679a10fa)
 				['offset'] = 24,
-				['type'] = 'ResData.ResCompetitionRewardItem',
+				['type'] = 'ResData.ResCompetitionReward.<astGameStepReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResCompetitionRewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCompetitionReward.<astGameStepReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResESportsTripartite.<RewardItemIDs_bytes>e__FixedBuffer'] = { -- table(19453c45)
+		['Methods'] = { -- table(297e8167)
+		},
+		['Fields'] = { -- table(5edc788a)
+			['FixedElementField'] = { -- table(9d5bcf30)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResESportsTripartite.<astRewardInfo_bytes>e__FixedBuffer'] = { -- table(fbdb452e)
+		['Methods'] = { -- table(d553cd2c)
+		},
+		['Fields'] = { -- table(567647d)
+			['FixedElementField'] = { -- table(52800a9d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResESportsTripartite'] = { -- table(6e9fa444)
 		['Methods'] = { -- table(bb88b096)
@@ -123137,19 +125114,19 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(59805c16)
 				['offset'] = 128,
-				['type'] = 'ResData.ResTriRewardInfo',
+				['type'] = 'ResData.ResESportsTripartite.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResTriRewardInfo',
 				['count'] = 5,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResESportsTripartite.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 			['RewardItemIDs_bytes'] = { -- table(df9ce19b)
 				['offset'] = 188,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResESportsTripartite.<RewardItemIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResESportsTripartite.<RewardItemIDs_bytes>e__FixedBuffer',
 			},
 			['dwThemeBadge'] = { -- table(b9d0e11e)
 				['offset'] = 208,
@@ -123169,6 +125146,28 @@
 			},
 		},
 		['MaxV'] = 224,
+	},
+	['ResData.ResESportsNationalStageInfo.<Awards_bytes>e__FixedBuffer'] = { -- table(82f5f425)
+		['Methods'] = { -- table(fac514ab)
+		},
+		['Fields'] = { -- table(91275efa)
+			['FixedElementField'] = { -- table(56555340)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResESportsNationalStageInfo.<astQualificationInfo_bytes>e__FixedBuffer'] = { -- table(b979df10)
+		['Methods'] = { -- table(9716ac3a)
+		},
+		['Fields'] = { -- table(d468c1df)
+			['FixedElementField'] = { -- table(a6a51bff)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResESportsNationalStageInfo'] = { -- table(78eaa38)
 		['Methods'] = { -- table(6d767906)
@@ -123216,11 +125215,11 @@
 			},
 			['astQualificationInfo_bytes'] = { -- table(a782f8b0)
 				['offset'] = 32,
-				['type'] = 'ResData.ResStageQualificationInfo',
+				['type'] = 'ResData.ResESportsNationalStageInfo.<astQualificationInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResStageQualificationInfo',
 				['count'] = 5,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResESportsNationalStageInfo.<astQualificationInfo_bytes>e__FixedBuffer',
 			},
 			['dwPromotionQualification'] = { -- table(f7a4c90e)
 				['offset'] = 152,
@@ -123228,11 +125227,11 @@
 			},
 			['Awards_bytes'] = { -- table(e1ccf66f)
 				['offset'] = 156,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResESportsNationalStageInfo.<Awards_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResESportsNationalStageInfo.<Awards_bytes>e__FixedBuffer',
 			},
 			['dwReviveCardID'] = { -- table(df2fbf36)
 				['offset'] = 176,
@@ -123240,6 +125239,17 @@
 			},
 		},
 		['MaxV'] = 176,
+	},
+	['ResData.ResESportsNationalTeamStageInfo.<astStepSettleInfo_bytes>e__FixedBuffer'] = { -- table(21c6927b)
+		['Methods'] = { -- table(28a9db9)
+		},
+		['Fields'] = { -- table(42b0cd9e)
+			['FixedElementField'] = { -- table(61e696bc)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResESportsNationalTeamStageInfo'] = { -- table(ff9706a3)
 		['Methods'] = { -- table(596817b1)
@@ -123291,11 +125301,11 @@
 			},
 			['astStepSettleInfo_bytes'] = { -- table(743d8067)
 				['offset'] = 44,
-				['type'] = 'ResData.ResStepSettleInfo',
+				['type'] = 'ResData.ResESportsNationalTeamStageInfo.<astStepSettleInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResStepSettleInfo',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResESportsNationalTeamStageInfo.<astStepSettleInfo_bytes>e__FixedBuffer',
 			},
 			['dwPromotionRank'] = { -- table(a8053626)
 				['offset'] = 68,
@@ -123303,6 +125313,17 @@
 			},
 		},
 		['MaxV'] = 68,
+	},
+	['ResData.ResDT_BadgeComInfo.<astPrivilige_bytes>e__FixedBuffer'] = { -- table(f85f179)
+		['Methods'] = { -- table(5c0453c7)
+		},
+		['Fields'] = { -- table(ff7f0998)
+			['FixedElementField'] = { -- table(3bab3bce)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_BadgeComInfo'] = { -- table(203c1bdd)
 		['Methods'] = { -- table(28b7c247)
@@ -123318,11 +125339,11 @@
 			},
 			['astPrivilige_bytes'] = { -- table(2a5da201)
 				['offset'] = 8,
-				['type'] = 'ResData.ResDT_ThemeBadgePrivilige',
+				['type'] = 'ResData.ResDT_BadgeComInfo.<astPrivilige_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ThemeBadgePrivilige',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_BadgeComInfo.<astPrivilige_bytes>e__FixedBuffer',
 			},
 			['dwSettleFactor'] = { -- table(f10e1e3f)
 				['offset'] = 48,
@@ -123400,13 +125421,24 @@
 			},
 			['astKeywords_bytes'] = { -- table(f777e520)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_EsportsCertiKeywords',
+				['type'] = 'ResData.ResEsportsCertiKeywords.<astKeywords_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_EsportsCertiKeywords',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEsportsCertiKeywords.<astKeywords_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResESportsScoreAward.<astHighAward_bytes>e__FixedBuffer'] = { -- table(5d37abd9)
+		['Methods'] = { -- table(a3238eef)
+		},
+		['Fields'] = { -- table(a423fe10)
+			['FixedElementField'] = { -- table(2d49a606)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResESportsScoreAward.<astLowAward_bytes>e__FixedBuffer'] = { -- table(c1933ac5)
 		['Methods'] = { -- table(a37248c3)
@@ -123461,21 +125493,32 @@
 			},
 			['astHighAward_bytes'] = { -- table(ea80f5ed)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResESportsScoreAward.<astHighAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResESportsScoreAward.<astHighAward_bytes>e__FixedBuffer',
 			},
 			['astLowAward_bytes'] = { -- table(25fe582b)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResESportsScoreAward.<astLowAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResESportsScoreAward.<astLowAward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResQuestionBankRule.<astSeekHelpRule_bytes>e__FixedBuffer'] = { -- table(140968f4)
+		['Methods'] = { -- table(66403ea6)
+		},
+		['Fields'] = { -- table(a31776c5)
+			['FixedElementField'] = { -- table(39a67565)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResQuestionBankRule'] = { -- table(b0729a9c)
 		['Methods'] = { -- table(817ff3fe)
@@ -123543,11 +125586,11 @@
 			},
 			['astSeekHelpRule_bytes'] = { -- table(557016)
 				['offset'] = 30,
-				['type'] = 'ResData.ResDT_QuestionSeekHelpRule',
+				['type'] = 'ResData.ResQuestionBankRule.<astSeekHelpRule_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_QuestionSeekHelpRule',
 				['count'] = 9,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResQuestionBankRule.<astSeekHelpRule_bytes>e__FixedBuffer',
 			},
 			['strIdBgPic'] = { -- table(5f9198c2)
 				['offset'] = 48,
@@ -123591,6 +125634,17 @@
 			},
 		},
 		['MaxV'] = 85,
+	},
+	['ResData.ResQuestionCli.<astOptions_bytes>e__FixedBuffer'] = { -- table(3885acc7)
+		['Methods'] = { -- table(c665c609)
+		},
+		['Fields'] = { -- table(11d13762)
+			['FixedElementField'] = { -- table(d0e81408)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResQuestionCli'] = { -- table(13f7e106)
 		['Methods'] = { -- table(c163f6d0)
@@ -123638,11 +125692,11 @@
 			},
 			['astOptions_bytes'] = { -- table(a6faf1b7)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_QuestionOption',
+				['type'] = 'ResData.ResQuestionCli.<astOptions_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_QuestionOption',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResQuestionCli.<astOptions_bytes>e__FixedBuffer',
 			},
 			['dwRightAnswer'] = { -- table(2b4aeddc)
 				['offset'] = 64,
@@ -123700,10 +125754,10 @@
 			},
 			['astAward_bytes'] = { -- table(ae033dcb)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResQuestionAward.<astAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResQuestionAward.<astAward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -123765,13 +125819,24 @@
 			},
 			['astOptions_bytes'] = { -- table(12605d43)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_HeroRecommendQuestionOption',
+				['type'] = 'ResData.ResHeroRecommendQuestionCfg.<astOptions_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroRecommendQuestionOption',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroRecommendQuestionCfg.<astOptions_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResLevelSwitch.<DyingHpReduceRate_bytes>e__FixedBuffer'] = { -- table(67b8804e)
+		['Methods'] = { -- table(2a5bf664)
+		},
+		['Fields'] = { -- table(37086751)
+			['FixedElementField'] = { -- table(642deff9)
+				['offset'] = 8,
+				['type'] = 'System.UInt16',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLevelSwitch'] = { -- table(4a4d4d96)
 		['Methods'] = { -- table(bb8faea0)
@@ -123831,11 +125896,11 @@
 			},
 			['DyingHpReduceRate_bytes'] = { -- table(97543bd6)
 				['offset'] = 16,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResLevelSwitch.<DyingHpReduceRate_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['count'] = 6,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelSwitch.<DyingHpReduceRate_bytes>e__FixedBuffer',
 			},
 			['wUseWantedSystemConfigID'] = { -- table(7bb0b6f8)
 				['offset'] = 28,
@@ -124465,13 +126530,24 @@
 			},
 			['MultipleParam_bytes'] = { -- table(242d213c)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResIntimacyMultiple.<MultipleParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyMultiple.<MultipleParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
+	},
+	['ResData.ResBattleRoyaleParamByMMR.<EvaluateLimit_bytes>e__FixedBuffer'] = { -- table(6aee5111)
+		['Methods'] = { -- table(69ff874b)
+		},
+		['Fields'] = { -- table(898b4f90)
+			['FixedElementField'] = { -- table(5a9b1286)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBattleRoyaleParamByMMR'] = { -- table(7f6b03e8)
 		['Methods'] = { -- table(8ae9890e)
@@ -124535,11 +126611,11 @@
 			},
 			['EvaluateLimit_bytes'] = { -- table(5fbb4585)
 				['offset'] = 44,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResBattleRoyaleParamByMMR.<EvaluateLimit_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleRoyaleParamByMMR.<EvaluateLimit_bytes>e__FixedBuffer',
 			},
 			['iDropGrade'] = { -- table(6d25b3a4)
 				['offset'] = 64,
@@ -124547,6 +126623,17 @@
 			},
 		},
 		['MaxV'] = 64,
+	},
+	['ResData.ResBackflowGameAward.<astAward_bytes>e__FixedBuffer'] = { -- table(a0e58582)
+		['Methods'] = { -- table(c842d560)
+		},
+		['Fields'] = { -- table(c56608b7)
+			['FixedElementField'] = { -- table(8cafa917)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBackflowGameAward'] = { -- table(1e6fe046)
 		['Methods'] = { -- table(41c76054)
@@ -124598,11 +126685,11 @@
 			},
 			['astAward_bytes'] = { -- table(c33b32dc)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResBackflowGameAward.<astAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackflowGameAward.<astAward_bytes>e__FixedBuffer',
 			},
 			['bMeetingABType'] = { -- table(c43f7231)
 				['offset'] = 72,
@@ -124610,6 +126697,17 @@
 			},
 		},
 		['MaxV'] = 72,
+	},
+	['ResData.ResNewbieCareerTargetConf.<JumpParm_bytes>e__FixedBuffer'] = { -- table(1dc6f188)
+		['Methods'] = { -- table(1cdbd17a)
+		},
+		['Fields'] = { -- table(22ed607f)
+			['FixedElementField'] = { -- table(18e0ff5f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResNewbieCareerTargetConf'] = { -- table(22f140af)
 		['Methods'] = { -- table(b8dab21d)
@@ -124689,11 +126787,11 @@
 			},
 			['JumpParm_bytes'] = { -- table(68c104c4)
 				['offset'] = 60,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResNewbieCareerTargetConf.<JumpParm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewbieCareerTargetConf.<JumpParm_bytes>e__FixedBuffer',
 			},
 			['strIdLiteGameUrl'] = { -- table(42c9f847)
 				['offset'] = 72,
@@ -124803,13 +126901,35 @@
 			},
 			['astAward_bytes'] = { -- table(a6355e1c)
 				['offset'] = 68,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResBackflowNewContent.<astAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackflowNewContent.<astAward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 68,
+	},
+	['ResData.ResUserBackflowDialogue.<astHeroDialogue_bytes>e__FixedBuffer'] = { -- table(1900d8b3)
+		['Methods'] = { -- table(7594e99d)
+		},
+		['Fields'] = { -- table(8a052b6)
+			['FixedElementField'] = { -- table(79ba5094)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResUserBackflowDialogue.<astLongTimeRunOffExtDialogue_bytes>e__FixedBuffer'] = { -- table(7935d67)
+		['Methods'] = { -- table(845ba6f5)
+		},
+		['Fields'] = { -- table(b7155254)
+			['FixedElementField'] = { -- table(ff3c3762)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResUserBackflowDialogue'] = { -- table(1af3851a)
 		['Methods'] = { -- table(4de9a6b0)
@@ -124849,19 +126969,19 @@
 			},
 			['astHeroDialogue_bytes'] = { -- table(1adeb8a3)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_CommonString',
+				['type'] = 'ResData.ResUserBackflowDialogue.<astHeroDialogue_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CommonString',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUserBackflowDialogue.<astHeroDialogue_bytes>e__FixedBuffer',
 			},
 			['astLongTimeRunOffExtDialogue_bytes'] = { -- table(8a559961)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_CommonString',
+				['type'] = 'ResData.ResUserBackflowDialogue.<astLongTimeRunOffExtDialogue_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CommonString',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUserBackflowDialogue.<astLongTimeRunOffExtDialogue_bytes>e__FixedBuffer',
 			},
 			['strIdButtonText1'] = { -- table(eef0ca37)
 				['offset'] = 96,
@@ -124915,13 +127035,24 @@
 			},
 			['astNode_bytes'] = { -- table(6ba43be7)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_NodeItem',
+				['type'] = 'ResData.ResBackflowNewUserSvrID.<astNode_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_NodeItem',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackflowNewUserSvrID.<astNode_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResBackflowContentRecommend.<EffectiveCondParam_bytes>e__FixedBuffer'] = { -- table(3fa0f513)
+		['Methods'] = { -- table(ef97a985)
+		},
+		['Fields'] = { -- table(a4c29b54)
+			['FixedElementField'] = { -- table(2bd6e262)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBackflowContentRecommend'] = { -- table(117830a2)
 		['Methods'] = { -- table(24126208)
@@ -125065,11 +127196,11 @@
 			},
 			['EffectiveCondParam_bytes'] = { -- table(c34865f5)
 				['offset'] = 156,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBackflowContentRecommend.<EffectiveCondParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackflowContentRecommend.<EffectiveCondParam_bytes>e__FixedBuffer',
 			},
 			['dwDayLimit'] = { -- table(e89c2427)
 				['offset'] = 176,
@@ -125077,6 +127208,28 @@
 			},
 		},
 		['MaxV'] = 176,
+	},
+	['ResData.ResBackFlowPrivilegeNewHeroSkin.<PrivilegeTypeList_bytes>e__FixedBuffer'] = { -- table(4f92f53f)
+		['Methods'] = { -- table(e3f006b5)
+		},
+		['Fields'] = { -- table(75337e6e)
+			['FixedElementField'] = { -- table(f4da66ac)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResBackFlowPrivilegeNewHeroSkin.<SkinIDList_bytes>e__FixedBuffer'] = { -- table(20eb5868)
+		['Methods'] = { -- table(e1288272)
+		},
+		['Fields'] = { -- table(1c893a73)
+			['FixedElementField'] = { -- table(558d1eb)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBackFlowPrivilegeNewHeroSkin'] = { -- table(2db39cb9)
 		['Methods'] = { -- table(4511dc5f)
@@ -125108,11 +127261,11 @@
 			},
 			['PrivilegeTypeList_bytes'] = { -- table(35dc6cb3)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBackFlowPrivilegeNewHeroSkin.<PrivilegeTypeList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackFlowPrivilegeNewHeroSkin.<PrivilegeTypeList_bytes>e__FixedBuffer',
 			},
 			['iSkinNum'] = { -- table(4943ba16)
 				['offset'] = 28,
@@ -125120,11 +127273,11 @@
 			},
 			['SkinIDList_bytes'] = { -- table(1439c3f4)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBackFlowPrivilegeNewHeroSkin.<SkinIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackFlowPrivilegeNewHeroSkin.<SkinIDList_bytes>e__FixedBuffer',
 			},
 			['dwIncludeHero'] = { -- table(31f8a623)
 				['offset'] = 72,
@@ -125132,6 +127285,17 @@
 			},
 		},
 		['MaxV'] = 72,
+	},
+	['ResData.ResBackFlowPrivilegeNewTimeCfg.<ReplaceIndexList_bytes>e__FixedBuffer'] = { -- table(11a384f0)
+		['Methods'] = { -- table(e51cf766)
+		},
+		['Fields'] = { -- table(e8dd5d7d)
+			['FixedElementField'] = { -- table(376bc59d)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBackFlowPrivilegeNewTimeCfg'] = { -- table(45a1d61d)
 		['Methods'] = { -- table(67600aa7)
@@ -125167,11 +127331,11 @@
 			},
 			['ReplaceIndexList_bytes'] = { -- table(617d27ce)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBackFlowPrivilegeNewTimeCfg.<ReplaceIndexList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackFlowPrivilegeNewTimeCfg.<ReplaceIndexList_bytes>e__FixedBuffer',
 			},
 			['ullRenewGameTypeMask'] = { -- table(103a3e24)
 				['offset'] = 40,
@@ -125280,10 +127444,10 @@
 			},
 			['astSkinList_bytes'] = { -- table(522ffc7a)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_SkinInfo',
+				['type'] = 'ResData.ResBackflowSkinPrivilegeSkinConf.<astSkinList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkinInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackflowSkinPrivilegeSkinConf.<astSkinList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -125341,13 +127505,35 @@
 			},
 			['astTrigChkList_bytes'] = { -- table(e1dbecb0)
 				['offset'] = 28,
-				['type'] = 'ResData.ResDT_ItemTrig_ChkInfo',
+				['type'] = 'ResData.ResItemTrigger.<astTrigChkList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ItemTrig_ChkInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResItemTrigger.<astTrigChkList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
+	},
+	['ResData.ResMapProgramParams.<szHighMemoryPoolChainSize_bytes>e__FixedBuffer'] = { -- table(a64772f7)
+		['Methods'] = { -- table(75f16cf1)
+		},
+		['Fields'] = { -- table(d05053ca)
+			['FixedElementField'] = { -- table(3827cb70)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResMapProgramParams.<szPoolChainSize_bytes>e__FixedBuffer'] = { -- table(289cac10)
+		['Methods'] = { -- table(803c87ce)
+		},
+		['Fields'] = { -- table(7feb7ec9)
+			['FixedElementField'] = { -- table(8b4b2691)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMapProgramParams'] = { -- table(fa6828b4)
 		['Methods'] = { -- table(17541f2a)
@@ -125375,11 +127561,11 @@
 			},
 			['szPoolChainSize_bytes'] = { -- table(b3ed600a)
 				['offset'] = 12,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResMapProgramParams.<szPoolChainSize_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 4,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMapProgramParams.<szPoolChainSize_bytes>e__FixedBuffer',
 			},
 			['wFreeThreshold'] = { -- table(4acc3d5f)
 				['offset'] = 16,
@@ -125399,11 +127585,11 @@
 			},
 			['szHighMemoryPoolChainSize_bytes'] = { -- table(9ee23953)
 				['offset'] = 24,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResMapProgramParams.<szHighMemoryPoolChainSize_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 4,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMapProgramParams.<szHighMemoryPoolChainSize_bytes>e__FixedBuffer',
 			},
 			['bHighMemoryEnableFastRecover'] = { -- table(594f81dd)
 				['offset'] = 28,
@@ -125457,10 +127643,10 @@
 			},
 			['astParticleinfos_bytes'] = { -- table(acd0614f)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_ParticleCullInfo',
+				['type'] = 'ResData.ResSceneParticleCullBlackList.<astParticleinfos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ParticleCullInfo',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSceneParticleCullBlackList.<astParticleinfos_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -125494,10 +127680,10 @@
 			},
 			['Skinids_bytes'] = { -- table(3a78bd8e)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.GamePlaySkinLodConfig.<Skinids_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.GamePlaySkinLodConfig.<Skinids_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -125531,13 +127717,24 @@
 			},
 			['astParticleinfos_bytes'] = { -- table(bc11cac1)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_ParticlePreloadInfo',
+				['type'] = 'ResData.GamePlayParticlePreloadConfig.<astParticleinfos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ParticlePreloadInfo',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.GamePlayParticlePreloadConfig.<astParticleinfos_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResSeasonReviewPerform.<astPerformTypeInfo_bytes>e__FixedBuffer'] = { -- table(5acf39ce)
+		['Methods'] = { -- table(6079c6b8)
+		},
+		['Fields'] = { -- table(ade7b3ef)
+			['FixedElementField'] = { -- table(a44e716f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSeasonReviewPerform'] = { -- table(f87049c6)
 		['Methods'] = { -- table(9185b1ec)
@@ -125565,11 +127762,11 @@
 			},
 			['astPerformTypeInfo_bytes'] = { -- table(a9e79d20)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_TypeInfo',
+				['type'] = 'ResData.ResSeasonReviewPerform.<astPerformTypeInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TypeInfo',
 				['count'] = 3,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonReviewPerform.<astPerformTypeInfo_bytes>e__FixedBuffer',
 			},
 			['dwLabelBit'] = { -- table(7dd676e9)
 				['offset'] = 60,
@@ -125655,10 +127852,10 @@
 			},
 			['astCompareDataInfo_bytes'] = { -- table(2cb84569)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_TypeCompareInfo',
+				['type'] = 'ResData.ResSeasonReviewTeamworkTitle.<astCompareDataInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TypeCompareInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonReviewTeamworkTitle.<astCompareDataInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
@@ -125724,10 +127921,10 @@
 			},
 			['astCompareDataInfo_bytes'] = { -- table(ac8bedfd)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_TypeCompareInfo',
+				['type'] = 'ResData.ResSeasonReviewDataTitle.<astCompareDataInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TypeCompareInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonReviewDataTitle.<astCompareDataInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
@@ -125762,6 +127959,28 @@
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResSeasonReviewAction.<astHonorInfo_bytes>e__FixedBuffer'] = { -- table(b3582cc6)
+		['Methods'] = { -- table(6022b830)
+		},
+		['Fields'] = { -- table(8d326c1d)
+			['FixedElementField'] = { -- table(28a7f7fd)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSeasonReviewAction.<astThresholdInfo_bytes>e__FixedBuffer'] = { -- table(82a37343)
+		['Methods'] = { -- table(2e8fad19)
+		},
+		['Fields'] = { -- table(bd676328)
+			['FixedElementField'] = { -- table(501c403e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSeasonReviewAction'] = { -- table(f9ba7d13)
 		['Methods'] = { -- table(d4976b49)
@@ -125833,11 +128052,11 @@
 			},
 			['astHonorInfo_bytes'] = { -- table(5e09a506)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_SeasonReviewHonorInfo',
+				['type'] = 'ResData.ResSeasonReviewAction.<astHonorInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SeasonReviewHonorInfo',
 				['count'] = 4,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonReviewAction.<astHonorInfo_bytes>e__FixedBuffer',
 			},
 			['bThresholdNum'] = { -- table(3bf3d9fd)
 				['offset'] = 120,
@@ -125845,11 +128064,11 @@
 			},
 			['astThresholdInfo_bytes'] = { -- table(49c39ddd)
 				['offset'] = 124,
-				['type'] = 'ResData.ResDT_TypeInfo',
+				['type'] = 'ResData.ResSeasonReviewAction.<astThresholdInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TypeInfo',
 				['count'] = 4,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonReviewAction.<astThresholdInfo_bytes>e__FixedBuffer',
 			},
 			['dwActionMask'] = { -- table(26a583fd)
 				['offset'] = 188,
@@ -125857,6 +128076,28 @@
 			},
 		},
 		['MaxV'] = 188,
+	},
+	['ResData.ResSeasonReviewImage.<CoreLabelBit_bytes>e__FixedBuffer'] = { -- table(582c06af)
+		['Methods'] = { -- table(e330c731)
+		},
+		['Fields'] = { -- table(ff31b73a)
+			['FixedElementField'] = { -- table(1464f80)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSeasonReviewImage.<LabelBit_bytes>e__FixedBuffer'] = { -- table(d2aa7766)
+		['Methods'] = { -- table(b409744)
+		},
+		['Fields'] = { -- table(bc2a66d7)
+			['FixedElementField'] = { -- table(ce3a4ef7)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSeasonReviewImage'] = { -- table(a6c1a676)
 		['Methods'] = { -- table(f8606070)
@@ -125968,11 +128209,11 @@
 			},
 			['CoreLabelBit_bytes'] = { -- table(4337addf)
 				['offset'] = 96,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSeasonReviewImage.<CoreLabelBit_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonReviewImage.<CoreLabelBit_bytes>e__FixedBuffer',
 			},
 			['dwLabelNum'] = { -- table(e3eef96e)
 				['offset'] = 108,
@@ -125980,11 +128221,11 @@
 			},
 			['LabelBit_bytes'] = { -- table(b3c08908)
 				['offset'] = 112,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSeasonReviewImage.<LabelBit_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 20,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonReviewImage.<LabelBit_bytes>e__FixedBuffer',
 			},
 			['dwExtraLabelBit'] = { -- table(10abd6df)
 				['offset'] = 192,
@@ -126035,6 +128276,17 @@
 			},
 		},
 		['MaxV'] = 36,
+	},
+	['ResData.ResCareerTitleInfo.<astTitleFeature_bytes>e__FixedBuffer'] = { -- table(7a89def)
+		['Methods'] = { -- table(789c83c5)
+		},
+		['Fields'] = { -- table(a528f948)
+			['FixedElementField'] = { -- table(43e1021e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCareerTitleInfo'] = { -- table(d9f8b138)
 		['Methods'] = { -- table(6cbb02c2)
@@ -126166,11 +128418,11 @@
 			},
 			['astTitleFeature_bytes'] = { -- table(3f7990a9)
 				['offset'] = 104,
-				['type'] = 'ResData.ResCareerTitleFeature',
+				['type'] = 'ResData.ResCareerTitleInfo.<astTitleFeature_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResCareerTitleFeature',
 				['count'] = 6,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCareerTitleInfo.<astTitleFeature_bytes>e__FixedBuffer',
 			},
 			['dwChgCoinType'] = { -- table(45b9b0b)
 				['offset'] = 200,
@@ -126182,6 +128434,17 @@
 			},
 		},
 		['MaxV'] = 204,
+	},
+	['ResData.ResWarmBattleHero.<SkinID_bytes>e__FixedBuffer'] = { -- table(c22cb472)
+		['Methods'] = { -- table(f31cd684)
+		},
+		['Fields'] = { -- table(b93d733d)
+			['FixedElementField'] = { -- table(489a275d)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWarmBattleHero'] = { -- table(c0bd7afb)
 		['Methods'] = { -- table(c3ad4fd5)
@@ -126273,11 +128536,11 @@
 			},
 			['SkinID_bytes'] = { -- table(25229202)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResWarmBattleHero.<SkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 8,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWarmBattleHero.<SkinID_bytes>e__FixedBuffer',
 			},
 			['dwRandomWeight'] = { -- table(651d3b18)
 				['offset'] = 76,
@@ -126326,6 +128589,17 @@
 		},
 		['MaxV'] = 103,
 	},
+	['ResData.ResNewbieDynamicWarmBattleHero.<SkinID_bytes>e__FixedBuffer'] = { -- table(94c5dd6f)
+		['Methods'] = { -- table(20fc10c1)
+		},
+		['Fields'] = { -- table(9a8290e)
+			['FixedElementField'] = { -- table(32e4d40c)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResNewbieDynamicWarmBattleHero'] = { -- table(c9688a34)
 		['Methods'] = { -- table(8ac1a296)
 			['SkinID'] = { -- table(c864141e)
@@ -126372,11 +128646,11 @@
 			},
 			['SkinID_bytes'] = { -- table(d9e7c4cf)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResNewbieDynamicWarmBattleHero.<SkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 8,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewbieDynamicWarmBattleHero.<SkinID_bytes>e__FixedBuffer',
 			},
 			['dwRandomWeight'] = { -- table(bf25e6f1)
 				['offset'] = 60,
@@ -126430,10 +128704,10 @@
 			},
 			['HeroID_bytes'] = { -- table(99a242db)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResNewbieKnowledgeWarmBattleHero.<HeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewbieKnowledgeWarmBattleHero.<HeroID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -126471,13 +128745,24 @@
 			},
 			['Param_bytes'] = { -- table(c21a7688)
 				['offset'] = 16,
-				['type'] = 'System.Int16',
+				['type'] = 'ResData.ResWantedExInfo.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWantedExInfo.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResBattleProj8Achieve.<astCond_bytes>e__FixedBuffer'] = { -- table(32bd03f9)
+		['Methods'] = { -- table(46b784b7)
+		},
+		['Fields'] = { -- table(ee1a7db0)
+			['FixedElementField'] = { -- table(361727e6)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBattleProj8Achieve'] = { -- table(88db59de)
 		['Methods'] = { -- table(ef6147fc)
@@ -126517,11 +128802,11 @@
 			},
 			['astCond_bytes'] = { -- table(8d0828b5)
 				['offset'] = 32,
-				['type'] = 'ResData.ResGameOverCond',
+				['type'] = 'ResData.ResBattleProj8Achieve.<astCond_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResGameOverCond',
 				['count'] = 2,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleProj8Achieve.<astCond_bytes>e__FixedBuffer',
 			},
 			['dwFirstScore'] = { -- table(744073fa)
 				['offset'] = 64,
@@ -126546,6 +128831,17 @@
 		},
 		['MaxV'] = 80,
 	},
+	['ResData.ResGeneralCond.<ConParam_bytes>e__FixedBuffer'] = { -- table(85d6fd28)
+		['Methods'] = { -- table(4aa2352e)
+		},
+		['Fields'] = { -- table(49737d91)
+			['FixedElementField'] = { -- table(66312b39)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResGeneralCond'] = { -- table(2cefd930)
 		['Methods'] = { -- table(12c52682)
 			['ConParam'] = { -- table(d8ca26ef)
@@ -126564,11 +128860,11 @@
 			},
 			['ConParam_bytes'] = { -- table(28362dc2)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResGeneralCond.<ConParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 20,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGeneralCond.<ConParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -126610,10 +128906,10 @@
 			},
 			['TalentIDs_bytes'] = { -- table(a7f46f5f)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveTalentRace.<TalentIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveTalentRace.<TalentIDs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -126640,6 +128936,17 @@
 			},
 		},
 		['MaxV'] = 20,
+	},
+	['ResData.ResPetInfo.<astPetProps_bytes>e__FixedBuffer'] = { -- table(3682dee1)
+		['Methods'] = { -- table(68db43bf)
+		},
+		['Fields'] = { -- table(10c4d0a6)
+			['FixedElementField'] = { -- table(a61a18e4)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPetInfo'] = { -- table(844bdcf1)
 		['Methods'] = { -- table(8726f377)
@@ -126731,11 +129038,11 @@
 			},
 			['astPetProps_bytes'] = { -- table(46d2288f)
 				['offset'] = 72,
-				['type'] = 'ResData.ResDT_SceneSkin_Property',
+				['type'] = 'ResData.ResPetInfo.<astPetProps_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SceneSkin_Property',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPetInfo.<astPetProps_bytes>e__FixedBuffer',
 			},
 			['strIdActorInfo'] = { -- table(e98bb885)
 				['offset'] = 152,
@@ -126751,6 +129058,17 @@
 			},
 		},
 		['MaxV'] = 168,
+	},
+	['ResData.ResSceneSkinInfo.<astSceneSkinProps_bytes>e__FixedBuffer'] = { -- table(1660958d)
+		['Methods'] = { -- table(ff8226f3)
+		},
+		['Fields'] = { -- table(a040dca2)
+			['FixedElementField'] = { -- table(ff54af48)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSceneSkinInfo'] = { -- table(4498c351)
 		['Methods'] = { -- table(ee57be17)
@@ -126902,11 +129220,11 @@
 			},
 			['astSceneSkinProps_bytes'] = { -- table(4a99612b)
 				['offset'] = 88,
-				['type'] = 'ResData.ResDT_SceneSkin_Property',
+				['type'] = 'ResData.ResSceneSkinInfo.<astSceneSkinProps_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SceneSkin_Property',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSceneSkinInfo.<astSceneSkinProps_bytes>e__FixedBuffer',
 			},
 			['strIdSceneSkinCloudPath'] = { -- table(b4b7a721)
 				['offset'] = 168,
@@ -127112,10 +129430,10 @@
 			},
 			['PromotionID_bytes'] = { -- table(b3f3c82e)
 				['offset'] = 96,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPetShop.<PromotionID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPetShop.<PromotionID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 96,
@@ -127226,6 +129544,17 @@
 			},
 		},
 		['MaxV'] = 144,
+	},
+	['ResData.ResActionShop.<PromotionID_bytes>e__FixedBuffer'] = { -- table(aa433989)
+		['Methods'] = { -- table(6ba35b1f)
+		},
+		['Fields'] = { -- table(c150a9fc)
+			['FixedElementField'] = { -- table(1f67018a)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResActionShop'] = { -- table(f873c97e)
 		['Methods'] = { -- table(585f95c0)
@@ -127345,11 +129674,11 @@
 			},
 			['PromotionID_bytes'] = { -- table(7492e7d5)
 				['offset'] = 88,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResActionShop.<PromotionID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResActionShop.<PromotionID_bytes>e__FixedBuffer',
 			},
 			['strIdResPreviewDesc'] = { -- table(6ed4ed34)
 				['offset'] = 112,
@@ -127377,6 +129706,17 @@
 			},
 		},
 		['MaxV'] = 132,
+	},
+	['ResData.ResShareTeamInfo.<astSpeaicalDay_bytes>e__FixedBuffer'] = { -- table(a8d711bb)
+		['Methods'] = { -- table(8586c169)
+		},
+		['Fields'] = { -- table(46e1ec9a)
+			['FixedElementField'] = { -- table(dc1a2220)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResShareTeamInfo.<astStaticTime_bytes>e__FixedBuffer'] = { -- table(d218f68c)
 		['Methods'] = { -- table(bba2b456)
@@ -127443,11 +129783,11 @@
 			},
 			['astSpeaicalDay_bytes'] = { -- table(bf10b2b7)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_ShareTeamDateInfo',
+				['type'] = 'ResData.ResShareTeamInfo.<astSpeaicalDay_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ShareTeamDateInfo',
 				['count'] = 8,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShareTeamInfo.<astSpeaicalDay_bytes>e__FixedBuffer',
 			},
 			['strIdWinimgUrl'] = { -- table(b8072c25)
 				['offset'] = 280,
@@ -127471,10 +129811,10 @@
 			},
 			['astStaticTime_bytes'] = { -- table(ae9934a0)
 				['offset'] = 320,
-				['type'] = 'ResData.ResDT_ShareTeamDateInfo',
+				['type'] = 'ResData.ResShareTeamInfo.<astStaticTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ShareTeamDateInfo',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShareTeamInfo.<astStaticTime_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 320,
@@ -127508,10 +129848,10 @@
 			},
 			['astMaterialPaths_bytes'] = { -- table(5ebd844b)
 				['offset'] = 16,
-				['type'] = 'ResData.CompetitionEffectMaterialPath',
+				['type'] = 'ResData.ResCompetitionEffectMaterialInfo.<astMaterialPaths_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.CompetitionEffectMaterialPath',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCompetitionEffectMaterialInfo.<astMaterialPaths_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -127557,10 +129897,10 @@
 			},
 			['ConditionParam_bytes'] = { -- table(1ade6ba5)
 				['offset'] = 24,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResCompetitionEffectDisplayPolicy.<ConditionParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCompetitionEffectDisplayPolicy.<ConditionParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -127594,10 +129934,10 @@
 			},
 			['RankNo_bytes'] = { -- table(fddc6439)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_FensiTaiSecCheckInfo.<RankNo_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_FensiTaiSecCheckInfo.<RankNo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -127643,13 +129983,24 @@
 			},
 			['astTai1SolderInfos_bytes'] = { -- table(9e0b2cd1)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_TaiSolderInfo',
+				['type'] = 'ResData.ResDT_TaiInfo.<astTai1SolderInfos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TaiSolderInfo',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_TaiInfo.<astTai1SolderInfos_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResBattleWiki.<astPath_bytes>e__FixedBuffer'] = { -- table(1c2adc38)
+		['Methods'] = { -- table(73c4346)
+		},
+		['Fields'] = { -- table(9bbf6959)
+			['FixedElementField'] = { -- table(94f1f801)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBattleWiki'] = { -- table(5cf31376)
 		['Methods'] = { -- table(e4a319a0)
@@ -127669,11 +130020,11 @@
 			},
 			['astPath_bytes'] = { -- table(4928f27a)
 				['offset'] = 16,
-				['type'] = 'ResData.ResBattleWikiPrefabStr',
+				['type'] = 'ResData.ResBattleWiki.<astPath_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResBattleWikiPrefabStr',
 				['count'] = 6,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleWiki.<astPath_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -127719,10 +130070,10 @@
 			},
 			['astHeroInfo_bytes'] = { -- table(f28d2a5)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_OfflineAutoTest_HeroInfo',
+				['type'] = 'ResData.ResOfflineAutoTest.<astHeroInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_OfflineAutoTest_HeroInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOfflineAutoTest.<astHeroInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -127768,10 +130119,10 @@
 			},
 			['astRewardList_bytes'] = { -- table(d0579b86)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_GradeReward_Info',
+				['type'] = 'ResData.ResGradeRewardInfo.<astRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_GradeReward_Info',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGradeRewardInfo.<astRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -127832,10 +130183,10 @@
 			},
 			['RefCfgID_bytes'] = { -- table(ec93b8bd)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBattlePassLevelAwardExtend.<RefCfgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassLevelAwardExtend.<RefCfgID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -127968,13 +130319,46 @@
 			},
 			['astAward_bytes'] = { -- table(12359e19)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_RewardItemDiscount',
+				['type'] = 'ResData.ResBattlePassExchangeDiscount.<astAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItemDiscount',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassExchangeDiscount.<astAward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResBattlePassRights.<RandomTaskDiamondCost_bytes>e__FixedBuffer'] = { -- table(1b5fff72)
+		['Methods'] = { -- table(9cb5000)
+		},
+		['Fields'] = { -- table(ba5f318b)
+			['FixedElementField'] = { -- table(b43f62c3)
+				['offset'] = 8,
+				['type'] = 'System.UInt16',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResBattlePassRights.<astAward_bytes>e__FixedBuffer'] = { -- table(98780258)
+		['Methods'] = { -- table(e832f0be)
+		},
+		['Fields'] = { -- table(a6edb3ab)
+			['FixedElementField'] = { -- table(54471023)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResBattlePassRights.<astBuyLevelInfo_bytes>e__FixedBuffer'] = { -- table(dd03f095)
+		['Methods'] = { -- table(d8e7809b)
+		},
+		['Fields'] = { -- table(df9fcfbc)
+			['FixedElementField'] = { -- table(1f0a314a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBattlePassRights'] = { -- table(7a25c56c)
 		['Methods'] = { -- table(a7bacbc2)
@@ -128030,11 +130414,11 @@
 			},
 			['RandomTaskDiamondCost_bytes'] = { -- table(91fa9cf0)
 				['offset'] = 18,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResBattlePassRights.<RandomTaskDiamondCost_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['count'] = 8,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassRights.<RandomTaskDiamondCost_bytes>e__FixedBuffer',
 			},
 			['bBuyLevelNum'] = { -- table(8aba0305)
 				['offset'] = 34,
@@ -128046,19 +130430,19 @@
 			},
 			['astAward_bytes'] = { -- table(933ec260)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResBattlePassRights.<astAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 10,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassRights.<astAward_bytes>e__FixedBuffer',
 			},
 			['astBuyLevelInfo_bytes'] = { -- table(6ec1845)
 				['offset'] = 156,
-				['type'] = 'ResData.ResDT_BattlePassBuyLevel',
+				['type'] = 'ResData.ResBattlePassRights.<astBuyLevelInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BattlePassBuyLevel',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassRights.<astBuyLevelInfo_bytes>e__FixedBuffer',
 			},
 			['dwRewardMask'] = { -- table(9efd1b23)
 				['offset'] = 188,
@@ -128112,10 +130496,10 @@
 			},
 			['astRule_bytes'] = { -- table(23e0c0b)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_BattlePassLevelInheritRule',
+				['type'] = 'ResData.ResBattlePassLevelInherit.<astRule_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BattlePassLevelInheritRule',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassLevelInherit.<astRule_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -128369,6 +130753,17 @@
 		},
 		['MaxV'] = 50,
 	},
+	['ResData.ResBattlePassLimitedRewardTip.<astRewardItems_bytes>e__FixedBuffer'] = { -- table(fe507f97)
+		['Methods'] = { -- table(9bae52bd)
+		},
+		['Fields'] = { -- table(45f39424)
+			['FixedElementField'] = { -- table(84afee92)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResBattlePassLimitedRewardTip'] = { -- table(bf3c2975)
 		['Methods'] = { -- table(a229c6eb)
 			['get_szTipText'] = { -- table(c326ea87)
@@ -128399,11 +130794,11 @@
 			},
 			['astRewardItems_bytes'] = { -- table(93a50325)
 				['offset'] = 24,
-				['type'] = 'ResData.BattlePassLimitedRewardItem',
+				['type'] = 'ResData.ResBattlePassLimitedRewardTip.<astRewardItems_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.BattlePassLimitedRewardItem',
 				['count'] = 3,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassLimitedRewardTip.<astRewardItems_bytes>e__FixedBuffer',
 			},
 			['strIdValueText'] = { -- table(fb8be714)
 				['offset'] = 96,
@@ -128423,6 +130818,17 @@
 			},
 		},
 		['MaxV'] = 120,
+	},
+	['ResData.ResRoomCustomDefine.<astRule_bytes>e__FixedBuffer'] = { -- table(8d056da2)
+		['Methods'] = { -- table(b795e2f8)
+		},
+		['Fields'] = { -- table(39b6176f)
+			['FixedElementField'] = { -- table(95e2b3ef)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRoomCustomDefine'] = { -- table(64511913)
 		['Methods'] = { -- table(efe35f69)
@@ -128502,11 +130908,11 @@
 			},
 			['astRule_bytes'] = { -- table(224d8620)
 				['offset'] = 40,
-				['type'] = 'ResData.ResRoomCustomDefine_Rule',
+				['type'] = 'ResData.ResRoomCustomDefine.<astRule_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRoomCustomDefine_Rule',
 				['count'] = 7,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRoomCustomDefine.<astRule_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -128548,13 +130954,24 @@
 			},
 			['szValue_bytes'] = { -- table(28f05d5e)
 				['offset'] = 24,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResRoomCustomDefineTemplate.<szValue_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRoomCustomDefineTemplate.<szValue_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResRoomCustomBattleEffect.<Camp1Param_bytes>e__FixedBuffer'] = { -- table(fd76c955)
+		['Methods'] = { -- table(4bd2aef)
+		},
+		['Fields'] = { -- table(dc276b52)
+			['FixedElementField'] = { -- table(bf30ee58)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRoomCustomBattleEffect.<Camp2Param_bytes>e__FixedBuffer'] = { -- table(f4c7cc)
 		['Methods'] = { -- table(afa021c2)
@@ -128689,18 +131106,18 @@
 			},
 			['Camp1Param_bytes'] = { -- table(9591d267)
 				['offset'] = 96,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRoomCustomBattleEffect.<Camp1Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRoomCustomBattleEffect.<Camp1Param_bytes>e__FixedBuffer',
 			},
 			['Camp2Param_bytes'] = { -- table(5d42e8b0)
 				['offset'] = 116,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRoomCustomBattleEffect.<Camp2Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRoomCustomBattleEffect.<Camp2Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 116,
@@ -128734,10 +131151,10 @@
 			},
 			['EffectTarget_bytes'] = { -- table(504aa9a2)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRoomCustomBattleEffectRandomTargetRule.<EffectTarget_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRoomCustomBattleEffectRandomTargetRule.<EffectTarget_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -128775,10 +131192,10 @@
 			},
 			['astNormalSoldierInfo_bytes'] = { -- table(87176d53)
 				['offset'] = 16,
-				['type'] = 'ResData.ResSoldierTypeInfo',
+				['type'] = 'ResData.ResRoomSuperWaveInfo.<astNormalSoldierInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSoldierTypeInfo',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRoomSuperWaveInfo.<astNormalSoldierInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -128816,10 +131233,10 @@
 			},
 			['szTeamerNum_bytes'] = { -- table(4e531c29)
 				['offset'] = 16,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResTeamBanMatchCfg.<szTeamerNum_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeamBanMatchCfg.<szTeamerNum_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -128897,13 +131314,24 @@
 			},
 			['astFightValueSpeedUpRangeInfo_bytes'] = { -- table(e962b570)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_Almighty_FightValue_SpeedUp_Range_Info',
+				['type'] = 'ResData.ResAlmightyLvlInfo.<astFightValueSpeedUpRangeInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Almighty_FightValue_SpeedUp_Range_Info',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAlmightyLvlInfo.<astFightValueSpeedUpRangeInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResDT_ChessGlobalEffectInfo.<astEffect_bytes>e__FixedBuffer'] = { -- table(926eef25)
+		['Methods'] = { -- table(5ec944f)
+		},
+		['Fields'] = { -- table(b00a7110)
+			['FixedElementField'] = { -- table(2064ef06)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_ChessGlobalEffectInfo.<astPreEffect_bytes>e__FixedBuffer'] = { -- table(da2d24ec)
 		['Methods'] = { -- table(c995964e)
@@ -128950,21 +131378,32 @@
 			},
 			['astEffect_bytes'] = { -- table(31021591)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_ChessGlobalEffectItem',
+				['type'] = 'ResData.ResDT_ChessGlobalEffectInfo.<astEffect_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessGlobalEffectItem',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ChessGlobalEffectInfo.<astEffect_bytes>e__FixedBuffer',
 			},
 			['astPreEffect_bytes'] = { -- table(ddd9ec34)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_ChessGlobalEffectItem',
+				['type'] = 'ResData.ResDT_ChessGlobalEffectInfo.<astPreEffect_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessGlobalEffectItem',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ChessGlobalEffectInfo.<astPreEffect_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
+	},
+	['ResData.ResNBTaskConf.<astTriggerCondition_bytes>e__FixedBuffer'] = { -- table(e2471d5f)
+		['Methods'] = { -- table(df2d5ecd)
+		},
+		['Fields'] = { -- table(d644355a)
+			['FixedElementField'] = { -- table(b668ae0)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResNBTaskConf'] = { -- table(c87affe7)
 		['Methods'] = { -- table(61956a2d)
@@ -129004,11 +131443,11 @@
 			},
 			['astTriggerCondition_bytes'] = { -- table(703b00c3)
 				['offset'] = 19,
-				['type'] = 'ResData.ResNBTaskCommonCond',
+				['type'] = 'ResData.ResNBTaskConf.<astTriggerCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResNBTaskCommonCond',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNBTaskConf.<astTriggerCondition_bytes>e__FixedBuffer',
 			},
 			['bCustomParam'] = { -- table(a1851a84)
 				['offset'] = 27,
@@ -129058,10 +131497,10 @@
 			},
 			['CampID_bytes'] = { -- table(9e9c67d4)
 				['offset'] = 18,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResProj8BanCampConf.<CampID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProj8BanCampConf.<CampID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 18,
@@ -129115,10 +131554,10 @@
 			},
 			['astPresetDetail_bytes'] = { -- table(99e47b62)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_ChessPresetInfo',
+				['type'] = 'ResData.ResChessPreset.<astPresetDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessPresetInfo',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessPreset.<astPresetDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -129152,13 +131591,145 @@
 			},
 			['HeroID_bytes'] = { -- table(d129a452)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessPickCardAutoTest.<HeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessPickCardAutoTest.<HeroID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResChessHeroCfgInfo.<ChargeTime_bytes>e__FixedBuffer'] = { -- table(cd0b6ba)
+		['Methods'] = { -- table(e602134)
+		},
+		['Fields'] = { -- table(530578d5)
+			['FixedElementField'] = { -- table(a698ced5)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<InitialSkillCD_bytes>e__FixedBuffer'] = { -- table(bca32513)
+		['Methods'] = { -- table(c3233a61)
+		},
+		['Fields'] = { -- table(fbb1061c)
+			['FixedElementField'] = { -- table(e715dbea)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<PostClearSkillCombineID_bytes>e__FixedBuffer'] = { -- table(51f525c1)
+		['Methods'] = { -- table(ea1f5e83)
+		},
+		['Fields'] = { -- table(5b12f98c)
+			['FixedElementField'] = { -- table(7912e2ba)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<PreClearSkillCombineID_bytes>e__FixedBuffer'] = { -- table(fd0e4782)
+		['Methods'] = { -- table(22e3113c)
+		},
+		['Fields'] = { -- table(22194fcd)
+			['FixedElementField'] = { -- table(cb2874d)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<RecommendEquipID_bytes>e__FixedBuffer'] = { -- table(288bcbc4)
+		['Methods'] = { -- table(b459384a)
+		},
+		['Fields'] = { -- table(d3f765cb)
+			['FixedElementField'] = { -- table(d6910d03)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<ResetPassiveSkillID_bytes>e__FixedBuffer'] = { -- table(afcb5b5d)
+		['Methods'] = { -- table(96da2e3)
+		},
+		['Fields'] = { -- table(3b518160)
+			['FixedElementField'] = { -- table(e8439736)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<astCombos_bytes>e__FixedBuffer'] = { -- table(6dad9e0)
+		['Methods'] = { -- table(bf5a8dba)
+		},
+		['Fields'] = { -- table(829aa4cd)
+			['FixedElementField'] = { -- table(c9d164d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<astSkill_bytes>e__FixedBuffer'] = { -- table(74970756)
+		['Methods'] = { -- table(5feaad00)
+		},
+		['Fields'] = { -- table(d2da06e5)
+			['FixedElementField'] = { -- table(f4987445)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<szChessCamp_bytes>e__FixedBuffer'] = { -- table(bae60b4b)
+		['Methods'] = { -- table(622f2545)
+		},
+		['Fields'] = { -- table(f8d6162a)
+			['FixedElementField'] = { -- table(43103a90)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<szChessCareer_bytes>e__FixedBuffer'] = { -- table(cb0ff8ea)
+		['Methods'] = { -- table(e2b4a1ac)
+		},
+		['Fields'] = { -- table(216fbee7)
+			['FixedElementField'] = { -- table(611bff67)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<szNotAIAutoUse_bytes>e__FixedBuffer'] = { -- table(d2d89907)
+		['Methods'] = { -- table(c02e3095)
+		},
+		['Fields'] = { -- table(eea89658)
+			['FixedElementField'] = { -- table(6e8ac48e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessHeroCfgInfo.<szTargetPosId_bytes>e__FixedBuffer'] = { -- table(8df68038)
+		['Methods'] = { -- table(29eca562)
+		},
+		['Fields'] = { -- table(c91dd1fd)
+			['FixedElementField'] = { -- table(d0c78b1d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResChessHeroCfgInfo'] = { -- table(778c5f16)
 		['Methods'] = { -- table(817b9cd0)
@@ -129430,43 +132001,43 @@
 			},
 			['astSkill_bytes'] = { -- table(b855cd22)
 				['offset'] = 164,
-				['type'] = 'ResData.ResDT_SkillInfo',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<astSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillInfo',
 				['count'] = 6,
 				['size'] = 20,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<astSkill_bytes>e__FixedBuffer',
 			},
 			['szNotAIAutoUse_bytes'] = { -- table(2e2a3381)
 				['offset'] = 284,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<szNotAIAutoUse_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 6,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<szNotAIAutoUse_bytes>e__FixedBuffer',
 			},
 			['szTargetPosId_bytes'] = { -- table(e2b96a)
 				['offset'] = 290,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<szTargetPosId_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 6,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<szTargetPosId_bytes>e__FixedBuffer',
 			},
 			['InitialSkillCD_bytes'] = { -- table(535968f5)
 				['offset'] = 296,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<InitialSkillCD_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<InitialSkillCD_bytes>e__FixedBuffer',
 			},
 			['ChargeTime_bytes'] = { -- table(71049d22)
 				['offset'] = 320,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<ChargeTime_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<ChargeTime_bytes>e__FixedBuffer',
 			},
 			['bMainJob'] = { -- table(6617f15d)
 				['offset'] = 344,
@@ -129478,11 +132049,11 @@
 			},
 			['szChessCareer_bytes'] = { -- table(1dd3a5c8)
 				['offset'] = 346,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<szChessCareer_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 2,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<szChessCareer_bytes>e__FixedBuffer',
 			},
 			['dwEnergyType'] = { -- table(b5181cb6)
 				['offset'] = 348,
@@ -129546,11 +132117,11 @@
 			},
 			['szChessCamp_bytes'] = { -- table(8f4e3c73)
 				['offset'] = 432,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<szChessCamp_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 2,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<szChessCamp_bytes>e__FixedBuffer',
 			},
 			['bChessPos'] = { -- table(d30efbd9)
 				['offset'] = 434,
@@ -129574,27 +132145,27 @@
 			},
 			['ResetPassiveSkillID_bytes'] = { -- table(29252c71)
 				['offset'] = 448,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<ResetPassiveSkillID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<ResetPassiveSkillID_bytes>e__FixedBuffer',
 			},
 			['PreClearSkillCombineID_bytes'] = { -- table(5931da3a)
 				['offset'] = 456,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<PreClearSkillCombineID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<PreClearSkillCombineID_bytes>e__FixedBuffer',
 			},
 			['PostClearSkillCombineID_bytes'] = { -- table(5aeaf0a9)
 				['offset'] = 464,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<PostClearSkillCombineID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<PostClearSkillCombineID_bytes>e__FixedBuffer',
 			},
 			['iImmuneTime'] = { -- table(3adc5676)
 				['offset'] = 476,
@@ -129610,19 +132181,19 @@
 			},
 			['astCombos_bytes'] = { -- table(6df3b342)
 				['offset'] = 488,
-				['type'] = 'ResData.ResDT_ChessComboInfo',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<astCombos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessComboInfo',
 				['count'] = 6,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<astCombos_bytes>e__FixedBuffer',
 			},
 			['RecommendEquipID_bytes'] = { -- table(89c4d368)
 				['offset'] = 560,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessHeroCfgInfo.<RecommendEquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 20,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroCfgInfo.<RecommendEquipID_bytes>e__FixedBuffer',
 			},
 			['iPhyAttPromote'] = { -- table(97926008)
 				['offset'] = 640,
@@ -129708,10 +132279,10 @@
 			},
 			['szChanceValue_bytes'] = { -- table(1716c3ec)
 				['offset'] = 9,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResChessCardQualityChance.<szChanceValue_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessCardQualityChance.<szChanceValue_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 9,
@@ -129749,10 +132320,10 @@
 			},
 			['astPhraseList_bytes'] = { -- table(28beb71a)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_SettlePhrase',
+				['type'] = 'ResData.ResChessSettlePhrase.<astPhraseList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SettlePhrase',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessSettlePhrase.<astPhraseList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -129826,13 +132397,24 @@
 			},
 			['astChessRecommendHeroItemList_bytes'] = { -- table(77fea9f6)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_ChessRecommendHeroItem',
+				['type'] = 'ResData.ResChessRecommendArrangeCfgInfo.<astChessRecommendHeroItemList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessRecommendHeroItem',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessRecommendArrangeCfgInfo.<astChessRecommendHeroItemList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResProj8HelpDescItems.<astPics_bytes>e__FixedBuffer'] = { -- table(1abc449d)
+		['Methods'] = { -- table(2ff1cb7f)
+		},
+		['Fields'] = { -- table(27fc0dcc)
+			['FixedElementField'] = { -- table(249ffbfa)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResProj8HelpDescItems'] = { -- table(2b90b041)
 		['Methods'] = { -- table(fd9bcb1f)
@@ -129876,11 +132458,11 @@
 			},
 			['astPics_bytes'] = { -- table(c6114109)
 				['offset'] = 24,
-				['type'] = 'ResData.ResProj8HelpDescPics',
+				['type'] = 'ResData.ResProj8HelpDescItems.<astPics_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResProj8HelpDescPics',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProj8HelpDescItems.<astPics_bytes>e__FixedBuffer',
 			},
 			['strIdContent'] = { -- table(d9e792bf)
 				['offset'] = 64,
@@ -129892,6 +132474,50 @@
 			},
 		},
 		['MaxV'] = 72,
+	},
+	['ResData.ResChessRoundInfo.<PreparePhaseMmrDuration_bytes>e__FixedBuffer'] = { -- table(50f6c6d)
+		['Methods'] = { -- table(aae076b3)
+		},
+		['Fields'] = { -- table(7be4e8f0)
+			['FixedElementField'] = { -- table(5a8bc26)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessRoundInfo.<SuperFastModePreparePhaseMmrDuration_bytes>e__FixedBuffer'] = { -- table(85a8025f)
+		['Methods'] = { -- table(55a2d335)
+		},
+		['Fields'] = { -- table(12caef4c)
+			['FixedElementField'] = { -- table(cd45187a)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessRoundInfo.<astMmrAIBattleScore_bytes>e__FixedBuffer'] = { -- table(2ceda285)
+		['Methods'] = { -- table(de45d4eb)
+		},
+		['Fields'] = { -- table(add0cfc8)
+			['FixedElementField'] = { -- table(2b598d9e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessRoundInfo.<astSoloAIBattleScore_bytes>e__FixedBuffer'] = { -- table(593ba7f6)
+		['Methods'] = { -- table(327213a8)
+		},
+		['Fields'] = { -- table(bc09a31)
+			['FixedElementField'] = { -- table(24c37c19)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResChessRoundInfo'] = { -- table(5613641c)
 		['Methods'] = { -- table(2bf9316)
@@ -129943,19 +132569,19 @@
 			},
 			['PreparePhaseMmrDuration_bytes'] = { -- table(c7ac45d)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessRoundInfo.<PreparePhaseMmrDuration_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessRoundInfo.<PreparePhaseMmrDuration_bytes>e__FixedBuffer',
 			},
 			['SuperFastModePreparePhaseMmrDuration_bytes'] = { -- table(3d4d1e11)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessRoundInfo.<SuperFastModePreparePhaseMmrDuration_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessRoundInfo.<SuperFastModePreparePhaseMmrDuration_bytes>e__FixedBuffer',
 			},
 			['dwSuperFastModePreparePhaseDuration'] = { -- table(cc4d3ca8)
 				['offset'] = 76,
@@ -130015,19 +132641,19 @@
 			},
 			['astMmrAIBattleScore_bytes'] = { -- table(f40f005)
 				['offset'] = 112,
-				['type'] = 'ResData.ResDT_AIBattleScore',
+				['type'] = 'ResData.ResChessRoundInfo.<astMmrAIBattleScore_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_AIBattleScore',
 				['count'] = 7,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessRoundInfo.<astMmrAIBattleScore_bytes>e__FixedBuffer',
 			},
 			['astSoloAIBattleScore_bytes'] = { -- table(8fd46722)
 				['offset'] = 168,
-				['type'] = 'ResData.ResDT_AIBattleScore',
+				['type'] = 'ResData.ResChessRoundInfo.<astSoloAIBattleScore_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_AIBattleScore',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessRoundInfo.<astSoloAIBattleScore_bytes>e__FixedBuffer',
 			},
 			['bIsBountyRaise'] = { -- table(4e051daa)
 				['offset'] = 192,
@@ -130065,10 +132691,10 @@
 			},
 			['astChessCardInfos_bytes'] = { -- table(4da85a2a)
 				['offset'] = 10,
-				['type'] = 'ResData.ResChessCardInfo',
+				['type'] = 'ResData.ResChessCardPoolInfo.<astChessCardInfos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResChessCardInfo',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessCardPoolInfo.<astChessCardInfos_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 10,
@@ -130134,10 +132760,10 @@
 			},
 			['astDropProbability_bytes'] = { -- table(20ac039a)
 				['offset'] = 40,
-				['type'] = 'ResData.ChessSingleDropProbability',
+				['type'] = 'ResData.ResChessDropInfo.<astDropProbability_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ChessSingleDropProbability',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessDropInfo.<astDropProbability_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -130183,10 +132809,10 @@
 			},
 			['DropID_bytes'] = { -- table(23de202c)
 				['offset'] = 18,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResChessEquipPickInfo.<DropID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessEquipPickInfo.<DropID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 18,
@@ -130196,6 +132822,28 @@
 		},
 		['Fields'] = { -- table(eeef0247)
 			['FixedElementField'] = { -- table(b4d2ac07)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessPresetFormation.<astBack_bytes>e__FixedBuffer'] = { -- table(a8cdd814)
+		['Methods'] = { -- table(980d223a)
+		},
+		['Fields'] = { -- table(665ea845)
+			['FixedElementField'] = { -- table(150d81e5)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessPresetFormation.<astFront_bytes>e__FixedBuffer'] = { -- table(593a1f38)
+		['Methods'] = { -- table(78e5c826)
+		},
+		['Fields'] = { -- table(522316f3)
+			['FixedElementField'] = { -- table(2b914f6b)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -130268,11 +132916,11 @@
 			},
 			['astFront_bytes'] = { -- table(e7defe54)
 				['offset'] = 41,
-				['type'] = 'ResData.ResDT_ChessPresetFormationInfo',
+				['type'] = 'ResData.ResChessPresetFormation.<astFront_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessPresetFormationInfo',
 				['count'] = 10,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessPresetFormation.<astFront_bytes>e__FixedBuffer',
 			},
 			['bBackNum'] = { -- table(55658818)
 				['offset'] = 61,
@@ -130280,11 +132928,11 @@
 			},
 			['astBack_bytes'] = { -- table(4109b2a2)
 				['offset'] = 62,
-				['type'] = 'ResData.ResDT_ChessPresetFormationInfo',
+				['type'] = 'ResData.ResChessPresetFormation.<astBack_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessPresetFormationInfo',
 				['count'] = 10,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessPresetFormation.<astBack_bytes>e__FixedBuffer',
 			},
 			['bAssassinNum'] = { -- table(5403da3a)
 				['offset'] = 82,
@@ -130292,10 +132940,10 @@
 			},
 			['astAssassin_bytes'] = { -- table(c7fcd48)
 				['offset'] = 83,
-				['type'] = 'ResData.ResDT_ChessPresetFormationInfo',
+				['type'] = 'ResData.ResChessPresetFormation.<astAssassin_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessPresetFormationInfo',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessPresetFormation.<astAssassin_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 83,
@@ -130329,13 +132977,24 @@
 			},
 			['Row_bytes'] = { -- table(3f89b877)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessHeroActionWaitTimeInfo.<Row_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessHeroActionWaitTimeInfo.<Row_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResChessAILevel.<astExceedBattleScoreInfo_bytes>e__FixedBuffer'] = { -- table(e2994383)
+		['Methods'] = { -- table(ad032c6d)
+		},
+		['Fields'] = { -- table(de42798c)
+			['FixedElementField'] = { -- table(3b7962ba)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResChessAILevel'] = { -- table(ded3c244)
 		['Methods'] = { -- table(2e0a4c72)
@@ -130355,11 +133014,11 @@
 			},
 			['astExceedBattleScoreInfo_bytes'] = { -- table(5787f2d9)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_IgnoreCard',
+				['type'] = 'ResData.ResChessAILevel.<astExceedBattleScoreInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IgnoreCard',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessAILevel.<astExceedBattleScoreInfo_bytes>e__FixedBuffer',
 			},
 			['dwMinOpInterval'] = { -- table(85de5f82)
 				['offset'] = 52,
@@ -130477,13 +133136,57 @@
 			},
 			['astPresetDetail_bytes'] = { -- table(46a99224)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_ChessMoveTestInfo',
+				['type'] = 'ResData.ResChessMoveTest.<astPresetDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessMoveTestInfo',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessMoveTest.<astPresetDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResChessTalentInfo.<ConditionParam_bytes>e__FixedBuffer'] = { -- table(601e938f)
+		['Methods'] = { -- table(eda0d901)
+		},
+		['Fields'] = { -- table(ce0c899e)
+			['FixedElementField'] = { -- table(25748abc)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessTalentInfo.<DropLevel_bytes>e__FixedBuffer'] = { -- table(d1e43ca2)
+		['Methods'] = { -- table(6311fe14)
+		},
+		['Fields'] = { -- table(48b9fe19)
+			['FixedElementField'] = { -- table(37671ac1)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessTalentInfo.<Param_bytes>e__FixedBuffer'] = { -- table(4684b4f6)
+		['Methods'] = { -- table(a2e465f8)
+		},
+		['Fields'] = { -- table(c831fb41)
+			['FixedElementField'] = { -- table(26613649)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessTalentInfo.<PositionID_bytes>e__FixedBuffer'] = { -- table(f6e5fa53)
+		['Methods'] = { -- table(2adc917d)
+		},
+		['Fields'] = { -- table(ca5e2996)
+			['FixedElementField'] = { -- table(e5b88b34)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResChessTalentInfo.<PromoteParam_bytes>e__FixedBuffer'] = { -- table(21090d02)
 		['Methods'] = { -- table(70c2f274)
@@ -130610,11 +133313,11 @@
 			},
 			['PositionID_bytes'] = { -- table(2253ae37)
 				['offset'] = 36,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessTalentInfo.<PositionID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentInfo.<PositionID_bytes>e__FixedBuffer',
 			},
 			['strIdIconPath'] = { -- table(235dc03)
 				['offset'] = 56,
@@ -130650,27 +133353,27 @@
 			},
 			['DropLevel_bytes'] = { -- table(47ec7d6e)
 				['offset'] = 92,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessTalentInfo.<DropLevel_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentInfo.<DropLevel_bytes>e__FixedBuffer',
 			},
 			['Param_bytes'] = { -- table(b34f292e)
 				['offset'] = 100,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessTalentInfo.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentInfo.<Param_bytes>e__FixedBuffer',
 			},
 			['ConditionParam_bytes'] = { -- table(2fb46d0f)
 				['offset'] = 108,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessTalentInfo.<ConditionParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentInfo.<ConditionParam_bytes>e__FixedBuffer',
 			},
 			['dwPromoteValue'] = { -- table(ce27939d)
 				['offset'] = 132,
@@ -130678,10 +133381,10 @@
 			},
 			['PromoteParam_bytes'] = { -- table(4b68a460)
 				['offset'] = 136,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessTalentInfo.<PromoteParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentInfo.<PromoteParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 136,
@@ -130715,10 +133418,10 @@
 			},
 			['szQuality_bytes'] = { -- table(c54a6873)
 				['offset'] = 9,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResChessPlayerRandomTalent.<szQuality_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessPlayerRandomTalent.<szQuality_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 9,
@@ -130756,13 +133459,24 @@
 			},
 			['HeroID_bytes'] = { -- table(1995c01b)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessTalentCPRelation.<HeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentCPRelation.<HeroID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResChessTalentPosition.<PositionX_bytes>e__FixedBuffer'] = { -- table(6eba6df9)
+		['Methods'] = { -- table(10219813)
+		},
+		['Fields'] = { -- table(17f20d6)
+			['FixedElementField'] = { -- table(230c7f74)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResChessTalentPosition.<PositionY_bytes>e__FixedBuffer'] = { -- table(1066c7b4)
 		['Methods'] = { -- table(973906fe)
@@ -130817,18 +133531,18 @@
 			},
 			['PositionX_bytes'] = { -- table(4d1589cf)
 				['offset'] = 32,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessTalentPosition.<PositionX_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentPosition.<PositionX_bytes>e__FixedBuffer',
 			},
 			['PositionY_bytes'] = { -- table(afd449b4)
 				['offset'] = 52,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResChessTalentPosition.<PositionY_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentPosition.<PositionY_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 52,
@@ -130862,10 +133576,10 @@
 			},
 			['szHP_bytes'] = { -- table(e2d5833d)
 				['offset'] = 9,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResChessTalentRebuild.<szHP_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessTalentRebuild.<szHP_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 9,
@@ -130899,10 +133613,10 @@
 			},
 			['astInteractInfo_bytes'] = { -- table(145d6c64)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_NumenInteract',
+				['type'] = 'ResData.ResChessNumenBattleInteractInfo.<astInteractInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_NumenInteract',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessNumenBattleInteractInfo.<astInteractInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -130944,10 +133658,10 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(f569dd58)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_DailyReward_Info',
+				['type'] = 'ResData.ResDailyReward.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DailyReward_Info',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDailyReward.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -130970,6 +133684,17 @@
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResWifiSymbolPageInfo.<SymbolID_bytes>e__FixedBuffer'] = { -- table(e281e512)
+		['Methods'] = { -- table(f426c054)
+		},
+		['Fields'] = { -- table(39665061)
+			['FixedElementField'] = { -- table(c88a729)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWifiSymbolPageInfo'] = { -- table(72b3968a)
 		['Methods'] = { -- table(6d7d1244)
@@ -131001,11 +133726,11 @@
 			},
 			['SymbolID_bytes'] = { -- table(57eaf95e)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResWifiSymbolPageInfo.<SymbolID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 30,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWifiSymbolPageInfo.<SymbolID_bytes>e__FixedBuffer',
 			},
 			['dwCombatVal'] = { -- table(41a6f1d1)
 				['offset'] = 132,
@@ -131017,6 +133742,17 @@
 			},
 		},
 		['MaxV'] = 136,
+	},
+	['ResData.ResFullLvlSymbolPageInfo.<SymbolID_bytes>e__FixedBuffer'] = { -- table(dd0b6e)
+		['Methods'] = { -- table(de81de44)
+		},
+		['Fields'] = { -- table(faac37ef)
+			['FixedElementField'] = { -- table(f6353d6f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResFullLvlSymbolPageInfo'] = { -- table(10ca645e)
 		['Methods'] = { -- table(578415f4)
@@ -131044,11 +133780,11 @@
 			},
 			['SymbolID_bytes'] = { -- table(ccc6828c)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResFullLvlSymbolPageInfo.<SymbolID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 30,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFullLvlSymbolPageInfo.<SymbolID_bytes>e__FixedBuffer',
 			},
 			['dwCombatVal'] = { -- table(dc67f467)
 				['offset'] = 144,
@@ -131102,10 +133838,10 @@
 			},
 			['InitSymbolID_bytes'] = { -- table(847da0e8)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroSymbolRcmd.<InitSymbolID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSymbolRcmd.<InitSymbolID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -131139,13 +133875,24 @@
 			},
 			['astCondActivity_bytes'] = { -- table(2a45cc01)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_ConditionActivity',
+				['type'] = 'ResData.ResLevelActivityInfo.<astCondActivity_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ConditionActivity',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelActivityInfo.<astCondActivity_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResLobbyActivityGameMode.<astSpecialChange_bytes>e__FixedBuffer'] = { -- table(f2d646de)
+		['Methods'] = { -- table(eec947f8)
+		},
+		['Fields'] = { -- table(f6e2783b)
+			['FixedElementField'] = { -- table(69a4f593)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLobbyActivityGameMode'] = { -- table(abf257b8)
 		['Methods'] = { -- table(5ffdcd1e)
@@ -131405,11 +134152,11 @@
 			},
 			['astSpecialChange_bytes'] = { -- table(99e55638)
 				['offset'] = 256,
-				['type'] = 'ResData.SpecialChange',
+				['type'] = 'ResData.ResLobbyActivityGameMode.<astSpecialChange_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.SpecialChange',
 				['count'] = 4,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLobbyActivityGameMode.<astSpecialChange_bytes>e__FixedBuffer',
 			},
 			['bGrayRule'] = { -- table(e4b47fa6)
 				['offset'] = 384,
@@ -131441,6 +134188,17 @@
 			},
 		},
 		['MaxV'] = 408,
+	},
+	['ResData.ResLobbyActiveEntryConf.<astSpecialChange_bytes>e__FixedBuffer'] = { -- table(a50d96e)
+		['Methods'] = { -- table(f757005c)
+		},
+		['Fields'] = { -- table(ecba5399)
+			['FixedElementField'] = { -- table(9484d341)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLobbyActiveEntryConf'] = { -- table(45a4f348)
 		['Methods'] = { -- table(30a54a8a)
@@ -131516,11 +134274,11 @@
 			},
 			['astSpecialChange_bytes'] = { -- table(15f286d6)
 				['offset'] = 64,
-				['type'] = 'ResData.SpecialChange',
+				['type'] = 'ResData.ResLobbyActiveEntryConf.<astSpecialChange_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.SpecialChange',
 				['count'] = 4,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLobbyActiveEntryConf.<astSpecialChange_bytes>e__FixedBuffer',
 			},
 			['dwOpenTimeGen'] = { -- table(5de74155)
 				['offset'] = 192,
@@ -131532,6 +134290,17 @@
 			},
 		},
 		['MaxV'] = 196,
+	},
+	['ResData.ResProPlayer.<astAcntList_bytes>e__FixedBuffer'] = { -- table(a3fce493)
+		['Methods'] = { -- table(f97a42e1)
+		},
+		['Fields'] = { -- table(f3b532b8)
+			['FixedElementField'] = { -- table(b54d76ae)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResProPlayer'] = { -- table(6a66acf2)
 		['Methods'] = { -- table(6386c1a8)
@@ -131659,11 +134428,11 @@
 			},
 			['astAcntList_bytes'] = { -- table(ba633381)
 				['offset'] = 112,
-				['type'] = 'ResData.ResAcntKeyList',
+				['type'] = 'ResData.ResProPlayer.<astAcntList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResAcntKeyList',
 				['count'] = 4,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProPlayer.<astAcntList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 112,
@@ -131705,10 +134474,10 @@
 			},
 			['astAcntList_bytes'] = { -- table(9fe70912)
 				['offset'] = 24,
-				['type'] = 'ResData.ResAcntKeyList',
+				['type'] = 'ResData.ResSaibaoHost.<astAcntList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResAcntKeyList',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSaibaoHost.<astAcntList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -131718,6 +134487,28 @@
 		},
 		['Fields'] = { -- table(f9ff0269)
 			['FixedElementField'] = { -- table(7b234871)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResWorkShop.<astDifficulties_bytes>e__FixedBuffer'] = { -- table(72a687a9)
+		['Methods'] = { -- table(4d9006a3)
+		},
+		['Fields'] = { -- table(6975b848)
+			['FixedElementField'] = { -- table(f3b6ef1e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResWorkShop.<astSpecialDifficulties_bytes>e__FixedBuffer'] = { -- table(9efe19a)
+		['Methods'] = { -- table(7c491878)
+		},
+		['Fields'] = { -- table(77196d79)
+			['FixedElementField'] = { -- table(d59609e1)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -131794,19 +134585,19 @@
 			},
 			['astDifficulties_bytes'] = { -- table(d252748d)
 				['offset'] = 40,
-				['type'] = 'ResData.DifficultyInfo',
+				['type'] = 'ResData.ResWorkShop.<astDifficulties_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.DifficultyInfo',
 				['count'] = 10,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWorkShop.<astDifficulties_bytes>e__FixedBuffer',
 			},
 			['astSpecialDifficulties_bytes'] = { -- table(25149c3a)
 				['offset'] = 120,
-				['type'] = 'ResData.DifficultyInfo',
+				['type'] = 'ResData.ResWorkShop.<astSpecialDifficulties_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.DifficultyInfo',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWorkShop.<astSpecialDifficulties_bytes>e__FixedBuffer',
 			},
 			['strIdRandomCampName'] = { -- table(6cb21603)
 				['offset'] = 144,
@@ -131814,10 +134605,10 @@
 			},
 			['astCamps_bytes'] = { -- table(17c6755a)
 				['offset'] = 152,
-				['type'] = 'ResData.CampInfo',
+				['type'] = 'ResData.ResWorkShop.<astCamps_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.CampInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWorkShop.<astCamps_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 152,
@@ -131863,10 +134654,10 @@
 			},
 			['astAcntList_bytes'] = { -- table(42d7f98)
 				['offset'] = 32,
-				['type'] = 'ResData.ResAcntKeyList',
+				['type'] = 'ResData.ResGameAnchor.<astAcntList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResAcntKeyList',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGameAnchor.<astAcntList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -131900,10 +134691,10 @@
 			},
 			['astLivePlatformAnchorTitleIconPaths_bytes'] = { -- table(e8d70961)
 				['offset'] = 16,
-				['type'] = 'ResData.ResLivePlatformAnchorTitleIconPath',
+				['type'] = 'ResData.ResLivePlatform.<astLivePlatformAnchorTitleIconPaths_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResLivePlatformAnchorTitleIconPath',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLivePlatform.<astLivePlatformAnchorTitleIconPaths_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -131922,6 +134713,17 @@
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResHeroAbility.<szAbilityForShow_bytes>e__FixedBuffer'] = { -- table(bf8c06f6)
+		['Methods'] = { -- table(23f9545c)
+		},
+		['Fields'] = { -- table(d0ff3c03)
+			['FixedElementField'] = { -- table(856e309b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroAbility.<szOuterType_bytes>e__FixedBuffer'] = { -- table(f31e36c5)
 		['Methods'] = { -- table(8c272ce3)
@@ -131964,18 +134766,18 @@
 			},
 			['szAbilityForShow_bytes'] = { -- table(317448a0)
 				['offset'] = 16,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResHeroAbility.<szAbilityForShow_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 20,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroAbility.<szAbilityForShow_bytes>e__FixedBuffer',
 			},
 			['szOuterType_bytes'] = { -- table(5feb2237)
 				['offset'] = 36,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResHeroAbility.<szOuterType_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroAbility.<szOuterType_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 36,
@@ -132006,6 +134808,17 @@
 			},
 		},
 		['MaxV'] = 96,
+	},
+	['ResData.ResVideoGuideConf.<astVideoPath_bytes>e__FixedBuffer'] = { -- table(d93324da)
+		['Methods'] = { -- table(8ed84cdc)
+		},
+		['Fields'] = { -- table(2ec054b1)
+			['FixedElementField'] = { -- table(2d6af399)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResVideoGuideConf'] = { -- table(ac7b324b)
 		['Methods'] = { -- table(4878b515)
@@ -132069,11 +134882,11 @@
 			},
 			['astVideoPath_bytes'] = { -- table(ef75d0e6)
 				['offset'] = 56,
-				['type'] = 'ResData.VideoGuideBannerStr',
+				['type'] = 'ResData.ResVideoGuideConf.<astVideoPath_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.VideoGuideBannerStr',
 				['count'] = 1,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResVideoGuideConf.<astVideoPath_bytes>e__FixedBuffer',
 			},
 			['dwGuideBit'] = { -- table(69db4148)
 				['offset'] = 88,
@@ -132110,6 +134923,39 @@
 		},
 		['MaxV'] = 112,
 	},
+	['ResData.ResTeamRangeParam.<BaseParam_bytes>e__FixedBuffer'] = { -- table(8abd876a)
+		['Methods'] = { -- table(b096d31c)
+		},
+		['Fields'] = { -- table(3e50c8c7)
+			['FixedElementField'] = { -- table(61d40787)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTeamRangeParam.<MaxParam_bytes>e__FixedBuffer'] = { -- table(acf550cf)
+		['Methods'] = { -- table(b4d8837d)
+		},
+		['Fields'] = { -- table(26514bec)
+			['FixedElementField'] = { -- table(c527085a)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTeamRangeParam.<MinParam_bytes>e__FixedBuffer'] = { -- table(11c8ca6d)
+		['Methods'] = { -- table(6d3b9c9f)
+		},
+		['Fields'] = { -- table(b80f3b9a)
+			['FixedElementField'] = { -- table(ff7ebf20)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResTeamRangeParam'] = { -- table(1fc6460f)
 		['Methods'] = { -- table(bd5b525)
 			['BaseParam'] = { -- table(bbc84429)
@@ -132144,27 +134990,27 @@
 			},
 			['BaseParam_bytes'] = { -- table(f162c994)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTeamRangeParam.<BaseParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeamRangeParam.<BaseParam_bytes>e__FixedBuffer',
 			},
 			['MinParam_bytes'] = { -- table(9938eb77)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTeamRangeParam.<MinParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeamRangeParam.<MinParam_bytes>e__FixedBuffer',
 			},
 			['MaxParam_bytes'] = { -- table(9a95a0e1)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTeamRangeParam.<MaxParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeamRangeParam.<MaxParam_bytes>e__FixedBuffer',
 			},
 			['bLimitAcntNum'] = { -- table(c5b7b79f)
 				['offset'] = 36,
@@ -132206,13 +135052,24 @@
 			},
 			['astRewardDetail_bytes'] = { -- table(c5cf80ef)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_ChapterRewardInfo',
+				['type'] = 'ResData.ResAutoChessRankReward.<astRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChapterRewardInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAutoChessRankReward.<astRewardDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResChessBountyEntryInfo.<astCost_bytes>e__FixedBuffer'] = { -- table(d9b2a571)
+		['Methods'] = { -- table(321504f3)
+		},
+		['Fields'] = { -- table(fe17eeb4)
+			['FixedElementField'] = { -- table(495f1782)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResChessBountyEntryInfo'] = { -- table(456d15e5)
 		['Methods'] = { -- table(4fa0716f)
@@ -132248,11 +135105,11 @@
 			},
 			['astCost_bytes'] = { -- table(6dc0c2b5)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_ChessBountyEntryCost',
+				['type'] = 'ResData.ResChessBountyEntryInfo.<astCost_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessBountyEntryCost',
 				['count'] = 4,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessBountyEntryInfo.<astCost_bytes>e__FixedBuffer',
 			},
 			['dwLowerLimit'] = { -- table(7c052939)
 				['offset'] = 64,
@@ -132322,10 +135179,10 @@
 			},
 			['RankReward_bytes'] = { -- table(7f67d5eb)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResChessBountyBaseRewardInfo.<RankReward_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessBountyBaseRewardInfo.<RankReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -132359,10 +135216,10 @@
 			},
 			['astRandomInfo_bytes'] = { -- table(1c4bc71c)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_ItemRandomInfo',
+				['type'] = 'ResData.ResDT_ItemRandomGroup.<astRandomInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ItemRandomInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ItemRandomGroup.<astRandomInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -132396,10 +135253,10 @@
 			},
 			['astRuleInfo_bytes'] = { -- table(f61794c1)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_ItemRandomRuleInfo',
+				['type'] = 'ResData.ResProject8DrawItemRoundInfo.<astRuleInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ItemRandomRuleInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProject8DrawItemRoundInfo.<astRuleInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -132449,10 +135306,10 @@
 			},
 			['astRandomInfo_bytes'] = { -- table(5092ce5a)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_ItemRandomInfo',
+				['type'] = 'ResData.ResProject8ChestInfo.<astRandomInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ItemRandomInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProject8ChestInfo.<astRandomInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -132525,13 +135382,35 @@
 			},
 			['astReward_bytes'] = { -- table(888b8235)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResCommReward.<astReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommReward.<astReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResAlbum.<HeroID_bytes>e__FixedBuffer'] = { -- table(5d5e9fed)
+		['Methods'] = { -- table(735ea82f)
+		},
+		['Fields'] = { -- table(3c80c1dc)
+			['FixedElementField'] = { -- table(952a4baa)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResAlbum.<StoryID_bytes>e__FixedBuffer'] = { -- table(7c55dea8)
+		['Methods'] = { -- table(35466322)
+		},
+		['Fields'] = { -- table(e1979c9f)
+			['FixedElementField'] = { -- table(e6dee7bf)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResAlbum'] = { -- table(1ea7dd97)
 		['Methods'] = { -- table(8e3bd1f5)
@@ -132595,22 +135474,44 @@
 			},
 			['HeroID_bytes'] = { -- table(d0c03231)
 				['offset'] = 40,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResAlbum.<HeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 15,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAlbum.<HeroID_bytes>e__FixedBuffer',
 			},
 			['StoryID_bytes'] = { -- table(6a0195b8)
 				['offset'] = 100,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResAlbum.<StoryID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 9,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAlbum.<StoryID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 100,
+	},
+	['ResData.ResAlbumExtra.<astCampDialogue_bytes>e__FixedBuffer'] = { -- table(c86a7ed9)
+		['Methods'] = { -- table(43a424ff)
+		},
+		['Fields'] = { -- table(36790430)
+			['FixedElementField'] = { -- table(f60ac366)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResAlbumExtra.<astLevel_bytes>e__FixedBuffer'] = { -- table(fd7fc268)
+		['Methods'] = { -- table(8f3c723a)
+		},
+		['Fields'] = { -- table(aa70403)
+			['FixedElementField'] = { -- table(434089b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResAlbumExtra'] = { -- table(d25963fb)
 		['Methods'] = { -- table(5f3f8bb9)
@@ -132690,11 +135591,11 @@
 			},
 			['astLevel_bytes'] = { -- table(26966c90)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_AlbumLevel',
+				['type'] = 'ResData.ResAlbumExtra.<astLevel_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_AlbumLevel',
 				['count'] = 5,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAlbumExtra.<astLevel_bytes>e__FixedBuffer',
 			},
 			['strIdNodePath'] = { -- table(c723f18b)
 				['offset'] = 168,
@@ -132702,14 +135603,36 @@
 			},
 			['astCampDialogue_bytes'] = { -- table(4d598e15)
 				['offset'] = 176,
-				['type'] = 'ResData.ResDT_CampString',
+				['type'] = 'ResData.ResAlbumExtra.<astCampDialogue_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CampString',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAlbumExtra.<astCampDialogue_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 176,
+	},
+	['ResData.ResHeroClue.<astMainRelation_bytes>e__FixedBuffer'] = { -- table(de8d5671)
+		['Methods'] = { -- table(e0e1f4ef)
+		},
+		['Fields'] = { -- table(72b4ca7c)
+			['FixedElementField'] = { -- table(9b638b0a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroClue.<astRelation_bytes>e__FixedBuffer'] = { -- table(cbd473ee)
+		['Methods'] = { -- table(419c0d50)
+		},
+		['Fields'] = { -- table(9a036d03)
+			['FixedElementField'] = { -- table(9216139b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroClue'] = { -- table(16ec319)
 		['Methods'] = { -- table(cf971b3)
@@ -132813,11 +135736,11 @@
 			},
 			['astMainRelation_bytes'] = { -- table(4dd57fc9)
 				['offset'] = 88,
-				['type'] = 'ResData.ResDT_HeroRelation',
+				['type'] = 'ResData.ResHeroClue.<astMainRelation_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroRelation',
 				['count'] = 3,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroClue.<astMainRelation_bytes>e__FixedBuffer',
 			},
 			['bRelationCount'] = { -- table(c839edf1)
 				['offset'] = 160,
@@ -132825,11 +135748,11 @@
 			},
 			['astRelation_bytes'] = { -- table(df414d70)
 				['offset'] = 168,
-				['type'] = 'ResData.ResDT_HeroRelation',
+				['type'] = 'ResData.ResHeroClue.<astRelation_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroRelation',
 				['count'] = 15,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroClue.<astRelation_bytes>e__FixedBuffer',
 			},
 			['bIsHistoryHero'] = { -- table(37270016)
 				['offset'] = 528,
@@ -132875,10 +135798,10 @@
 			},
 			['Parm_bytes'] = { -- table(11aa856f)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroEventArg.<Parm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEventArg.<Parm_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -132996,10 +135919,10 @@
 			},
 			['astReply_bytes'] = { -- table(91373ee3)
 				['offset'] = 96,
-				['type'] = 'ResData.HeroEventDialogReply',
+				['type'] = 'ResData.ResHeroEventDialog.<astReply_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.HeroEventDialogReply',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEventDialog.<astReply_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 96,
@@ -133065,13 +135988,24 @@
 			},
 			['astReply_bytes'] = { -- table(ab4a7378)
 				['offset'] = 48,
-				['type'] = 'ResData.HeroEventDialogReply',
+				['type'] = 'ResData.ResHeroEventMemory.<astReply_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.HeroEventDialogReply',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEventMemory.<astReply_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResLoadingChatContent.<CustomRandomArgs_bytes>e__FixedBuffer'] = { -- table(54ca12b5)
+		['Methods'] = { -- table(99c322fb)
+		},
+		['Fields'] = { -- table(f84ea0a6)
+			['FixedElementField'] = { -- table(8d8888e4)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLoadingChatContent'] = { -- table(5c6de41b)
 		['Methods'] = { -- table(535714a1)
@@ -133131,11 +136065,11 @@
 			},
 			['CustomRandomArgs_bytes'] = { -- table(c6b4b1af)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLoadingChatContent.<CustomRandomArgs_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLoadingChatContent.<CustomRandomArgs_bytes>e__FixedBuffer',
 			},
 			['strIdMatch2v2Content'] = { -- table(cfb6a1f6)
 				['offset'] = 56,
@@ -133143,6 +136077,28 @@
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResMountEquipInheritInfo.<BuffID_bytes>e__FixedBuffer'] = { -- table(4caeccd5)
+		['Methods'] = { -- table(3ff2833)
+		},
+		['Fields'] = { -- table(b5436944)
+			['FixedElementField'] = { -- table(454e5df2)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResMountEquipInheritInfo.<PassiveID_bytes>e__FixedBuffer'] = { -- table(ead92d49)
+		['Methods'] = { -- table(e18faf13)
+		},
+		['Fields'] = { -- table(7e3ab0da)
+			['FixedElementField'] = { -- table(4f1a9560)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMountEquipInheritInfo'] = { -- table(f415f12a)
 		['Methods'] = { -- table(bb66a00)
@@ -133170,19 +136126,19 @@
 			},
 			['PassiveID_bytes'] = { -- table(e3b4437b)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResMountEquipInheritInfo.<PassiveID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMountEquipInheritInfo.<PassiveID_bytes>e__FixedBuffer',
 			},
 			['BuffID_bytes'] = { -- table(8ce9abfd)
 				['offset'] = 24,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResMountEquipInheritInfo.<BuffID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMountEquipInheritInfo.<BuffID_bytes>e__FixedBuffer',
 			},
 			['iSkillID'] = { -- table(5d6accd0)
 				['offset'] = 36,
@@ -133194,6 +136150,94 @@
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResIntimacyLevel.<astBestieMailReward_bytes>e__FixedBuffer'] = { -- table(c1449d2f)
+		['Methods'] = { -- table(10982655)
+		},
+		['Fields'] = { -- table(94505490)
+			['FixedElementField'] = { -- table(5ab7b186)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResIntimacyLevel.<astBroSisMailReward_bytes>e__FixedBuffer'] = { -- table(3abded01)
+		['Methods'] = { -- table(bd3430b)
+		},
+		['Fields'] = { -- table(f10ff9ce)
+			['FixedElementField'] = { -- table(20e7cfcc)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResIntimacyLevel.<astGayMailReward_bytes>e__FixedBuffer'] = { -- table(6a99316)
+		['Methods'] = { -- table(15d4d1cc)
+		},
+		['Fields'] = { -- table(e6bf08a3)
+			['FixedElementField'] = { -- table(53ee657b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResIntimacyLevel.<astIntimacyRewardList_bytes>e__FixedBuffer'] = { -- table(d6623d0)
+		['Methods'] = { -- table(d72f9602)
+		},
+		['Fields'] = { -- table(54d095e7)
+			['FixedElementField'] = { -- table(5595b467)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResIntimacyLevel.<astLoverMailReward_bytes>e__FixedBuffer'] = { -- table(cf6ecfd9)
+		['Methods'] = { -- table(f1f22a3f)
+		},
+		['Fields'] = { -- table(31c26f44)
+			['FixedElementField'] = { -- table(eac54ff2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResIntimacyLevel.<astSidekickMailReward_bytes>e__FixedBuffer'] = { -- table(2800829c)
+		['Methods'] = { -- table(c4cf75d2)
+		},
+		['Fields'] = { -- table(bb30b94f)
+			['FixedElementField'] = { -- table(ad05078f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResIntimacyLevel.<astSisBroMailReward_bytes>e__FixedBuffer'] = { -- table(86edb359)
+		['Methods'] = { -- table(2780aa3b)
+		},
+		['Fields'] = { -- table(1af1a1ca)
+			['FixedElementField'] = { -- table(3e1c1570)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResIntimacyLevel.<astSisterMailReward_bytes>e__FixedBuffer'] = { -- table(5e7baa97)
+		['Methods'] = { -- table(5c224e69)
+		},
+		['Fields'] = { -- table(4a00ced8)
+			['FixedElementField'] = { -- table(c5cb160e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResIntimacyLevel'] = { -- table(8089d50c)
 		['Methods'] = { -- table(a81274d2)
@@ -133281,11 +136325,11 @@
 			},
 			['astIntimacyRewardList_bytes'] = { -- table(930c53dc)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_IntimacyRewardInfo',
+				['type'] = 'ResData.ResIntimacyLevel.<astIntimacyRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntimacyRewardInfo',
 				['count'] = 6,
 				['size'] = 64,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyLevel.<astIntimacyRewardList_bytes>e__FixedBuffer',
 			},
 			['dwGayRewardNum'] = { -- table(d9683f22)
 				['offset'] = 408,
@@ -133293,11 +136337,11 @@
 			},
 			['astGayMailReward_bytes'] = { -- table(20324144)
 				['offset'] = 412,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResIntimacyLevel.<astGayMailReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyLevel.<astGayMailReward_bytes>e__FixedBuffer',
 			},
 			['dwLoverRewardNum'] = { -- table(2813f1f9)
 				['offset'] = 448,
@@ -133305,11 +136349,11 @@
 			},
 			['astLoverMailReward_bytes'] = { -- table(ebae0899)
 				['offset'] = 452,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResIntimacyLevel.<astLoverMailReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyLevel.<astLoverMailReward_bytes>e__FixedBuffer',
 			},
 			['dwSidekickRewardNum'] = { -- table(5945ac10)
 				['offset'] = 488,
@@ -133317,11 +136361,11 @@
 			},
 			['astSidekickMailReward_bytes'] = { -- table(12e63678)
 				['offset'] = 492,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResIntimacyLevel.<astSidekickMailReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyLevel.<astSidekickMailReward_bytes>e__FixedBuffer',
 			},
 			['dwBestieRewardNum'] = { -- table(10f4873f)
 				['offset'] = 528,
@@ -133329,11 +136373,11 @@
 			},
 			['astBestieMailReward_bytes'] = { -- table(fd48fedd)
 				['offset'] = 532,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResIntimacyLevel.<astBestieMailReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyLevel.<astBestieMailReward_bytes>e__FixedBuffer',
 			},
 			['dwBroSisRewardNum'] = { -- table(c724f0b1)
 				['offset'] = 568,
@@ -133341,11 +136385,11 @@
 			},
 			['astBroSisMailReward_bytes'] = { -- table(8e538563)
 				['offset'] = 572,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResIntimacyLevel.<astBroSisMailReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyLevel.<astBroSisMailReward_bytes>e__FixedBuffer',
 			},
 			['dwSisBroRewardNum'] = { -- table(594ba629)
 				['offset'] = 608,
@@ -133353,11 +136397,11 @@
 			},
 			['astSisBroMailReward_bytes'] = { -- table(e5022a47)
 				['offset'] = 612,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResIntimacyLevel.<astSisBroMailReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyLevel.<astSisBroMailReward_bytes>e__FixedBuffer',
 			},
 			['dwSisterRewardNum'] = { -- table(3424876f)
 				['offset'] = 648,
@@ -133365,11 +136409,11 @@
 			},
 			['astSisterMailReward_bytes'] = { -- table(4dd6c3e9)
 				['offset'] = 652,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResIntimacyLevel.<astSisterMailReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIntimacyLevel.<astSisterMailReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 652,
@@ -133407,10 +136451,10 @@
 			},
 			['HeroID_bytes'] = { -- table(ba0e6623)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroIDPool.<HeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroIDPool.<HeroID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -133468,10 +136512,10 @@
 			},
 			['astChoices_bytes'] = { -- table(8bb1d44c)
 				['offset'] = 32,
-				['type'] = 'ResData.ResSurveyChoiceItem',
+				['type'] = 'ResData.ResSurveyChoice.<astChoices_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSurveyChoiceItem',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSurveyChoice.<astChoices_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -133505,10 +136549,10 @@
 			},
 			['astQuestions_bytes'] = { -- table(68baf9a)
 				['offset'] = 12,
-				['type'] = 'ResData.ResSurveyQuestionInfo',
+				['type'] = 'ResData.ResSurvey.<astQuestions_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSurveyQuestionInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSurvey.<astQuestions_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -133542,13 +136586,35 @@
 			},
 			['astRewardDetail_bytes'] = { -- table(26c7517)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_ChapterRewardInfo',
+				['type'] = 'ResData.ResQuestionnaireRewardConf.<astRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChapterRewardInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResQuestionnaireRewardConf.<astRewardDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResSuitRecommend.<RecommendEquipId_bytes>e__FixedBuffer'] = { -- table(d439f6d)
+		['Methods'] = { -- table(27c73197)
+		},
+		['Fields'] = { -- table(a31f9228)
+			['FixedElementField'] = { -- table(ff077d3e)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSuitRecommend.<RecommendSymbolId_bytes>e__FixedBuffer'] = { -- table(9f5bc873)
+		['Methods'] = { -- table(c753c61d)
+		},
+		['Fields'] = { -- table(1c03d118)
+			['FixedElementField'] = { -- table(1d11ea4e)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSuitRecommend'] = { -- table(2b393a71)
 		['Methods'] = { -- table(484f7e1f)
@@ -133600,19 +136666,19 @@
 			},
 			['RecommendEquipId_bytes'] = { -- table(2055e259)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSuitRecommend.<RecommendEquipId_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 12,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSuitRecommend.<RecommendEquipId_bytes>e__FixedBuffer',
 			},
 			['RecommendSymbolId_bytes'] = { -- table(592be2f9)
 				['offset'] = 80,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSuitRecommend.<RecommendSymbolId_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 30,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSuitRecommend.<RecommendSymbolId_bytes>e__FixedBuffer',
 			},
 			['dwRecommendAddedSkillId'] = { -- table(e831f2c9)
 				['offset'] = 200,
@@ -133670,13 +136736,24 @@
 			},
 			['astVideoFragment_bytes'] = { -- table(f55b6f1)
 				['offset'] = 32,
-				['type'] = 'ResData.ResYearStoryVideoFragmentParm',
+				['type'] = 'ResData.ResYearStoryVideoConfig.<astVideoFragment_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResYearStoryVideoFragmentParm',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResYearStoryVideoConfig.<astVideoFragment_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResBreakingNewsDialog.<astChoice_bytes>e__FixedBuffer'] = { -- table(2ab67c10)
+		['Methods'] = { -- table(11fd2f3e)
+		},
+		['Fields'] = { -- table(a7e391fd)
+			['FixedElementField'] = { -- table(cfe4cb1d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBreakingNewsDialog'] = { -- table(c3b7f28a)
 		['Methods'] = { -- table(5560b810)
@@ -133780,11 +136857,11 @@
 			},
 			['astChoice_bytes'] = { -- table(16593b2a)
 				['offset'] = 88,
-				['type'] = 'ResData.ResBreakingNewsDialogChoice',
+				['type'] = 'ResData.ResBreakingNewsDialog.<astChoice_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResBreakingNewsDialogChoice',
 				['count'] = 4,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBreakingNewsDialog.<astChoice_bytes>e__FixedBuffer',
 			},
 			['dwBreakingNewsHeroID'] = { -- table(69fd76d5)
 				['offset'] = 152,
@@ -133862,10 +136939,10 @@
 			},
 			['astAward_bytes'] = { -- table(453c0df7)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResCompetitionYearStageAward.<astAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCompetitionYearStageAward.<astAward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
@@ -133899,10 +136976,10 @@
 			},
 			['Param_bytes'] = { -- table(9f16753d)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResYearStoryEventCondition.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResYearStoryEventCondition.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -133952,13 +137029,24 @@
 			},
 			['astPrefabName_bytes'] = { -- table(78f686f8)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_SkinSharePrefabName',
+				['type'] = 'ResData.ResSkinShare.<astPrefabName_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkinSharePrefabName',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkinShare.<astPrefabName_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResUgcAwardConf.<astLoseAward_bytes>e__FixedBuffer'] = { -- table(77233cfd)
+		['Methods'] = { -- table(b0decb63)
+		},
+		['Fields'] = { -- table(db405026)
+			['FixedElementField'] = { -- table(8f1e6f64)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResUgcAwardConf'] = { -- table(904b6b18)
 		['Methods'] = { -- table(d7a26806)
@@ -134002,11 +137090,11 @@
 			},
 			['astLoseAward_bytes'] = { -- table(988bab5b)
 				['offset'] = 36,
-				['type'] = 'ResData.ResUgcWavesLoseAward',
+				['type'] = 'ResData.ResUgcAwardConf.<astLoseAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResUgcWavesLoseAward',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUgcAwardConf.<astLoseAward_bytes>e__FixedBuffer',
 			},
 			['dwMaxLoseAwardCntPerDay'] = { -- table(22bf7d14)
 				['offset'] = 60,
@@ -134014,6 +137102,28 @@
 			},
 		},
 		['MaxV'] = 60,
+	},
+	['ResData.ResMapExtraFuncInfo.<GrayParam_bytes>e__FixedBuffer'] = { -- table(81dc4cd)
+		['Methods'] = { -- table(bb7a031b)
+		},
+		['Fields'] = { -- table(868d6af8)
+			['FixedElementField'] = { -- table(4ab622ee)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResMapExtraFuncInfo.<astTriggerTask_bytes>e__FixedBuffer'] = { -- table(6ab63b96)
+		['Methods'] = { -- table(4b29a140)
+		},
+		['Fields'] = { -- table(1cadfe21)
+			['FixedElementField'] = { -- table(ecaca8e9)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMapExtraFuncInfo'] = { -- table(7659b36a)
 		['Methods'] = { -- table(4aa59ac)
@@ -134073,11 +137183,11 @@
 			},
 			['astTriggerTask_bytes'] = { -- table(947a52f6)
 				['offset'] = 28,
-				['type'] = 'ResData.ResMapTriggerTask',
+				['type'] = 'ResData.ResMapExtraFuncInfo.<astTriggerTask_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResMapTriggerTask',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMapExtraFuncInfo.<astTriggerTask_bytes>e__FixedBuffer',
 			},
 			['bIsBelongWangZheXiaGu'] = { -- table(684a1f06)
 				['offset'] = 48,
@@ -134113,11 +137223,11 @@
 			},
 			['GrayParam_bytes'] = { -- table(2a9d4e11)
 				['offset'] = 56,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResMapExtraFuncInfo.<GrayParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMapExtraFuncInfo.<GrayParam_bytes>e__FixedBuffer',
 			},
 			['iHeroPracticeShowTime'] = { -- table(cc4dfeb7)
 				['offset'] = 68,
@@ -134254,6 +137364,17 @@
 		},
 		['MaxV'] = 120,
 	},
+	['ResData.ResGlobalFuncOpenTime.<Param_bytes>e__FixedBuffer'] = { -- table(9448670c)
+		['Methods'] = { -- table(8fdd76ee)
+		},
+		['Fields'] = { -- table(3a780f89)
+			['FixedElementField'] = { -- table(620b1e51)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResGlobalFuncOpenTime'] = { -- table(2cf8a5e8)
 		['Methods'] = { -- table(dd882356)
 			['Param'] = { -- table(5a890337)
@@ -134276,11 +137397,11 @@
 			},
 			['Param_bytes'] = { -- table(ea614456)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGlobalFuncOpenTime.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGlobalFuncOpenTime.<Param_bytes>e__FixedBuffer',
 			},
 			['ullStartTime'] = { -- table(6d9685e1)
 				['offset'] = 32,
@@ -134339,6 +137460,17 @@
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResCommResShop.<PromotionID_bytes>e__FixedBuffer'] = { -- table(36454b3d)
+		['Methods'] = { -- table(5110c2b3)
+		},
+		['Fields'] = { -- table(53922b56)
+			['FixedElementField'] = { -- table(b6b6e6f4)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCommResShop'] = { -- table(f9aa24ba)
 		['Methods'] = { -- table(1bd867cc)
@@ -134462,11 +137594,11 @@
 			},
 			['PromotionID_bytes'] = { -- table(76a53fff)
 				['offset'] = 148,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCommResShop.<PromotionID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommResShop.<PromotionID_bytes>e__FixedBuffer',
 			},
 			['strIdOnTimeStr'] = { -- table(cdd43f20)
 				['offset'] = 168,
@@ -134714,6 +137846,39 @@
 		},
 		['MaxV'] = 196,
 	},
+	['ResData.ResHighlightInfo.<FilterHeroCfgID_bytes>e__FixedBuffer'] = { -- table(4d3ff494)
+		['Methods'] = { -- table(ccd2ba5e)
+		},
+		['Fields'] = { -- table(44fa0067)
+			['FixedElementField'] = { -- table(77013be7)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHighlightInfo.<HeroCfgID_bytes>e__FixedBuffer'] = { -- table(c3b3e9b2)
+		['Methods'] = { -- table(c298c75c)
+		},
+		['Fields'] = { -- table(cf46171d)
+			['FixedElementField'] = { -- table(db0c68fd)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHighlightInfo.<astHighlightDelayTrigger_bytes>e__FixedBuffer'] = { -- table(544e4f00)
+		['Methods'] = { -- table(a0bb8da6)
+		},
+		['Fields'] = { -- table(26cc151d)
+			['FixedElementField'] = { -- table(6765c2fd)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResHighlightInfo'] = { -- table(a11c2064)
 		['Methods'] = { -- table(419d4f42)
 			['get_szUILabel'] = { -- table(311a61f6)
@@ -134844,19 +138009,19 @@
 			},
 			['HeroCfgID_bytes'] = { -- table(c4edd19e)
 				['offset'] = 68,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHighlightInfo.<HeroCfgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightInfo.<HeroCfgID_bytes>e__FixedBuffer',
 			},
 			['FilterHeroCfgID_bytes'] = { -- table(cee6cd34)
 				['offset'] = 88,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHighlightInfo.<FilterHeroCfgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightInfo.<FilterHeroCfgID_bytes>e__FixedBuffer',
 			},
 			['dwCrazyPowerValue'] = { -- table(61d04835)
 				['offset'] = 108,
@@ -134892,11 +138057,11 @@
 			},
 			['astHighlightDelayTrigger_bytes'] = { -- table(fac7ad32)
 				['offset'] = 152,
-				['type'] = 'ResData.ResDT_HighlightDelayTrigger',
+				['type'] = 'ResData.ResHighlightInfo.<astHighlightDelayTrigger_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HighlightDelayTrigger',
 				['count'] = 2,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightInfo.<astHighlightDelayTrigger_bytes>e__FixedBuffer',
 			},
 			['bIsForbidden'] = { -- table(c39466f4)
 				['offset'] = 176,
@@ -134961,6 +138126,28 @@
 		},
 		['MaxV'] = 208,
 	},
+	['ResData.ResEsportsHighlightInfo.<FilterHeroCfgID_bytes>e__FixedBuffer'] = { -- table(8f641530)
+		['Methods'] = { -- table(de408156)
+		},
+		['Fields'] = { -- table(3504dd79)
+			['FixedElementField'] = { -- table(922b59e1)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResEsportsHighlightInfo.<HeroCfgID_bytes>e__FixedBuffer'] = { -- table(5a00e1ee)
+		['Methods'] = { -- table(ccb26834)
+		},
+		['Fields'] = { -- table(40fbc16f)
+			['FixedElementField'] = { -- table(8170d1ef)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResEsportsHighlightInfo'] = { -- table(565353a8)
 		['Methods'] = { -- table(97e7e69a)
 			['get_szUILabel'] = { -- table(5acc5a0e)
@@ -135007,11 +138194,11 @@
 			},
 			['HeroCfgID_bytes'] = { -- table(2db70488)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResEsportsHighlightInfo.<HeroCfgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEsportsHighlightInfo.<HeroCfgID_bytes>e__FixedBuffer',
 			},
 			['strIdUILabel'] = { -- table(1a612567)
 				['offset'] = 32,
@@ -135039,11 +138226,11 @@
 			},
 			['FilterHeroCfgID_bytes'] = { -- table(de3a0ae6)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResEsportsHighlightInfo.<FilterHeroCfgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEsportsHighlightInfo.<FilterHeroCfgID_bytes>e__FixedBuffer',
 			},
 			['strIdVoiceEvent'] = { -- table(b46435df)
 				['offset'] = 72,
@@ -135101,10 +138288,10 @@
 			},
 			['ExtendParam_bytes'] = { -- table(4f4827b5)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHighlightExtendParam.<ExtendParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightExtendParam.<ExtendParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -135138,10 +138325,10 @@
 			},
 			['astSkinEffect_bytes'] = { -- table(77eaa2ac)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_HighlightSkinEffect',
+				['type'] = 'ResData.ResHighlightSkinSpecialEffect.<astSkinEffect_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HighlightSkinEffect',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightSkinSpecialEffect.<astSkinEffect_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -135175,13 +138362,35 @@
 			},
 			['ParamType_bytes'] = { -- table(6b6e0b4a)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHighlightCustomParam.<ParamType_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightCustomParam.<ParamType_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResHighlightInfoValidStartTime.<BuffID_bytes>e__FixedBuffer'] = { -- table(731b0212)
+		['Methods'] = { -- table(fa7b4994)
+		},
+		['Fields'] = { -- table(e217f637)
+			['FixedElementField'] = { -- table(ae81a997)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHighlightInfoValidStartTime.<HighlightID_bytes>e__FixedBuffer'] = { -- table(1a88d9bb)
+		['Methods'] = { -- table(5b0b63cd)
+		},
+		['Fields'] = { -- table(f5b9eb38)
+			['FixedElementField'] = { -- table(2c7b482e)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHighlightInfoValidStartTime'] = { -- table(90cc062f)
 		['Methods'] = { -- table(dd644921)
@@ -135209,11 +138418,11 @@
 			},
 			['BuffID_bytes'] = { -- table(c3868c0c)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHighlightInfoValidStartTime.<BuffID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightInfoValidStartTime.<BuffID_bytes>e__FixedBuffer',
 			},
 			['dwSpawnBuffObj'] = { -- table(8bd7c076)
 				['offset'] = 32,
@@ -135221,11 +138430,11 @@
 			},
 			['HighlightID_bytes'] = { -- table(440284e1)
 				['offset'] = 36,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHighlightInfoValidStartTime.<HighlightID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightInfoValidStartTime.<HighlightID_bytes>e__FixedBuffer',
 			},
 			['dwHighlightTriggerObj'] = { -- table(f53fc76)
 				['offset'] = 44,
@@ -135271,13 +138480,24 @@
 			},
 			['ListParam_bytes'] = { -- table(8f9a10ca)
 				['offset'] = 16,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResHighlightConditionListParam.<ListParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightConditionListParam.<ListParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResBattleBehavior.<HeroCfgID_bytes>e__FixedBuffer'] = { -- table(ce726a42)
+		['Methods'] = { -- table(ae8ef650)
+		},
+		['Fields'] = { -- table(4014fa77)
+			['FixedElementField'] = { -- table(4fbae9d7)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBattleBehavior.<Param_bytes>e__FixedBuffer'] = { -- table(67954e60)
 		['Methods'] = { -- table(7cd9c816)
@@ -135316,21 +138536,32 @@
 			},
 			['HeroCfgID_bytes'] = { -- table(63e4a6d0)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBattleBehavior.<HeroCfgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleBehavior.<HeroCfgID_bytes>e__FixedBuffer',
 			},
 			['Param_bytes'] = { -- table(25699b4e)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBattleBehavior.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleBehavior.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResDT_HeroTrickTrainStepCondition.<astConditionParam_bytes>e__FixedBuffer'] = { -- table(f1cce858)
+		['Methods'] = { -- table(e7f4f23a)
+		},
+		['Fields'] = { -- table(db5816bd)
+			['FixedElementField'] = { -- table(7e729dd)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_HeroTrickTrainStepCondition'] = { -- table(b822445)
 		['Methods'] = { -- table(c043b373)
@@ -135358,14 +138589,25 @@
 			},
 			['astConditionParam_bytes'] = { -- table(e95a5ffa)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_HeroTrickTrainStringParam',
+				['type'] = 'ResData.ResDT_HeroTrickTrainStepCondition.<astConditionParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroTrickTrainStringParam',
 				['count'] = 10,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_HeroTrickTrainStepCondition.<astConditionParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResHeroTrickTrain.<StepID_bytes>e__FixedBuffer'] = { -- table(dfbaf8f3)
+		['Methods'] = { -- table(3929e025)
+		},
+		['Fields'] = { -- table(f92aeba0)
+			['FixedElementField'] = { -- table(264a3a76)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroTrickTrain'] = { -- table(5dbc48ff)
 		['Methods'] = { -- table(17e372b1)
@@ -135417,11 +138659,11 @@
 			},
 			['StepID_bytes'] = { -- table(8932eb3d)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroTrickTrain.<StepID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroTrickTrain.<StepID_bytes>e__FixedBuffer',
 			},
 			['bTrickMaxFinishCount'] = { -- table(a29604ef)
 				['offset'] = 84,
@@ -135429,6 +138671,17 @@
 			},
 		},
 		['MaxV'] = 84,
+	},
+	['ResData.ResHeroPracticeLevelInfo.<astPracticeGoalList_bytes>e__FixedBuffer'] = { -- table(5d0a9298)
+		['Methods'] = { -- table(18719672)
+		},
+		['Fields'] = { -- table(8f98730b)
+			['FixedElementField'] = { -- table(99e19f43)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroPracticeLevelInfo'] = { -- table(257d9d31)
 		['Methods'] = { -- table(859b7687)
@@ -135520,11 +138773,11 @@
 			},
 			['astPracticeGoalList_bytes'] = { -- table(2e1344b8)
 				['offset'] = 52,
-				['type'] = 'ResData.ResDT_HeroPracticeGoalItem',
+				['type'] = 'ResData.ResHeroPracticeLevelInfo.<astPracticeGoalList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroPracticeGoalItem',
 				['count'] = 4,
 				['size'] = 20,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeLevelInfo.<astPracticeGoalList_bytes>e__FixedBuffer',
 			},
 			['dwOwnTeamID'] = { -- table(19b67735)
 				['offset'] = 132,
@@ -135552,6 +138805,17 @@
 			},
 		},
 		['MaxV'] = 160,
+	},
+	['ResData.ResHeroPracticeAccumulateRewardInfo.<astPracticeRewardList_bytes>e__FixedBuffer'] = { -- table(b17318a9)
+		['Methods'] = { -- table(25f543c3)
+		},
+		['Fields'] = { -- table(df2935d0)
+			['FixedElementField'] = { -- table(dbb51ac6)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroPracticeAccumulateRewardInfo'] = { -- table(1601ac4)
 		['Methods'] = { -- table(cbe48846)
@@ -135583,11 +138847,12 @@
 			},
 			['astPracticeRewardList_bytes'] = { -- table(2d601b49)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_HeroPracticRewardItem',
+				['type'] = 'ResData.ResHeroPracticeAccumulateRewardInfo.<astPracticeRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroPracticRewardItem',
 				['count'] = 10,
 				['size'] = 8,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeAccumulateRewardInfo.<astPracticeRewardList_bytes>e__FixedBuffer',
 			},
 			['strIdBubbleTipText'] = { -- table(79f1996f)
 				['offset'] = 104,
@@ -135595,6 +138860,17 @@
 			},
 		},
 		['MaxV'] = 104,
+	},
+	['ResData.ResCampHeroTips.<astTipsContent_bytes>e__FixedBuffer'] = { -- table(af4c31ab)
+		['Methods'] = { -- table(4fe6f4fd)
+		},
+		['Fields'] = { -- table(4477b04)
+			['FixedElementField'] = { -- table(97c188b2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCampHeroTips'] = { -- table(4cc5b9f7)
 		['Methods'] = { -- table(1500c605)
@@ -135634,11 +138910,11 @@
 			},
 			['astTipsContent_bytes'] = { -- table(59dfa47d)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_CampHeroTipsItem',
+				['type'] = 'ResData.ResCampHeroTips.<astTipsContent_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CampHeroTipsItem',
 				['count'] = 8,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCampHeroTips.<astTipsContent_bytes>e__FixedBuffer',
 			},
 			['strIdURL'] = { -- table(db7a20ed)
 				['offset'] = 160,
@@ -135680,10 +138956,10 @@
 			},
 			['astHeroList_bytes'] = { -- table(dea41cb7)
 				['offset'] = 16,
-				['type'] = 'ResData.ResHeroData',
+				['type'] = 'ResData.ResHeroPracticeCampInfo.<astHeroList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroData',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeCampInfo.<astHeroList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -135717,10 +138993,10 @@
 			},
 			['Param_bytes'] = { -- table(20216b7d)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_AIInstructionFinishCondition.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_AIInstructionFinishCondition.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -135782,10 +139058,10 @@
 			},
 			['EmojiParam_bytes'] = { -- table(fd3e91b6)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResEmojiPkgInfo.<EmojiParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEmojiPkgInfo.<EmojiParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
@@ -135827,10 +139103,10 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(e02fa97)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResSeasonHonorRoadConf.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonHonorRoadConf.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 36,
@@ -135879,10 +139155,10 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(c2ac70be)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResSeasonHonorRoadAccumuExtraRewardConf.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonHonorRoadAccumuExtraRewardConf.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -135980,6 +139256,17 @@
 		},
 		['MaxV'] = 292,
 	},
+	['ResData.ResHeroShowVibrationInfo.<astVibrationInfo_bytes>e__FixedBuffer'] = { -- table(2c5db692)
+		['Methods'] = { -- table(10604fa8)
+		},
+		['Fields'] = { -- table(6a21e1f)
+			['FixedElementField'] = { -- table(fc58e43f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResHeroShowVibrationInfo'] = { -- table(d01150bd)
 		['Methods'] = { -- table(9545bc8b)
 			['astVibrationInfo'] = { -- table(7b694725)
@@ -135998,14 +139285,25 @@
 			},
 			['astVibrationInfo_bytes'] = { -- table(6f63e470)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_VibrationInfo',
+				['type'] = 'ResData.ResHeroShowVibrationInfo.<astVibrationInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_VibrationInfo',
 				['count'] = 6,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroShowVibrationInfo.<astVibrationInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResSkyScreen.<BindHeroSkinID_bytes>e__FixedBuffer'] = { -- table(a37555d1)
+		['Methods'] = { -- table(6f03c74b)
+		},
+		['Fields'] = { -- table(3315cfe0)
+			['FixedElementField'] = { -- table(3b970ab6)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSkyScreen'] = { -- table(26484821)
 		['Methods'] = { -- table(243faca3)
@@ -136189,11 +139487,11 @@
 			},
 			['BindHeroSkinID_bytes'] = { -- table(18513035)
 				['offset'] = 148,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSkyScreen.<BindHeroSkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkyScreen.<BindHeroSkinID_bytes>e__FixedBuffer',
 			},
 			['strIdTriggerImage'] = { -- table(8d74e6b9)
 				['offset'] = 168,
@@ -136398,10 +139696,10 @@
 			},
 			['szSkinCollectionQualityTabs_bytes'] = { -- table(39a26022)
 				['offset'] = 12,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResSkinBookInfo.<szSkinCollectionQualityTabs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkinBookInfo.<szSkinCollectionQualityTabs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -136443,13 +139741,24 @@
 			},
 			['Params_bytes'] = { -- table(de49a0ca)
 				['offset'] = 20,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResIncomeAssistAllocRule.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIncomeAssistAllocRule.<Params_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
+	},
+	['ResData.ResHeroPreSettingRule.<BanBranchType_bytes>e__FixedBuffer'] = { -- table(f745ade1)
+		['Methods'] = { -- table(f7272a3)
+		},
+		['Fields'] = { -- table(285f65d0)
+			['FixedElementField'] = { -- table(c286aac6)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroPreSettingRule.<astUniqueMap_bytes>e__FixedBuffer'] = { -- table(b3e226a5)
 		['Methods'] = { -- table(2743a0d3)
@@ -136488,11 +139797,11 @@
 			},
 			['BanBranchType_bytes'] = { -- table(f212b461)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroPreSettingRule.<BanBranchType_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPreSettingRule.<BanBranchType_bytes>e__FixedBuffer',
 			},
 			['bEnableSelectBranch'] = { -- table(3f48e6d5)
 				['offset'] = 32,
@@ -136508,10 +139817,10 @@
 			},
 			['astUniqueMap_bytes'] = { -- table(dfb3359f)
 				['offset'] = 40,
-				['type'] = 'ResData.RESDT_HeroPreSettingRuleUniqMap',
+				['type'] = 'ResData.ResHeroPreSettingRule.<astUniqueMap_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.RESDT_HeroPreSettingRuleUniqMap',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPreSettingRule.<astUniqueMap_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -136553,10 +139862,10 @@
 			},
 			['astCoinInfo_bytes'] = { -- table(36cded69)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_CoinInfo',
+				['type'] = 'ResData.ResMapCommonCond.<astCoinInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CoinInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMapCommonCond.<astCoinInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -136598,10 +139907,10 @@
 			},
 			['Step_bytes'] = { -- table(38777d41)
 				['offset'] = 20,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResWishAssistStep.<Step_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWishAssistStep.<Step_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -136702,10 +140011,10 @@
 			},
 			['ExpSkinList_bytes'] = { -- table(1e272d29)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGrowthBadgeExpSkin.<ExpSkinList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGrowthBadgeExpSkin.<ExpSkinList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -136747,10 +140056,10 @@
 			},
 			['AdcodeList_bytes'] = { -- table(aa9ec245)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ChatAdCodeConf.<AdcodeList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ChatAdCodeConf.<AdcodeList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -136780,10 +140089,10 @@
 			},
 			['astWeights_bytes'] = { -- table(8cdc06d4)
 				['offset'] = 8,
-				['type'] = 'ResData.ResDT_TreasureWeight',
+				['type'] = 'ResData.ResDT_LocWeights.<astWeights_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TreasureWeight',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_LocWeights.<astWeights_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 8,
@@ -136821,10 +140130,10 @@
 			},
 			['astMakingItems_bytes'] = { -- table(d02c9ec)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_MakingItemCfg',
+				['type'] = 'ResData.ResItemMakingInfo.<astMakingItems_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MakingItemCfg',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResItemMakingInfo.<astMakingItems_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -136858,10 +140167,10 @@
 			},
 			['astZoneWeights_bytes'] = { -- table(7f242160)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_TreasureWeight',
+				['type'] = 'ResData.ResTreasureInsureRefInfo.<astZoneWeights_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TreasureWeight',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTreasureInsureRefInfo.<astZoneWeights_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -136903,10 +140212,10 @@
 			},
 			['astPrefabNodePath_bytes'] = { -- table(7bd40eed)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_BattleUIBlockPath',
+				['type'] = 'ResData.ResBattleUIBlockConfig.<astPrefabNodePath_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BattleUIBlockPath',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleUIBlockConfig.<astPrefabNodePath_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -136940,13 +140249,24 @@
 			},
 			['HeroCfgID_bytes'] = { -- table(fa1a2d3b)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTeamFightForbidHero.<HeroCfgID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeamFightForbidHero.<HeroCfgID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResCustomStatusUnlockCond.<CondParam_bytes>e__FixedBuffer'] = { -- table(3f556c21)
+		['Methods'] = { -- table(7b715d7)
+		},
+		['Fields'] = { -- table(1e27ff84)
+			['FixedElementField'] = { -- table(40c27e32)
+				['offset'] = 8,
+				['type'] = 'System.UInt64',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCustomStatusUnlockCond'] = { -- table(cc0ffd4d)
 		['Methods'] = { -- table(d55a619b)
@@ -136970,11 +140290,11 @@
 			},
 			['CondParam_bytes'] = { -- table(28cf59f5)
 				['offset'] = 16,
-				['type'] = 'System.UInt64',
+				['type'] = 'ResData.ResCustomStatusUnlockCond.<CondParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt64',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCustomStatusUnlockCond.<CondParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -137019,9 +140339,9 @@
 			},
 			['astCond_bytes'] = { -- table(c7d142dc)
 				['offset'] = 8,
-				['type'] = 'ResData.ResHintTriggerCondItem',
+				['type'] = 'ResData.ResHintTriggerCond.<astCond_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHintTriggerCondItem',
 				['array'] = true,
-				['rawType'] = 'ResData.ResHintTriggerCond.<astCond_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 8,
@@ -137059,13 +140379,24 @@
 			},
 			['astRewardDetail_bytes'] = { -- table(17c84956)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_RandomRewardDiscountInfo',
+				['type'] = 'ResData.ResRandomRewardDiscountCfg.<astRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RandomRewardDiscountInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRandomRewardDiscountCfg.<astRewardDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResAfterGameInteractionCfg.<astConditionList_bytes>e__FixedBuffer'] = { -- table(751352f2)
+		['Methods'] = { -- table(f0932700)
+		},
+		['Fields'] = { -- table(7bdaea13)
+			['FixedElementField'] = { -- table(868982cb)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResAfterGameInteractionCfg'] = { -- table(95f8aa26)
 		['Methods'] = { -- table(3c07f24c)
@@ -137129,14 +140460,25 @@
 			},
 			['astConditionList_bytes'] = { -- table(19cdb288)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_SettleConditionInfo',
+				['type'] = 'ResData.ResAfterGameInteractionCfg.<astConditionList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SettleConditionInfo',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAfterGameInteractionCfg.<astConditionList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResThumbsUpCfg.<astConditionList_bytes>e__FixedBuffer'] = { -- table(4bde2936)
+		['Methods'] = { -- table(5152b574)
+		},
+		['Fields'] = { -- table(9ee3acf)
+			['FixedElementField'] = { -- table(ab88040f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResThumbsUpCfg'] = { -- table(5ffe8bea)
 		['Methods'] = { -- table(b19788b0)
@@ -137168,11 +140510,12 @@
 			},
 			['astConditionList_bytes'] = { -- table(3a7f8ff4)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_SettleConditionInfo',
+				['type'] = 'ResData.ResThumbsUpCfg.<astConditionList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SettleConditionInfo',
 				['count'] = 5,
 				['size'] = 8,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResThumbsUpCfg.<astConditionList_bytes>e__FixedBuffer',
 			},
 			['strIdDisplayText'] = { -- table(72fac46a)
 				['offset'] = 56,
@@ -137184,6 +140527,17 @@
 			},
 		},
 		['MaxV'] = 64,
+	},
+	['ResData.ResCollectorNameCondition.<CondParam_bytes>e__FixedBuffer'] = { -- table(80dc3ee5)
+		['Methods'] = { -- table(1886f4ff)
+		},
+		['Fields'] = { -- table(fdf8a12c)
+			['FixedElementField'] = { -- table(26dfb69a)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCollectorNameCondition'] = { -- table(10633981)
 		['Methods'] = { -- table(6b3b7803)
@@ -137231,11 +140585,11 @@
 			},
 			['CondParam_bytes'] = { -- table(a75328bd)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCollectorNameCondition.<CondParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCollectorNameCondition.<CondParam_bytes>e__FixedBuffer',
 			},
 			['strIdName'] = { -- table(5e2362ad)
 				['offset'] = 24,
@@ -137321,10 +140675,10 @@
 			},
 			['HerosID_bytes'] = { -- table(a22ebc07)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHerosCollector.<HerosID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHerosCollector.<HerosID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -137336,6 +140690,28 @@
 			['FixedElementField'] = { -- table(d2e73cd3)
 				['offset'] = 8,
 				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroTrainingTargetInfo.<Parm_bytes>e__FixedBuffer'] = { -- table(982cc54)
+		['Methods'] = { -- table(cb36d556)
+		},
+		['Fields'] = { -- table(d2dcadff)
+			['FixedElementField'] = { -- table(18191fdf)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroTrainingTargetInfo.<astAwardList_bytes>e__FixedBuffer'] = { -- table(147780ed)
+		['Methods'] = { -- table(95c28f1b)
+		},
+		['Fields'] = { -- table(f79fd366)
+			['FixedElementField'] = { -- table(8f472da4)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
 			},
 		},
 		['MaxV'] = 8,
@@ -137394,11 +140770,11 @@
 			},
 			['Parm_bytes'] = { -- table(c7542998)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroTrainingTargetInfo.<Parm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroTrainingTargetInfo.<Parm_bytes>e__FixedBuffer',
 			},
 			['bDailyFinishLimit'] = { -- table(67bc60f1)
 				['offset'] = 44,
@@ -137410,11 +140786,11 @@
 			},
 			['astAwardList_bytes'] = { -- table(3e39334b)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResHeroTrainingTargetInfo.<astAwardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroTrainingTargetInfo.<astAwardList_bytes>e__FixedBuffer',
 			},
 			['dwJumpType'] = { -- table(a92bcad7)
 				['offset'] = 84,
@@ -137422,13 +140798,24 @@
 			},
 			['JumpParm_bytes'] = { -- table(d07e1690)
 				['offset'] = 88,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroTrainingTargetInfo.<JumpParm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroTrainingTargetInfo.<JumpParm_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 88,
+	},
+	['ResData.ResHeroTrainingLevelFinishRewardInfo.<astAwardList_bytes>e__FixedBuffer'] = { -- table(38ff09dc)
+		['Methods'] = { -- table(c0d64efa)
+		},
+		['Fields'] = { -- table(b610fa39)
+			['FixedElementField'] = { -- table(505d2ea1)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroTrainingLevelFinishRewardInfo'] = { -- table(70e800c8)
 		['Methods'] = { -- table(26e1ea6a)
@@ -137468,11 +140855,11 @@
 			},
 			['astAwardList_bytes'] = { -- table(8841ee1a)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResHeroTrainingLevelFinishRewardInfo.<astAwardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroTrainingLevelFinishRewardInfo.<astAwardList_bytes>e__FixedBuffer',
 			},
 			['strIdDesc'] = { -- table(d12862e6)
 				['offset'] = 56,
@@ -137484,6 +140871,28 @@
 			},
 		},
 		['MaxV'] = 64,
+	},
+	['ResData.ResHeroPracticeSuitConf.<RecommendEquipId_bytes>e__FixedBuffer'] = { -- table(f794b3a0)
+		['Methods'] = { -- table(38c5ff72)
+		},
+		['Fields'] = { -- table(cf7ed87f)
+			['FixedElementField'] = { -- table(6daae75f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroPracticeSuitConf.<RecommendSymbolId_bytes>e__FixedBuffer'] = { -- table(c4ed7930)
+		['Methods'] = { -- table(94abb512)
+		},
+		['Fields'] = { -- table(a7a7f6e5)
+			['FixedElementField'] = { -- table(ba9d4445)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroPracticeSuitConf'] = { -- table(90801aa)
 		['Methods'] = { -- table(29389c38)
@@ -137539,19 +140948,19 @@
 			},
 			['RecommendEquipId_bytes'] = { -- table(7e04790c)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroPracticeSuitConf.<RecommendEquipId_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 12,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeSuitConf.<RecommendEquipId_bytes>e__FixedBuffer',
 			},
 			['RecommendSymbolId_bytes'] = { -- table(2e438c6)
 				['offset'] = 80,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroPracticeSuitConf.<RecommendSymbolId_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 30,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeSuitConf.<RecommendSymbolId_bytes>e__FixedBuffer',
 			},
 			['dwRecommendAddedSkillId'] = { -- table(ead9ffae)
 				['offset'] = 200,
@@ -137573,6 +140982,17 @@
 		},
 		['Fields'] = { -- table(d7d504a3)
 			['FixedElementField'] = { -- table(4ddf197b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroPracticeOneSkillCombo.<astHostilePuppetPos_bytes>e__FixedBuffer'] = { -- table(fc3ce9f)
+		['Methods'] = { -- table(16b77fa1)
+		},
+		['Fields'] = { -- table(a3831acc)
+			['FixedElementField'] = { -- table(3c0532fa)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -137657,11 +141077,11 @@
 			},
 			['astHostilePuppetPos_bytes'] = { -- table(5494e31)
 				['offset'] = 60,
-				['type'] = 'ResData.ResHeroPracticePuppetPos',
+				['type'] = 'ResData.ResHeroPracticeOneSkillCombo.<astHostilePuppetPos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroPracticePuppetPos',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeOneSkillCombo.<astHostilePuppetPos_bytes>e__FixedBuffer',
 			},
 			['dwFriendlyPuppetCnt'] = { -- table(ac6e9d7c)
 				['offset'] = 92,
@@ -137669,13 +141089,24 @@
 			},
 			['astFriendlyPuppetPos_bytes'] = { -- table(b9cf5ac)
 				['offset'] = 96,
-				['type'] = 'ResData.ResHeroPracticePuppetPos',
+				['type'] = 'ResData.ResHeroPracticeOneSkillCombo.<astFriendlyPuppetPos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroPracticePuppetPos',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeOneSkillCombo.<astFriendlyPuppetPos_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 96,
+	},
+	['ResData.ResSkinDistribution.<astDistributionItemList_bytes>e__FixedBuffer'] = { -- table(3dc59cdb)
+		['Methods'] = { -- table(c871d1ed)
+		},
+		['Fields'] = { -- table(a9d57fda)
+			['FixedElementField'] = { -- table(5ffb260)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSkinDistribution'] = { -- table(209cea07)
 		['Methods'] = { -- table(6328fadd)
@@ -137699,11 +141130,11 @@
 			},
 			['astDistributionItemList_bytes'] = { -- table(eb76f2b7)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_SkinDistributionItem',
+				['type'] = 'ResData.ResSkinDistribution.<astDistributionItemList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkinDistributionItem',
 				['count'] = 10,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkinDistribution.<astDistributionItemList_bytes>e__FixedBuffer',
 			},
 			['dwDistributionSortID'] = { -- table(66059f10)
 				['offset'] = 96,
@@ -137711,6 +141142,17 @@
 			},
 		},
 		['MaxV'] = 96,
+	},
+	['ResData.ResDT_NewHeroTarget.<ConditionParam_bytes>e__FixedBuffer'] = { -- table(5a7937a5)
+		['Methods'] = { -- table(4ced5d9b)
+		},
+		['Fields'] = { -- table(8098ca1e)
+			['FixedElementField'] = { -- table(a2f3743c)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_NewHeroTarget'] = { -- table(9cb61dc0)
 		['Methods'] = { -- table(110db51a)
@@ -137738,11 +141180,11 @@
 			},
 			['ConditionParam_bytes'] = { -- table(d77b1a8f)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_NewHeroTarget.<ConditionParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_NewHeroTarget.<ConditionParam_bytes>e__FixedBuffer',
 			},
 			['dwCostumTargetNum'] = { -- table(7748ac32)
 				['offset'] = 40,
@@ -137750,6 +141192,50 @@
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResNewHeroPracticeHeroInfo.<EnemyHeroID_bytes>e__FixedBuffer'] = { -- table(ef891e4f)
+		['Methods'] = { -- table(ed9d2125)
+		},
+		['Fields'] = { -- table(794324b0)
+			['FixedElementField'] = { -- table(5e194ce6)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResNewHeroPracticeHeroInfo.<FriendlyHeroID_bytes>e__FixedBuffer'] = { -- table(885b5630)
+		['Methods'] = { -- table(874cf2a)
+		},
+		['Fields'] = { -- table(8b0b5b31)
+			['FixedElementField'] = { -- table(790c0f19)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResNewHeroPracticeHeroInfo.<LobbyTaskID_bytes>e__FixedBuffer'] = { -- table(ca6ca1dc)
+		['Methods'] = { -- table(b88ac72)
+		},
+		['Fields'] = { -- table(e8a208ef)
+			['FixedElementField'] = { -- table(10b4006f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResNewHeroPracticeHeroInfo.<TaskID_bytes>e__FixedBuffer'] = { -- table(dd085a6)
+		['Methods'] = { -- table(5fa9476c)
+		},
+		['Fields'] = { -- table(25309d47)
+			['FixedElementField'] = { -- table(d95bed07)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResNewHeroPracticeHeroInfo'] = { -- table(be5452db)
 		['Methods'] = { -- table(ef350a5d)
@@ -137797,11 +141283,11 @@
 			},
 			['LobbyTaskID_bytes'] = { -- table(6b5e7328)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResNewHeroPracticeHeroInfo.<LobbyTaskID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewHeroPracticeHeroInfo.<LobbyTaskID_bytes>e__FixedBuffer',
 			},
 			['dwTaskNum'] = { -- table(8ee2f1bc)
 				['offset'] = 24,
@@ -137809,27 +141295,27 @@
 			},
 			['TaskID_bytes'] = { -- table(59a71828)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResNewHeroPracticeHeroInfo.<TaskID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewHeroPracticeHeroInfo.<TaskID_bytes>e__FixedBuffer',
 			},
 			['FriendlyHeroID_bytes'] = { -- table(e9f1df1a)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResNewHeroPracticeHeroInfo.<FriendlyHeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewHeroPracticeHeroInfo.<FriendlyHeroID_bytes>e__FixedBuffer',
 			},
 			['EnemyHeroID_bytes'] = { -- table(ef614c55)
 				['offset'] = 68,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResNewHeroPracticeHeroInfo.<EnemyHeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewHeroPracticeHeroInfo.<EnemyHeroID_bytes>e__FixedBuffer',
 			},
 			['strIdHighlightShowPath'] = { -- table(589a5ce0)
 				['offset'] = 88,
@@ -137837,6 +141323,17 @@
 			},
 		},
 		['MaxV'] = 88,
+	},
+	['ResData.ResNewHeroPracticeLobbyInfo.<astAwardList_bytes>e__FixedBuffer'] = { -- table(e811a097)
+		['Methods'] = { -- table(8fa965e5)
+		},
+		['Fields'] = { -- table(fcfbd020)
+			['FixedElementField'] = { -- table(2cba4ff6)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResNewHeroPracticeLobbyInfo'] = { -- table(5c541cd1)
 		['Methods'] = { -- table(776342cb)
@@ -137948,11 +141445,11 @@
 			},
 			['astAwardList_bytes'] = { -- table(5c497015)
 				['offset'] = 100,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResNewHeroPracticeLobbyInfo.<astAwardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewHeroPracticeLobbyInfo.<astAwardList_bytes>e__FixedBuffer',
 			},
 			['bHasLimitTimeAward'] = { -- table(2904a649)
 				['offset'] = 136,
@@ -137984,6 +141481,17 @@
 			},
 		},
 		['MaxV'] = 180,
+	},
+	['ResData.ResHeroPracticeCourtAIHeroPool.<SkinID_bytes>e__FixedBuffer'] = { -- table(27198f3)
+		['Methods'] = { -- table(5d3dd2e5)
+		},
+		['Fields'] = { -- table(9da017c2)
+			['FixedElementField'] = { -- table(a6d29a8)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroPracticeCourtAIHeroPool'] = { -- table(ffca0f20)
 		['Methods'] = { -- table(a538d102)
@@ -138043,11 +141551,11 @@
 			},
 			['SkinID_bytes'] = { -- table(61c9d923)
 				['offset'] = 40,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroPracticeCourtAIHeroPool.<SkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 8,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeCourtAIHeroPool.<SkinID_bytes>e__FixedBuffer',
 			},
 			['dwRandomWeight'] = { -- table(85738e5d)
 				['offset'] = 72,
@@ -138059,6 +141567,28 @@
 			},
 		},
 		['MaxV'] = 76,
+	},
+	['ResData.ResHeroPracticeLobbyCfg.<astCombo_bytes>e__FixedBuffer'] = { -- table(395860c0)
+		['Methods'] = { -- table(b8bfd012)
+		},
+		['Fields'] = { -- table(ef53a283)
+			['FixedElementField'] = { -- table(6a996c1b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroPracticeLobbyCfg.<astSimulative_bytes>e__FixedBuffer'] = { -- table(e89811f9)
+		['Methods'] = { -- table(6015650f)
+		},
+		['Fields'] = { -- table(98f912e4)
+			['FixedElementField'] = { -- table(4755ff52)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroPracticeLobbyCfg'] = { -- table(37839d6b)
 		['Methods'] = { -- table(c695a16d)
@@ -138114,19 +141644,19 @@
 			},
 			['astCombo_bytes'] = { -- table(d3e871f4)
 				['offset'] = 32,
-				['type'] = 'ResData.ResHeroPracticeLobbyEntryIntro',
+				['type'] = 'ResData.ResHeroPracticeLobbyCfg.<astCombo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroPracticeLobbyEntryIntro',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeLobbyCfg.<astCombo_bytes>e__FixedBuffer',
 			},
 			['astSimulative_bytes'] = { -- table(5d71f5bd)
 				['offset'] = 72,
-				['type'] = 'ResData.ResHeroPracticeLobbyEntryIntro',
+				['type'] = 'ResData.ResHeroPracticeLobbyCfg.<astSimulative_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroPracticeLobbyEntryIntro',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeLobbyCfg.<astSimulative_bytes>e__FixedBuffer',
 			},
 			['bLoadingShowNewKV'] = { -- table(5c956b58)
 				['offset'] = 112,
@@ -138184,13 +141714,24 @@
 			},
 			['astLoadingText_bytes'] = { -- table(8e4bffc7)
 				['offset'] = 16,
-				['type'] = 'ResData.ResHeroPracticeNewHeroLoadingText',
+				['type'] = 'ResData.ResHeroPracticeNewHeroLoadingCfg.<astLoadingText_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroPracticeNewHeroLoadingText',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeNewHeroLoadingCfg.<astLoadingText_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResNationalTips.<astConditions_bytes>e__FixedBuffer'] = { -- table(ae6f5d1d)
+		['Methods'] = { -- table(9b37643f)
+		},
+		['Fields'] = { -- table(192a2624)
+			['FixedElementField'] = { -- table(8a394492)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResNationalTips'] = { -- table(691bb2b4)
 		['Methods'] = { -- table(824f8a7a)
@@ -138262,11 +141803,12 @@
 			},
 			['astConditions_bytes'] = { -- table(c69aa091)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_NationalCondition',
+				['type'] = 'ResData.ResNationalTips.<astConditions_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_NationalCondition',
 				['count'] = 4,
 				['size'] = 20,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNationalTips.<astConditions_bytes>e__FixedBuffer',
 			},
 			['strIdTipsDetailContent'] = { -- table(36375e6f)
 				['offset'] = 120,
@@ -138294,6 +141836,39 @@
 			},
 		},
 		['MaxV'] = 160,
+	},
+	['ResData.ResHeroPracticePerformerHeroConf.<EnemyHeroID_bytes>e__FixedBuffer'] = { -- table(5ff9ce33)
+		['Methods'] = { -- table(f33af611)
+		},
+		['Fields'] = { -- table(8e8fb4f4)
+			['FixedElementField'] = { -- table(947743c2)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroPracticePerformerHeroConf.<FriendlyHeroID_bytes>e__FixedBuffer'] = { -- table(8ac9a554)
+		['Methods'] = { -- table(a039a126)
+		},
+		['Fields'] = { -- table(8d3b2ce5)
+			['FixedElementField'] = { -- table(3dfc645)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroPracticePerformerHeroConf.<astComboStop_bytes>e__FixedBuffer'] = { -- table(45d1417c)
+		['Methods'] = { -- table(9925867e)
+		},
+		['Fields'] = { -- table(87c957f9)
+			['FixedElementField'] = { -- table(d09d1161)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroPracticePerformerHeroConf'] = { -- table(c909ec67)
 		['Methods'] = { -- table(6626fb01)
@@ -138349,11 +141924,11 @@
 			},
 			['FriendlyHeroID_bytes'] = { -- table(3077436e)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroPracticePerformerHeroConf.<FriendlyHeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticePerformerHeroConf.<FriendlyHeroID_bytes>e__FixedBuffer',
 			},
 			['strIdStageAnnouncement'] = { -- table(6dd1a693)
 				['offset'] = 32,
@@ -138369,11 +141944,11 @@
 			},
 			['EnemyHeroID_bytes'] = { -- table(3cb36759)
 				['offset'] = 56,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroPracticePerformerHeroConf.<EnemyHeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticePerformerHeroConf.<EnemyHeroID_bytes>e__FixedBuffer',
 			},
 			['strIdShowFileName'] = { -- table(339602)
 				['offset'] = 80,
@@ -138385,14 +141960,36 @@
 			},
 			['astComboStop_bytes'] = { -- table(f154d77a)
 				['offset'] = 96,
-				['type'] = 'ResData.ResDT_ComboStopInfo',
+				['type'] = 'ResData.ResHeroPracticePerformerHeroConf.<astComboStop_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ComboStopInfo',
 				['count'] = 15,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticePerformerHeroConf.<astComboStop_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 96,
+	},
+	['ResData.ResSituationalChallengeInfo.<MaxAbilityValue_bytes>e__FixedBuffer'] = { -- table(124ff3f2)
+		['Methods'] = { -- table(44a6476c)
+		},
+		['Fields'] = { -- table(5386a953)
+			['FixedElementField'] = { -- table(2a5e130b)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSituationalChallengeInfo.<astPicPath_bytes>e__FixedBuffer'] = { -- table(1038e698)
+		['Methods'] = { -- table(4e1d9806)
+		},
+		['Fields'] = { -- table(f21a4f4b)
+			['FixedElementField'] = { -- table(83d4c183)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSituationalChallengeInfo'] = { -- table(f2c4da5e)
 		['Methods'] = { -- table(2e08470)
@@ -138516,19 +142113,19 @@
 			},
 			['astPicPath_bytes'] = { -- table(cd356c90)
 				['offset'] = 96,
-				['type'] = 'ResData.ChallengeGuideBannerPicStr',
+				['type'] = 'ResData.ResSituationalChallengeInfo.<astPicPath_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ChallengeGuideBannerPicStr',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSituationalChallengeInfo.<astPicPath_bytes>e__FixedBuffer',
 			},
 			['MaxAbilityValue_bytes'] = { -- table(e0394fd4)
 				['offset'] = 176,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSituationalChallengeInfo.<MaxAbilityValue_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSituationalChallengeInfo.<MaxAbilityValue_bytes>e__FixedBuffer',
 			},
 			['strIdScoreTextA'] = { -- table(59682823)
 				['offset'] = 192,
@@ -138544,6 +142141,17 @@
 			},
 		},
 		['MaxV'] = 208,
+	},
+	['ResData.ResTxtTmplt.<SuggestTriggerIDs_bytes>e__FixedBuffer'] = { -- table(98f4c026)
+		['Methods'] = { -- table(48a11690)
+		},
+		['Fields'] = { -- table(e6dbd1e3)
+			['FixedElementField'] = { -- table(55c1acbb)
+				['offset'] = 8,
+				['type'] = 'System.Int16',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTxtTmplt'] = { -- table(d4692b91)
 		['Methods'] = { -- table(ff289dd7)
@@ -138567,11 +142175,11 @@
 			},
 			['SuggestTriggerIDs_bytes'] = { -- table(945aab64)
 				['offset'] = 12,
-				['type'] = 'System.Int16',
+				['type'] = 'ResData.ResTxtTmplt.<SuggestTriggerIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int16',
 				['count'] = 6,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTxtTmplt.<SuggestTriggerIDs_bytes>e__FixedBuffer',
 			},
 			['strIdTxt'] = { -- table(eb28d12)
 				['offset'] = 24,
@@ -138579,6 +142187,39 @@
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResInteractionEffect.<ConditionParams_bytes>e__FixedBuffer'] = { -- table(c8c7157b)
+		['Methods'] = { -- table(b27d0d29)
+		},
+		['Fields'] = { -- table(85bfef98)
+			['FixedElementField'] = { -- table(617dcdce)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResInteractionEffect.<EffectParams_bytes>e__FixedBuffer'] = { -- table(febad8ad)
+		['Methods'] = { -- table(3b14b20f)
+		},
+		['Fields'] = { -- table(59dc40e4)
+			['FixedElementField'] = { -- table(fb25e952)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResInteractionEffect.<ObjectParams_bytes>e__FixedBuffer'] = { -- table(c7645b3f)
+		['Methods'] = { -- table(a33cb545)
+		},
+		['Fields'] = { -- table(b33bdeca)
+			['FixedElementField'] = { -- table(6f09dc70)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResInteractionEffect'] = { -- table(ebbea11)
 		['Methods'] = { -- table(efdd9b23)
@@ -138674,27 +142315,27 @@
 			},
 			['ObjectParams_bytes'] = { -- table(ba917537)
 				['offset'] = 48,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResInteractionEffect.<ObjectParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResInteractionEffect.<ObjectParams_bytes>e__FixedBuffer',
 			},
 			['ConditionParams_bytes'] = { -- table(6f9fb2b1)
 				['offset'] = 64,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResInteractionEffect.<ConditionParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResInteractionEffect.<ConditionParams_bytes>e__FixedBuffer',
 			},
 			['EffectParams_bytes'] = { -- table(dff590b9)
 				['offset'] = 80,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResInteractionEffect.<EffectParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResInteractionEffect.<EffectParams_bytes>e__FixedBuffer',
 			},
 			['strIdEffectTextParam1'] = { -- table(e032b1ea)
 				['offset'] = 96,
@@ -138744,10 +142385,10 @@
 			},
 			['astAgeInfo_bytes'] = { -- table(c11ac51f)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_SkillBattlePreviewInfo',
+				['type'] = 'ResData.ResSkillBattlePreview.<astAgeInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillBattlePreviewInfo',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillBattlePreview.<astAgeInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -138781,13 +142422,35 @@
 			},
 			['astModelResReplacePaths_bytes'] = { -- table(a95cf763)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_ParamString',
+				['type'] = 'ResData.ResBattlePreviewModelReplace.<astModelResReplacePaths_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ParamString',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePreviewModelReplace.<astModelResReplacePaths_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResSkillQTE.<OpParam_bytes>e__FixedBuffer'] = { -- table(d764e41c)
+		['Methods'] = { -- table(920c161a)
+		},
+		['Fields'] = { -- table(23e3a615)
+			['FixedElementField'] = { -- table(3d4fb415)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSkillQTE.<astStepOpTips_bytes>e__FixedBuffer'] = { -- table(30a37bcd)
+		['Methods'] = { -- table(410e6cb)
+		},
+		['Fields'] = { -- table(b58508e0)
+			['FixedElementField'] = { -- table(da5285b6)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSkillQTE'] = { -- table(c28d5d67)
 		['Methods'] = { -- table(3cbdfbed)
@@ -138855,11 +142518,11 @@
 			},
 			['OpParam_bytes'] = { -- table(2e05de6a)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSkillQTE.<OpParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillQTE.<OpParam_bytes>e__FixedBuffer',
 			},
 			['strIdSkillSlotName'] = { -- table(4a423c4a)
 				['offset'] = 40,
@@ -138875,11 +142538,11 @@
 			},
 			['astStepOpTips_bytes'] = { -- table(9f2391fd)
 				['offset'] = 56,
-				['type'] = 'ResData.SkillQTEStepOpTips',
+				['type'] = 'ResData.ResSkillQTE.<astStepOpTips_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.SkillQTEStepOpTips',
 				['count'] = 2,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillQTE.<astStepOpTips_bytes>e__FixedBuffer',
 			},
 			['strIdStepFailTips'] = { -- table(9434348)
 				['offset'] = 72,
@@ -138891,6 +142554,17 @@
 			},
 		},
 		['MaxV'] = 80,
+	},
+	['ResData.ResFriendExperienceMilestoneCfg.<Params_bytes>e__FixedBuffer'] = { -- table(b963eb4d)
+		['Methods'] = { -- table(7001eb7)
+		},
+		['Fields'] = { -- table(d46f2a6)
+			['FixedElementField'] = { -- table(79e31ee4)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResFriendExperienceMilestoneCfg'] = { -- table(a9aa0284)
 		['Methods'] = { -- table(f06b4d7a)
@@ -138954,11 +142628,11 @@
 			},
 			['Params_bytes'] = { -- table(5d5cd647)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResFriendExperienceMilestoneCfg.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFriendExperienceMilestoneCfg.<Params_bytes>e__FixedBuffer',
 			},
 			['bIsTriggerIntimacyMemoir'] = { -- table(1cd2b070)
 				['offset'] = 28,
@@ -139019,6 +142693,17 @@
 		},
 		['MaxV'] = 104,
 	},
+	['ResData.ResMasterMatchZoneConf.<astLevelActTime_bytes>e__FixedBuffer'] = { -- table(fc3b37b9)
+		['Methods'] = { -- table(be66ec7)
+		},
+		['Fields'] = { -- table(8334713a)
+			['FixedElementField'] = { -- table(1ae09d80)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResMasterMatchZoneConf'] = { -- table(cbdbb697)
 		['Methods'] = { -- table(547f80b9)
 			['astLevelActTime'] = { -- table(6286d46c)
@@ -139045,11 +142730,11 @@
 			},
 			['astLevelActTime_bytes'] = { -- table(d697a543)
 				['offset'] = 20,
-				['type'] = 'ResData.ResActTime',
+				['type'] = 'ResData.ResMasterMatchZoneConf.<astLevelActTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResActTime',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMasterMatchZoneConf.<astLevelActTime_bytes>e__FixedBuffer',
 			},
 			['iTimeZone'] = { -- table(a16724ac)
 				['offset'] = 44,
@@ -139458,6 +143143,50 @@
 		},
 		['MaxV'] = 40,
 	},
+	['ResData.ResShareNationChannelCfg.<szInviteChannels_bytes>e__FixedBuffer'] = { -- table(17f143ce)
+		['Methods'] = { -- table(5f6969f0)
+		},
+		['Fields'] = { -- table(69d573ef)
+			['FixedElementField'] = { -- table(3763b16f)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResShareNationChannelCfg.<szLinkChannels_bytes>e__FixedBuffer'] = { -- table(c7c1735d)
+		['Methods'] = { -- table(46c21d67)
+		},
+		['Fields'] = { -- table(f5838f18)
+			['FixedElementField'] = { -- table(264844e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResShareNationChannelCfg.<szPictureChannels_bytes>e__FixedBuffer'] = { -- table(8f563fc7)
+		['Methods'] = { -- table(e10524d)
+		},
+		['Fields'] = { -- table(2c6a9cd4)
+			['FixedElementField'] = { -- table(9c615ee2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResShareNationChannelCfg.<szTextChannels_bytes>e__FixedBuffer'] = { -- table(6942b9ec)
+		['Methods'] = { -- table(d9cf34ee)
+		},
+		['Fields'] = { -- table(e54b042d)
+			['FixedElementField'] = { -- table(cac608ed)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResShareNationChannelCfg.<szVideoChannels_bytes>e__FixedBuffer'] = { -- table(ccc01ef0)
 		['Methods'] = { -- table(c1fedfce)
 		},
@@ -139527,45 +143256,56 @@
 			},
 			['szPictureChannels_bytes'] = { -- table(7b29d155)
 				['offset'] = 24,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResShareNationChannelCfg.<szPictureChannels_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 5,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShareNationChannelCfg.<szPictureChannels_bytes>e__FixedBuffer',
 			},
 			['szLinkChannels_bytes'] = { -- table(b90f515)
 				['offset'] = 29,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResShareNationChannelCfg.<szLinkChannels_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 4,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShareNationChannelCfg.<szLinkChannels_bytes>e__FixedBuffer',
 			},
 			['szTextChannels_bytes'] = { -- table(927d3fe2)
 				['offset'] = 33,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResShareNationChannelCfg.<szTextChannels_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 4,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShareNationChannelCfg.<szTextChannels_bytes>e__FixedBuffer',
 			},
 			['szInviteChannels_bytes'] = { -- table(92ee1888)
 				['offset'] = 37,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResShareNationChannelCfg.<szInviteChannels_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 4,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShareNationChannelCfg.<szInviteChannels_bytes>e__FixedBuffer',
 			},
 			['szVideoChannels_bytes'] = { -- table(d46d3654)
 				['offset'] = 41,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResShareNationChannelCfg.<szVideoChannels_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShareNationChannelCfg.<szVideoChannels_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 41,
+	},
+	['ResData.ResChatEmojiCfg.<astPictures_bytes>e__FixedBuffer'] = { -- table(b5cc01ec)
+		['Methods'] = { -- table(2d32d0da)
+		},
+		['Fields'] = { -- table(492a48d)
+			['FixedElementField'] = { -- table(3e203a0d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResChatEmojiCfg'] = { -- table(e19c9a26)
 		['Methods'] = { -- table(68e62b94)
@@ -139589,11 +143329,11 @@
 			},
 			['astPictures_bytes'] = { -- table(b48456aa)
 				['offset'] = 16,
-				['type'] = 'ResData.ResChatEmojiPath',
+				['type'] = 'ResData.ResChatEmojiCfg.<astPictures_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResChatEmojiPath',
 				['count'] = 30,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChatEmojiCfg.<astPictures_bytes>e__FixedBuffer',
 			},
 			['strIdEmojiDesc'] = { -- table(355f4a5e)
 				['offset'] = 256,
@@ -139639,10 +143379,10 @@
 			},
 			['Language_bytes'] = { -- table(9e7f995c)
 				['offset'] = 16,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResGlobalChatCharConf.<Language_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGlobalChatCharConf.<Language_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -139652,6 +143392,17 @@
 		},
 		['Fields'] = { -- table(faac93d9)
 			['FixedElementField'] = { -- table(4cd4bf81)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ChatHighLightCfg.<EventType_bytes>e__FixedBuffer'] = { -- table(69e16efd)
+		['Methods'] = { -- table(e44a6707)
+		},
+		['Fields'] = { -- table(85a25c92)
+			['FixedElementField'] = { -- table(8f57e898)
 				['offset'] = 8,
 				['type'] = 'System.Int32',
 			},
@@ -139724,18 +143475,18 @@
 			},
 			['EventType_bytes'] = { -- table(7970be17)
 				['offset'] = 56,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ChatHighLightCfg.<EventType_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ChatHighLightCfg.<EventType_bytes>e__FixedBuffer',
 			},
 			['EventArgs_bytes'] = { -- table(be3e1e16)
 				['offset'] = 76,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ChatHighLightCfg.<EventArgs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ChatHighLightCfg.<EventArgs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 76,
@@ -139773,10 +143524,10 @@
 			},
 			['szReportTypeList_bytes'] = { -- table(fa05260f)
 				['offset'] = 10,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResCommonReportCfg.<szReportTypeList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommonReportCfg.<szReportTypeList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 10,
@@ -139822,10 +143573,10 @@
 			},
 			['astChildReportOptionList_bytes'] = { -- table(4f0e8a1a)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_ReportTypeString',
+				['type'] = 'ResData.ResReportTypeCfg.<astChildReportOptionList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ReportTypeString',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResReportTypeCfg.<astChildReportOptionList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -139907,10 +143658,10 @@
 			},
 			['astRefKnowledgeInfo_bytes'] = { -- table(16c7049d)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_RefKnowledgeInfo',
+				['type'] = 'ResData.ResTeachingLevelConf.<astRefKnowledgeInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RefKnowledgeInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeachingLevelConf.<astRefKnowledgeInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
@@ -139956,10 +143707,10 @@
 			},
 			['astCurrencyEntries_bytes'] = { -- table(d0e9405f)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_MallProductShowCurrency',
+				['type'] = 'ResData.ResMallProductShowCurrencyCfg.<astCurrencyEntries_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MallProductShowCurrency',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMallProductShowCurrencyCfg.<astCurrencyEntries_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -140002,6 +143753,17 @@
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResVoicePackageCfg.<VoiceList_bytes>e__FixedBuffer'] = { -- table(955d2aed)
+		['Methods'] = { -- table(d6fd29fb)
+		},
+		['Fields'] = { -- table(6b7127da)
+			['FixedElementField'] = { -- table(47572a60)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResVoicePackageCfg'] = { -- table(558dbfe0)
 		['Methods'] = { -- table(4d869be6)
@@ -140061,11 +143823,11 @@
 			},
 			['VoiceList_bytes'] = { -- table(92bb2c6b)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResVoicePackageCfg.<VoiceList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 21,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResVoicePackageCfg.<VoiceList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 52,
@@ -140249,10 +144011,10 @@
 			},
 			['astLevelLabel_bytes'] = { -- table(f69061a4)
 				['offset'] = 32,
-				['type'] = 'ResData.ResHeroPracticeLevelLabel',
+				['type'] = 'ResData.ResHeroPracticeLevelEntryConf.<astLevelLabel_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroPracticeLevelLabel',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroPracticeLevelEntryConf.<astLevelLabel_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -140330,10 +144092,10 @@
 			},
 			['astFilter_bytes'] = { -- table(98d26628)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_DLCRemovableFilter',
+				['type'] = 'ResData.ResDLCRemovablePackageGroupConf.<astFilter_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DLCRemovableFilter',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDLCRemovablePackageGroupConf.<astFilter_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
@@ -140375,10 +144137,10 @@
 			},
 			['astAnims_bytes'] = { -- table(21c7900d)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_HeroSkinAnim',
+				['type'] = 'ResData.ResHeroSkinAnimReplaceCfg.<astAnims_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroSkinAnim',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinAnimReplaceCfg.<astAnims_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -140420,10 +144182,10 @@
 			},
 			['IntParams_bytes'] = { -- table(aa2a8be5)
 				['offset'] = 20,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResHeroSkinFallbackParamsCfg.<IntParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinFallbackParamsCfg.<IntParams_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -140465,10 +144227,10 @@
 			},
 			['astAnims_bytes'] = { -- table(f645f7f0)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_HeroSkinBonePointReplace',
+				['type'] = 'ResData.ResHeroSkinBonePointReplaceCfg.<astAnims_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroSkinBonePointReplace',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkinBonePointReplaceCfg.<astAnims_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -140506,13 +144268,24 @@
 			},
 			['astContents_bytes'] = { -- table(494c3208)
 				['offset'] = 16,
-				['type'] = 'ResData.ResHopeSeedChatContent',
+				['type'] = 'ResData.ResHopeSeedChatCfg.<astContents_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHopeSeedChatContent',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHopeSeedChatCfg.<astContents_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResTokenInfo.<astPresentTokenChkResList_bytes>e__FixedBuffer'] = { -- table(8e90083c)
+		['Methods'] = { -- table(e1a39fae)
+		},
+		['Fields'] = { -- table(7d9b6807)
+			['FixedElementField'] = { -- table(5f564bc7)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTokenInfo'] = { -- table(e818097d)
 		['Methods'] = { -- table(73b9b307)
@@ -140596,11 +144369,11 @@
 			},
 			['astPresentTokenChkResList_bytes'] = { -- table(b3b1e958)
 				['offset'] = 88,
-				['type'] = 'ResData.ResDT_ResourceTypeID',
+				['type'] = 'ResData.ResTokenInfo.<astPresentTokenChkResList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ResourceTypeID',
 				['count'] = 8,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTokenInfo.<astPresentTokenChkResList_bytes>e__FixedBuffer',
 			},
 			['stTimeoutCompensate'] = { -- table(3ebd1ac3)
 				['offset'] = 152,
@@ -140648,6 +144421,17 @@
 			},
 		},
 		['MaxV'] = 200,
+	},
+	['ResData.ResTokenExchange.<LimitInfos_bytes>e__FixedBuffer'] = { -- table(b47ae917)
+		['Methods'] = { -- table(43134b3d)
+		},
+		['Fields'] = { -- table(c44096f6)
+			['FixedElementField'] = { -- table(3d0597d4)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTokenExchange.<LimitSplitTime_bytes>e__FixedBuffer'] = { -- table(bbf405bf)
 		['Methods'] = { -- table(e4def6d9)
@@ -140698,21 +144482,54 @@
 			},
 			['LimitInfos_bytes'] = { -- table(4f1ec5db)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTokenExchange.<LimitInfos_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTokenExchange.<LimitInfos_bytes>e__FixedBuffer',
 			},
 			['LimitSplitTime_bytes'] = { -- table(d34d99a3)
 				['offset'] = 40,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTokenExchange.<LimitSplitTime_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTokenExchange.<LimitSplitTime_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResLotteryInfo.<RelatedTaskIDList_bytes>e__FixedBuffer'] = { -- table(986e54cb)
+		['Methods'] = { -- table(1f0ab831)
+		},
+		['Fields'] = { -- table(8e791d8c)
+			['FixedElementField'] = { -- table(e4e08eba)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLotteryInfo.<RelatedTokenIDList_bytes>e__FixedBuffer'] = { -- table(e2cd9fd3)
+		['Methods'] = { -- table(45db771)
+		},
+		['Fields'] = { -- table(e1a293ce)
+			['FixedElementField'] = { -- table(6ba7bdcc)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLotteryInfo.<astMustHitEveryXPoolLimitList_bytes>e__FixedBuffer'] = { -- table(14fd1fa2)
+		['Methods'] = { -- table(9f43460c)
+		},
+		['Fields'] = { -- table(4600bad)
+			['FixedElementField'] = { -- table(c3f1776d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLotteryInfo.<astWelfare_bytes>e__FixedBuffer'] = { -- table(3feb6c50)
 		['Methods'] = { -- table(b6f178aa)
@@ -140815,11 +144632,11 @@
 			},
 			['RelatedTokenIDList_bytes'] = { -- table(dd2ae1cf)
 				['offset'] = 80,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLotteryInfo.<RelatedTokenIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLotteryInfo.<RelatedTokenIDList_bytes>e__FixedBuffer',
 			},
 			['dwCostTokenID'] = { -- table(cdf7de62)
 				['offset'] = 100,
@@ -140875,11 +144692,11 @@
 			},
 			['RelatedTaskIDList_bytes'] = { -- table(d0de4979)
 				['offset'] = 160,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLotteryInfo.<RelatedTaskIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 20,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLotteryInfo.<RelatedTaskIDList_bytes>e__FixedBuffer',
 			},
 			['iFirstEnterGiveCostTokenNum'] = { -- table(a9faa742)
 				['offset'] = 240,
@@ -140891,11 +144708,11 @@
 			},
 			['astMustHitEveryXPoolLimitList_bytes'] = { -- table(5a67ddc6)
 				['offset'] = 248,
-				['type'] = 'ResData.ResDT_MustHitEveryXPoolLimit',
+				['type'] = 'ResData.ResLotteryInfo.<astMustHitEveryXPoolLimitList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MustHitEveryXPoolLimit',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLotteryInfo.<astMustHitEveryXPoolLimitList_bytes>e__FixedBuffer',
 			},
 			['iMaxLotteryNum'] = { -- table(9826cc82)
 				['offset'] = 272,
@@ -140915,19 +144732,52 @@
 			},
 			['astWelfare_bytes'] = { -- table(ba1fd302)
 				['offset'] = 288,
-				['type'] = 'ResData.ResDT_LotteryWelfare',
+				['type'] = 'ResData.ResLotteryInfo.<astWelfare_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LotteryWelfare',
 				['size'] = 20,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLotteryInfo.<astWelfare_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 288,
+	},
+	['ResData.ResLotteryPoolInfo.<ExtraInfos_bytes>e__FixedBuffer'] = { -- table(6a547973)
+		['Methods'] = { -- table(2456f271)
+		},
+		['Fields'] = { -- table(7043566e)
+			['FixedElementField'] = { -- table(e91d6eac)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLotteryPoolInfo.<GroupMustHitEveryXCntList_bytes>e__FixedBuffer'] = { -- table(73b9aa3)
 		['Methods'] = { -- table(3af272f5)
 		},
 		['Fields'] = { -- table(c57bf6b8)
 			['FixedElementField'] = { -- table(c1ef02ae)
+				['offset'] = 8,
+				['type'] = 'System.Int16',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLotteryPoolInfo.<MustHitAtXCntList_bytes>e__FixedBuffer'] = { -- table(ec65b998)
+		['Methods'] = { -- table(c6648ad6)
+		},
+		['Fields'] = { -- table(7b878c1b)
+			['FixedElementField'] = { -- table(b981d833)
+				['offset'] = 8,
+				['type'] = 'System.Int16',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLotteryPoolInfo.<MustHitEveryXCntList_bytes>e__FixedBuffer'] = { -- table(50b54234)
+		['Methods'] = { -- table(ab00a8a6)
+		},
+		['Fields'] = { -- table(48a80dfd)
+			['FixedElementField'] = { -- table(ed68ff1d)
 				['offset'] = 8,
 				['type'] = 'System.Int16',
 			},
@@ -141032,11 +144882,11 @@
 			},
 			['MustHitEveryXCntList_bytes'] = { -- table(53d21852)
 				['offset'] = 80,
-				['type'] = 'System.Int16',
+				['type'] = 'ResData.ResLotteryPoolInfo.<MustHitEveryXCntList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int16',
 				['count'] = 10,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLotteryPoolInfo.<MustHitEveryXCntList_bytes>e__FixedBuffer',
 			},
 			['iMustHitAtXCntListNum'] = { -- table(a03aa92b)
 				['offset'] = 100,
@@ -141044,11 +144894,11 @@
 			},
 			['MustHitAtXCntList_bytes'] = { -- table(e15a5fb0)
 				['offset'] = 104,
-				['type'] = 'System.Int16',
+				['type'] = 'ResData.ResLotteryPoolInfo.<MustHitAtXCntList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int16',
 				['count'] = 3,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLotteryPoolInfo.<MustHitAtXCntList_bytes>e__FixedBuffer',
 			},
 			['bIsLowestGrade'] = { -- table(3221cbb7)
 				['offset'] = 110,
@@ -141064,11 +144914,11 @@
 			},
 			['ExtraInfos_bytes'] = { -- table(eea2a76b)
 				['offset'] = 116,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLotteryPoolInfo.<ExtraInfos_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLotteryPoolInfo.<ExtraInfos_bytes>e__FixedBuffer',
 			},
 			['dwGroupMustHitID'] = { -- table(62b06693)
 				['offset'] = 136,
@@ -141080,10 +144930,10 @@
 			},
 			['GroupMustHitEveryXCntList_bytes'] = { -- table(7a25d585)
 				['offset'] = 144,
-				['type'] = 'System.Int16',
+				['type'] = 'ResData.ResLotteryPoolInfo.<GroupMustHitEveryXCntList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLotteryPoolInfo.<GroupMustHitEveryXCntList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 144,
@@ -141114,6 +144964,28 @@
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResExchangeShopProductConf.<astExchangeChkResList_bytes>e__FixedBuffer'] = { -- table(5d34fb38)
+		['Methods'] = { -- table(b0770be6)
+		},
+		['Fields'] = { -- table(45360a5b)
+			['FixedElementField'] = { -- table(85735873)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResExchangeShopProductConf.<astResExchangeShopCost_bytes>e__FixedBuffer'] = { -- table(f594f083)
+		['Methods'] = { -- table(969ba33d)
+		},
+		['Fields'] = { -- table(3392fbde)
+			['FixedElementField'] = { -- table(a9a12bfc)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResExchangeShopProductConf'] = { -- table(7a0f555e)
 		['Methods'] = { -- table(fa40a9f8)
@@ -141169,11 +145041,11 @@
 			},
 			['astResExchangeShopCost_bytes'] = { -- table(113ae5ab)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_CostResourceInfo',
+				['type'] = 'ResData.ResExchangeShopProductConf.<astResExchangeShopCost_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CostResourceInfo',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResExchangeShopProductConf.<astResExchangeShopCost_bytes>e__FixedBuffer',
 			},
 			['dwIsExchangeLimited'] = { -- table(fc139241)
 				['offset'] = 120,
@@ -141201,11 +145073,11 @@
 			},
 			['astExchangeChkResList_bytes'] = { -- table(2f849714)
 				['offset'] = 144,
-				['type'] = 'ResData.ResDT_ResourceTypeID',
+				['type'] = 'ResData.ResExchangeShopProductConf.<astExchangeChkResList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ResourceTypeID',
 				['count'] = 8,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResExchangeShopProductConf.<astExchangeChkResList_bytes>e__FixedBuffer',
 			},
 			['bIsPresent'] = { -- table(702db4ac)
 				['offset'] = 208,
@@ -141270,6 +145142,39 @@
 		},
 		['MaxV'] = 270,
 	},
+	['ResData.ResNewLuckyDraw.<astEveryXLuckyPointRule_bytes>e__FixedBuffer'] = { -- table(723bb88)
+		['Methods'] = { -- table(af3b15be)
+		},
+		['Fields'] = { -- table(8ac57f6d)
+			['FixedElementField'] = { -- table(ebbb032d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResNewLuckyDraw.<astLuckyDrawPeriod_bytes>e__FixedBuffer'] = { -- table(2a166882)
+		['Methods'] = { -- table(1f4c0930)
+		},
+		['Fields'] = { -- table(14836399)
+			['FixedElementField'] = { -- table(c7750341)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResNewLuckyDraw.<astLuckyPointRule_bytes>e__FixedBuffer'] = { -- table(7385fdaf)
+		['Methods'] = { -- table(149e035)
+		},
+		['Fields'] = { -- table(8773027e)
+			['FixedElementField'] = { -- table(b1fde15c)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResNewLuckyDraw'] = { -- table(9ee4d7b4)
 		['Methods'] = { -- table(60c57d8a)
 			['astLuckyDrawPeriod'] = { -- table(be4a64ed)
@@ -141324,11 +145229,11 @@
 			},
 			['astLuckyDrawPeriod_bytes'] = { -- table(a4fac7a2)
 				['offset'] = 40,
-				['type'] = 'ResData.ResNewLuckyDrawPeriod',
+				['type'] = 'ResData.ResNewLuckyDraw.<astLuckyDrawPeriod_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResNewLuckyDrawPeriod',
 				['count'] = 2,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewLuckyDraw.<astLuckyDrawPeriod_bytes>e__FixedBuffer',
 			},
 			['dwMultiLotteryNum'] = { -- table(b813e4da)
 				['offset'] = 88,
@@ -141352,11 +145257,11 @@
 			},
 			['astLuckyPointRule_bytes'] = { -- table(2648ba8b)
 				['offset'] = 156,
-				['type'] = 'ResData.ResDT_Common_Draw',
+				['type'] = 'ResData.ResNewLuckyDraw.<astLuckyPointRule_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Common_Draw',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewLuckyDraw.<astLuckyPointRule_bytes>e__FixedBuffer',
 			},
 			['dwEveryX'] = { -- table(9caef3b5)
 				['offset'] = 196,
@@ -141364,11 +145269,11 @@
 			},
 			['astEveryXLuckyPointRule_bytes'] = { -- table(cbc5fd6)
 				['offset'] = 200,
-				['type'] = 'ResData.ResDT_Common_Draw',
+				['type'] = 'ResData.ResNewLuckyDraw.<astEveryXLuckyPointRule_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Common_Draw',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewLuckyDraw.<astEveryXLuckyPointRule_bytes>e__FixedBuffer',
 			},
 			['bIsDrawNumDayLimited'] = { -- table(698d8949)
 				['offset'] = 240,
@@ -141498,10 +145403,10 @@
 			},
 			['astFinalProbability_bytes'] = { -- table(bca5d4f6)
 				['offset'] = 116,
-				['type'] = 'ResData.ResDT_Common_Draw',
+				['type'] = 'ResData.ResNewLuckyDrawPool.<astFinalProbability_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Common_Draw',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewLuckyDrawPool.<astFinalProbability_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 116,
@@ -141547,10 +145452,10 @@
 			},
 			['DiscountProp_bytes'] = { -- table(b8361978)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResNewLuckyDrawDiscount.<DiscountProp_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewLuckyDrawDiscount.<DiscountProp_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -141604,10 +145509,10 @@
 			},
 			['Param_bytes'] = { -- table(1ab3c419)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRankingNumberLevelCfg.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRankingNumberLevelCfg.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -141737,10 +145642,10 @@
 			},
 			['astLimitChangeProperty_bytes'] = { -- table(d4fa6957)
 				['offset'] = 108,
-				['type'] = 'ResData.ResUGCLimitChangeCfg',
+				['type'] = 'ResData.ResUgcPveActorPropertyCfg.<astLimitChangeProperty_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResUGCLimitChangeCfg',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUgcPveActorPropertyCfg.<astLimitChangeProperty_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 108,
@@ -141774,10 +145679,10 @@
 			},
 			['astCustomProperty_bytes'] = { -- table(c77b0517)
 				['offset'] = 12,
-				['type'] = 'ResData.ResPveHurtTagProperty',
+				['type'] = 'ResData.ResUgcPveActorHurtTagCfg.<astCustomProperty_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResPveHurtTagProperty',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUgcPveActorHurtTagCfg.<astCustomProperty_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -141811,13 +145716,57 @@
 			},
 			['astCustomProperty_bytes'] = { -- table(69ccf7aa)
 				['offset'] = 12,
-				['type'] = 'ResData.ResPveCustomProperty',
+				['type'] = 'ResData.ResUgcPveActorCustomPropertyCfg.<astCustomProperty_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResPveCustomProperty',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUgcPveActorCustomPropertyCfg.<astCustomProperty_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResUltimateAwakenTalentCfg.<NewAddBuffs_bytes>e__FixedBuffer'] = { -- table(5ab8470c)
+		['Methods'] = { -- table(755ecb1a)
+		},
+		['Fields'] = { -- table(d163743b)
+			['FixedElementField'] = { -- table(1546a993)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResUltimateAwakenTalentCfg.<ReplayceLevelBuffs_bytes>e__FixedBuffer'] = { -- table(726b90be)
+		['Methods'] = { -- table(1d3903b4)
+		},
+		['Fields'] = { -- table(809c8d23)
+			['FixedElementField'] = { -- table(57f65afb)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResUltimateAwakenTalentCfg.<TalentAdditionTagList_bytes>e__FixedBuffer'] = { -- table(b86b5f75)
+		['Methods'] = { -- table(469dcfdf)
+		},
+		['Fields'] = { -- table(b6fe2c5e)
+			['FixedElementField'] = { -- table(72a7e57c)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResUltimateAwakenTalentCfg.<UpgradeLevelBuffs_bytes>e__FixedBuffer'] = { -- table(93be9d9f)
+		['Methods'] = { -- table(6235b471)
+		},
+		['Fields'] = { -- table(dd4e8a68)
+			['FixedElementField'] = { -- table(8f32397e)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResUltimateAwakenTalentCfg'] = { -- table(654c0fd0)
 		['Methods'] = { -- table(418b72be)
@@ -141913,11 +145862,11 @@
 			},
 			['NewAddBuffs_bytes'] = { -- table(2bb94edc)
 				['offset'] = 44,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResUltimateAwakenTalentCfg.<NewAddBuffs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateAwakenTalentCfg.<NewAddBuffs_bytes>e__FixedBuffer',
 			},
 			['iNewAddBuffLevel'] = { -- table(b6a05834)
 				['offset'] = 56,
@@ -141925,11 +145874,11 @@
 			},
 			['ReplayceLevelBuffs_bytes'] = { -- table(11103a44)
 				['offset'] = 60,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResUltimateAwakenTalentCfg.<ReplayceLevelBuffs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateAwakenTalentCfg.<ReplayceLevelBuffs_bytes>e__FixedBuffer',
 			},
 			['iReplaceBuffLevel'] = { -- table(5005e4bf)
 				['offset'] = 72,
@@ -141937,11 +145886,11 @@
 			},
 			['UpgradeLevelBuffs_bytes'] = { -- table(f736491)
 				['offset'] = 76,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResUltimateAwakenTalentCfg.<UpgradeLevelBuffs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateAwakenTalentCfg.<UpgradeLevelBuffs_bytes>e__FixedBuffer',
 			},
 			['strIdDescript'] = { -- table(234b67f)
 				['offset'] = 88,
@@ -141977,11 +145926,11 @@
 			},
 			['TalentAdditionTagList_bytes'] = { -- table(ca5b5503)
 				['offset'] = 140,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResUltimateAwakenTalentCfg.<TalentAdditionTagList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateAwakenTalentCfg.<TalentAdditionTagList_bytes>e__FixedBuffer',
 			},
 			['strIdTag'] = { -- table(2acd6edd)
 				['offset'] = 160,
@@ -142023,13 +145972,24 @@
 			},
 			['TalentIDList_bytes'] = { -- table(c48ab02a)
 				['offset'] = 16,
-				['type'] = 'System.UInt64',
+				['type'] = 'ResData.ResDTAwakenSuitTalentInfo.<TalentIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt64',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDTAwakenSuitTalentInfo.<TalentIDList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResAwakenInGameTaskCfg.<TargetProgressParams_bytes>e__FixedBuffer'] = { -- table(6d1f2352)
+		['Methods'] = { -- table(29a47230)
+		},
+		['Fields'] = { -- table(c55cf543)
+			['FixedElementField'] = { -- table(f89b6fdb)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResAwakenInGameTaskCfg'] = { -- table(fe56532f)
 		['Methods'] = { -- table(8b2afa09)
@@ -142069,11 +146029,11 @@
 			},
 			['TargetProgressParams_bytes'] = { -- table(e4e29b0c)
 				['offset'] = 32,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResAwakenInGameTaskCfg.<TargetProgressParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAwakenInGameTaskCfg.<TargetProgressParams_bytes>e__FixedBuffer',
 			},
 			['strIdBlueprintPath'] = { -- table(8b3d5476)
 				['offset'] = 56,
@@ -142081,6 +146041,50 @@
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResUltimateDefenseTrialsEvent.<EventStartTimeRange_bytes>e__FixedBuffer'] = { -- table(d89b09fd)
+		['Methods'] = { -- table(f9c5a973)
+		},
+		['Fields'] = { -- table(a8a171cc)
+			['FixedElementField'] = { -- table(12ef67fa)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResUltimateDefenseTrialsEvent.<FailReward_bytes>e__FixedBuffer'] = { -- table(5bc1d40e)
+		['Methods'] = { -- table(fdafa70c)
+		},
+		['Fields'] = { -- table(95385ed5)
+			['FixedElementField'] = { -- table(13e160d5)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResUltimateDefenseTrialsEvent.<Params_bytes>e__FixedBuffer'] = { -- table(e264bf19)
+		['Methods'] = { -- table(816c18af)
+		},
+		['Fields'] = { -- table(168b6fd6)
+			['FixedElementField'] = { -- table(dbbe1c74)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResUltimateDefenseTrialsEvent.<SuccessReward_bytes>e__FixedBuffer'] = { -- table(4c1c2ea3)
+		['Methods'] = { -- table(a515ffdd)
+		},
+		['Fields'] = { -- table(cbfd4436)
+			['FixedElementField'] = { -- table(e12e9d14)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResUltimateDefenseTrialsEvent'] = { -- table(9ec87af0)
 		['Methods'] = { -- table(63d4ec02)
@@ -142168,19 +146172,19 @@
 			},
 			['SuccessReward_bytes'] = { -- table(443f5dc3)
 				['offset'] = 36,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResUltimateDefenseTrialsEvent.<SuccessReward_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateDefenseTrialsEvent.<SuccessReward_bytes>e__FixedBuffer',
 			},
 			['FailReward_bytes'] = { -- table(d351f7a2)
 				['offset'] = 44,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResUltimateDefenseTrialsEvent.<FailReward_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateDefenseTrialsEvent.<FailReward_bytes>e__FixedBuffer',
 			},
 			['strIdDesc'] = { -- table(e88f7658)
 				['offset'] = 56,
@@ -142200,19 +146204,19 @@
 			},
 			['Params_bytes'] = { -- table(1c99d737)
 				['offset'] = 84,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResUltimateDefenseTrialsEvent.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateDefenseTrialsEvent.<Params_bytes>e__FixedBuffer',
 			},
 			['EventStartTimeRange_bytes'] = { -- table(d17842a1)
 				['offset'] = 124,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResUltimateDefenseTrialsEvent.<EventStartTimeRange_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateDefenseTrialsEvent.<EventStartTimeRange_bytes>e__FixedBuffer',
 			},
 			['iDuration'] = { -- table(133f89dc)
 				['offset'] = 132,
@@ -142228,6 +146232,17 @@
 			},
 		},
 		['MaxV'] = 144,
+	},
+	['ResData.ResUltimateDefenseTrialsLevel.<SoldierBuffs_bytes>e__FixedBuffer'] = { -- table(f066e481)
+		['Methods'] = { -- table(3384039f)
+		},
+		['Fields'] = { -- table(f6dba11e)
+			['FixedElementField'] = { -- table(deb3293c)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResUltimateDefenseTrialsLevel'] = { -- table(e9de6be)
 		['Methods'] = { -- table(98d2224)
@@ -142255,11 +146270,11 @@
 			},
 			['SoldierBuffs_bytes'] = { -- table(e67ecb87)
 				['offset'] = 20,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResUltimateDefenseTrialsLevel.<SoldierBuffs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateDefenseTrialsLevel.<SoldierBuffs_bytes>e__FixedBuffer',
 			},
 			['iAddLevel'] = { -- table(3dc8719)
 				['offset'] = 28,
@@ -142390,6 +146405,39 @@
 		},
 		['MaxV'] = 8,
 	},
+	['ResData.ResRogueMowDrawConf.<ItemList_bytes>e__FixedBuffer'] = { -- table(9ac8deb7)
+		['Methods'] = { -- table(ca130e19)
+		},
+		['Fields'] = { -- table(ee68c11c)
+			['FixedElementField'] = { -- table(6f6b7cea)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRogueMowDrawConf.<WeaponList_bytes>e__FixedBuffer'] = { -- table(cc612892)
+		['Methods'] = { -- table(c6a18e0)
+		},
+		['Fields'] = { -- table(459e7301)
+			['FixedElementField'] = { -- table(da92fe09)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRogueMowDrawConf.<astCoinRate_bytes>e__FixedBuffer'] = { -- table(e6ef92c1)
+		['Methods'] = { -- table(48bca837)
+		},
+		['Fields'] = { -- table(c7ddacf0)
+			['FixedElementField'] = { -- table(8804826)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResRogueMowDrawConf'] = { -- table(faae6ce3)
 		['Methods'] = { -- table(ec95b5dd)
 			['astCoinRate'] = { -- table(80d4ca94)
@@ -142456,11 +146504,11 @@
 			},
 			['astCoinRate_bytes'] = { -- table(4e0233a9)
 				['offset'] = 44,
-				['type'] = 'ResData.RESDT_ROGUEMOW_COIN_CHEST_CONF',
+				['type'] = 'ResData.ResRogueMowDrawConf.<astCoinRate_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.RESDT_ROGUEMOW_COIN_CHEST_CONF',
 				['count'] = 6,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowDrawConf.<astCoinRate_bytes>e__FixedBuffer',
 			},
 			['dwItemNum'] = { -- table(7f7568d4)
 				['offset'] = 92,
@@ -142468,11 +146516,11 @@
 			},
 			['ItemList_bytes'] = { -- table(62b41f59)
 				['offset'] = 96,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowDrawConf.<ItemList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 8,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowDrawConf.<ItemList_bytes>e__FixedBuffer',
 			},
 			['dwWeaponNum'] = { -- table(67d2401)
 				['offset'] = 128,
@@ -142480,11 +146528,11 @@
 			},
 			['WeaponList_bytes'] = { -- table(d8d7bb12)
 				['offset'] = 132,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowDrawConf.<WeaponList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowDrawConf.<WeaponList_bytes>e__FixedBuffer',
 			},
 			['dwHeroNum'] = { -- table(9548529d)
 				['offset'] = 152,
@@ -142492,10 +146540,10 @@
 			},
 			['HeroList_bytes'] = { -- table(861fc32)
 				['offset'] = 156,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowDrawConf.<HeroList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowDrawConf.<HeroList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 156,
@@ -142600,10 +146648,10 @@
 			},
 			['LevelBuff_bytes'] = { -- table(82eb08f8)
 				['offset'] = 92,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowDifficultyConf.<LevelBuff_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowDifficultyConf.<LevelBuff_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 92,
@@ -142637,10 +146685,10 @@
 			},
 			['astMonsterInfo_bytes'] = { -- table(f4ac48cf)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_MonsterPreloadInfo',
+				['type'] = 'ResData.ResRogueMowChapterMonsterConf.<astMonsterInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MonsterPreloadInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowChapterMonsterConf.<astMonsterInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -142674,10 +146722,10 @@
 			},
 			['BossID_bytes'] = { -- table(22e8d1ff)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowLevelBossConf.<BossID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowLevelBossConf.<BossID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -142711,10 +146759,10 @@
 			},
 			['astMonsterInfo_bytes'] = { -- table(20fd5a79)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_MonsterPreloadInfo',
+				['type'] = 'ResData.ResUltimateAwakenMonsterConf.<astMonsterInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MonsterPreloadInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltimateAwakenMonsterConf.<astMonsterInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -142756,10 +146804,10 @@
 			},
 			['astRewardItem_bytes'] = { -- table(e959a142)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.RESDT_RogueMowApolloRankNoDetail.<astRewardItem_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.RESDT_RogueMowApolloRankNoDetail.<astRewardItem_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -142797,13 +146845,24 @@
 			},
 			['ConditionValue_bytes'] = { -- table(ae831e5)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResPveUnlockCondition.<ConditionValue_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveUnlockCondition.<ConditionValue_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResRogueMowHeroConf.<PreChooseWeaponID_bytes>e__FixedBuffer'] = { -- table(15996d65)
+		['Methods'] = { -- table(34b4c95f)
+		},
+		['Fields'] = { -- table(b5397940)
+			['FixedElementField'] = { -- table(59f93bd6)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRogueMowHeroConf'] = { -- table(957a2bd9)
 		['Methods'] = { -- table(638c52c3)
@@ -142875,11 +146934,11 @@
 			},
 			['PreChooseWeaponID_bytes'] = { -- table(f9de0899)
 				['offset'] = 72,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowHeroConf.<PreChooseWeaponID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 20,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowHeroConf.<PreChooseWeaponID_bytes>e__FixedBuffer',
 			},
 			['dwDefaultWeaponID'] = { -- table(c4639b53)
 				['offset'] = 152,
@@ -142891,6 +146950,28 @@
 			},
 		},
 		['MaxV'] = 156,
+	},
+	['ResData.ResRogueMowTalentConf.<MutexTalentID_bytes>e__FixedBuffer'] = { -- table(9f92d8c0)
+		['Methods'] = { -- table(667f2e8a)
+		},
+		['Fields'] = { -- table(96dac97d)
+			['FixedElementField'] = { -- table(69a5c99d)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRogueMowTalentConf.<PreTalentID_bytes>e__FixedBuffer'] = { -- table(417ec00e)
+		['Methods'] = { -- table(9a9d33cc)
+		},
+		['Fields'] = { -- table(a688d66f)
+			['FixedElementField'] = { -- table(312aa0ef)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRogueMowTalentConf'] = { -- table(8c0eb1af)
 		['Methods'] = { -- table(1b2163d5)
@@ -142958,11 +147039,11 @@
 			},
 			['PreTalentID_bytes'] = { -- table(319ef0e8)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowTalentConf.<PreTalentID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowTalentConf.<PreTalentID_bytes>e__FixedBuffer',
 			},
 			['dwMutexTalentNum'] = { -- table(a7bd8610)
 				['offset'] = 64,
@@ -142970,11 +147051,11 @@
 			},
 			['MutexTalentID_bytes'] = { -- table(3a1a77de)
 				['offset'] = 68,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowTalentConf.<MutexTalentID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowTalentConf.<MutexTalentID_bytes>e__FixedBuffer',
 			},
 			['dwLearnCostType'] = { -- table(d3ed605e)
 				['offset'] = 80,
@@ -143081,10 +147162,10 @@
 			},
 			['Skill_bytes'] = { -- table(a0ddd64a)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRogueMowHeroSkillConf.<Skill_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowHeroSkillConf.<Skill_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -143130,10 +147211,10 @@
 			},
 			['astPic_bytes'] = { -- table(886bff35)
 				['offset'] = 24,
-				['type'] = 'ResData.ResRogueMowStrategyPic',
+				['type'] = 'ResData.ResRogueMowStrategyConf.<astPic_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRogueMowStrategyPic',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowStrategyConf.<astPic_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -143167,10 +147248,10 @@
 			},
 			['ConditionParam_bytes'] = { -- table(438e13e8)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDT_HeroAcquisitionCondition.<ConditionParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_HeroAcquisitionCondition.<ConditionParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -143212,13 +147293,35 @@
 			},
 			['RecommendEquipID_bytes'] = { -- table(870bd3e5)
 				['offset'] = 12,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResHeroTypeRecommendEquipGroup.<RecommendEquipID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroTypeRecommendEquipGroup.<RecommendEquipID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResCustomizeRecommendOfficalConf.<BindHeroOrSkinList_bytes>e__FixedBuffer'] = { -- table(c8e7480b)
+		['Methods'] = { -- table(59820fc9)
+		},
+		['Fields'] = { -- table(b9ea3fe6)
+			['FixedElementField'] = { -- table(797e5b24)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCustomizeRecommendOfficalConf.<astItemList_bytes>e__FixedBuffer'] = { -- table(b8455489)
+		['Methods'] = { -- table(fc739153)
+		},
+		['Fields'] = { -- table(2c7a7206)
+			['FixedElementField'] = { -- table(e1343c04)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCustomizeRecommendOfficalConf'] = { -- table(69ed471b)
 		['Methods'] = { -- table(1c4da5ad)
@@ -143278,11 +147381,11 @@
 			},
 			['BindHeroOrSkinList_bytes'] = { -- table(fef95187)
 				['offset'] = 36,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCustomizeRecommendOfficalConf.<BindHeroOrSkinList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCustomizeRecommendOfficalConf.<BindHeroOrSkinList_bytes>e__FixedBuffer',
 			},
 			['dwItemNum'] = { -- table(a6a013ce)
 				['offset'] = 76,
@@ -143298,11 +147401,11 @@
 			},
 			['astItemList_bytes'] = { -- table(28630123)
 				['offset'] = 96,
-				['type'] = 'ResData.ResDT_CustomizeItemInfo',
+				['type'] = 'ResData.ResCustomizeRecommendOfficalConf.<astItemList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CustomizeItemInfo',
 				['count'] = 15,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCustomizeRecommendOfficalConf.<astItemList_bytes>e__FixedBuffer',
 			},
 			['strIdBannerImgPath'] = { -- table(8bc5a504)
 				['offset'] = 216,
@@ -143314,6 +147417,17 @@
 			},
 		},
 		['MaxV'] = 224,
+	},
+	['ResData.ResGangUpShareCfg.<OpenCondParams_bytes>e__FixedBuffer'] = { -- table(c23c26a)
+		['Methods'] = { -- table(9592abe0)
+		},
+		['Fields'] = { -- table(4a4bdce9)
+			['FixedElementField'] = { -- table(914c1ff1)
+				['offset'] = 8,
+				['type'] = 'System.UInt64',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResGangUpShareCfg.<SharePoolIDList_bytes>e__FixedBuffer'] = { -- table(e5a7b88a)
 		['Methods'] = { -- table(f693abcc)
@@ -143356,11 +147470,11 @@
 			},
 			['OpenCondParams_bytes'] = { -- table(9e4c0952)
 				['offset'] = 16,
-				['type'] = 'System.UInt64',
+				['type'] = 'ResData.ResGangUpShareCfg.<OpenCondParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt64',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGangUpShareCfg.<OpenCondParams_bytes>e__FixedBuffer',
 			},
 			['dwSharePoolIDCnt'] = { -- table(f0000e8a)
 				['offset'] = 48,
@@ -143368,10 +147482,10 @@
 			},
 			['SharePoolIDList_bytes'] = { -- table(45c8da4c)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGangUpShareCfg.<SharePoolIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGangUpShareCfg.<SharePoolIDList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 52,
@@ -143413,13 +147527,24 @@
 			},
 			['ResourceIDList_bytes'] = { -- table(9b479793)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGangUpSharePoolCfg.<ResourceIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGangUpSharePoolCfg.<ResourceIDList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
+	},
+	['ResData.ResSacredAnimalRightsRule.<astRulePicInfo_bytes>e__FixedBuffer'] = { -- table(d6a4362a)
+		['Methods'] = { -- table(3b80525c)
+		},
+		['Fields'] = { -- table(ae2af581)
+			['FixedElementField'] = { -- table(f93f4d89)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSacredAnimalRightsRule'] = { -- table(dd78c225)
 		['Methods'] = { -- table(78672fd3)
@@ -143459,11 +147584,11 @@
 			},
 			['astRulePicInfo_bytes'] = { -- table(784918c6)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_PicRuleInfo',
+				['type'] = 'ResData.ResSacredAnimalRightsRule.<astRulePicInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PicRuleInfo',
 				['count'] = 7,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalRightsRule.<astRulePicInfo_bytes>e__FixedBuffer',
 			},
 			['dwRulePicCount'] = { -- table(2684e7c0)
 				['offset'] = 144,
@@ -143471,6 +147596,17 @@
 			},
 		},
 		['MaxV'] = 144,
+	},
+	['ResData.ResSacredAnimalInteract.<ParamList_bytes>e__FixedBuffer'] = { -- table(8887de4a)
+		['Methods'] = { -- table(59074eec)
+		},
+		['Fields'] = { -- table(7a9e4537)
+			['FixedElementField'] = { -- table(bfc14697)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSacredAnimalInteract'] = { -- table(937d009e)
 		['Methods'] = { -- table(6384a060)
@@ -143638,11 +147774,11 @@
 			},
 			['ParamList_bytes'] = { -- table(9ff00ed8)
 				['offset'] = 152,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResSacredAnimalInteract.<ParamList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalInteract.<ParamList_bytes>e__FixedBuffer',
 			},
 			['iJumpEnterType'] = { -- table(35658234)
 				['offset'] = 172,
@@ -143769,6 +147905,17 @@
 		},
 		['MaxV'] = 80,
 	},
+	['ResData.ResSacredAnimalPropRule.<astRulePicInfo_bytes>e__FixedBuffer'] = { -- table(84948e48)
+		['Methods'] = { -- table(ef12e616)
+		},
+		['Fields'] = { -- table(1acfb567)
+			['FixedElementField'] = { -- table(b5c6eae7)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSacredAnimalPropRule'] = { -- table(55322d2f)
 		['Methods'] = { -- table(ccceaf71)
 			['get_szPropName'] = { -- table(ba7a5cf3)
@@ -143799,11 +147946,11 @@
 			},
 			['astRulePicInfo_bytes'] = { -- table(b6241d64)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_PicRuleInfo',
+				['type'] = 'ResData.ResSacredAnimalPropRule.<astRulePicInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PicRuleInfo',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalPropRule.<astRulePicInfo_bytes>e__FixedBuffer',
 			},
 			['dwRulePicCount'] = { -- table(4ae5234a)
 				['offset'] = 104,
@@ -143811,6 +147958,28 @@
 			},
 		},
 		['MaxV'] = 104,
+	},
+	['ResData.ResSacredAnimalIntimacyRule.<astRulePicInfoLock_bytes>e__FixedBuffer'] = { -- table(e9ca404c)
+		['Methods'] = { -- table(c9e98f1e)
+		},
+		['Fields'] = { -- table(fed899c7)
+			['FixedElementField'] = { -- table(99a8ca87)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSacredAnimalIntimacyRule.<astRulePicInfoUnlock_bytes>e__FixedBuffer'] = { -- table(d5d17379)
+		['Methods'] = { -- table(b325eaff)
+		},
+		['Fields'] = { -- table(9b540ec2)
+			['FixedElementField'] = { -- table(3d5a3ea8)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSacredAnimalIntimacyRule'] = { -- table(1d9003b8)
 		['Methods'] = { -- table(43769f8a)
@@ -143846,19 +148015,19 @@
 			},
 			['astRulePicInfoUnlock_bytes'] = { -- table(7593393)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_PicRuleInfo',
+				['type'] = 'ResData.ResSacredAnimalIntimacyRule.<astRulePicInfoUnlock_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PicRuleInfo',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalIntimacyRule.<astRulePicInfoUnlock_bytes>e__FixedBuffer',
 			},
 			['astRulePicInfoLock_bytes'] = { -- table(786ad9f4)
 				['offset'] = 104,
-				['type'] = 'ResData.ResDT_PicRuleInfo',
+				['type'] = 'ResData.ResSacredAnimalIntimacyRule.<astRulePicInfoLock_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PicRuleInfo',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalIntimacyRule.<astRulePicInfoLock_bytes>e__FixedBuffer',
 			},
 			['dwRulePicCountUnlock'] = { -- table(b4045c79)
 				['offset'] = 184,
@@ -143870,6 +148039,17 @@
 			},
 		},
 		['MaxV'] = 188,
+	},
+	['ResData.ResLingBaoIntimacyLevel.<UnlockRightList_bytes>e__FixedBuffer'] = { -- table(226dbcff)
+		['Methods'] = { -- table(c802085d)
+		},
+		['Fields'] = { -- table(98a2a422)
+			['FixedElementField'] = { -- table(85625dc8)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLingBaoIntimacyLevel'] = { -- table(f738fd6e)
 		['Methods'] = { -- table(f12ba0a0)
@@ -143917,11 +148097,11 @@
 			},
 			['UnlockRightList_bytes'] = { -- table(43bb6aff)
 				['offset'] = 44,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLingBaoIntimacyLevel.<UnlockRightList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoIntimacyLevel.<UnlockRightList_bytes>e__FixedBuffer',
 			},
 			['iInteractID'] = { -- table(10a8d589)
 				['offset'] = 56,
@@ -143963,10 +148143,10 @@
 			},
 			['RightParams_bytes'] = { -- table(b0759e69)
 				['offset'] = 16,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLingBaoRightLimitExp.<RightParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoRightLimitExp.<RightParams_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -144067,13 +148247,24 @@
 			},
 			['SuitIDList_bytes'] = { -- table(ec7cdf4c)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLingBaoLotterySpecialSuit.<SuitIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoLotterySpecialSuit.<SuitIDList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResLingBaoLotteryExpLevelConf.<astUnlockRight_bytes>e__FixedBuffer'] = { -- table(ee034d6b)
+		['Methods'] = { -- table(a66462a5)
+		},
+		['Fields'] = { -- table(e44b2498)
+			['FixedElementField'] = { -- table(751bfcce)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLingBaoLotteryExpLevelConf'] = { -- table(a9644522)
 		['Methods'] = { -- table(85ce62b4)
@@ -144109,11 +148300,11 @@
 			},
 			['astUnlockRight_bytes'] = { -- table(7117aebd)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_LingBaoLotteryRight',
+				['type'] = 'ResData.ResLingBaoLotteryExpLevelConf.<astUnlockRight_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LingBaoLotteryRight',
 				['count'] = 5,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoLotteryExpLevelConf.<astUnlockRight_bytes>e__FixedBuffer',
 			},
 			['dwRewardItemID'] = { -- table(99ac32d3)
 				['offset'] = 144,
@@ -144129,6 +148320,17 @@
 			},
 		},
 		['MaxV'] = 152,
+	},
+	['ResData.ResLingBaoLotteryPropRule.<astRulePicInfo_bytes>e__FixedBuffer'] = { -- table(88663cb1)
+		['Methods'] = { -- table(83649f8f)
+		},
+		['Fields'] = { -- table(89c3be3a)
+			['FixedElementField'] = { -- table(28f29480)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLingBaoLotteryPropRule'] = { -- table(605880f4)
 		['Methods'] = { -- table(94e2825e)
@@ -144164,11 +148366,11 @@
 			},
 			['astRulePicInfo_bytes'] = { -- table(15a43c53)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_PicRuleInfo',
+				['type'] = 'ResData.ResLingBaoLotteryPropRule.<astRulePicInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PicRuleInfo',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoLotteryPropRule.<astRulePicInfo_bytes>e__FixedBuffer',
 			},
 			['dwRulePicCount'] = { -- table(c5d99e81)
 				['offset'] = 112,
@@ -144218,10 +148420,10 @@
 			},
 			['astColorParamas_bytes'] = { -- table(20a96c11)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_LingBaoLotteryColorParamas',
+				['type'] = 'ResData.ResDT_LingBaoLotteryColorMatiralPlan.<astColorParamas_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LingBaoLotteryColorParamas',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_LingBaoLotteryColorMatiralPlan.<astColorParamas_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -144279,13 +148481,24 @@
 			},
 			['astShowColors_bytes'] = { -- table(2f953146)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_ResLingBaoLotteryWorkbenchColorConf',
+				['type'] = 'ResData.ResLingBaoLotteryWorkbenchConf.<astShowColors_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ResLingBaoLotteryWorkbenchColorConf',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoLotteryWorkbenchConf.<astShowColors_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResDimensionLotteryBatch.<astSuitInfo_bytes>e__FixedBuffer'] = { -- table(337b0b97)
+		['Methods'] = { -- table(4413ab45)
+		},
+		['Fields'] = { -- table(a9a6d00)
+			['FixedElementField'] = { -- table(4d2a2e96)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionLotteryBatch'] = { -- table(9faa7713)
 		['Methods'] = { -- table(2b1d721d)
@@ -144345,11 +148558,11 @@
 			},
 			['astSuitInfo_bytes'] = { -- table(5cc9694d)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_DimensionLotterySuitInfo',
+				['type'] = 'ResData.ResDimensionLotteryBatch.<astSuitInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionLotterySuitInfo',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionLotteryBatch.<astSuitInfo_bytes>e__FixedBuffer',
 			},
 			['iShowGuaranteeCount'] = { -- table(81289667)
 				['offset'] = 100,
@@ -144357,6 +148570,17 @@
 			},
 		},
 		['MaxV'] = 100,
+	},
+	['ResData.ResDimensionLotteryExpLevelConf.<astUnlockRight_bytes>e__FixedBuffer'] = { -- table(f3c2ee85)
+		['Methods'] = { -- table(c1ae118f)
+		},
+		['Fields'] = { -- table(aad4ede2)
+			['FixedElementField'] = { -- table(14aa3f88)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionLotteryExpLevelConf'] = { -- table(939aa454)
 		['Methods'] = { -- table(1b3b5666)
@@ -144404,11 +148628,11 @@
 			},
 			['astUnlockRight_bytes'] = { -- table(48731b0f)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_DimensionLotteryRight',
+				['type'] = 'ResData.ResDimensionLotteryExpLevelConf.<astUnlockRight_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionLotteryRight',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionLotteryExpLevelConf.<astUnlockRight_bytes>e__FixedBuffer',
 			},
 			['dwRewardItemID'] = { -- table(a8866a85)
 				['offset'] = 76,
@@ -144462,10 +148686,10 @@
 			},
 			['astColorParamas_bytes'] = { -- table(42c1843a)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_ColorParama',
+				['type'] = 'ResData.ResDimensionLotteryResourceConf.<astColorParamas_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ColorParama',
 				['size'] = 96,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionLotteryResourceConf.<astColorParamas_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -144507,10 +148731,10 @@
 			},
 			['astRulePicInfo_bytes'] = { -- table(82ca3e9f)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_PicRuleInfo',
+				['type'] = 'ResData.ResDimensionLotteryAttributeDetail.<astRulePicInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PicRuleInfo',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionLotteryAttributeDetail.<astRulePicInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -144556,13 +148780,24 @@
 			},
 			['astRulePicInfo_bytes'] = { -- table(1b2c9c97)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_PicRuleInfo',
+				['type'] = 'ResData.ResDimensionLotteryTypeDetail.<astRulePicInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PicRuleInfo',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionLotteryTypeDetail.<astRulePicInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResTeamUpHeadIconGroup.<HeadIcons_bytes>e__FixedBuffer'] = { -- table(50f9bf45)
+		['Methods'] = { -- table(6bf2bf7f)
+		},
+		['Fields'] = { -- table(8928d50e)
+			['FixedElementField'] = { -- table(f9ac980c)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTeamUpHeadIconGroup'] = { -- table(95803da)
 		['Methods'] = { -- table(d1b64bbc)
@@ -144594,11 +148829,11 @@
 			},
 			['HeadIcons_bytes'] = { -- table(bfb3abeb)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTeamUpHeadIconGroup.<HeadIcons_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 11,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeamUpHeadIconGroup.<HeadIcons_bytes>e__FixedBuffer',
 			},
 			['ullStartTime'] = { -- table(ae0c1dc9)
 				['offset'] = 72,
@@ -144668,13 +148903,24 @@
 			},
 			['DistrictIcons_bytes'] = { -- table(ff59356b)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTeamUpDistrictIconGroup.<DistrictIcons_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeamUpDistrictIconGroup.<DistrictIcons_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
+	},
+	['ResData.ResUltiAwakenChooseHeroLevelCfg.<astRewardInfo_bytes>e__FixedBuffer'] = { -- table(76b38046)
+		['Methods'] = { -- table(76b1c1ec)
+		},
+		['Fields'] = { -- table(8f3a5ad7)
+			['FixedElementField'] = { -- table(53d66af7)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResUltiAwakenChooseHeroLevelCfg'] = { -- table(5cae143c)
 		['Methods'] = { -- table(3c3a3ed6)
@@ -144726,11 +148972,11 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(68afe098)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_UltiAwakenPveLevelReward_Info',
+				['type'] = 'ResData.ResUltiAwakenChooseHeroLevelCfg.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_UltiAwakenPveLevelReward_Info',
 				['count'] = 4,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltiAwakenChooseHeroLevelCfg.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 			['strIdLevelTip'] = { -- table(e7332496)
 				['offset'] = 136,
@@ -144756,6 +149002,17 @@
 		},
 		['Fields'] = { -- table(ebb4ff27)
 			['FixedElementField'] = { -- table(9c0320a7)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResUltiAwakenHeroCfg.<TalentTag_bytes>e__FixedBuffer'] = { -- table(cb218ec0)
+		['Methods'] = { -- table(95a0ca32)
+		},
+		['Fields'] = { -- table(f76acfbb)
+			['FixedElementField'] = { -- table(42f35413)
 				['offset'] = 8,
 				['type'] = 'System.UInt32',
 			},
@@ -144820,11 +149077,11 @@
 			},
 			['TalentTag_bytes'] = { -- table(2db60614)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResUltiAwakenHeroCfg.<TalentTag_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltiAwakenHeroCfg.<TalentTag_bytes>e__FixedBuffer',
 			},
 			['iExtraTalentTagNum'] = { -- table(ff318f53)
 				['offset'] = 76,
@@ -144832,10 +149089,10 @@
 			},
 			['ExtarTalentTag_bytes'] = { -- table(c2c08e80)
 				['offset'] = 80,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResUltiAwakenHeroCfg.<ExtarTalentTag_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUltiAwakenHeroCfg.<ExtarTalentTag_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 80,
@@ -144873,13 +149130,68 @@
 			},
 			['HeroList_bytes'] = { -- table(e01f18b5)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBranchFillInHeroConf.<HeroList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBranchFillInHeroConf.<HeroList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResDimensionHeroPropertyCfg.<InitBuff_bytes>e__FixedBuffer'] = { -- table(ce3ae605)
+		['Methods'] = { -- table(d5bef497)
+		},
+		['Fields'] = { -- table(b387a766)
+			['FixedElementField'] = { -- table(f160e9a4)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionHeroPropertyCfg.<Passive_bytes>e__FixedBuffer'] = { -- table(3cbc167d)
+		['Methods'] = { -- table(96d0e627)
+		},
+		['Fields'] = { -- table(5da81534)
+			['FixedElementField'] = { -- table(a1e99302)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionHeroPropertyCfg.<RemoveBuff_bytes>e__FixedBuffer'] = { -- table(262135bb)
+		['Methods'] = { -- table(3ca6facd)
+		},
+		['Fields'] = { -- table(ea51bb90)
+			['FixedElementField'] = { -- table(f0001686)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionHeroPropertyCfg.<astEffectTagList_bytes>e__FixedBuffer'] = { -- table(f4809209)
+		['Methods'] = { -- table(8a54e6db)
+		},
+		['Fields'] = { -- table(a878edda)
+			['FixedElementField'] = { -- table(42245c60)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionHeroPropertyCfg.<astSkill_bytes>e__FixedBuffer'] = { -- table(fc693e63)
+		['Methods'] = { -- table(dbb46c19)
+		},
+		['Fields'] = { -- table(cf2b08e4)
+			['FixedElementField'] = { -- table(a510c152)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionHeroPropertyCfg'] = { -- table(35a30cc1)
 		['Methods'] = { -- table(dcfc21cf)
@@ -144983,11 +149295,11 @@
 			},
 			['astEffectTagList_bytes'] = { -- table(afd008fb)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_SkillEffectTagItem',
+				['type'] = 'ResData.ResDimensionHeroPropertyCfg.<astEffectTagList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillEffectTagItem',
 				['count'] = 3,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHeroPropertyCfg.<astEffectTagList_bytes>e__FixedBuffer',
 			},
 			['strIdAgePath'] = { -- table(3a5191ca)
 				['offset'] = 112,
@@ -145003,38 +149315,49 @@
 			},
 			['astSkill_bytes'] = { -- table(f3dab5cd)
 				['offset'] = 124,
-				['type'] = 'ResData.ResDT_SkillInfo',
+				['type'] = 'ResData.ResDimensionHeroPropertyCfg.<astSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillInfo',
 				['count'] = 6,
 				['size'] = 20,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHeroPropertyCfg.<astSkill_bytes>e__FixedBuffer',
 			},
 			['Passive_bytes'] = { -- table(708d2569)
 				['offset'] = 244,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDimensionHeroPropertyCfg.<Passive_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHeroPropertyCfg.<Passive_bytes>e__FixedBuffer',
 			},
 			['InitBuff_bytes'] = { -- table(3e53da77)
 				['offset'] = 260,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDimensionHeroPropertyCfg.<InitBuff_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHeroPropertyCfg.<InitBuff_bytes>e__FixedBuffer',
 			},
 			['RemoveBuff_bytes'] = { -- table(44deb1dd)
 				['offset'] = 276,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDimensionHeroPropertyCfg.<RemoveBuff_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHeroPropertyCfg.<RemoveBuff_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 276,
+	},
+	['ResData.ResOpSettingCfg.<astLevel_bytes>e__FixedBuffer'] = { -- table(3c683432)
+		['Methods'] = { -- table(6d7f9898)
+		},
+		['Fields'] = { -- table(e6cbb181)
+			['FixedElementField'] = { -- table(262c4189)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResOpSettingCfg'] = { -- table(61538f51)
 		['Methods'] = { -- table(4f419c8b)
@@ -145094,11 +149417,11 @@
 			},
 			['astLevel_bytes'] = { -- table(fdc4c106)
 				['offset'] = 48,
-				['type'] = 'ResData.ResOpSettingLevelNameCfg',
+				['type'] = 'ResData.ResOpSettingCfg.<astLevel_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResOpSettingLevelNameCfg',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOpSettingCfg.<astLevel_bytes>e__FixedBuffer',
 			},
 			['dwHelpBoxID'] = { -- table(4b55782)
 				['offset'] = 80,
@@ -145126,6 +149449,17 @@
 			},
 		},
 		['MaxV'] = 100,
+	},
+	['ResData.ResSettingSettleTip.<astSettingItemList_bytes>e__FixedBuffer'] = { -- table(756d9572)
+		['Methods'] = { -- table(d208b290)
+		},
+		['Fields'] = { -- table(cdf33011)
+			['FixedElementField'] = { -- table(9af60ab9)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSettingSettleTip'] = { -- table(2a668d64)
 		['Methods'] = { -- table(49e5f6a2)
@@ -145221,11 +149555,11 @@
 			},
 			['astSettingItemList_bytes'] = { -- table(e52af5ea)
 				['offset'] = 96,
-				['type'] = 'ResData.ResDT_SettingSettleTip_SettingItem',
+				['type'] = 'ResData.ResSettingSettleTip.<astSettingItemList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SettingSettleTip_SettingItem',
 				['count'] = 6,
 				['size'] = 20,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSettingSettleTip.<astSettingItemList_bytes>e__FixedBuffer',
 			},
 			['bForbidden'] = { -- table(934e075e)
 				['offset'] = 216,
@@ -145233,6 +149567,17 @@
 			},
 		},
 		['MaxV'] = 216,
+	},
+	['ResData.ResExternalLinkConf.<astProtocol_bytes>e__FixedBuffer'] = { -- table(433a599e)
+		['Methods'] = { -- table(41c53f44)
+		},
+		['Fields'] = { -- table(53feafb7)
+			['FixedElementField'] = { -- table(1201ce17)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResExternalLinkConf'] = { -- table(aababe5d)
 		['Methods'] = { -- table(3afecbe3)
@@ -145268,14 +149613,25 @@
 			},
 			['astProtocol_bytes'] = { -- table(5bb7ff44)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_ExternalLinkProtocol',
+				['type'] = 'ResData.ResExternalLinkConf.<astProtocol_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ExternalLinkProtocol',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResExternalLinkConf.<astProtocol_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResSoldierSkin.<astFeature_bytes>e__FixedBuffer'] = { -- table(4b4e5260)
+		['Methods'] = { -- table(61324352)
+		},
+		['Fields'] = { -- table(e98589a9)
+			['FixedElementField'] = { -- table(716972b1)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSoldierSkin'] = { -- table(ecce4a9f)
 		['Methods'] = { -- table(cfddc281)
@@ -145367,11 +149723,11 @@
 			},
 			['astFeature_bytes'] = { -- table(5741991a)
 				['offset'] = 112,
-				['type'] = 'ResData.ResDT_SoldierSkinFeature',
+				['type'] = 'ResData.ResSoldierSkin.<astFeature_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SoldierSkinFeature',
 				['count'] = 6,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSoldierSkin.<astFeature_bytes>e__FixedBuffer',
 			},
 			['dwPreviewSkinId'] = { -- table(b10433c7)
 				['offset'] = 352,
@@ -145449,10 +149805,10 @@
 			},
 			['astButtleInfoList_bytes'] = { -- table(aace3a54)
 				['offset'] = 16,
-				['type'] = 'ResData.ResSoldierSkinBubbleInfo',
+				['type'] = 'ResData.ResSoldierSkinBubble.<astButtleInfoList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResSoldierSkinBubbleInfo',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSoldierSkinBubble.<astButtleInfoList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -145490,10 +149846,10 @@
 			},
 			['FreedomHeroList_bytes'] = { -- table(d32f0a3d)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResFreedomHeroCardConf.<FreedomHeroList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFreedomHeroCardConf.<FreedomHeroList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -145531,10 +149887,10 @@
 			},
 			['FreedomSkinList_bytes'] = { -- table(18710413)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResFreedomSkinCardConf.<FreedomSkinList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFreedomSkinCardConf.<FreedomSkinList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -145580,10 +149936,10 @@
 			},
 			['astRewardItem_bytes'] = { -- table(bc00d41d)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResCouponsPayNewbieRewardInfo.<astRewardItem_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCouponsPayNewbieRewardInfo.<astRewardItem_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -145602,6 +149958,17 @@
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResDimensionPart.<Params_bytes>e__FixedBuffer'] = { -- table(cd9abaa2)
+		['Methods'] = { -- table(708514dc)
+		},
+		['Fields'] = { -- table(6c6913e3)
+			['FixedElementField'] = { -- table(dda612bb)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionPart'] = { -- table(a0f673a1)
 		['Methods'] = { -- table(a5bde7df)
@@ -145781,11 +150148,11 @@
 			},
 			['Params_bytes'] = { -- table(1fc88e0)
 				['offset'] = 148,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDimensionPart.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionPart.<Params_bytes>e__FixedBuffer',
 			},
 			['dwActionBuffID'] = { -- table(fbc22b3d)
 				['offset'] = 164,
@@ -145951,10 +150318,10 @@
 			},
 			['Params_bytes'] = { -- table(a63419a)
 				['offset'] = 92,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDimensionPartAction.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionPartAction.<Params_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 92,
@@ -146036,10 +150403,10 @@
 			},
 			['astMontageNames_bytes'] = { -- table(fde08355)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_ParamString',
+				['type'] = 'ResData.ResDimensionProp.<astMontageNames_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ParamString',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionProp.<astMontageNames_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 64,
@@ -146049,6 +150416,39 @@
 		},
 		['Fields'] = { -- table(15f03f75)
 			['FixedElementField'] = { -- table(11ac0435)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionPartAttachment.<astInBattleHoldSlots_bytes>e__FixedBuffer'] = { -- table(3ab454)
+		['Methods'] = { -- table(b0271232)
+		},
+		['Fields'] = { -- table(bd0f9bd1)
+			['FixedElementField'] = { -- table(8df9f579)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionPartAttachment.<astOutBattleHoldSlots_bytes>e__FixedBuffer'] = { -- table(16c58c8b)
+		['Methods'] = { -- table(8a2c3125)
+		},
+		['Fields'] = { -- table(10cc8320)
+			['FixedElementField'] = { -- table(2bc858f6)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionPartAttachment.<astRestSlots_bytes>e__FixedBuffer'] = { -- table(55a6e5ae)
+		['Methods'] = { -- table(9dd2f340)
+		},
+		['Fields'] = { -- table(8f69f003)
+			['FixedElementField'] = { -- table(1a768c9b)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -146097,37 +150497,48 @@
 			},
 			['astInBattleHoldSlots_bytes'] = { -- table(2f3c42de)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_DimensionAttachmentSlot',
+				['type'] = 'ResData.ResDimensionPartAttachment.<astInBattleHoldSlots_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionAttachmentSlot',
 				['count'] = 2,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionPartAttachment.<astInBattleHoldSlots_bytes>e__FixedBuffer',
 			},
 			['astOutBattleHoldSlots_bytes'] = { -- table(283ab889)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_DimensionAttachmentSlot',
+				['type'] = 'ResData.ResDimensionPartAttachment.<astOutBattleHoldSlots_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionAttachmentSlot',
 				['count'] = 2,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionPartAttachment.<astOutBattleHoldSlots_bytes>e__FixedBuffer',
 			},
 			['astRestSlots_bytes'] = { -- table(9dd09ae8)
 				['offset'] = 80,
-				['type'] = 'ResData.ResDT_DimensionAttachmentSlot',
+				['type'] = 'ResData.ResDimensionPartAttachment.<astRestSlots_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionAttachmentSlot',
 				['count'] = 2,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionPartAttachment.<astRestSlots_bytes>e__FixedBuffer',
 			},
 			['astBusinessCardSlots_bytes'] = { -- table(205cb65a)
 				['offset'] = 112,
-				['type'] = 'ResData.ResDT_DimensionAttachmentSlot',
+				['type'] = 'ResData.ResDimensionPartAttachment.<astBusinessCardSlots_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionAttachmentSlot',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionPartAttachment.<astBusinessCardSlots_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 112,
+	},
+	['ResData.ResDimensionOutfit.<PartIds_bytes>e__FixedBuffer'] = { -- table(46287b4f)
+		['Methods'] = { -- table(d85026c1)
+		},
+		['Fields'] = { -- table(714f8bf4)
+			['FixedElementField'] = { -- table(d8bdf8c2)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionOutfit'] = { -- table(6efefb37)
 		['Methods'] = { -- table(333d73f9)
@@ -146191,11 +150602,11 @@
 			},
 			['PartIds_bytes'] = { -- table(bf4f7185)
 				['offset'] = 40,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionOutfit.<PartIds_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionOutfit.<PartIds_bytes>e__FixedBuffer',
 			},
 			['dwLogoIcon'] = { -- table(c53acb57)
 				['offset'] = 80,
@@ -146398,6 +150809,17 @@
 		},
 		['MaxV'] = 160,
 	},
+	['ResData.ResDimensionGuideTaskCfg.<TaskCompletionParam_bytes>e__FixedBuffer'] = { -- table(1b4f39ae)
+		['Methods'] = { -- table(3716785c)
+		},
+		['Fields'] = { -- table(dfbfa3c1)
+			['FixedElementField'] = { -- table(2434d7c9)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDimensionGuideTaskCfg'] = { -- table(9ffaa765)
 		['Methods'] = { -- table(cdf5a3f)
 			['get_szTaskName'] = { -- table(dca0a701)
@@ -146464,14 +150886,58 @@
 			},
 			['TaskCompletionParam_bytes'] = { -- table(e6d3ceda)
 				['offset'] = 76,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDimensionGuideTaskCfg.<TaskCompletionParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionGuideTaskCfg.<TaskCompletionParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 76,
+	},
+	['ResData.ResDimensionNewBieGeneralGuideTaskCfg.<ConditionParam_bytes>e__FixedBuffer'] = { -- table(9e7b7624)
+		['Methods'] = { -- table(4353ff2e)
+		},
+		['Fields'] = { -- table(705fa74b)
+			['FixedElementField'] = { -- table(84704983)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionNewBieGeneralGuideTaskCfg.<Param_bytes>e__FixedBuffer'] = { -- table(c598ea5f)
+		['Methods'] = { -- table(ae4fc151)
+		},
+		['Fields'] = { -- table(158d0cea)
+			['FixedElementField'] = { -- table(707e3a50)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionNewBieGeneralGuideTaskCfg.<astStrParam_bytes>e__FixedBuffer'] = { -- table(851d79b8)
+		['Methods'] = { -- table(94fabb36)
+		},
+		['Fields'] = { -- table(3c703df1)
+			['FixedElementField'] = { -- table(37cd50d9)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionNewBieGeneralGuideTaskCfg.<astTaskAward_bytes>e__FixedBuffer'] = { -- table(c910ab8c)
+		['Methods'] = { -- table(3d1b0f2)
+		},
+		['Fields'] = { -- table(dade1d6b)
+			['FixedElementField'] = { -- table(27e1cae3)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionNewBieGeneralGuideTaskCfg'] = { -- table(deb34183)
 		['Methods'] = { -- table(700ed859)
@@ -146559,19 +151025,19 @@
 			},
 			['Param_bytes'] = { -- table(da44b60f)
 				['offset'] = 60,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionNewBieGeneralGuideTaskCfg.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionNewBieGeneralGuideTaskCfg.<Param_bytes>e__FixedBuffer',
 			},
 			['astStrParam_bytes'] = { -- table(d4a2d27e)
 				['offset'] = 80,
-				['type'] = 'ResData.NewbieGuideStrParm',
+				['type'] = 'ResData.ResDimensionNewBieGeneralGuideTaskCfg.<astStrParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideStrParm',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionNewBieGeneralGuideTaskCfg.<astStrParam_bytes>e__FixedBuffer',
 			},
 			['dwCondition'] = { -- table(92d5b9c0)
 				['offset'] = 112,
@@ -146579,11 +151045,11 @@
 			},
 			['ConditionParam_bytes'] = { -- table(3f816980)
 				['offset'] = 116,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionNewBieGeneralGuideTaskCfg.<ConditionParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionNewBieGeneralGuideTaskCfg.<ConditionParam_bytes>e__FixedBuffer',
 			},
 			['bNum'] = { -- table(c96f7ac8)
 				['offset'] = 128,
@@ -146591,11 +151057,11 @@
 			},
 			['astTaskAward_bytes'] = { -- table(7de1b72c)
 				['offset'] = 132,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResDimensionNewBieGeneralGuideTaskCfg.<astTaskAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionNewBieGeneralGuideTaskCfg.<astTaskAward_bytes>e__FixedBuffer',
 			},
 			['dwMailID'] = { -- table(dbbfe0bd)
 				['offset'] = 168,
@@ -146697,10 +151163,10 @@
 			},
 			['astRecommendBit_bytes'] = { -- table(c176059e)
 				['offset'] = 76,
-				['type'] = 'ResData.ResDT_DimensionRecommendBit',
+				['type'] = 'ResData.ResDimensionMallRecommend.<astRecommendBit_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionRecommendBit',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionMallRecommend.<astRecommendBit_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 76,
@@ -146787,6 +151253,17 @@
 			},
 		},
 		['MaxV'] = 92,
+	},
+	['ResData.ResDimensionItem.<Params_bytes>e__FixedBuffer'] = { -- table(eac85fd8)
+		['Methods'] = { -- table(4f4b3d86)
+		},
+		['Fields'] = { -- table(e9844715)
+			['FixedElementField'] = { -- table(a5efe715)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionItem'] = { -- table(9db8b77b)
 		['Methods'] = { -- table(d297daa5)
@@ -146930,11 +151407,11 @@
 			},
 			['Params_bytes'] = { -- table(bc2d8ba)
 				['offset'] = 108,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDimensionItem.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionItem.<Params_bytes>e__FixedBuffer',
 			},
 			['strIdExtraContent1'] = { -- table(d2417b38)
 				['offset'] = 120,
@@ -146996,13 +151473,35 @@
 			},
 			['astParams_bytes'] = { -- table(bf691cee)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_ParamString',
+				['type'] = 'ResData.ResDimensionItemEvent.<astParams_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ParamString',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionItemEvent.<astParams_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResDimensionItemBuff.<astBuffParams_bytes>e__FixedBuffer'] = { -- table(24b1dd98)
+		['Methods'] = { -- table(b5c860ce)
+		},
+		['Fields'] = { -- table(a4d69aa3)
+			['FixedElementField'] = { -- table(c6abb7b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionItemBuff.<astStackParams_bytes>e__FixedBuffer'] = { -- table(fbd7bbd7)
+		['Methods'] = { -- table(7158c2a1)
+		},
+		['Fields'] = { -- table(59edbb6e)
+			['FixedElementField'] = { -- table(2e182dac)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionItemBuff'] = { -- table(50fbf286)
 		['Methods'] = { -- table(8089ac8c)
@@ -147118,11 +151617,11 @@
 			},
 			['astBuffParams_bytes'] = { -- table(71e07410)
 				['offset'] = 104,
-				['type'] = 'ResData.ResDT_ParamString',
+				['type'] = 'ResData.ResDimensionItemBuff.<astBuffParams_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ParamString',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionItemBuff.<astBuffParams_bytes>e__FixedBuffer',
 			},
 			['iStackLimit'] = { -- table(e28e7dcf)
 				['offset'] = 128,
@@ -147138,11 +151637,11 @@
 			},
 			['astStackParams_bytes'] = { -- table(fb12cdff)
 				['offset'] = 136,
-				['type'] = 'ResData.ResDT_ParamString',
+				['type'] = 'ResData.ResDimensionItemBuff.<astStackParams_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ParamString',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionItemBuff.<astStackParams_bytes>e__FixedBuffer',
 			},
 			['iTriggerBuffNeedStacks'] = { -- table(bfc94f8)
 				['offset'] = 160,
@@ -147192,10 +151691,10 @@
 			},
 			['TriggerParams_bytes'] = { -- table(3589834c)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDT_DimensionMapGatherTriggerItem.<TriggerParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_DimensionMapGatherTriggerItem.<TriggerParams_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -147241,10 +151740,10 @@
 			},
 			['astReward_bytes'] = { -- table(4b46d8fa)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResDimensionMapStarLevel.<astReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionMapStarLevel.<astReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -147298,10 +151797,10 @@
 			},
 			['MontageIds_bytes'] = { -- table(223d6094)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionSecondaryAction.<MontageIds_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionSecondaryAction.<MontageIds_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
@@ -147347,10 +151846,10 @@
 			},
 			['astTermList_bytes'] = { -- table(8bab7602)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_PartBuyTermInfo',
+				['type'] = 'ResData.ResPartBuyShop.<astTermList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PartBuyTermInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPartBuyShop.<astTermList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -147404,10 +151903,10 @@
 			},
 			['astReward_bytes'] = { -- table(39466e96)
 				['offset'] = 52,
-				['type'] = 'ResData.ResDT_Anni101RebateLevel',
+				['type'] = 'ResData.ResAnni101RebateRewardConf.<astReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Anni101RebateLevel',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAnni101RebateRewardConf.<astReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 52,
@@ -147441,10 +151940,10 @@
 			},
 			['SkinID_bytes'] = { -- table(d08ff22f)
 				['offset'] = 12,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDT_Anni101EveSwitchSkinInfo.<SkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_Anni101EveSwitchSkinInfo.<SkinID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -147530,13 +152029,68 @@
 			},
 			['SuccRewardPropIDList_bytes'] = { -- table(ccc45bd)
 				['offset'] = 64,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResClanActivityType.<SuccRewardPropIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResClanActivityType.<SuccRewardPropIDList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 64,
+	},
+	['ResData.ResRank5V5Points.<LoseRankPoints_bytes>e__FixedBuffer'] = { -- table(7015263a)
+		['Methods'] = { -- table(58590b3c)
+		},
+		['Fields'] = { -- table(537f2e6f)
+			['FixedElementField'] = { -- table(a12928ef)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRank5V5Points.<WinRankPoints_bytes>e__FixedBuffer'] = { -- table(d112e621)
+		['Methods'] = { -- table(3ebe97)
+		},
+		['Fields'] = { -- table(609471f2)
+			['FixedElementField'] = { -- table(fdf91938)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRank5V5Points.<astConWinExtraScoreList_bytes>e__FixedBuffer'] = { -- table(9c411b16)
+		['Methods'] = { -- table(8710a22c)
+		},
+		['Fields'] = { -- table(f1d7c575)
+			['FixedElementField'] = { -- table(8c047635)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRank5V5Points.<astGradeDiffLoseInfo_bytes>e__FixedBuffer'] = { -- table(d02c1b95)
+		['Methods'] = { -- table(fa311557)
+		},
+		['Fields'] = { -- table(a1bc50c8)
+			['FixedElementField'] = { -- table(58c0609e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRank5V5Points.<astGradeDiffWinInfo_bytes>e__FixedBuffer'] = { -- table(3601ed6a)
+		['Methods'] = { -- table(f2e287f8)
+		},
+		['Fields'] = { -- table(2c1433b9)
+			['FixedElementField'] = { -- table(5f1ad321)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRank5V5Points'] = { -- table(d1f6e987)
 		['Methods'] = { -- table(c25ed67d)
@@ -147624,19 +152178,19 @@
 			},
 			['WinRankPoints_bytes'] = { -- table(78fdc287)
 				['offset'] = 52,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResRank5V5Points.<WinRankPoints_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRank5V5Points.<WinRankPoints_bytes>e__FixedBuffer',
 			},
 			['LoseRankPoints_bytes'] = { -- table(d1ab2568)
 				['offset'] = 72,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResRank5V5Points.<LoseRankPoints_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRank5V5Points.<LoseRankPoints_bytes>e__FixedBuffer',
 			},
 			['iBalancingBranchBasePoints'] = { -- table(b7bd3068)
 				['offset'] = 92,
@@ -147684,11 +152238,11 @@
 			},
 			['astConWinExtraScoreList_bytes'] = { -- table(1f7cf64e)
 				['offset'] = 136,
-				['type'] = 'ResData.ResDT_Rank5v5ConWinExtraScore',
+				['type'] = 'ResData.ResRank5V5Points.<astConWinExtraScoreList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Rank5v5ConWinExtraScore',
 				['count'] = 10,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRank5V5Points.<astConWinExtraScoreList_bytes>e__FixedBuffer',
 			},
 			['iGradeDiffWinInfoCnt'] = { -- table(c16e1b0)
 				['offset'] = 216,
@@ -147700,19 +152254,19 @@
 			},
 			['astGradeDiffWinInfo_bytes'] = { -- table(fb4d8b4a)
 				['offset'] = 224,
-				['type'] = 'ResData.ResDT_Rank5v5GradeDiffInfo',
+				['type'] = 'ResData.ResRank5V5Points.<astGradeDiffWinInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Rank5v5GradeDiffInfo',
 				['count'] = 10,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRank5V5Points.<astGradeDiffWinInfo_bytes>e__FixedBuffer',
 			},
 			['astGradeDiffLoseInfo_bytes'] = { -- table(f5d2a8bd)
 				['offset'] = 304,
-				['type'] = 'ResData.ResDT_Rank5v5GradeDiffInfo',
+				['type'] = 'ResData.ResRank5V5Points.<astGradeDiffLoseInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Rank5v5GradeDiffInfo',
 				['count'] = 10,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRank5V5Points.<astGradeDiffLoseInfo_bytes>e__FixedBuffer',
 			},
 			['iOptionBranchBaseRatio'] = { -- table(71dd1892)
 				['offset'] = 384,
@@ -147724,6 +152278,28 @@
 			},
 		},
 		['MaxV'] = 388,
+	},
+	['ResData.ResRank10V10Grade.<LoseRankScore_bytes>e__FixedBuffer'] = { -- table(77be358f)
+		['Methods'] = { -- table(b0dcc171)
+		},
+		['Fields'] = { -- table(3eea8afa)
+			['FixedElementField'] = { -- table(3aac9740)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRank10V10Grade.<WinRankScore_bytes>e__FixedBuffer'] = { -- table(f0df94b6)
+		['Methods'] = { -- table(c4486754)
+		},
+		['Fields'] = { -- table(f630e829)
+			['FixedElementField'] = { -- table(40671631)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRank10V10Grade'] = { -- table(30a0d38d)
 		['Methods'] = { -- table(67e9f193)
@@ -147863,19 +152439,19 @@
 			},
 			['WinRankScore_bytes'] = { -- table(e776761a)
 				['offset'] = 84,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResRank10V10Grade.<WinRankScore_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRank10V10Grade.<WinRankScore_bytes>e__FixedBuffer',
 			},
 			['LoseRankScore_bytes'] = { -- table(f83ab7db)
 				['offset'] = 124,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResRank10V10Grade.<LoseRankScore_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRank10V10Grade.<LoseRankScore_bytes>e__FixedBuffer',
 			},
 			['iEasyOutScore'] = { -- table(161eb12b)
 				['offset'] = 164,
@@ -148005,13 +152581,24 @@
 			},
 			['astRewardDetail_bytes'] = { -- table(4375908)
 				['offset'] = 24,
-				['type'] = 'ResData.ResRank10V10RewardDetail',
+				['type'] = 'ResData.ResRank10V10Reward.<astRewardDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRank10V10RewardDetail',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRank10V10Reward.<astRewardDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResDT_InscribeCounterCondition.<astIntParam_bytes>e__FixedBuffer'] = { -- table(9a8ec190)
+		['Methods'] = { -- table(4d113672)
+		},
+		['Fields'] = { -- table(a7b904e3)
+			['FixedElementField'] = { -- table(5dd35bb)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_InscribeCounterCondition'] = { -- table(ee5d899d)
 		['Methods'] = { -- table(7aba8843)
@@ -148031,14 +152618,25 @@
 			},
 			['astIntParam_bytes'] = { -- table(e71b8580)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_InscribeCounterCondition.<astIntParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_InscribeCounterCondition.<astIntParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
+	},
+	['ResData.ResDT_BattleInscribeEffect.<astIntParam_bytes>e__FixedBuffer'] = { -- table(416dcd86)
+		['Methods'] = { -- table(fd9e7844)
+		},
+		['Fields'] = { -- table(225315e5)
+			['FixedElementField'] = { -- table(378c5145)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_BattleInscribeEffect.<astResPath_bytes>e__FixedBuffer'] = { -- table(7ead229d)
 		['Methods'] = { -- table(40367e77)
@@ -148077,18 +152675,18 @@
 			},
 			['astIntParam_bytes'] = { -- table(3a20bc9a)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResDT_BattleInscribeEffect.<astIntParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_BattleInscribeEffect.<astIntParam_bytes>e__FixedBuffer',
 			},
 			['astResPath_bytes'] = { -- table(d9b392f9)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_PathParamArrayNode',
+				['type'] = 'ResData.ResDT_BattleInscribeEffect.<astResPath_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PathParamArrayNode',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_BattleInscribeEffect.<astResPath_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -148189,10 +152787,10 @@
 			},
 			['astDailyInfo_bytes'] = { -- table(b55804b3)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_HolidayAtmosphere_DailyConf',
+				['type'] = 'ResData.ResHolidayAtmosphereDailyConf.<astDailyInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HolidayAtmosphere_DailyConf',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHolidayAtmosphereDailyConf.<astDailyInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -148202,6 +152800,17 @@
 		},
 		['Fields'] = { -- table(913e228f)
 			['FixedElementField'] = { -- table(e9e57dcf)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTimeLimitEvent.<astStageInfo_bytes>e__FixedBuffer'] = { -- table(1b52042d)
+		['Methods'] = { -- table(f478fc57)
+		},
+		['Fields'] = { -- table(e329e1b6)
+			['FixedElementField'] = { -- table(9907ad94)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -148266,21 +152875,32 @@
 			},
 			['astStageInfo_bytes'] = { -- table(4cf4d37f)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_TimeLimitEvent_StageInfo',
+				['type'] = 'ResData.ResTimeLimitEvent.<astStageInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TimeLimitEvent_StageInfo',
 				['count'] = 6,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTimeLimitEvent.<astStageInfo_bytes>e__FixedBuffer',
 			},
 			['astProgressInfo_bytes'] = { -- table(f0c590fc)
 				['offset'] = 296,
-				['type'] = 'ResData.ResDT_TimeLimitEvent_ProgressInfo',
+				['type'] = 'ResData.ResTimeLimitEvent.<astProgressInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TimeLimitEvent_ProgressInfo',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTimeLimitEvent.<astProgressInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 296,
+	},
+	['ResData.ResSeasonAlbumDiscountRewardPoolLevelReward.<astDiscountList_bytes>e__FixedBuffer'] = { -- table(98b93501)
+		['Methods'] = { -- table(921e7e47)
+		},
+		['Fields'] = { -- table(93c517f8)
+			['FixedElementField'] = { -- table(a5df39ee)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSeasonAlbumDiscountRewardPoolLevelReward'] = { -- table(d1f0cf43)
 		['Methods'] = { -- table(5a4d3b89)
@@ -148328,11 +152948,11 @@
 			},
 			['astDiscountList_bytes'] = { -- table(5c7323d5)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_SeasonAlbum_Discount_RewardPool_OneReward_Discount',
+				['type'] = 'ResData.ResSeasonAlbumDiscountRewardPoolLevelReward.<astDiscountList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SeasonAlbum_Discount_RewardPool_OneReward_Discount',
 				['count'] = 7,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSeasonAlbumDiscountRewardPoolLevelReward.<astDiscountList_bytes>e__FixedBuffer',
 			},
 			['dwShowTimeSec'] = { -- table(113447a4)
 				['offset'] = 104,
@@ -148468,10 +153088,10 @@
 			},
 			['astLevelList_bytes'] = { -- table(6985cac3)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_UpGradeGift_One_Level',
+				['type'] = 'ResData.ResUpGradeGiftLevel.<astLevelList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_UpGradeGift_One_Level',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUpGradeGiftLevel.<astLevelList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -148509,10 +153129,10 @@
 			},
 			['astGift_bytes'] = { -- table(5e1a382a)
 				['offset'] = 16,
-				['type'] = 'ResData.ResLiveGamePlatformGiftDT',
+				['type'] = 'ResData.ResLiveGamePlatformGift.<astGift_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResLiveGamePlatformGiftDT',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLiveGamePlatformGift.<astGift_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -148550,13 +153170,24 @@
 			},
 			['BanSkinList_bytes'] = { -- table(ef583a52)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBanHeroSkinDetail.<BanSkinList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBanHeroSkinDetail.<BanSkinList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResSacredAnimalAssetAction.<BindSuitList_bytes>e__FixedBuffer'] = { -- table(e1d0b6a3)
+		['Methods'] = { -- table(c7b4938d)
+		},
+		['Fields'] = { -- table(33dc44c2)
+			['FixedElementField'] = { -- table(80bc0a8)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSacredAnimalAssetAction'] = { -- table(e181e5e2)
 		['Methods'] = { -- table(94e2d7f8)
@@ -148640,11 +153271,11 @@
 			},
 			['BindSuitList_bytes'] = { -- table(9c1a0f43)
 				['offset'] = 68,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSacredAnimalAssetAction.<BindSuitList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalAssetAction.<BindSuitList_bytes>e__FixedBuffer',
 			},
 			['iPresentIntimacyValue'] = { -- table(e075a516)
 				['offset'] = 108,
@@ -148665,6 +153296,17 @@
 		},
 		['MaxV'] = 120,
 	},
+	['ResData.ResSacredAnimalSuitPart.<PartID_bytes>e__FixedBuffer'] = { -- table(dd337657)
+		['Methods'] = { -- table(14b8169d)
+		},
+		['Fields'] = { -- table(7c23f9c0)
+			['FixedElementField'] = { -- table(5d06e556)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSacredAnimalSuitPart'] = { -- table(ce858d28)
 		['Methods'] = { -- table(4fdb2fe6)
 			['PartID'] = { -- table(5ca4cdd2)
@@ -148683,11 +153325,11 @@
 			},
 			['PartID_bytes'] = { -- table(dc49e4c1)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSacredAnimalSuitPart.<PartID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 13,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalSuitPart.<PartID_bytes>e__FixedBuffer',
 			},
 			['dwFullBodyID'] = { -- table(c2942e44)
 				['offset'] = 64,
@@ -148695,6 +153337,17 @@
 			},
 		},
 		['MaxV'] = 64,
+	},
+	['ResData.ResSacredAnimalPartInfo.<astSlotsInfo_bytes>e__FixedBuffer'] = { -- table(8e9a553f)
+		['Methods'] = { -- table(c9e6d615)
+		},
+		['Fields'] = { -- table(20500950)
+			['FixedElementField'] = { -- table(de35ad46)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSacredAnimalPartInfo'] = { -- table(f9d490bd)
 		['Methods'] = { -- table(e2c80653)
@@ -148774,11 +153427,11 @@
 			},
 			['astSlotsInfo_bytes'] = { -- table(32cbad1)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_DimensionAttachmentSlot',
+				['type'] = 'ResData.ResSacredAnimalPartInfo.<astSlotsInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionAttachmentSlot',
 				['count'] = 1,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalPartInfo.<astSlotsInfo_bytes>e__FixedBuffer',
 			},
 			['strIdPartAnimationConfigPath'] = { -- table(cc3fcdea)
 				['offset'] = 56,
@@ -148860,10 +153513,10 @@
 			},
 			['CollectValue_bytes'] = { -- table(1ef3503)
 				['offset'] = 20,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResCollectValueCfg.<CollectValue_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCollectValueCfg.<CollectValue_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -148921,10 +153574,10 @@
 			},
 			['astResPath_bytes'] = { -- table(b24f2a1c)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_PathParamArrayNode',
+				['type'] = 'ResData.ResCollectValuePrivilegeDisplay.<astResPath_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PathParamArrayNode',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCollectValuePrivilegeDisplay.<astResPath_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -148966,10 +153619,10 @@
 			},
 			['EventIDs_bytes'] = { -- table(214059d1)
 				['offset'] = 24,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResSacredAnimalDeadTeachingForHero.<EventIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalDeadTeachingForHero.<EventIDs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -149015,10 +153668,10 @@
 			},
 			['Param_bytes'] = { -- table(4357548a)
 				['offset'] = 24,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResDT_ResSacredAnimalDeadTeachingForHeroCondition.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ResSacredAnimalDeadTeachingForHeroCondition.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -149052,10 +153705,10 @@
 			},
 			['astActionNames_bytes'] = { -- table(8a8413d9)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_ResSacredAnimalAIVoiceMultiCharacterActionName',
+				['type'] = 'ResData.ResSacredAnimalAIVoiceMultiCharacterAnimation.<astActionNames_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ResSacredAnimalAIVoiceMultiCharacterActionName',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalAIVoiceMultiCharacterAnimation.<astActionNames_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -149204,10 +153857,10 @@
 			},
 			['CostID_bytes'] = { -- table(6a21d72)
 				['offset'] = 16,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResAwakenHeroInfo.<CostID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAwakenHeroInfo.<CostID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -149253,10 +153906,10 @@
 			},
 			['astImgUrl_bytes'] = { -- table(6ffcd3d1)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_ResHeroPlayWikiImgUrl',
+				['type'] = 'ResData.ResDT_ResHeroPlayWikiSubMenu.<astImgUrl_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ResHeroPlayWikiImgUrl',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ResHeroPlayWikiSubMenu.<astImgUrl_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -149341,10 +153994,10 @@
 			},
 			['astSlotPos_bytes'] = { -- table(6eb31f2)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_AwakenAchievementSlotPos',
+				['type'] = 'ResData.ResAwakenUnlockSlotConfig.<astSlotPos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_AwakenAchievementSlotPos',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAwakenUnlockSlotConfig.<astSlotPos_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -149418,13 +154071,24 @@
 			},
 			['HeroList_bytes'] = { -- table(ac3ef68e)
 				['offset'] = 60,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTeamBondEffectConfig.<HeroList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTeamBondEffectConfig.<HeroList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 60,
+	},
+	['ResData.ResDimensionInteractiveObject.<astAction_bytes>e__FixedBuffer'] = { -- table(4c53746a)
+		['Methods'] = { -- table(86f9edc0)
+		},
+		['Fields'] = { -- table(ca3316a7)
+			['FixedElementField'] = { -- table(70febf27)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionInteractiveObject'] = { -- table(2a95d07f)
 		['Methods'] = { -- table(39903b8d)
@@ -149560,11 +154224,11 @@
 			},
 			['astAction_bytes'] = { -- table(328295e8)
 				['offset'] = 136,
-				['type'] = 'ResData.ResDT_DimensionInteractiveObjectAction',
+				['type'] = 'ResData.ResDimensionInteractiveObject.<astAction_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionInteractiveObjectAction',
 				['count'] = 3,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionInteractiveObject.<astAction_bytes>e__FixedBuffer',
 			},
 			['ullStartTime'] = { -- table(f4c8e73e)
 				['offset'] = 256,
@@ -149580,6 +154244,17 @@
 			},
 		},
 		['MaxV'] = 272,
+	},
+	['ResData.ResMallHotRecommend102.<astRecommend_bytes>e__FixedBuffer'] = { -- table(6fe95047)
+		['Methods'] = { -- table(6cd10d29)
+		},
+		['Fields'] = { -- table(adf2fe2a)
+			['FixedElementField'] = { -- table(64f7290)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMallHotRecommend102'] = { -- table(89d2c23a)
 		['Methods'] = { -- table(2c69f29c)
@@ -149651,11 +154326,11 @@
 			},
 			['astRecommend_bytes'] = { -- table(17c6c8a7)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_MallHotRecommendItem102',
+				['type'] = 'ResData.ResMallHotRecommend102.<astRecommend_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MallHotRecommendItem102',
 				['count'] = 7,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMallHotRecommend102.<astRecommend_bytes>e__FixedBuffer',
 			},
 			['bIsUseCdn'] = { -- table(cfc1434b)
 				['offset'] = 208,
@@ -149762,6 +154437,17 @@
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResJinLiTicketLotteryBatch.<astDrawNumberCond_bytes>e__FixedBuffer'] = { -- table(704fd1f7)
+		['Methods'] = { -- table(b1de1bb5)
+		},
+		['Fields'] = { -- table(4e039ec0)
+			['FixedElementField'] = { -- table(ea456456)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResJinLiTicketLotteryBatch'] = { -- table(9e4073dd)
 		['Methods'] = { -- table(4a3ccb3f)
@@ -149893,11 +154579,11 @@
 			},
 			['astDrawNumberCond_bytes'] = { -- table(91a6f691)
 				['offset'] = 148,
-				['type'] = 'ResData.ResDT_DrawNumberCond',
+				['type'] = 'ResData.ResJinLiTicketLotteryBatch.<astDrawNumberCond_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DrawNumberCond',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResJinLiTicketLotteryBatch.<astDrawNumberCond_bytes>e__FixedBuffer',
 			},
 			['dwClientGainTime'] = { -- table(3b4aa42a)
 				['offset'] = 172,
@@ -149977,6 +154663,17 @@
 		},
 		['MaxV'] = 73,
 	},
+	['ResData.ResJinLiTicketLotteryRewardPool.<RewardID_bytes>e__FixedBuffer'] = { -- table(f260204b)
+		['Methods'] = { -- table(1b73bdf5)
+		},
+		['Fields'] = { -- table(4c148b68)
+			['FixedElementField'] = { -- table(cf708c7e)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResJinLiTicketLotteryRewardPool'] = { -- table(a03da4c2)
 		['Methods'] = { -- table(8b29838c)
 			['get_szLevelPoster'] = { -- table(94b19ca7)
@@ -150011,11 +154708,11 @@
 			},
 			['RewardID_bytes'] = { -- table(e84bbb05)
 				['offset'] = 24,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResJinLiTicketLotteryRewardPool.<RewardID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResJinLiTicketLotteryRewardPool.<RewardID_bytes>e__FixedBuffer',
 			},
 			['strIdLevelPoster'] = { -- table(26cfb02e)
 				['offset'] = 64,
@@ -150061,10 +154758,10 @@
 			},
 			['Param_bytes'] = { -- table(47a1a3de)
 				['offset'] = 20,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResJinLiTicketLotteryReward.<Param_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResJinLiTicketLotteryReward.<Param_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -150114,10 +154811,10 @@
 			},
 			['ParamList_bytes'] = { -- table(9d1d7f6b)
 				['offset'] = 28,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResJinLiBackflowWelfare.<ParamList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResJinLiBackflowWelfare.<ParamList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
@@ -150155,10 +154852,10 @@
 			},
 			['astLevelUnlock_bytes'] = { -- table(6fcccad0)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_JinLiLevelUnlock',
+				['type'] = 'ResData.ResJinLiPrivilegeLevelUnlock.<astLevelUnlock_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_JinLiLevelUnlock',
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResJinLiPrivilegeLevelUnlock.<astLevelUnlock_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -150251,13 +154948,24 @@
 			},
 			['astChatStrArr_bytes'] = { -- table(728fb386)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_JinLiDoubleTokenChatStr',
+				['type'] = 'ResData.ResJinLiDoubleTokenChatStr.<astChatStrArr_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_JinLiDoubleTokenChatStr',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResJinLiDoubleTokenChatStr.<astChatStrArr_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResCurrencyBagConf.<astGetInfo_bytes>e__FixedBuffer'] = { -- table(91a8b07c)
+		['Methods'] = { -- table(e1b70a72)
+		},
+		['Fields'] = { -- table(bb743d19)
+			['FixedElementField'] = { -- table(96bd87c1)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCurrencyBagConf'] = { -- table(ae62cfdd)
 		['Methods'] = { -- table(b98b8893)
@@ -150305,11 +155013,11 @@
 			},
 			['astGetInfo_bytes'] = { -- table(a51a7fbe)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_CurrencyGetInfo',
+				['type'] = 'ResData.ResCurrencyBagConf.<astGetInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CurrencyGetInfo',
 				['count'] = 5,
 				['size'] = 48,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCurrencyBagConf.<astGetInfo_bytes>e__FixedBuffer',
 			},
 			['iGoUseJumpEntry'] = { -- table(1613e93a)
 				['offset'] = 280,
@@ -150359,13 +155067,35 @@
 			},
 			['astResDT_Skin60CardAdPicInfo_bytes'] = { -- table(8579e6fc)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_Skin60CardAdPicInfo',
+				['type'] = 'ResData.ResSkin60CardAdPicConf.<astResDT_Skin60CardAdPicInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Skin60CardAdPicInfo',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkin60CardAdPicConf.<astResDT_Skin60CardAdPicInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResCommanderAIPlayer.<JueWuHeroPool_bytes>e__FixedBuffer'] = { -- table(5bf6db88)
+		['Methods'] = { -- table(ed5bc4c6)
+		},
+		['Fields'] = { -- table(3e1c80ef)
+			['FixedElementField'] = { -- table(1508e86f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCommanderAIPlayer.<NormalHeroPool_bytes>e__FixedBuffer'] = { -- table(2b155dd7)
+		['Methods'] = { -- table(8af8bf95)
+		},
+		['Fields'] = { -- table(20991362)
+			['FixedElementField'] = { -- table(2046808)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCommanderAIPlayer'] = { -- table(f57785dd)
 		['Methods'] = { -- table(c3d50503)
@@ -150433,11 +155163,11 @@
 			},
 			['NormalHeroPool_bytes'] = { -- table(97a6a38b)
 				['offset'] = 56,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCommanderAIPlayer.<NormalHeroPool_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 15,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommanderAIPlayer.<NormalHeroPool_bytes>e__FixedBuffer',
 			},
 			['dwJueWuHeroPoolCount'] = { -- table(5d2c58e2)
 				['offset'] = 116,
@@ -150445,11 +155175,11 @@
 			},
 			['JueWuHeroPool_bytes'] = { -- table(53a04c38)
 				['offset'] = 120,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCommanderAIPlayer.<JueWuHeroPool_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 15,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommanderAIPlayer.<JueWuHeroPool_bytes>e__FixedBuffer',
 			},
 			['iAILevelAdjust'] = { -- table(90ecddf8)
 				['offset'] = 180,
@@ -150465,6 +155195,50 @@
 			},
 		},
 		['MaxV'] = 188,
+	},
+	['ResData.ResOMGWeaponCfg.<GroupRandomWeights_bytes>e__FixedBuffer'] = { -- table(d0150dab)
+		['Methods'] = { -- table(b91998f1)
+		},
+		['Fields'] = { -- table(d7d70fb4)
+			['FixedElementField'] = { -- table(a5e2ca82)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResOMGWeaponCfg.<GroupSkillID_bytes>e__FixedBuffer'] = { -- table(ce91736b)
+		['Methods'] = { -- table(7d65b149)
+		},
+		['Fields'] = { -- table(faedb4a4)
+			['FixedElementField'] = { -- table(324e7812)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResOMGWeaponCfg.<PassiveSkillID_bytes>e__FixedBuffer'] = { -- table(4e5602b1)
+		['Methods'] = { -- table(e161df2f)
+		},
+		['Fields'] = { -- table(e5849d72)
+			['FixedElementField'] = { -- table(3ae133b8)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResOMGWeaponCfg.<WeaponTag_bytes>e__FixedBuffer'] = { -- table(c13583e6)
+		['Methods'] = { -- table(28a583cc)
+		},
+		['Fields'] = { -- table(1a9e23bb)
+			['FixedElementField'] = { -- table(ac879013)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResOMGWeaponCfg'] = { -- table(cd534bad)
 		['Methods'] = { -- table(979ea993)
@@ -150588,11 +155362,11 @@
 			},
 			['WeaponTag_bytes'] = { -- table(3c058378)
 				['offset'] = 88,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGWeaponCfg.<WeaponTag_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGWeaponCfg.<WeaponTag_bytes>e__FixedBuffer',
 			},
 			['dwPropRandomCfgID'] = { -- table(75be36aa)
 				['offset'] = 108,
@@ -150600,27 +155374,27 @@
 			},
 			['PassiveSkillID_bytes'] = { -- table(944b7be7)
 				['offset'] = 112,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGWeaponCfg.<PassiveSkillID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGWeaponCfg.<PassiveSkillID_bytes>e__FixedBuffer',
 			},
 			['GroupSkillID_bytes'] = { -- table(59511f5)
 				['offset'] = 124,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGWeaponCfg.<GroupSkillID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGWeaponCfg.<GroupSkillID_bytes>e__FixedBuffer',
 			},
 			['GroupRandomWeights_bytes'] = { -- table(c22b5bed)
 				['offset'] = 144,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGWeaponCfg.<GroupRandomWeights_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGWeaponCfg.<GroupRandomWeights_bytes>e__FixedBuffer',
 			},
 			['dwActiveSkillID'] = { -- table(368fc045)
 				['offset'] = 164,
@@ -150718,10 +155492,10 @@
 			},
 			['astQualityInfo_bytes'] = { -- table(47dec922)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_OMGWeaponPropertyQualityCfg',
+				['type'] = 'ResData.ResOMGWeaponPropertyCfg.<astQualityInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_OMGWeaponPropertyQualityCfg',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGWeaponPropertyCfg.<astQualityInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -150759,10 +155533,10 @@
 			},
 			['RecommendWeaponID_bytes'] = { -- table(b5c8fffd)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGWeaponRecommendCfg.<RecommendWeaponID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGWeaponRecommendCfg.<RecommendWeaponID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -150800,13 +155574,24 @@
 			},
 			['szIsInRandomPool_bytes'] = { -- table(47fdee5d)
 				['offset'] = 16,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResOMGWeaponPropertyRandomCfg.<szIsInRandomPool_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGWeaponPropertyRandomCfg.<szIsInRandomPool_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResOMGWeaponCarryCfg.<astPointInfo_bytes>e__FixedBuffer'] = { -- table(8a566b1b)
+		['Methods'] = { -- table(ceeced65)
+		},
+		['Fields'] = { -- table(eb36d54a)
+			['FixedElementField'] = { -- table(53f5c7f0)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResOMGWeaponCarryCfg'] = { -- table(a30c8512)
 		['Methods'] = { -- table(6bb3c068)
@@ -150826,11 +155611,11 @@
 			},
 			['astPointInfo_bytes'] = { -- table(52d43ab)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_OMGWeaponCarryPointCfg',
+				['type'] = 'ResData.ResOMGWeaponCarryCfg.<astPointInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_OMGWeaponCarryPointCfg',
 				['count'] = 5,
 				['size'] = 48,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGWeaponCarryCfg.<astPointInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -150900,10 +155685,10 @@
 			},
 			['ProbilityForRandom_bytes'] = { -- table(1c442ec0)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCiYuanDZZReforgeCfg.<ProbilityForRandom_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCiYuanDZZReforgeCfg.<ProbilityForRandom_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
@@ -150961,10 +155746,10 @@
 			},
 			['astQualityInfo_bytes'] = { -- table(27c5ac3)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_OMGWeaponPropertyQualityCfg',
+				['type'] = 'ResData.ResOMGArmorPropertyCfg.<astQualityInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_OMGWeaponPropertyQualityCfg',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGArmorPropertyCfg.<astQualityInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -150974,6 +155759,17 @@
 		},
 		['Fields'] = { -- table(561220c3)
 			['FixedElementField'] = { -- table(42628a5b)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResOMGArmorRandomCfg.<RamdomPoolProperty_bytes>e__FixedBuffer'] = { -- table(41eb77c7)
+		['Methods'] = { -- table(b723b835)
+		},
+		['Fields'] = { -- table(2cd4f12a)
+			['FixedElementField'] = { -- table(af53b90)
 				['offset'] = 8,
 				['type'] = 'System.UInt32',
 			},
@@ -151006,18 +155802,18 @@
 			},
 			['RamdomPoolProperty_bytes'] = { -- table(1b86ed87)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGArmorRandomCfg.<RamdomPoolProperty_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGArmorRandomCfg.<RamdomPoolProperty_bytes>e__FixedBuffer',
 			},
 			['PassiveSKillRandomID_bytes'] = { -- table(e3d6a8dc)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGArmorRandomCfg.<PassiveSKillRandomID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGArmorRandomCfg.<PassiveSKillRandomID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -151067,13 +155863,24 @@
 			},
 			['ContactProfession_bytes'] = { -- table(976a360e)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGArmorSkillContactCfg.<ContactProfession_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGArmorSkillContactCfg.<ContactProfession_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResOMGProfessionCfg.<UsableWeapon_bytes>e__FixedBuffer'] = { -- table(ee08f26a)
+		['Methods'] = { -- table(1d736030)
+		},
+		['Fields'] = { -- table(9f70c865)
+			['FixedElementField'] = { -- table(6f8b30c5)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResOMGProfessionCfg'] = { -- table(fabae90b)
 		['Methods'] = { -- table(96f5d5e9)
@@ -151113,11 +155920,11 @@
 			},
 			['UsableWeapon_bytes'] = { -- table(b3a4db22)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResOMGProfessionCfg.<UsableWeapon_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOMGProfessionCfg.<UsableWeapon_bytes>e__FixedBuffer',
 			},
 			['strIdAnimatorPath'] = { -- table(7a9ab86a)
 				['offset'] = 40,
@@ -151229,10 +156036,10 @@
 			},
 			['astProblemItemInfo_bytes'] = { -- table(27d9f29e)
 				['offset'] = 48,
-				['type'] = 'ResData.ResOneProblemCfg',
+				['type'] = 'ResData.ResOPEPRoblemCfg.<astProblemItemInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResOneProblemCfg',
 				['size'] = 48,
 				['array'] = true,
-				['rawType'] = 'ResData.ResOPEPRoblemCfg.<astProblemItemInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
@@ -151266,10 +156073,10 @@
 			},
 			['astBuffToResReplaceData_bytes'] = { -- table(52019ea7)
 				['offset'] = 16,
-				['type'] = 'ResData.BuffToResReplaceData',
+				['type'] = 'ResData.ResBuffToResReplaceCfg.<astBuffToResReplaceData_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.BuffToResReplaceData',
 				['size'] = 48,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBuffToResReplaceCfg.<astBuffToResReplaceData_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -151373,6 +156180,17 @@
 		},
 		['MaxV'] = 44,
 	},
+	['ResData.ResDimensionBragGameTitleConf.<astStatEntryList_bytes>e__FixedBuffer'] = { -- table(364908ff)
+		['Methods'] = { -- table(5e486115)
+		},
+		['Fields'] = { -- table(103c5ea0)
+			['FixedElementField'] = { -- table(bc568376)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDimensionBragGameTitleConf'] = { -- table(f59b6b46)
 		['Methods'] = { -- table(c80a1ca4)
 			['get_szTitleName'] = { -- table(ae01a995)
@@ -151411,11 +156229,11 @@
 			},
 			['astStatEntryList_bytes'] = { -- table(4b53d4ed)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDimensionBragGameStatEntryConf',
+				['type'] = 'ResData.ResDimensionBragGameTitleConf.<astStatEntryList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDimensionBragGameStatEntryConf',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionBragGameTitleConf.<astStatEntryList_bytes>e__FixedBuffer',
 			},
 			['dwPriority'] = { -- table(d5d0215e)
 				['offset'] = 60,
@@ -151423,6 +156241,17 @@
 			},
 		},
 		['MaxV'] = 60,
+	},
+	['ResData.ResDimensionHouseCustomizedAreaConfig.<FunctionAreaList_bytes>e__FixedBuffer'] = { -- table(93da615e)
+		['Methods'] = { -- table(41f9ac14)
+		},
+		['Fields'] = { -- table(288fd5c1)
+			['FixedElementField'] = { -- table(3e0d0dc9)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionHouseCustomizedAreaConfig'] = { -- table(20fb5a)
 		['Methods'] = { -- table(5c47a228)
@@ -151454,11 +156283,11 @@
 			},
 			['FunctionAreaList_bytes'] = { -- table(7ff795fe)
 				['offset'] = 12,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionHouseCustomizedAreaConfig.<FunctionAreaList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 11,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseCustomizedAreaConfig.<FunctionAreaList_bytes>e__FixedBuffer',
 			},
 			['strIdName'] = { -- table(64c6d6c8)
 				['offset'] = 56,
@@ -151474,6 +156303,17 @@
 			},
 		},
 		['MaxV'] = 72,
+	},
+	['ResData.ResDimensionHouseCustomizedFunctionAreaConfig.<SceneItemAreaPosId_bytes>e__FixedBuffer'] = { -- table(f7841b2a)
+		['Methods'] = { -- table(43196f18)
+		},
+		['Fields'] = { -- table(2b1e6355)
+			['FixedElementField'] = { -- table(34aad655)
+				['offset'] = 8,
+				['type'] = 'System.Int64',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionHouseCustomizedFunctionAreaConfig'] = { -- table(b31dba6)
 		['Methods'] = { -- table(ff56e108)
@@ -151517,11 +156357,11 @@
 			},
 			['SceneItemAreaPosId_bytes'] = { -- table(476114ae)
 				['offset'] = 24,
-				['type'] = 'System.Int64',
+				['type'] = 'ResData.ResDimensionHouseCustomizedFunctionAreaConfig.<SceneItemAreaPosId_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int64',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseCustomizedFunctionAreaConfig.<SceneItemAreaPosId_bytes>e__FixedBuffer',
 			},
 			['strIdName'] = { -- table(11929a80)
 				['offset'] = 64,
@@ -151736,6 +156576,28 @@
 		},
 		['MaxV'] = 133,
 	},
+	['ResData.ResDimensionHouseItemConfig.<DecorationPoints_bytes>e__FixedBuffer'] = { -- table(eae8ec53)
+		['Methods'] = { -- table(630743f1)
+		},
+		['Fields'] = { -- table(5fc8d35c)
+			['FixedElementField'] = { -- table(db59f82a)
+				['offset'] = 8,
+				['type'] = 'System.Int64',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionHouseItemConfig.<astBoxes_bytes>e__FixedBuffer'] = { -- table(129a709b)
+		['Methods'] = { -- table(36290e71)
+		},
+		['Fields'] = { -- table(9a7f1b1c)
+			['FixedElementField'] = { -- table(32e2aaea)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDimensionHouseItemConfig'] = { -- table(30bfa9e5)
 		['Methods'] = { -- table(ab9c42f7)
 			['get_szPrefabPath'] = { -- table(d73e23e)
@@ -151806,11 +156668,11 @@
 			},
 			['astBoxes_bytes'] = { -- table(c25bc51)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_DimensionDecorationBox',
+				['type'] = 'ResData.ResDimensionHouseItemConfig.<astBoxes_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionDecorationBox',
 				['count'] = 5,
 				['size'] = 28,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseItemConfig.<astBoxes_bytes>e__FixedBuffer',
 			},
 			['iDecorationPointNum'] = { -- table(2ac69e7f)
 				['offset'] = 184,
@@ -151818,11 +156680,11 @@
 			},
 			['DecorationPoints_bytes'] = { -- table(4f69cec1)
 				['offset'] = 192,
-				['type'] = 'System.Int64',
+				['type'] = 'ResData.ResDimensionHouseItemConfig.<DecorationPoints_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int64',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseItemConfig.<DecorationPoints_bytes>e__FixedBuffer',
 			},
 			['strIdFXPath'] = { -- table(1bdf8f7b)
 				['offset'] = 232,
@@ -151867,6 +156729,28 @@
 		},
 		['MaxV'] = 276,
 	},
+	['ResData.ResDimensionHouseWallTypeConfig.<ConditionList_bytes>e__FixedBuffer'] = { -- table(ae761df2)
+		['Methods'] = { -- table(3c905fe8)
+		},
+		['Fields'] = { -- table(6361b8b)
+			['FixedElementField'] = { -- table(29e540c3)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionHouseWallTypeConfig.<SubList_bytes>e__FixedBuffer'] = { -- table(55439f27)
+		['Methods'] = { -- table(6b8c6101)
+		},
+		['Fields'] = { -- table(1efd3c22)
+			['FixedElementField'] = { -- table(a3e1a5c8)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDimensionHouseWallTypeConfig'] = { -- table(aeccf602)
 		['Methods'] = { -- table(af31cc10)
 			['get_szName'] = { -- table(36c96277)
@@ -151909,19 +156793,19 @@
 			},
 			['SubList_bytes'] = { -- table(a7eed41f)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionHouseWallTypeConfig.<SubList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseWallTypeConfig.<SubList_bytes>e__FixedBuffer',
 			},
 			['ConditionList_bytes'] = { -- table(ee0eb4c)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionHouseWallTypeConfig.<ConditionList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseWallTypeConfig.<ConditionList_bytes>e__FixedBuffer',
 			},
 			['strIdIcon'] = { -- table(60948fba)
 				['offset'] = 72,
@@ -151971,10 +156855,10 @@
 			},
 			['ContainItemType_bytes'] = { -- table(e55fe72a)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionHouseWallSubTypeConfig.<ContainItemType_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseWallSubTypeConfig.<ContainItemType_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
@@ -152024,13 +156908,24 @@
 			},
 			['SubConditionList_bytes'] = { -- table(be445681)
 				['offset'] = 28,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionHouseWallObjFilterConditonConfig.<SubConditionList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseWallObjFilterConditonConfig.<SubConditionList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
+	},
+	['ResData.ResDimensionHouseWallObjConfig.<RelationParamUInt_bytes>e__FixedBuffer'] = { -- table(b736060f)
+		['Methods'] = { -- table(4788b711)
+		},
+		['Fields'] = { -- table(d04bd98)
+			['FixedElementField'] = { -- table(ba7497ce)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionHouseWallObjConfig'] = { -- table(f6a87c93)
 		['Methods'] = { -- table(85384531)
@@ -152122,11 +157017,11 @@
 			},
 			['RelationParamUInt_bytes'] = { -- table(9697a445)
 				['offset'] = 144,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionHouseWallObjConfig.<RelationParamUInt_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionHouseWallObjConfig.<RelationParamUInt_bytes>e__FixedBuffer',
 			},
 			['bIsDefault'] = { -- table(9204639b)
 				['offset'] = 156,
@@ -152155,6 +157050,17 @@
 		},
 		['MaxV'] = 176,
 	},
+	['ResData.ResSuperSaturdayActivityConf.<PreviewWeekNo_bytes>e__FixedBuffer'] = { -- table(998e37f9)
+		['Methods'] = { -- table(458dc40f)
+		},
+		['Fields'] = { -- table(cc7c9d5a)
+			['FixedElementField'] = { -- table(349042e0)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSuperSaturdayActivityConf'] = { -- table(89e5ba53)
 		['Methods'] = { -- table(1a6fa22d)
 			['PreviewWeekNo'] = { -- table(bc95c3dc)
@@ -152181,11 +157087,11 @@
 			},
 			['PreviewWeekNo_bytes'] = { -- table(590dcd73)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSuperSaturdayActivityConf.<PreviewWeekNo_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSuperSaturdayActivityConf.<PreviewWeekNo_bytes>e__FixedBuffer',
 			},
 			['dwBattleBroadcastMaxTimes'] = { -- table(1c5038c2)
 				['offset'] = 48,
@@ -152275,10 +157181,10 @@
 			},
 			['astBackFlowRate_bytes'] = { -- table(53f4f6da)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_SuperSaturdayBackFlowRate',
+				['type'] = 'ResData.ResSuperSaturdayScoreConf.<astBackFlowRate_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SuperSaturdayBackFlowRate',
 				['size'] = 28,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSuperSaturdayScoreConf.<astBackFlowRate_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 36,
@@ -152316,10 +157222,10 @@
 			},
 			['SkinID_bytes'] = { -- table(33e51297)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSuperSaturdayShareSkinPoolConf.<SkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSuperSaturdayShareSkinPoolConf.<SkinID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -152357,13 +157263,35 @@
 			},
 			['HeroID_bytes'] = { -- table(4d2cfc87)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSuperSaturdayShareHeroPoolConf.<HeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSuperSaturdayShareHeroPoolConf.<HeroID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResMall94DiscoverTemplateConf.<RecResIDs_bytes>e__FixedBuffer'] = { -- table(564702d9)
+		['Methods'] = { -- table(73dc7477)
+		},
+		['Fields'] = { -- table(afccb928)
+			['FixedElementField'] = { -- table(5aff223e)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResMall94DiscoverTemplateConf.<astBGArgs_bytes>e__FixedBuffer'] = { -- table(e9791fb5)
+		['Methods'] = { -- table(bea9988f)
+		},
+		['Fields'] = { -- table(1dc92284)
+			['FixedElementField'] = { -- table(99a4d732)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResMall94DiscoverTemplateConf'] = { -- table(64e6263c)
 		['Methods'] = { -- table(92167316)
@@ -152435,11 +157363,11 @@
 			},
 			['astBGArgs_bytes'] = { -- table(e04c845d)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_Mall94_Discover_String_Arg',
+				['type'] = 'ResData.ResMall94DiscoverTemplateConf.<astBGArgs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Mall94_Discover_String_Arg',
 				['count'] = 2,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMall94DiscoverTemplateConf.<astBGArgs_bytes>e__FixedBuffer',
 			},
 			['iSortingWeight'] = { -- table(fc9cd91c)
 				['offset'] = 72,
@@ -152451,11 +157379,11 @@
 			},
 			['RecResIDs_bytes'] = { -- table(a1cdf365)
 				['offset'] = 80,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResMall94DiscoverTemplateConf.<RecResIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 16,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMall94DiscoverTemplateConf.<RecResIDs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 80,
@@ -152505,10 +157433,10 @@
 			},
 			['astCommercialShowArgs_bytes'] = { -- table(f9a2c30f)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_Mall94_Discover_String_Arg',
+				['type'] = 'ResData.ResMall94DiscoverRecResConf.<astCommercialShowArgs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Mall94_Discover_String_Arg',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResMall94DiscoverRecResConf.<astCommercialShowArgs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -152546,10 +157474,10 @@
 			},
 			['szSkillFlags_bytes'] = { -- table(a10e087a)
 				['offset'] = 13,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResHeroSkillRange.<szSkillFlags_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroSkillRange.<szSkillFlags_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 13,
@@ -152583,10 +157511,10 @@
 			},
 			['astRandomPropertyPool_bytes'] = { -- table(19175a02)
 				['offset'] = 16,
-				['type'] = 'ResData.ResEquipRandomPropertyRandomPool',
+				['type'] = 'ResData.ResEquipRandomPropertyRandom.<astRandomPropertyPool_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResEquipRandomPropertyRandomPool',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEquipRandomPropertyRandom.<astRandomPropertyPool_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -152632,10 +157560,10 @@
 			},
 			['astTotalCollectValueList_bytes'] = { -- table(7d935583)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_QualityTotalCollectValue',
+				['type'] = 'ResData.ResCollectValue.<astTotalCollectValueList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_QualityTotalCollectValue',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCollectValue.<astTotalCollectValueList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -152685,13 +157613,35 @@
 			},
 			['SubTabList_bytes'] = { -- table(3b4f3f68)
 				['offset'] = 32,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCollectValueTabInfo.<SubTabList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCollectValueTabInfo.<SubTabList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
+	},
+	['ResData.ResBackFlowExcitationEventConf.<MutexEventID_bytes>e__FixedBuffer'] = { -- table(b44e4b12)
+		['Methods'] = { -- table(38910674)
+		},
+		['Fields'] = { -- table(874ec30f)
+			['FixedElementField'] = { -- table(bfcf874f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResBackFlowExcitationEventConf.<astReward_bytes>e__FixedBuffer'] = { -- table(c4f91fc5)
+		['Methods'] = { -- table(113347d3)
+		},
+		['Fields'] = { -- table(bd0e7c32)
+			['FixedElementField'] = { -- table(c3580678)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBackFlowExcitationEventConf'] = { -- table(fcc6bdef)
 		['Methods'] = { -- table(e3a29775)
@@ -152747,11 +157697,11 @@
 			},
 			['astReward_bytes'] = { -- table(2cf3f67)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResBackFlowExcitationEventConf.<astReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackFlowExcitationEventConf.<astReward_bytes>e__FixedBuffer',
 			},
 			['iMutexEventNum'] = { -- table(f068055a)
 				['offset'] = 72,
@@ -152759,11 +157709,11 @@
 			},
 			['MutexEventID_bytes'] = { -- table(a84c7cb0)
 				['offset'] = 76,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBackFlowExcitationEventConf.<MutexEventID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBackFlowExcitationEventConf.<MutexEventID_bytes>e__FixedBuffer',
 			},
 			['strIdEventDes'] = { -- table(c8abb72e)
 				['offset'] = 88,
@@ -152771,6 +157721,17 @@
 			},
 		},
 		['MaxV'] = 88,
+	},
+	['ResData.ResSoulMatchGift.<astItemDetail_bytes>e__FixedBuffer'] = { -- table(71ccaee3)
+		['Methods'] = { -- table(291a35d5)
+		},
+		['Fields'] = { -- table(27e7845c)
+			['FixedElementField'] = { -- table(db995b2a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSoulMatchGift'] = { -- table(5d46aa32)
 		['Methods'] = { -- table(63a8688)
@@ -152870,11 +157831,11 @@
 			},
 			['astItemDetail_bytes'] = { -- table(d17e3249)
 				['offset'] = 28,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResSoulMatchGift.<astItemDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 5,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSoulMatchGift.<astItemDetail_bytes>e__FixedBuffer',
 			},
 			['dwMinNum'] = { -- table(277277b4)
 				['offset'] = 88,
@@ -153004,10 +157965,10 @@
 			},
 			['astRewardList_bytes'] = { -- table(bf53d300)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResWorkShopHallGuide.<astRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWorkShopHallGuide.<astRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
@@ -153287,10 +158248,10 @@
 			},
 			['astCustomTab_bytes'] = { -- table(af45c06d)
 				['offset'] = 64,
-				['type'] = 'ResData.ResGameplayStoreDetailTab',
+				['type'] = 'ResData.ResGameplayStoreDetail.<astCustomTab_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResGameplayStoreDetailTab',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGameplayStoreDetail.<astCustomTab_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 64,
@@ -153328,10 +158289,10 @@
 			},
 			['astTab_bytes'] = { -- table(3f3c9388)
 				['offset'] = 16,
-				['type'] = 'ResData.ResGameplayStoreStrategyTab',
+				['type'] = 'ResData.ResGameplayStoreStrategy.<astTab_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResGameplayStoreStrategyTab',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGameplayStoreStrategy.<astTab_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -153378,6 +158339,17 @@
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResWorkShopCalander.<CycleParm_bytes>e__FixedBuffer'] = { -- table(ab37b158)
+		['Methods'] = { -- table(eef46cae)
+		},
+		['Fields'] = { -- table(30b1a975)
+			['FixedElementField'] = { -- table(9b596235)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWorkShopCalander'] = { -- table(f4804573)
 		['Methods'] = { -- table(b4f2b42d)
@@ -153441,11 +158413,11 @@
 			},
 			['CycleParm_bytes'] = { -- table(be568f16)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResWorkShopCalander.<CycleParm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWorkShopCalander.<CycleParm_bytes>e__FixedBuffer',
 			},
 			['strIdName'] = { -- table(e4adb0e3)
 				['offset'] = 72,
@@ -153535,10 +158507,10 @@
 			},
 			['astSuGameEntry_bytes'] = { -- table(b10aed06)
 				['offset'] = 56,
-				['type'] = 'ResData.ResCommonGameEntryConfig',
+				['type'] = 'ResData.ResCommonGameLobbyConf.<astSuGameEntry_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResCommonGameEntryConfig',
 				['size'] = 56,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommonGameLobbyConf.<astSuGameEntry_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
@@ -153580,10 +158552,10 @@
 			},
 			['astPosInfo_bytes'] = { -- table(ff9b01d)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_SettleArmShowVibe_PosInfo',
+				['type'] = 'ResData.ResSettleArmShowVibeConf.<astPosInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SettleArmShowVibe_PosInfo',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSettleArmShowVibeConf.<astPosInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -153625,10 +158597,10 @@
 			},
 			['CounterBubbleIDs_bytes'] = { -- table(d1bc3614)
 				['offset'] = 76,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSoloTauntBubbleInfo.<CounterBubbleIDs_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSoloTauntBubbleInfo.<CounterBubbleIDs_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 76,
@@ -153685,10 +158657,10 @@
 			},
 			['astSecondaryCategoryInfoList_bytes'] = { -- table(142fcb1f)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_BagSecondaryCategoryInfo',
+				['type'] = 'ResData.ResBagSecondaryCategoryInfo.<astSecondaryCategoryInfoList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BagSecondaryCategoryInfo',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBagSecondaryCategoryInfo.<astSecondaryCategoryInfoList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -153698,6 +158670,17 @@
 		},
 		['Fields'] = { -- table(a9989dc)
 			['FixedElementField'] = { -- table(809323aa)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResBagTertiaryCategoryInfo.<szPrimaryCategoryList_bytes>e__FixedBuffer'] = { -- table(8e616f6c)
+		['Methods'] = { -- table(bf4d89ae)
+		},
+		['Fields'] = { -- table(ff092c83)
+			['FixedElementField'] = { -- table(90ed2a1b)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -153742,18 +158725,18 @@
 			},
 			['szPrimaryCategoryList_bytes'] = { -- table(a278d318)
 				['offset'] = 28,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResBagTertiaryCategoryInfo.<szPrimaryCategoryList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 3,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBagTertiaryCategoryInfo.<szPrimaryCategoryList_bytes>e__FixedBuffer',
 			},
 			['astSecondaryCategoryList_bytes'] = { -- table(57c18261)
 				['offset'] = 31,
-				['type'] = 'ResData.ResDT_BagSecondaryCategoryInfoForTertiaryCategory',
+				['type'] = 'ResData.ResBagTertiaryCategoryInfo.<astSecondaryCategoryList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BagSecondaryCategoryInfoForTertiaryCategory',
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBagTertiaryCategoryInfo.<astSecondaryCategoryList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 31,
@@ -153839,10 +158822,10 @@
 			},
 			['EffectParams_bytes'] = { -- table(3108cfe5)
 				['offset'] = 84,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResFarmItemResConf.<EffectParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFarmItemResConf.<EffectParams_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 84,
@@ -153900,10 +158883,10 @@
 			},
 			['astWeekHour_bytes'] = { -- table(27df6778)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_FarmOpenHour',
+				['type'] = 'ResData.ResFarmTimeConf.<astWeekHour_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FarmOpenHour',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFarmTimeConf.<astWeekHour_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
@@ -153957,10 +158940,10 @@
 			},
 			['astGiftRewardList_bytes'] = { -- table(1b6eef04)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResFarmSeasonBPHeroVisitConf.<astGiftRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFarmSeasonBPHeroVisitConf.<astGiftRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -153976,11 +158959,33 @@
 		},
 		['MaxV'] = 8,
 	},
+	['ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astStopTime_bytes>e__FixedBuffer'] = { -- table(fc59af95)
+		['Methods'] = { -- table(36bf9767)
+		},
+		['Fields'] = { -- table(cabedf48)
+			['FixedElementField'] = { -- table(e42941e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astTriggerCondition_bytes>e__FixedBuffer'] = { -- table(e9a249b5)
 		['Methods'] = { -- table(b7fddc2b)
 		},
 		['Fields'] = { -- table(89b7e864)
 			['FixedElementField'] = { -- table(743737d2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astTriggerTime_bytes>e__FixedBuffer'] = { -- table(bbc4b793)
+		['Methods'] = { -- table(acf5b001)
+		},
+		['Fields'] = { -- table(8d644678)
+			['FixedElementField'] = { -- table(15a94d6e)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -154041,31 +159046,31 @@
 			},
 			['astTriggerTime_bytes'] = { -- table(d76d5f21)
 				['offset'] = 24,
-				['type'] = 'ResData.NewbieGuideTriggerTimeItem',
+				['type'] = 'ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astTriggerTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideTriggerTimeItem',
 				['count'] = 3,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astTriggerTime_bytes>e__FixedBuffer',
 			},
 			['astTriggerCondition_bytes'] = { -- table(826eaf75)
 				['offset'] = 96,
-				['type'] = 'ResData.NewbieGuideTriggerConditionItem',
+				['type'] = 'ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astTriggerCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideTriggerConditionItem',
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astTriggerCondition_bytes>e__FixedBuffer',
 			},
 			['astSkipCondition_bytes'] = { -- table(a360b3d8)
 				['offset'] = 176,
-				['type'] = 'ResData.NewbieGuideSkipConditionItem',
+				['type'] = 'ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astSkipCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideSkipConditionItem',
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astSkipCondition_bytes>e__FixedBuffer',
 			},
 			['astStopTime_bytes'] = { -- table(f81ba455)
 				['offset'] = 212,
-				['type'] = 'ResData.NewbieGuideTriggerTimeItem',
+				['type'] = 'ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astStopTime_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.NewbieGuideTriggerTimeItem',
 				['count'] = 3,
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionNewBieGeneralGuideMainLineCfg.<astStopTime_bytes>e__FixedBuffer',
 			},
 			['dwGrayBit'] = { -- table(6d699bf9)
 				['offset'] = 284,
@@ -154081,6 +159086,17 @@
 			},
 		},
 		['MaxV'] = 292,
+	},
+	['ResData.ResPlayLotteryInfo.<BatchLottery_bytes>e__FixedBuffer'] = { -- table(b2f86dd5)
+		['Methods'] = { -- table(73d226f7)
+		},
+		['Fields'] = { -- table(7322a6d8)
+			['FixedElementField'] = { -- table(81e41e0e)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPlayLotteryInfo'] = { -- table(4a0a0abb)
 		['Methods'] = { -- table(43988519)
@@ -154140,11 +159156,11 @@
 			},
 			['BatchLottery_bytes'] = { -- table(aecf7c3d)
 				['offset'] = 72,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResPlayLotteryInfo.<BatchLottery_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPlayLotteryInfo.<BatchLottery_bytes>e__FixedBuffer',
 			},
 			['iOneLotteryPrice'] = { -- table(e0dab527)
 				['offset'] = 84,
@@ -154164,6 +159180,28 @@
 			},
 		},
 		['MaxV'] = 96,
+	},
+	['ResData.ResPlayLotteryPoolInfo.<GroupMustHitEveryXCntList_bytes>e__FixedBuffer'] = { -- table(40d6ecb9)
+		['Methods'] = { -- table(3b8a6623)
+		},
+		['Fields'] = { -- table(dba63aba)
+			['FixedElementField'] = { -- table(a236f200)
+				['offset'] = 8,
+				['type'] = 'System.Int16',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPlayLotteryPoolInfo.<MustHitEveryXCntList_bytes>e__FixedBuffer'] = { -- table(ed7cb54a)
+		['Methods'] = { -- table(155a10b4)
+		},
+		['Fields'] = { -- table(ae94a98f)
+			['FixedElementField'] = { -- table(dd4742cf)
+				['offset'] = 8,
+				['type'] = 'System.Int16',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPlayLotteryPoolInfo'] = { -- table(81846725)
 		['Methods'] = { -- table(ba4e1f43)
@@ -154223,11 +159261,11 @@
 			},
 			['MustHitEveryXCntList_bytes'] = { -- table(88ad5aac)
 				['offset'] = 56,
-				['type'] = 'System.Int16',
+				['type'] = 'ResData.ResPlayLotteryPoolInfo.<MustHitEveryXCntList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int16',
 				['count'] = 2,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPlayLotteryPoolInfo.<MustHitEveryXCntList_bytes>e__FixedBuffer',
 			},
 			['iNewbieRewardCnt'] = { -- table(2448706b)
 				['offset'] = 60,
@@ -154243,11 +159281,11 @@
 			},
 			['GroupMustHitEveryXCntList_bytes'] = { -- table(36e57367)
 				['offset'] = 72,
-				['type'] = 'System.Int16',
+				['type'] = 'ResData.ResPlayLotteryPoolInfo.<GroupMustHitEveryXCntList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int16',
 				['count'] = 4,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPlayLotteryPoolInfo.<GroupMustHitEveryXCntList_bytes>e__FixedBuffer',
 			},
 			['ullShowTime'] = { -- table(c6fd6961)
 				['offset'] = 80,
@@ -154322,6 +159360,17 @@
 		},
 		['MaxV'] = 40,
 	},
+	['ResData.ResDT_GuishiItemCommomCfg.<AquireBuffID_bytes>e__FixedBuffer'] = { -- table(55fbfbe3)
+		['Methods'] = { -- table(a934b091)
+		},
+		['Fields'] = { -- table(a81d2224)
+			['FixedElementField'] = { -- table(ed0f892)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDT_GuishiItemCommomCfg'] = { -- table(290352f9)
 		['Methods'] = { -- table(6c180d93)
 			['get_szName'] = { -- table(e998a20c)
@@ -154376,11 +159425,11 @@
 			},
 			['AquireBuffID_bytes'] = { -- table(542221a9)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_GuishiItemCommomCfg.<AquireBuffID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_GuishiItemCommomCfg.<AquireBuffID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
@@ -154414,10 +159463,10 @@
 			},
 			['astPropertyInfo_bytes'] = { -- table(57a297d0)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_GuishiWeaponPropertyCommomCfg',
+				['type'] = 'ResData.ResGuishiWeaponPropertyCfg.<astPropertyInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_GuishiWeaponPropertyCommomCfg',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuishiWeaponPropertyCfg.<astPropertyInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -154440,6 +159489,28 @@
 			},
 		},
 		['MaxV'] = 88,
+	},
+	['ResData.ResLuckyCardBatchCfg.<BindingSkinID_bytes>e__FixedBuffer'] = { -- table(cd8b389c)
+		['Methods'] = { -- table(2645fc16)
+		},
+		['Fields'] = { -- table(e5e60733)
+			['FixedElementField'] = { -- table(626fd9ab)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLuckyCardBatchCfg.<YearLimitSkinID_bytes>e__FixedBuffer'] = { -- table(d917ddbb)
+		['Methods'] = { -- table(d809f621)
+		},
+		['Fields'] = { -- table(e19dfe5c)
+			['FixedElementField'] = { -- table(4b7ae92a)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLuckyCardBatchCfg'] = { -- table(4bbc6640)
 		['Methods'] = { -- table(435876d6)
@@ -154491,11 +159562,11 @@
 			},
 			['YearLimitSkinID_bytes'] = { -- table(10b4b569)
 				['offset'] = 48,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLuckyCardBatchCfg.<YearLimitSkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLuckyCardBatchCfg.<YearLimitSkinID_bytes>e__FixedBuffer',
 			},
 			['iBindingSkinNum'] = { -- table(959f2ac6)
 				['offset'] = 72,
@@ -154503,11 +159574,11 @@
 			},
 			['BindingSkinID_bytes'] = { -- table(6d166bd8)
 				['offset'] = 76,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLuckyCardBatchCfg.<BindingSkinID_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 21,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLuckyCardBatchCfg.<BindingSkinID_bytes>e__FixedBuffer',
 			},
 			['stJumpForm'] = { -- table(efc5b812)
 				['offset'] = 160,
@@ -154549,10 +159620,10 @@
 			},
 			['astRewardList_bytes'] = { -- table(92c39915)
 				['offset'] = 16,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResNewbieCarnivalReward.<astRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewbieCarnivalReward.<astRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -154594,10 +159665,10 @@
 			},
 			['astAddSourceDescList_bytes'] = { -- table(ae78cb87)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_FriendAddSourceDescInfo',
+				['type'] = 'ResData.ResFriendSource.<astAddSourceDescList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FriendAddSourceDescInfo',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFriendSource.<astAddSourceDescList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -154674,10 +159745,10 @@
 			},
 			['astStageInfo_bytes'] = { -- table(ce0f128a)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_ActivityStage',
+				['type'] = 'ResData.ResActivityClientReportGrayCfg.<astStageInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ActivityStage',
 				['size'] = 24,
 				['array'] = true,
-				['rawType'] = 'ResData.ResActivityClientReportGrayCfg.<astStageInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -154723,10 +159794,10 @@
 			},
 			['astRewardInfo_bytes'] = { -- table(24045d69)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResGamePlayGoalSystemScoreRewardCfg.<astRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayGoalSystemScoreRewardCfg.<astRewardInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -154804,13 +159875,24 @@
 			},
 			['TaskID_bytes'] = { -- table(1e23f448)
 				['offset'] = 56,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGamePlayGoalSystemTaskCfg.<TaskID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayGoalSystemTaskCfg.<TaskID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
+	},
+	['ResData.ResGamePlayGoalSystemGemEffectCfg.<astEffectParam_bytes>e__FixedBuffer'] = { -- table(5818066b)
+		['Methods'] = { -- table(63ec8f39)
+		},
+		['Fields'] = { -- table(bd3a5c30)
+			['FixedElementField'] = { -- table(86da4b66)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResGamePlayGoalSystemGemEffectCfg'] = { -- table(a3c6a99a)
 		['Methods'] = { -- table(d3917380)
@@ -154850,11 +159932,11 @@
 			},
 			['astEffectParam_bytes'] = { -- table(86cafe1d)
 				['offset'] = 28,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResGamePlayGoalSystemGemEffectCfg.<astEffectParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayGoalSystemGemEffectCfg.<astEffectParam_bytes>e__FixedBuffer',
 			},
 			['strIdEffectDesc'] = { -- table(80764acf)
 				['offset'] = 40,
@@ -154908,10 +159990,10 @@
 			},
 			['Prices_bytes'] = { -- table(cf3bfe4d)
 				['offset'] = 40,
-				['type'] = 'System.Int64',
+				['type'] = 'ResData.ResGamePlayGoalSystemGemExchangeCfg.<Prices_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int64',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayGoalSystemGemExchangeCfg.<Prices_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
@@ -154949,10 +160031,10 @@
 			},
 			['astFuncSwitchList_bytes'] = { -- table(4edd33c6)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_CampusFuncSwitch',
+				['type'] = 'ResData.ResCampusFuncSwitchConfig.<astFuncSwitchList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CampusFuncSwitch',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCampusFuncSwitchConfig.<astFuncSwitchList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -154990,10 +160072,10 @@
 			},
 			['astAward_bytes'] = { -- table(121bce0a)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResCampusRewardCfg.<astAward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCampusRewardCfg.<astAward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -155031,10 +160113,10 @@
 			},
 			['astRewardList_bytes'] = { -- table(44b47d49)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResCampusInviteReward.<astRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCampusInviteReward.<astRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -155084,10 +160166,10 @@
 			},
 			['astRewardList_bytes'] = { -- table(e02b2cd1)
 				['offset'] = 28,
-				['type'] = 'ResData.ResRewardInfo',
+				['type'] = 'ResData.ResCampusMatchReward.<astRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResRewardInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCampusMatchReward.<astRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
@@ -155129,10 +160211,10 @@
 			},
 			['RewardList_bytes'] = { -- table(dcb96cc1)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCampusMatchNonParticipantReward.<RewardList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCampusMatchNonParticipantReward.<RewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -155202,10 +160284,10 @@
 			},
 			['RewardList_bytes'] = { -- table(e5f20ffc)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResCampusReward.<RewardList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCampusReward.<RewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 52,
@@ -155316,6 +160398,17 @@
 		},
 		['MaxV'] = 72,
 	},
+	['ResData.ResResonanceCrystalLevelCfg.<RewardSkills_bytes>e__FixedBuffer'] = { -- table(e95ede3a)
+		['Methods'] = { -- table(3fae6210)
+		},
+		['Fields'] = { -- table(630eca09)
+			['FixedElementField'] = { -- table(4ea795d1)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResResonanceCrystalLevelCfg'] = { -- table(103c5026)
 		['Methods'] = { -- table(bd3b2160)
 			['RewardSkills'] = { -- table(99728f7d)
@@ -155338,11 +160431,11 @@
 			},
 			['RewardSkills_bytes'] = { -- table(c8e60422)
 				['offset'] = 16,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResResonanceCrystalLevelCfg.<RewardSkills_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResResonanceCrystalLevelCfg.<RewardSkills_bytes>e__FixedBuffer',
 			},
 			['dwLuckDrawWeight'] = { -- table(b97c4be5)
 				['offset'] = 24,
@@ -155358,6 +160451,17 @@
 			['FixedElementField'] = { -- table(7d98dbf6)
 				['offset'] = 8,
 				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResGamePlayRatingGradeConf.<astRewardList_bytes>e__FixedBuffer'] = { -- table(25f52650)
+		['Methods'] = { -- table(7c266a96)
+		},
+		['Fields'] = { -- table(bc16dda3)
+			['FixedElementField'] = { -- table(4364747b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
 			},
 		},
 		['MaxV'] = 8,
@@ -155444,11 +160548,11 @@
 			},
 			['astRewardList_bytes'] = { -- table(7dc0feb4)
 				['offset'] = 72,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResGamePlayRatingGradeConf.<astRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['count'] = 3,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayRatingGradeConf.<astRewardList_bytes>e__FixedBuffer',
 			},
 			['bEnableInheritScore'] = { -- table(bec21c51)
 				['offset'] = 108,
@@ -155476,10 +160580,10 @@
 			},
 			['ExtraList_bytes'] = { -- table(cd3fb2e1)
 				['offset'] = 132,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResGamePlayRatingGradeConf.<ExtraList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayRatingGradeConf.<ExtraList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 132,
@@ -155525,13 +160629,24 @@
 			},
 			['BuffTag_bytes'] = { -- table(99c4cb4)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResInBattleEffectBuffRandomRuleCfg.<BuffTag_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResInBattleEffectBuffRandomRuleCfg.<BuffTag_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResInBattleEffectBuyCfg.<EffectBuyParamList_bytes>e__FixedBuffer'] = { -- table(86fe618d)
+		['Methods'] = { -- table(53927a93)
+		},
+		['Fields'] = { -- table(2b061aa)
+			['FixedElementField'] = { -- table(5160b510)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResInBattleEffectBuyCfg.<astPosCfg_bytes>e__FixedBuffer'] = { -- table(f04d1875)
 		['Methods'] = { -- table(b31a3b9f)
@@ -155586,11 +160701,11 @@
 			},
 			['EffectBuyParamList_bytes'] = { -- table(e19247f)
 				['offset'] = 28,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResInBattleEffectBuyCfg.<EffectBuyParamList_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResInBattleEffectBuyCfg.<EffectBuyParamList_bytes>e__FixedBuffer',
 			},
 			['dwNoRepeatCnt'] = { -- table(9c1bcb45)
 				['offset'] = 40,
@@ -155602,10 +160717,10 @@
 			},
 			['astPosCfg_bytes'] = { -- table(1b4f051d)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_InBattle_Effect_Buy_Pos',
+				['type'] = 'ResData.ResInBattleEffectBuyCfg.<astPosCfg_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_InBattle_Effect_Buy_Pos',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResInBattleEffectBuyCfg.<astPosCfg_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
@@ -155647,10 +160762,10 @@
 			},
 			['ForbidTagList_bytes'] = { -- table(c118a0f7)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResInBattleEffectHeroFilterCfg.<ForbidTagList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResInBattleEffectHeroFilterCfg.<ForbidTagList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -155696,10 +160811,10 @@
 			},
 			['astRewardList_bytes'] = { -- table(928f9984)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResFootBallEndlessRewardConf.<astRewardList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResFootBallEndlessRewardConf.<astRewardList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -155741,13 +160856,24 @@
 			},
 			['HeroIDList_bytes'] = { -- table(3e4d3c99)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroGroup.<HeroIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroGroup.<HeroIDList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
+	},
+	['ResData.ResGamePlayRelicStarLevel.<FuncParamList_bytes>e__FixedBuffer'] = { -- table(f4fc519)
+		['Methods'] = { -- table(36d242a3)
+		},
+		['Fields'] = { -- table(77e66d70)
+			['FixedElementField'] = { -- table(8b5cb1a6)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResGamePlayRelicStarLevel'] = { -- table(71d41e83)
 		['Methods'] = { -- table(620e8099)
@@ -155799,11 +160925,11 @@
 			},
 			['FuncParamList_bytes'] = { -- table(c28794e9)
 				['offset'] = 48,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGamePlayRelicStarLevel.<FuncParamList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 8,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayRelicStarLevel.<FuncParamList_bytes>e__FixedBuffer',
 			},
 			['dwAIPickWeight'] = { -- table(b75fd9ac)
 				['offset'] = 80,
@@ -155817,6 +160943,17 @@
 		},
 		['Fields'] = { -- table(12d954b)
 			['FixedElementField'] = { -- table(225c7383)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRelicBlindBoxDropRule.<BlindBoxList_bytes>e__FixedBuffer'] = { -- table(efd2f553)
+		['Methods'] = { -- table(68d31571)
+		},
+		['Fields'] = { -- table(d0ac22c2)
+			['FixedElementField'] = { -- table(c1d8baa8)
 				['offset'] = 8,
 				['type'] = 'System.UInt32',
 			},
@@ -155861,18 +160998,18 @@
 			},
 			['BlindBoxList_bytes'] = { -- table(f6b3d7db)
 				['offset'] = 24,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRelicBlindBoxDropRule.<BlindBoxList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRelicBlindBoxDropRule.<BlindBoxList_bytes>e__FixedBuffer',
 			},
 			['BlindBoxDropRateList_bytes'] = { -- table(aed9f2b8)
 				['offset'] = 36,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRelicBlindBoxDropRule.<BlindBoxDropRateList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRelicBlindBoxDropRule.<BlindBoxDropRateList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 36,
@@ -155950,10 +161087,10 @@
 			},
 			['astEndlessReward_bytes'] = { -- table(8d65262a)
 				['offset'] = 72,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResGamePlayBattlePassSeasonConf.<astEndlessReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayBattlePassSeasonConf.<astEndlessReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 72,
@@ -156019,10 +161156,10 @@
 			},
 			['astReward_bytes'] = { -- table(6bb72129)
 				['offset'] = 44,
-				['type'] = 'ResData.ResDT_RewardItem',
+				['type'] = 'ResData.ResGamePlayBattlePassMilestoneConf.<astReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_RewardItem',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGamePlayBattlePassMilestoneConf.<astReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 44,
@@ -156056,10 +161193,10 @@
 			},
 			['astFilters_bytes'] = { -- table(e1ea1a29)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_HorizontalTask_Filter',
+				['type'] = 'ResData.ResHorizontalTaskFilter.<astFilters_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HorizontalTask_Filter',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHorizontalTaskFilter.<astFilters_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -156137,19 +161274,118 @@
 			},
 			['astOperationArray_bytes'] = { -- table(8382523e)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_HorizontalTask_Operation',
+				['type'] = 'ResData.ResHorizontalTask.<astOperationArray_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HorizontalTask_Operation',
 				['size'] = 72,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHorizontalTask.<astOperationArray_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
+	},
+	['ResData.ResLevelCfgInfo.<AIHeroID_bytes>e__FixedBuffer'] = { -- table(d825d04e)
+		['Methods'] = { -- table(afe03c6c)
+		},
+		['Fields'] = { -- table(ef38aecd)
+			['FixedElementField'] = { -- table(3852544d)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLevelCfgInfo.<RecommendLevel_bytes>e__FixedBuffer'] = { -- table(fb24e6bf)
+		['Methods'] = { -- table(83839de9)
+		},
+		['Fields'] = { -- table(3af2ed40)
+			['FixedElementField'] = { -- table(be89d7d6)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLevelCfgInfo.<RecommendPower_bytes>e__FixedBuffer'] = { -- table(a2fd179a)
+		['Methods'] = { -- table(4e4974d4)
+		},
+		['Fields'] = { -- table(494b2361)
+			['FixedElementField'] = { -- table(779d1029)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLevelCfgInfo.<SelfCampAIHeroID_bytes>e__FixedBuffer'] = { -- table(bf7f1a7b)
+		['Methods'] = { -- table(37437355)
+		},
+		['Fields'] = { -- table(e0f10148)
+			['FixedElementField'] = { -- table(761b9a1e)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLevelCfgInfo.<ServerCheckPower_bytes>e__FixedBuffer'] = { -- table(95299161)
+		['Methods'] = { -- table(c9ec2a57)
+		},
+		['Fields'] = { -- table(e75e122)
+			['FixedElementField'] = { -- table(f5bb24c8)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLevelCfgInfo.<SettleIDDetail_bytes>e__FixedBuffer'] = { -- table(4289ec92)
+		['Methods'] = { -- table(baf4c04c)
+		},
+		['Fields'] = { -- table(4d281629)
+			['FixedElementField'] = { -- table(8cb30031)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLevelCfgInfo.<astMapBuffs_bytes>e__FixedBuffer'] = { -- table(b15776ff)
+		['Methods'] = { -- table(439e5ad5)
+		},
+		['Fields'] = { -- table(16fa349e)
+			['FixedElementField'] = { -- table(4886fbbc)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLevelCfgInfo.<astReviveInfo_bytes>e__FixedBuffer'] = { -- table(1a50ead8)
 		['Methods'] = { -- table(d41df16)
 		},
 		['Fields'] = { -- table(5612c6c1)
 			['FixedElementField'] = { -- table(50cd30c9)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLevelCfgInfo.<astRewardShowDetail_bytes>e__FixedBuffer'] = { -- table(b6029422)
+		['Methods'] = { -- table(fecc5eb0)
+		},
+		['Fields'] = { -- table(78a5e9e3)
+			['FixedElementField'] = { -- table(636774bb)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLevelCfgInfo.<astStarDetail_bytes>e__FixedBuffer'] = { -- table(18a46f88)
+		['Methods'] = { -- table(3b717ae)
+		},
+		['Fields'] = { -- table(a8d994fd)
+			['FixedElementField'] = { -- table(d1cbc41d)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -156366,11 +161602,11 @@
 			},
 			['SelfCampAIHeroID_bytes'] = { -- table(e0566839)
 				['offset'] = 72,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLevelCfgInfo.<SelfCampAIHeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<SelfCampAIHeroID_bytes>e__FixedBuffer',
 			},
 			['dwAIPlayerLevel'] = { -- table(238ac127)
 				['offset'] = 92,
@@ -156378,11 +161614,11 @@
 			},
 			['AIHeroID_bytes'] = { -- table(8afd5862)
 				['offset'] = 96,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLevelCfgInfo.<AIHeroID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<AIHeroID_bytes>e__FixedBuffer',
 			},
 			['iHeroNum'] = { -- table(b686760)
 				['offset'] = 116,
@@ -156394,11 +161630,11 @@
 			},
 			['astStarDetail_bytes'] = { -- table(7e9c5ae2)
 				['offset'] = 124,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResLevelCfgInfo.<astStarDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<astStarDetail_bytes>e__FixedBuffer',
 			},
 			['iLoseCondition'] = { -- table(e2a9bfba)
 				['offset'] = 136,
@@ -156414,35 +161650,35 @@
 			},
 			['astRewardShowDetail_bytes'] = { -- table(567a420c)
 				['offset'] = 148,
-				['type'] = 'ResData.ResDT_PveRewardShowInfo',
+				['type'] = 'ResData.ResLevelCfgInfo.<astRewardShowDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PveRewardShowInfo',
 				['count'] = 5,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<astRewardShowDetail_bytes>e__FixedBuffer',
 			},
 			['RecommendLevel_bytes'] = { -- table(4807ce29)
 				['offset'] = 208,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLevelCfgInfo.<RecommendLevel_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<RecommendLevel_bytes>e__FixedBuffer',
 			},
 			['RecommendPower_bytes'] = { -- table(5f421c0a)
 				['offset'] = 224,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLevelCfgInfo.<RecommendPower_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<RecommendPower_bytes>e__FixedBuffer',
 			},
 			['ServerCheckPower_bytes'] = { -- table(4c1ef41b)
 				['offset'] = 240,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResLevelCfgInfo.<ServerCheckPower_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<ServerCheckPower_bytes>e__FixedBuffer',
 			},
 			['strIdThumbnailPath'] = { -- table(48f4f72c)
 				['offset'] = 256,
@@ -156522,11 +161758,11 @@
 			},
 			['SettleIDDetail_bytes'] = { -- table(260baa3a)
 				['offset'] = 356,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResLevelCfgInfo.<SettleIDDetail_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<SettleIDDetail_bytes>e__FixedBuffer',
 			},
 			['bSoulGrow'] = { -- table(d1ece94d)
 				['offset'] = 372,
@@ -156578,11 +161814,11 @@
 			},
 			['astMapBuffs_bytes'] = { -- table(590251f7)
 				['offset'] = 424,
-				['type'] = 'ResData.ResDT_MapBuff',
+				['type'] = 'ResData.ResLevelCfgInfo.<astMapBuffs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_MapBuff',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<astMapBuffs_bytes>e__FixedBuffer',
 			},
 			['strIdLevelDesc'] = { -- table(aae2e89c)
 				['offset'] = 456,
@@ -156590,9 +161826,9 @@
 			},
 			['astReviveInfo_bytes'] = { -- table(6355375e)
 				['offset'] = 464,
-				['type'] = 'ResData.ResDT_PveReviveInfo',
+				['type'] = 'ResData.ResLevelCfgInfo.<astReviveInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PveReviveInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResLevelCfgInfo.<astReviveInfo_bytes>e__FixedBuffer',
 			},
 			['bReviveTimeMax'] = { -- table(c5e605a1)
 				['offset'] = 608,
@@ -156722,9 +161958,9 @@
 			},
 			['astTaskConditionInfo_bytes'] = { -- table(49c0bbe8)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_BattleTaskCondition',
+				['type'] = 'ResData.ResBattleTaskInfo.<astTaskConditionInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BattleTaskCondition',
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleTaskInfo.<astTaskConditionInfo_bytes>e__FixedBuffer',
 			},
 			['strIdUIShowContent'] = { -- table(d17766c)
 				['offset'] = 64,
@@ -156846,9 +162082,9 @@
 			},
 			['astPassiveConditon_bytes'] = { -- table(1f961c36)
 				['offset'] = 84,
-				['type'] = 'ResData.ResDT_SkillPassiveCondition',
+				['type'] = 'ResData.ResSkillPassiveCfgInfo.<astPassiveConditon_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillPassiveCondition',
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillPassiveCfgInfo.<astPassiveConditon_bytes>e__FixedBuffer',
 			},
 			['bAgeImmeExcute'] = { -- table(88145a10)
 				['offset'] = 172,
@@ -156876,6 +162112,28 @@
 			},
 		},
 		['MaxV'] = 188,
+	},
+	['ResData.ResSkillCombineCfgInfo.<astMutexCfgIDs_bytes>e__FixedBuffer'] = { -- table(5f23d45a)
+		['Methods'] = { -- table(494a201c)
+		},
+		['Fields'] = { -- table(56d2088b)
+			['FixedElementField'] = { -- table(918f17c3)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResSkillCombineCfgInfo.<astOverrideCfgIDs_bytes>e__FixedBuffer'] = { -- table(19167f0b)
+		['Methods'] = { -- table(580b8a01)
+		},
+		['Fields'] = { -- table(437bbee8)
+			['FixedElementField'] = { -- table(2d503efe)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSkillCombineCfgInfo.<astSkillFuncInfo_bytes>e__FixedBuffer'] = { -- table(95083ee2)
 		['Methods'] = { -- table(6f913244)
@@ -156994,19 +162252,19 @@
 			},
 			['astMutexCfgIDs_bytes'] = { -- table(fc425c64)
 				['offset'] = 28,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResSkillCombineCfgInfo.<astMutexCfgIDs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillCombineCfgInfo.<astMutexCfgIDs_bytes>e__FixedBuffer',
 			},
 			['astOverrideCfgIDs_bytes'] = { -- table(bc818311)
 				['offset'] = 68,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResSkillCombineCfgInfo.<astOverrideCfgIDs_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillCombineCfgInfo.<astOverrideCfgIDs_bytes>e__FixedBuffer',
 			},
 			['iTriggerRate'] = { -- table(83b15184)
 				['offset'] = 84,
@@ -157146,9 +162404,9 @@
 			},
 			['astSkillFuncInfo_bytes'] = { -- table(303a903c)
 				['offset'] = 216,
-				['type'] = 'ResData.ResDT_SkillFunc',
+				['type'] = 'ResData.ResSkillCombineCfgInfo.<astSkillFuncInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillFunc',
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillCombineCfgInfo.<astSkillFuncInfo_bytes>e__FixedBuffer',
 			},
 			['iGroupCompactShowOffset'] = { -- table(19d170cc)
 				['offset'] = 952,
@@ -157377,6 +162635,17 @@
 		},
 		['MaxV'] = 1080,
 	},
+	['ResData.ResSpecSale.<Tab_bytes>e__FixedBuffer'] = { -- table(30182e92)
+		['Methods'] = { -- table(d9a8e928)
+		},
+		['Fields'] = { -- table(15db5a7f)
+			['FixedElementField'] = { -- table(afc10d5f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResSpecSale'] = { -- table(df6ba298)
 		['Methods'] = { -- table(aaf3917a)
 			['get_szDiscountOnTime'] = { -- table(88cc15bd)
@@ -157551,11 +162820,11 @@
 			},
 			['Tab_bytes'] = { -- table(ee6669f0)
 				['offset'] = 188,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResSpecSale.<Tab_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 7,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSpecSale.<Tab_bytes>e__FixedBuffer',
 			},
 			['strIdSpecialIcon'] = { -- table(2c8b3949)
 				['offset'] = 216,
@@ -157667,6 +162936,17 @@
 			},
 		},
 		['MaxV'] = 353,
+	},
+	['ResData.ResCustomTeamTask.<astOpenTaskParam_bytes>e__FixedBuffer'] = { -- table(3ea16c18)
+		['Methods'] = { -- table(bb15e336)
+		},
+		['Fields'] = { -- table(f5f48ffb)
+			['FixedElementField'] = { -- table(20066c53)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCustomTeamTask.<astPrerequisiteArray_bytes>e__FixedBuffer'] = { -- table(4b094e37)
 		['Methods'] = { -- table(5d230005)
@@ -157789,11 +163069,11 @@
 			},
 			['astOpenTaskParam_bytes'] = { -- table(15eebeb8)
 				['offset'] = 80,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResCustomTeamTask.<astOpenTaskParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCustomTeamTask.<astOpenTaskParam_bytes>e__FixedBuffer',
 			},
 			['iPrerequisiteNum'] = { -- table(c0d79a39)
 				['offset'] = 92,
@@ -157817,12 +163097,56 @@
 			},
 			['astPrerequisiteArray_bytes'] = { -- table(bfc3e031)
 				['offset'] = 120,
-				['type'] = 'ResData.ResDT_PrerequisiteInCustomTeamTask',
+				['type'] = 'ResData.ResCustomTeamTask.<astPrerequisiteArray_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PrerequisiteInCustomTeamTask',
 				['array'] = true,
-				['rawType'] = 'ResData.ResCustomTeamTask.<astPrerequisiteArray_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 120,
+	},
+	['ResData.ResTask.<ExtraParams_bytes>e__FixedBuffer'] = { -- table(cec93742)
+		['Methods'] = { -- table(fd697374)
+		},
+		['Fields'] = { -- table(31008a3)
+			['FixedElementField'] = { -- table(4e31657b)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTask.<JumpParm_bytes>e__FixedBuffer'] = { -- table(800bd57a)
+		['Methods'] = { -- table(d4252b74)
+		},
+		['Fields'] = { -- table(d85765d)
+			['FixedElementField'] = { -- table(968d6d3d)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTask.<NextTaskID_bytes>e__FixedBuffer'] = { -- table(7d7f4d8f)
+		['Methods'] = { -- table(8227a135)
+		},
+		['Fields'] = { -- table(edd565b0)
+			['FixedElementField'] = { -- table(92905fe6)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTask.<astOpenTaskParam_bytes>e__FixedBuffer'] = { -- table(d9dbc58a)
+		['Methods'] = { -- table(3a453444)
+		},
+		['Fields'] = { -- table(30d0ce25)
+			['FixedElementField'] = { -- table(27052085)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTask.<astPrerequisiteArray_bytes>e__FixedBuffer'] = { -- table(3f42d0e9)
 		['Methods'] = { -- table(c91781f3)
@@ -157949,11 +163273,11 @@
 			},
 			['JumpParm_bytes'] = { -- table(4995a92a)
 				['offset'] = 60,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTask.<JumpParm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTask.<JumpParm_bytes>e__FixedBuffer',
 			},
 			['dwTaskType'] = { -- table(d2ae18b4)
 				['offset'] = 68,
@@ -157973,11 +163297,11 @@
 			},
 			['NextTaskID_bytes'] = { -- table(c7877d51)
 				['offset'] = 84,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTask.<NextTaskID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTask.<NextTaskID_bytes>e__FixedBuffer',
 			},
 			['dwOpenType'] = { -- table(f42f9311)
 				['offset'] = 92,
@@ -157985,11 +163309,11 @@
 			},
 			['astOpenTaskParam_bytes'] = { -- table(54777d5a)
 				['offset'] = 96,
-				['type'] = 'ResData.ResDT_Int64ParamArrayNode',
+				['type'] = 'ResData.ResTask.<astOpenTaskParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Int64ParamArrayNode',
 				['count'] = 6,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTask.<astOpenTaskParam_bytes>e__FixedBuffer',
 			},
 			['bPrerequisiteNum'] = { -- table(4e102234)
 				['offset'] = 144,
@@ -157997,9 +163321,9 @@
 			},
 			['astPrerequisiteArray_bytes'] = { -- table(1449fc5b)
 				['offset'] = 152,
-				['type'] = 'ResData.ResDT_PrerequisiteInTask',
+				['type'] = 'ResData.ResTask.<astPrerequisiteArray_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PrerequisiteInTask',
 				['array'] = true,
-				['rawType'] = 'ResData.ResTask.<astPrerequisiteArray_bytes>e__FixedBuffer',
 			},
 			['dwReachAny'] = { -- table(28e6ce12)
 				['offset'] = 728,
@@ -158075,11 +163399,11 @@
 			},
 			['ExtraParams_bytes'] = { -- table(930478c)
 				['offset'] = 808,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResTask.<ExtraParams_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTask.<ExtraParams_bytes>e__FixedBuffer',
 			},
 			['bDelete'] = { -- table(69829c0d)
 				['offset'] = 828,
@@ -158145,12 +163469,23 @@
 			},
 			['astConditions_bytes'] = { -- table(39f67d44)
 				['offset'] = 28,
-				['type'] = 'ResData.ResDT_ConditionInfo',
+				['type'] = 'ResData.ResEvaluateStarInfo.<astConditions_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ConditionInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResEvaluateStarInfo.<astConditions_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
+	},
+	['ResData.ResDT_LevelCommonInfo.<DropItemInBattleRuleID_bytes>e__FixedBuffer'] = { -- table(71f3adbf)
+		['Methods'] = { -- table(b594f7f9)
+		},
+		['Fields'] = { -- table(793ad198)
+			['FixedElementField'] = { -- table(70ed13ce)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_LevelCommonInfo'] = { -- table(27b45258)
 		['Methods'] = { -- table(455c73a2)
@@ -158710,11 +164045,11 @@
 			},
 			['DropItemInBattleRuleID_bytes'] = { -- table(b38b2dd9)
 				['offset'] = 516,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_LevelCommonInfo.<DropItemInBattleRuleID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_LevelCommonInfo.<DropItemInBattleRuleID_bytes>e__FixedBuffer',
 			},
 			['bDisableSelectEquipList'] = { -- table(a5ca0be1)
 				['offset'] = 528,
@@ -159132,10 +164467,10 @@
 			},
 			['astAPRefreshInfo_bytes'] = { -- table(af3040a5)
 				['offset'] = 56,
-				['type'] = 'ResData.ResDT_APRefresh_Info',
+				['type'] = 'ResData.ResShopType.<astAPRefreshInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_APRefresh_Info',
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResShopType.<astAPRefreshInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 56,
@@ -159158,6 +164493,17 @@
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResAIJungleWeightConf.<astTimeData_bytes>e__FixedBuffer'] = { -- table(caf6a169)
+		['Methods'] = { -- table(43a21d27)
+		},
+		['Fields'] = { -- table(54ef2518)
+			['FixedElementField'] = { -- table(314e264e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResAIJungleWeightConf.<astTowerStateData_bytes>e__FixedBuffer'] = { -- table(64a32134)
 		['Methods'] = { -- table(e1bf4c02)
@@ -159212,21 +164558,32 @@
 			},
 			['astTimeData_bytes'] = { -- table(c0301fbd)
 				['offset'] = 28,
-				['type'] = 'ResData.ResDT_JungleTimeData',
+				['type'] = 'ResData.ResAIJungleWeightConf.<astTimeData_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_JungleTimeData',
 				['count'] = 3,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAIJungleWeightConf.<astTimeData_bytes>e__FixedBuffer',
 			},
 			['astTowerStateData_bytes'] = { -- table(af6e0d12)
 				['offset'] = 76,
-				['type'] = 'ResData.ResDT_TowerState',
+				['type'] = 'ResData.ResAIJungleWeightConf.<astTowerStateData_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TowerState',
 				['size'] = 44,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAIJungleWeightConf.<astTowerStateData_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 76,
+	},
+	['ResData.ResIncomeAllocRule.<IncomeChangeRate_bytes>e__FixedBuffer'] = { -- table(b34972c2)
+		['Methods'] = { -- table(4215eca4)
+		},
+		['Fields'] = { -- table(203638f3)
+			['FixedElementField'] = { -- table(bd5d556b)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResIncomeAllocRule.<astIncomeRule_bytes>e__FixedBuffer'] = { -- table(caf68c7e)
 		['Methods'] = { -- table(eff54dac)
@@ -159289,17 +164646,17 @@
 			},
 			['IncomeChangeRate_bytes'] = { -- table(1da7e898)
 				['offset'] = 28,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResIncomeAllocRule.<IncomeChangeRate_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResIncomeAllocRule.<IncomeChangeRate_bytes>e__FixedBuffer',
 			},
 			['astIncomeRule_bytes'] = { -- table(534e3c3a)
 				['offset'] = 68,
-				['type'] = 'ResData.ResDT_IncomeAttackRule',
+				['type'] = 'ResData.ResIncomeAllocRule.<astIncomeRule_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IncomeAttackRule',
 				['array'] = true,
-				['rawType'] = 'ResData.ResIncomeAllocRule.<astIncomeRule_bytes>e__FixedBuffer',
 			},
 			['strIdDesc'] = { -- table(1f439234)
 				['offset'] = 488,
@@ -159315,6 +164672,28 @@
 			},
 		},
 		['MaxV'] = 500,
+	},
+	['ResData.ResRedEnvelope.<DaojuRedThanksEMOJI_bytes>e__FixedBuffer'] = { -- table(2f27599f)
+		['Methods'] = { -- table(a2c44d91)
+		},
+		['Fields'] = { -- table(19eb6d0)
+			['FixedElementField'] = { -- table(97d9edc6)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResRedEnvelope.<astSkinRedResPath_bytes>e__FixedBuffer'] = { -- table(bdfa75cb)
+		['Methods'] = { -- table(f2efe329)
+		},
+		['Fields'] = { -- table(40064244)
+			['FixedElementField'] = { -- table(42a6b8f2)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResRedEnvelope'] = { -- table(3f6e1383)
 		['Methods'] = { -- table(7651a44d)
@@ -159466,19 +164845,19 @@
 			},
 			['astSkinRedResPath_bytes'] = { -- table(187f3061)
 				['offset'] = 120,
-				['type'] = 'ResData.ResDT_SkinRed_ResPath',
+				['type'] = 'ResData.ResRedEnvelope.<astSkinRedResPath_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkinRed_ResPath',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRedEnvelope.<astSkinRedResPath_bytes>e__FixedBuffer',
 			},
 			['DaojuRedThanksEMOJI_bytes'] = { -- table(cab87d19)
 				['offset'] = 160,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResRedEnvelope.<DaojuRedThanksEMOJI_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResRedEnvelope.<DaojuRedThanksEMOJI_bytes>e__FixedBuffer',
 			},
 			['bIsCover'] = { -- table(1a9a18c1)
 				['offset'] = 180,
@@ -159749,6 +165128,17 @@
 		},
 		['MaxV'] = 8,
 	},
+	['ResData.ResWealMultiple.<astPeriod_bytes>e__FixedBuffer'] = { -- table(aac2e991)
+		['Methods'] = { -- table(da957a9f)
+		},
+		['Fields'] = { -- table(e39edf18)
+			['FixedElementField'] = { -- table(dcff744e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResWealMultiple'] = { -- table(2a2566c1)
 		['Methods'] = { -- table(a2166c3b)
 			['astPeriod'] = { -- table(ed22a780)
@@ -159787,11 +165177,11 @@
 			},
 			['astPeriod_bytes'] = { -- table(b6f51c7d)
 				['offset'] = 272,
-				['type'] = 'ResData.ResDT_WealMultiplePeriod',
+				['type'] = 'ResData.ResWealMultiple.<astPeriod_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealMultiplePeriod',
 				['count'] = 4,
 				['size'] = 64,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealMultiple.<astPeriod_bytes>e__FixedBuffer',
 			},
 			['wConNum'] = { -- table(2832c331)
 				['offset'] = 528,
@@ -159799,13 +165189,24 @@
 			},
 			['ConInfo_bytes'] = { -- table(4d5b186c)
 				['offset'] = 532,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResWealMultiple.<ConInfo_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealMultiple.<ConInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 532,
+	},
+	['ResData.ResWealCondition.<astConInfo_bytes>e__FixedBuffer'] = { -- table(f266fd31)
+		['Methods'] = { -- table(435dcccb)
+		},
+		['Fields'] = { -- table(5bacdd7c)
+			['FixedElementField'] = { -- table(ceb5b40a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWealCondition'] = { -- table(588d13be)
 		['Methods'] = { -- table(340cdbe8)
@@ -159873,11 +165274,11 @@
 			},
 			['astConInfo_bytes'] = { -- table(9e3258b5)
 				['offset'] = 312,
-				['type'] = 'ResData.ResDT_WealConInfo',
+				['type'] = 'ResData.ResWealCondition.<astConInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealConInfo',
 				['count'] = 16,
 				['size'] = 104,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealCondition.<astConInfo_bytes>e__FixedBuffer',
 			},
 			['dwBindRebatePlanID'] = { -- table(bb795b5a)
 				['offset'] = 1976,
@@ -159927,19 +165328,41 @@
 			},
 			['astConInfo_bytes'] = { -- table(73caeb84)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_WealConInfo',
+				['type'] = 'ResData.ResDT_NewbieConditionGroup.<astConInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealConInfo',
 				['size'] = 104,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_NewbieConditionGroup.<astConInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResWealStampInfo.<astXRewardInfo_bytes>e__FixedBuffer'] = { -- table(56aae616)
+		['Methods'] = { -- table(a3c926bc)
+		},
+		['Fields'] = { -- table(a4dbe877)
+			['FixedElementField'] = { -- table(536213d7)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResWealStampInfo.<astXStampInfo_bytes>e__FixedBuffer'] = { -- table(17f07662)
 		['Methods'] = { -- table(fea186cc)
 		},
 		['Fields'] = { -- table(f2bdbdcd)
 			['FixedElementField'] = { -- table(6b2a314d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResWealStampInfo.<astYRewardInfo_bytes>e__FixedBuffer'] = { -- table(826af733)
+		['Methods'] = { -- table(543c83b9)
+		},
+		['Fields'] = { -- table(98a3116a)
+			['FixedElementField'] = { -- table(b7d7afd0)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -159996,19 +165419,19 @@
 			},
 			['astXRewardInfo_bytes'] = { -- table(b4cad950)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_WealStamp_RewardInfo',
+				['type'] = 'ResData.ResWealStampInfo.<astXRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealStamp_RewardInfo',
 				['count'] = 6,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealStampInfo.<astXRewardInfo_bytes>e__FixedBuffer',
 			},
 			['astYRewardInfo_bytes'] = { -- table(13a9b83)
 				['offset'] = 84,
-				['type'] = 'ResData.ResDT_WealStamp_RewardInfo',
+				['type'] = 'ResData.ResWealStampInfo.<astYRewardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_WealStamp_RewardInfo',
 				['count'] = 5,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealStampInfo.<astYRewardInfo_bytes>e__FixedBuffer',
 			},
 			['stCommon'] = { -- table(98c5a121)
 				['offset'] = 144,
@@ -160032,9 +165455,9 @@
 			},
 			['astXStampInfo_bytes'] = { -- table(4955a08e)
 				['offset'] = 408,
-				['type'] = 'ResData.Rest_WealStamp_XStampInfo',
+				['type'] = 'ResData.ResWealStampInfo.<astXStampInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.Rest_WealStamp_XStampInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealStampInfo.<astXStampInfo_bytes>e__FixedBuffer',
 			},
 			['dwDrawNeedStampCnt'] = { -- table(844e1ffe)
 				['offset'] = 1128,
@@ -160128,12 +165551,34 @@
 			},
 			['astSubCondList_bytes'] = { -- table(74861e34)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_PosTitleCond_SubCond',
+				['type'] = 'ResData.ResPosTitleCondition.<astSubCondList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PosTitleCond_SubCond',
 				['array'] = true,
-				['rawType'] = 'ResData.ResPosTitleCondition.<astSubCondList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResLuckyDrawPrice.<astEggFiveInfo_bytes>e__FixedBuffer'] = { -- table(b7682621)
+		['Methods'] = { -- table(6e383b6b)
+		},
+		['Fields'] = { -- table(82bef6b6)
+			['FixedElementField'] = { -- table(79597c94)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResLuckyDrawPrice.<astEggSingleInfo_bytes>e__FixedBuffer'] = { -- table(b453c405)
+		['Methods'] = { -- table(b8d8a67b)
+		},
+		['Fields'] = { -- table(58e1de8a)
+			['FixedElementField'] = { -- table(81e3e130)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResLuckyDrawPrice.<astLuckyDrawPeriod_bytes>e__FixedBuffer'] = { -- table(93588bef)
 		['Methods'] = { -- table(8761a82d)
@@ -160228,11 +165673,11 @@
 			},
 			['astEggSingleInfo_bytes'] = { -- table(2837237b)
 				['offset'] = 64,
-				['type'] = 'ResData.ResEggInfo',
+				['type'] = 'ResData.ResLuckyDrawPrice.<astEggSingleInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResEggInfo',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLuckyDrawPrice.<astEggSingleInfo_bytes>e__FixedBuffer',
 			},
 			['dwEggFiveNum'] = { -- table(fca91828)
 				['offset'] = 88,
@@ -160240,11 +165685,11 @@
 			},
 			['astEggFiveInfo_bytes'] = { -- table(9dee857b)
 				['offset'] = 92,
-				['type'] = 'ResData.ResEggInfo',
+				['type'] = 'ResData.ResLuckyDrawPrice.<astEggFiveInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResEggInfo',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLuckyDrawPrice.<astEggFiveInfo_bytes>e__FixedBuffer',
 			},
 			['dwSingleItemID'] = { -- table(f77d5c51)
 				['offset'] = 116,
@@ -160260,13 +165705,35 @@
 			},
 			['astLuckyDrawPeriod_bytes'] = { -- table(eebf40e1)
 				['offset'] = 136,
-				['type'] = 'ResData.ResDT_LuckyDrawPeriod',
+				['type'] = 'ResData.ResLuckyDrawPrice.<astLuckyDrawPeriod_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LuckyDrawPeriod',
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResLuckyDrawPrice.<astLuckyDrawPeriod_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 136,
+	},
+	['ResData.ResEquipInBattle.<astActiveSkill_bytes>e__FixedBuffer'] = { -- table(fe898049)
+		['Methods'] = { -- table(6f8678db)
+		},
+		['Fields'] = { -- table(1cc5828)
+			['FixedElementField'] = { -- table(9e53af3e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResEquipInBattle.<astEffectCombine_bytes>e__FixedBuffer'] = { -- table(f956522a)
+		['Methods'] = { -- table(d9ef2fe0)
+		},
+		['Fields'] = { -- table(cc2056fb)
+			['FixedElementField'] = { -- table(7f8bf153)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResEquipInBattle.<astPassiveSkill_bytes>e__FixedBuffer'] = { -- table(b13cbb04)
 		['Methods'] = { -- table(57cb14c6)
@@ -160565,25 +166032,25 @@
 			},
 			['astPassiveSkill_bytes'] = { -- table(3765e444)
 				['offset'] = 184,
-				['type'] = 'ResData.ResPassiveSkill',
+				['type'] = 'ResData.ResEquipInBattle.<astPassiveSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResPassiveSkill',
 				['array'] = true,
-				['rawType'] = 'ResData.ResEquipInBattle.<astPassiveSkill_bytes>e__FixedBuffer',
 			},
 			['astEffectCombine_bytes'] = { -- table(55208da8)
 				['offset'] = 344,
-				['type'] = 'ResData.ResEffectCombine',
+				['type'] = 'ResData.ResEquipInBattle.<astEffectCombine_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResEffectCombine',
 				['count'] = 4,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEquipInBattle.<astEffectCombine_bytes>e__FixedBuffer',
 			},
 			['astActiveSkill_bytes'] = { -- table(cc5c665)
 				['offset'] = 408,
-				['type'] = 'ResData.ResActiveSkill',
+				['type'] = 'ResData.ResEquipInBattle.<astActiveSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResActiveSkill',
 				['count'] = 2,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEquipInBattle.<astActiveSkill_bytes>e__FixedBuffer',
 			},
 			['strIdDesc'] = { -- table(fbf1d361)
 				['offset'] = 472,
@@ -160691,6 +166158,28 @@
 			},
 		},
 		['MaxV'] = 572,
+	},
+	['ResData.ResPVEEquipInBattle.<astActiveSkill_bytes>e__FixedBuffer'] = { -- table(6b947078)
+		['Methods'] = { -- table(7be99ada)
+		},
+		['Fields'] = { -- table(f4b7f38f)
+			['FixedElementField'] = { -- table(4e3040cf)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResPVEEquipInBattle.<astEffectCombine_bytes>e__FixedBuffer'] = { -- table(5df77acb)
+		['Methods'] = { -- table(c5daca39)
+		},
+		['Fields'] = { -- table(e4dcd654)
+			['FixedElementField'] = { -- table(691c0362)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResPVEEquipInBattle.<astPassiveSkill_bytes>e__FixedBuffer'] = { -- table(10c31403)
 		['Methods'] = { -- table(88081bc5)
@@ -160873,25 +166362,25 @@
 			},
 			['astPassiveSkill_bytes'] = { -- table(3ee9dceb)
 				['offset'] = 112,
-				['type'] = 'ResData.ResPassiveSkill',
+				['type'] = 'ResData.ResPVEEquipInBattle.<astPassiveSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResPassiveSkill',
 				['array'] = true,
-				['rawType'] = 'ResData.ResPVEEquipInBattle.<astPassiveSkill_bytes>e__FixedBuffer',
 			},
 			['astEffectCombine_bytes'] = { -- table(8a0ed50d)
 				['offset'] = 272,
-				['type'] = 'ResData.ResEffectCombine',
+				['type'] = 'ResData.ResPVEEquipInBattle.<astEffectCombine_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResEffectCombine',
 				['count'] = 4,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPVEEquipInBattle.<astEffectCombine_bytes>e__FixedBuffer',
 			},
 			['astActiveSkill_bytes'] = { -- table(9308cf00)
 				['offset'] = 336,
-				['type'] = 'ResData.ResActiveSkill',
+				['type'] = 'ResData.ResPVEEquipInBattle.<astActiveSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResActiveSkill',
 				['count'] = 2,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPVEEquipInBattle.<astActiveSkill_bytes>e__FixedBuffer',
 			},
 			['strIdDesc'] = { -- table(450300d6)
 				['offset'] = 400,
@@ -160977,13 +166466,24 @@
 			},
 			['astHeroItem_bytes'] = { -- table(e99c1834)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_PickWhiteListHero_Item',
+				['type'] = 'ResData.ResPickWhiteListHero.<astHeroItem_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PickWhiteListHero_Item',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResPickWhiteListHero.<astHeroItem_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResSkillDynamicIndicatorCfgInfo.<CommonParam_bytes>e__FixedBuffer'] = { -- table(37fcdc22)
+		['Methods'] = { -- table(82017c14)
+		},
+		['Fields'] = { -- table(903a006b)
+			['FixedElementField'] = { -- table(ad5063e3)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResSkillDynamicIndicatorCfgInfo.<astActorStateInfo_bytes>e__FixedBuffer'] = { -- table(601bbf6a)
 		['Methods'] = { -- table(a0d27640)
@@ -161074,17 +166574,17 @@
 			},
 			['CommonParam_bytes'] = { -- table(1fe3ccf0)
 				['offset'] = 56,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResSkillDynamicIndicatorCfgInfo.<CommonParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 10,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillDynamicIndicatorCfgInfo.<CommonParam_bytes>e__FixedBuffer',
 			},
 			['astActorStateInfo_bytes'] = { -- table(c355b15c)
 				['offset'] = 96,
-				['type'] = 'ResData.ResDT_SkillDynamicIndicatorActorStateInfo',
+				['type'] = 'ResData.ResSkillDynamicIndicatorCfgInfo.<astActorStateInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_SkillDynamicIndicatorActorStateInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResSkillDynamicIndicatorCfgInfo.<astActorStateInfo_bytes>e__FixedBuffer',
 			},
 			['strIdIndicatorBulletName'] = { -- table(3ea34d5a)
 				['offset'] = 136,
@@ -161149,15 +166649,15 @@
 			},
 			['astFailCondition_bytes'] = { -- table(9e448357)
 				['offset'] = 16,
-				['type'] = 'ResData.ComboGuideFailContidionConf',
+				['type'] = 'ResData.ResComboGuideTaskStepConf.<astFailCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ComboGuideFailContidionConf',
 				['array'] = true,
-				['rawType'] = 'ResData.ResComboGuideTaskStepConf.<astFailCondition_bytes>e__FixedBuffer',
 			},
 			['astCompleteCondition_bytes'] = { -- table(27e4a0ae)
 				['offset'] = 48,
-				['type'] = 'ResData.ComboGuideCompleteConditionConf',
+				['type'] = 'ResData.ResComboGuideTaskStepConf.<astCompleteCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ComboGuideCompleteConditionConf',
 				['array'] = true,
-				['rawType'] = 'ResData.ResComboGuideTaskStepConf.<astCompleteCondition_bytes>e__FixedBuffer',
 			},
 			['stDescInfo'] = { -- table(23c81c74)
 				['offset'] = 80,
@@ -161165,6 +166665,28 @@
 			},
 		},
 		['MaxV'] = 80,
+	},
+	['ResData.ResCondGuideTaskStepConf.<astCompleteCondition_bytes>e__FixedBuffer'] = { -- table(6b72d3c)
+		['Methods'] = { -- table(34cea0e)
+		},
+		['Fields'] = { -- table(6224a49)
+			['FixedElementField'] = { -- table(41992111)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCondGuideTaskStepConf.<astFailCondition_bytes>e__FixedBuffer'] = { -- table(a28e3123)
+		['Methods'] = { -- table(8ffe7ec9)
+		},
+		['Fields'] = { -- table(7be547ba)
+			['FixedElementField'] = { -- table(41442900)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCondGuideTaskStepConf'] = { -- table(71ab631)
 		['Methods'] = { -- table(659f8e47)
@@ -161192,11 +166714,11 @@
 			},
 			['astFailCondition_bytes'] = { -- table(e6bdfeab)
 				['offset'] = 12,
-				['type'] = 'ResData.GuideTaskConditionConf',
+				['type'] = 'ResData.ResCondGuideTaskStepConf.<astFailCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.GuideTaskConditionConf',
 				['count'] = 1,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCondGuideTaskStepConf.<astFailCondition_bytes>e__FixedBuffer',
 			},
 			['bCompCondLogic'] = { -- table(feb72623)
 				['offset'] = 28,
@@ -161204,11 +166726,11 @@
 			},
 			['astCompleteCondition_bytes'] = { -- table(a72e9862)
 				['offset'] = 32,
-				['type'] = 'ResData.GuideTaskConditionConf',
+				['type'] = 'ResData.ResCondGuideTaskStepConf.<astCompleteCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.GuideTaskConditionConf',
 				['count'] = 2,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCondGuideTaskStepConf.<astCompleteCondition_bytes>e__FixedBuffer',
 			},
 			['stDescInfo'] = { -- table(d1df338)
 				['offset'] = 64,
@@ -161243,6 +166765,17 @@
 			},
 		},
 		['MaxV'] = 100,
+	},
+	['ResData.ResCareerTargetInfo.<astBaseTargetInfo_bytes>e__FixedBuffer'] = { -- table(802b82e4)
+		['Methods'] = { -- table(6a69fbd2)
+		},
+		['Fields'] = { -- table(6b6bb82d)
+			['FixedElementField'] = { -- table(a7d064ed)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCareerTargetInfo'] = { -- table(9fa47217)
 		['Methods'] = { -- table(debad345)
@@ -161290,11 +166823,11 @@
 			},
 			['astBaseTargetInfo_bytes'] = { -- table(f5a98f1a)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_BaseTargeInfo',
+				['type'] = 'ResData.ResCareerTargetInfo.<astBaseTargetInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BaseTargeInfo',
 				['count'] = 6,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCareerTargetInfo.<astBaseTargetInfo_bytes>e__FixedBuffer',
 			},
 			['dwTargetPlayType'] = { -- table(87effcc0)
 				['offset'] = 272,
@@ -161302,6 +166835,17 @@
 			},
 		},
 		['MaxV'] = 272,
+	},
+	['ResData.ResHeroBadge.<StageValue_bytes>e__FixedBuffer'] = { -- table(4683bd87)
+		['Methods'] = { -- table(80ce1d51)
+		},
+		['Fields'] = { -- table(6b797a6a)
+			['FixedElementField'] = { -- table(de47bad0)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroBadge'] = { -- table(225d9fe3)
 		['Methods'] = { -- table(53e02c4d)
@@ -161361,11 +166905,11 @@
 			},
 			['StageValue_bytes'] = { -- table(f475b1bf)
 				['offset'] = 132,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResHeroBadge.<StageValue_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 6,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroBadge.<StageValue_bytes>e__FixedBuffer',
 			},
 			['dwStageOprator'] = { -- table(125053b4)
 				['offset'] = 156,
@@ -161502,9 +167046,9 @@
 			},
 			['astFensiTaiSecCheckInfo_bytes'] = { -- table(55c1ff7e)
 				['offset'] = 36,
-				['type'] = 'ResData.ResDT_FensiTaiSecCheckInfo',
+				['type'] = 'ResData.ResCompetitionEffectFensiTaiInfo.<astFensiTaiSecCheckInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_FensiTaiSecCheckInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResCompetitionEffectFensiTaiInfo.<astFensiTaiSecCheckInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 36,
@@ -161538,9 +167082,9 @@
 			},
 			['astTaiInfos_bytes'] = { -- table(7c98f020)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_TaiInfo',
+				['type'] = 'ResData.ResCompetitionEffectFensiTaiObjInfo.<astTaiInfos_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TaiInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResCompetitionEffectFensiTaiObjInfo.<astTaiInfos_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
@@ -161610,13 +167154,24 @@
 			},
 			['astAdvanced_bytes'] = { -- table(1c0ecad1)
 				['offset'] = 40,
-				['type'] = 'ResData.ResDT_BattlePassLevelAwardEntry',
+				['type'] = 'ResData.ResBattlePassLevelAward.<astAdvanced_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BattlePassLevelAwardEntry',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassLevelAward.<astAdvanced_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 40,
+	},
+	['ResData.ResBattlePassLevelAwardV2.<astAwardInfo_bytes>e__FixedBuffer'] = { -- table(d0653790)
+		['Methods'] = { -- table(1329fc92)
+		},
+		['Fields'] = { -- table(dbc2bcc7)
+			['FixedElementField'] = { -- table(1d362387)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResBattlePassLevelAwardV2'] = { -- table(b9c6f1f8)
 		['Methods'] = { -- table(36c3ea9e)
@@ -161648,11 +167203,11 @@
 			},
 			['astAwardInfo_bytes'] = { -- table(5e37f180)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_LevelAwardInfo',
+				['type'] = 'ResData.ResBattlePassLevelAwardV2.<astAwardInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LevelAwardInfo',
 				['count'] = 2,
 				['size'] = 28,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattlePassLevelAwardV2.<astAwardInfo_bytes>e__FixedBuffer',
 			},
 			['bIsKeyLevel'] = { -- table(3e440b82)
 				['offset'] = 76,
@@ -161666,6 +167221,17 @@
 		},
 		['Fields'] = { -- table(89300616)
 			['FixedElementField'] = { -- table(291908b4)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTaskPool.<TaskID_bytes>e__FixedBuffer'] = { -- table(c42667f6)
+		['Methods'] = { -- table(3a38e1e0)
+		},
+		['Fields'] = { -- table(f8653799)
+			['FixedElementField'] = { -- table(d79cbf41)
 				['offset'] = 8,
 				['type'] = 'System.UInt32',
 			},
@@ -161726,11 +167292,11 @@
 			},
 			['TaskID_bytes'] = { -- table(275cc6ea)
 				['offset'] = 44,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTaskPool.<TaskID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 130,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTaskPool.<TaskID_bytes>e__FixedBuffer',
 			},
 			['bCommonNum'] = { -- table(8cb90b3f)
 				['offset'] = 564,
@@ -161738,10 +167304,10 @@
 			},
 			['CommonTaskID_bytes'] = { -- table(10cde1b)
 				['offset'] = 568,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTaskPool.<CommonTaskID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTaskPool.<CommonTaskID_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 568,
@@ -161942,18 +167508,51 @@
 			},
 			['astEffectDetail_bytes'] = { -- table(4157aefb)
 				['offset'] = 112,
-				['type'] = 'ResData.ResDT_ChessGlobalEffectInfo',
+				['type'] = 'ResData.ResChessGlobalEffect.<astEffectDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ChessGlobalEffectInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessGlobalEffect.<astEffectDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 112,
+	},
+	['ResData.ResChessEquipInfo.<astActiveSkill_bytes>e__FixedBuffer'] = { -- table(14511e66)
+		['Methods'] = { -- table(b956e154)
+		},
+		['Fields'] = { -- table(5dab2b1)
+			['FixedElementField'] = { -- table(4b5f6d99)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessEquipInfo.<astEffectCombine_bytes>e__FixedBuffer'] = { -- table(366fb085)
+		['Methods'] = { -- table(5ce29017)
+		},
+		['Fields'] = { -- table(e3250962)
+			['FixedElementField'] = { -- table(18ed2a08)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResChessEquipInfo.<astPassiveSkill_bytes>e__FixedBuffer'] = { -- table(7f57861)
 		['Methods'] = { -- table(bcb94fef)
 		},
 		['Fields'] = { -- table(5423d7fc)
 			['FixedElementField'] = { -- table(2406eb8a)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResChessEquipInfo.<szAdditionRelative_bytes>e__FixedBuffer'] = { -- table(5b59b480)
+		['Methods'] = { -- table(f0097ca2)
+		},
+		['Fields'] = { -- table(af8f590f)
+			['FixedElementField'] = { -- table(7c8294f)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -162138,25 +167737,25 @@
 			},
 			['astPassiveSkill_bytes'] = { -- table(709dffad)
 				['offset'] = 128,
-				['type'] = 'ResData.ResPassiveSkill',
+				['type'] = 'ResData.ResChessEquipInfo.<astPassiveSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResPassiveSkill',
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessEquipInfo.<astPassiveSkill_bytes>e__FixedBuffer',
 			},
 			['astEffectCombine_bytes'] = { -- table(fc106c8b)
 				['offset'] = 288,
-				['type'] = 'ResData.ResEffectCombine',
+				['type'] = 'ResData.ResChessEquipInfo.<astEffectCombine_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResEffectCombine',
 				['count'] = 4,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessEquipInfo.<astEffectCombine_bytes>e__FixedBuffer',
 			},
 			['astActiveSkill_bytes'] = { -- table(bbc15b8a)
 				['offset'] = 352,
-				['type'] = 'ResData.ResActiveSkill',
+				['type'] = 'ResData.ResChessEquipInfo.<astActiveSkill_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResActiveSkill',
 				['count'] = 2,
 				['size'] = 32,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessEquipInfo.<astActiveSkill_bytes>e__FixedBuffer',
 			},
 			['iUIEffectId'] = { -- table(9e6ef072)
 				['offset'] = 416,
@@ -162184,11 +167783,11 @@
 			},
 			['szAdditionRelative_bytes'] = { -- table(2def3298)
 				['offset'] = 444,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResChessEquipInfo.<szAdditionRelative_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 2,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResChessEquipInfo.<szAdditionRelative_bytes>e__FixedBuffer',
 			},
 			['bRemoveSelfRelative'] = { -- table(bf394763)
 				['offset'] = 446,
@@ -162224,6 +167823,50 @@
 			},
 		},
 		['MaxV'] = 453,
+	},
+	['ResData.ResTrial.<RemainTimeWarning_bytes>e__FixedBuffer'] = { -- table(1a6fec3e)
+		['Methods'] = { -- table(959cb168)
+		},
+		['Fields'] = { -- table(7f877add)
+			['FixedElementField'] = { -- table(646ae2bd)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTrial.<astEnergyDraw_bytes>e__FixedBuffer'] = { -- table(d195cfd5)
+		['Methods'] = { -- table(a4e56333)
+		},
+		['Fields'] = { -- table(dc9122f2)
+			['FixedElementField'] = { -- table(b7327c38)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTrial.<astTrialScoreSale_bytes>e__FixedBuffer'] = { -- table(6c2f4178)
+		['Methods'] = { -- table(d7faff22)
+		},
+		['Fields'] = { -- table(4358bd17)
+			['FixedElementField'] = { -- table(d01c1d37)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResTrial.<astTrialStage_bytes>e__FixedBuffer'] = { -- table(35d6f439)
+		['Methods'] = { -- table(af294c37)
+		},
+		['Fields'] = { -- table(35006c56)
+			['FixedElementField'] = { -- table(8681f9f4)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResTrial'] = { -- table(c4359a14)
 		['Methods'] = { -- table(4fb7c4e2)
@@ -162291,11 +167934,11 @@
 			},
 			['astEnergyDraw_bytes'] = { -- table(1c96df53)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_Common_Draw',
+				['type'] = 'ResData.ResTrial.<astEnergyDraw_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Common_Draw',
 				['count'] = 3,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTrial.<astEnergyDraw_bytes>e__FixedBuffer',
 			},
 			['dwTotalProbability'] = { -- table(69adc827)
 				['offset'] = 36,
@@ -162347,11 +167990,11 @@
 			},
 			['RemainTimeWarning_bytes'] = { -- table(524b3ede)
 				['offset'] = 72,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResTrial.<RemainTimeWarning_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTrial.<RemainTimeWarning_bytes>e__FixedBuffer',
 			},
 			['bMiniLevel'] = { -- table(695de5e2)
 				['offset'] = 80,
@@ -162419,11 +168062,11 @@
 			},
 			['astTrialScoreSale_bytes'] = { -- table(b4b508f4)
 				['offset'] = 140,
-				['type'] = 'ResData.ResDT_TrialScoreSale',
+				['type'] = 'ResData.ResTrial.<astTrialScoreSale_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TrialScoreSale',
 				['count'] = 4,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTrial.<astTrialScoreSale_bytes>e__FixedBuffer',
 			},
 			['dwConvertItemID'] = { -- table(903bc4b3)
 				['offset'] = 172,
@@ -162439,11 +168082,12 @@
 			},
 			['astTrialStage_bytes'] = { -- table(7ce9166f)
 				['offset'] = 180,
-				['type'] = 'ResData.ResDT_TrialStage',
+				['type'] = 'ResData.ResTrial.<astTrialStage_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_TrialStage',
 				['count'] = 4,
 				['size'] = 20,
+				['pad'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResTrial.<astTrialStage_bytes>e__FixedBuffer',
 			},
 			['strIdRewardIcon'] = { -- table(83d778c9)
 				['offset'] = 264,
@@ -162505,10 +168149,10 @@
 			},
 			['astAwardStage_bytes'] = { -- table(e22bc4a0)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_Proj8ActivityStageAwardEntry',
+				['type'] = 'ResData.ResProj8ActivityInfo.<astAwardStage_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Proj8ActivityStageAwardEntry',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResProj8ActivityInfo.<astAwardStage_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
@@ -162542,9 +168186,9 @@
 			},
 			['astRandomGroup_bytes'] = { -- table(7fb9ce1a)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_ItemRandomGroup',
+				['type'] = 'ResData.ResProject8DrawItemRandomInfo.<astRandomGroup_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ItemRandomGroup',
 				['array'] = true,
-				['rawType'] = 'ResData.ResProject8DrawItemRandomInfo.<astRandomGroup_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -162582,13 +168226,24 @@
 			},
 			['astContion_bytes'] = { -- table(4500b90e)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_Common_KeyValue',
+				['type'] = 'ResData.ResCommonConditon.<astContion_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_Common_KeyValue',
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCommonConditon.<astContion_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResHeroEvent.<TriggerTimeParm_bytes>e__FixedBuffer'] = { -- table(60a5afb2)
+		['Methods'] = { -- table(cf41d7a8)
+		},
+		['Fields'] = { -- table(834a844d)
+			['FixedElementField'] = { -- table(3d1c8ccd)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroEvent.<astTriggerCond_bytes>e__FixedBuffer'] = { -- table(975c0e33)
 		['Methods'] = { -- table(d1bb8241)
@@ -162670,11 +168325,11 @@
 			},
 			['TriggerTimeParm_bytes'] = { -- table(1392dfce)
 				['offset'] = 20,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResHeroEvent.<TriggerTimeParm_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEvent.<TriggerTimeParm_bytes>e__FixedBuffer',
 			},
 			['strIdTriggerTimeStrParm'] = { -- table(e99b0905)
 				['offset'] = 32,
@@ -162682,18 +168337,29 @@
 			},
 			['astTriggerCond_bytes'] = { -- table(2344351f)
 				['offset'] = 40,
-				['type'] = 'ResData.ResHeroEventArg',
+				['type'] = 'ResData.ResHeroEvent.<astTriggerCond_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroEventArg',
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEvent.<astTriggerCond_bytes>e__FixedBuffer',
 			},
 			['astTriggerContent_bytes'] = { -- table(b35c38a4)
 				['offset'] = 72,
-				['type'] = 'ResData.ResHeroEventArg',
+				['type'] = 'ResData.ResHeroEvent.<astTriggerContent_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResHeroEventArg',
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroEvent.<astTriggerContent_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 72,
+	},
+	['ResData.ResYearStoryEventConfig.<IntParam_bytes>e__FixedBuffer'] = { -- table(b3007c3d)
+		['Methods'] = { -- table(c94b9ccb)
+		},
+		['Fields'] = { -- table(9f431886)
+			['FixedElementField'] = { -- table(1b103784)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResYearStoryEventConfig.<astActiveCondition_bytes>e__FixedBuffer'] = { -- table(7cafdca2)
 		['Methods'] = { -- table(b6bdde40)
@@ -162711,6 +168377,17 @@
 		},
 		['Fields'] = { -- table(fd80424)
 			['FixedElementField'] = { -- table(cf003e92)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResYearStoryEventConfig.<astStrParam_bytes>e__FixedBuffer'] = { -- table(3d27dd13)
+		['Methods'] = { -- table(6dda2415)
+		},
+		['Fields'] = { -- table(149e3d06)
+			['FixedElementField'] = { -- table(ec530d04)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -162795,23 +168472,23 @@
 			},
 			['astActiveCondition_bytes'] = { -- table(d692a902)
 				['offset'] = 36,
-				['type'] = 'ResData.ResYearStoryEventCondition',
+				['type'] = 'ResData.ResYearStoryEventConfig.<astActiveCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResYearStoryEventCondition',
 				['array'] = true,
-				['rawType'] = 'ResData.ResYearStoryEventConfig.<astActiveCondition_bytes>e__FixedBuffer',
 			},
 			['astCompleteCondition_bytes'] = { -- table(7f5abf71)
 				['offset'] = 60,
-				['type'] = 'ResData.ResYearStoryEventCondition',
+				['type'] = 'ResData.ResYearStoryEventConfig.<astCompleteCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResYearStoryEventCondition',
 				['array'] = true,
-				['rawType'] = 'ResData.ResYearStoryEventConfig.<astCompleteCondition_bytes>e__FixedBuffer',
 			},
 			['IntParam_bytes'] = { -- table(ca5b9d5f)
 				['offset'] = 84,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResYearStoryEventConfig.<IntParam_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResYearStoryEventConfig.<IntParam_bytes>e__FixedBuffer',
 			},
 			['strIdNextEventID'] = { -- table(431957f1)
 				['offset'] = 96,
@@ -162827,11 +168504,11 @@
 			},
 			['astStrParam_bytes'] = { -- table(8063af53)
 				['offset'] = 120,
-				['type'] = 'ResData.ResYearStoryEventStrParm',
+				['type'] = 'ResData.ResYearStoryEventConfig.<astStrParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResYearStoryEventStrParm',
 				['count'] = 5,
 				['size'] = 8,
 				['array'] = true,
-				['rawType'] = 'ResData.ResYearStoryEventConfig.<astStrParam_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 120,
@@ -162865,10 +168542,10 @@
 			},
 			['astConditon_bytes'] = { -- table(d4bad770)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_HighlightCondition',
+				['type'] = 'ResData.ResHighlightCondition.<astConditon_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HighlightCondition',
 				['size'] = 144,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightCondition.<astConditon_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 12,
@@ -162902,12 +168579,34 @@
 			},
 			['astHero_bytes'] = { -- table(d2479582)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_HighlightHero',
+				['type'] = 'ResData.ResHighlightSkinInfo.<astHero_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HighlightHero',
 				['array'] = true,
-				['rawType'] = 'ResData.ResHighlightSkinInfo.<astHero_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResHeroTrickTrainStep.<astStepCompleteCondition_bytes>e__FixedBuffer'] = { -- table(55f73d1a)
+		['Methods'] = { -- table(faef78f8)
+		},
+		['Fields'] = { -- table(868e525)
+			['FixedElementField'] = { -- table(70689585)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroTrickTrainStep.<astStepPrevCondition_bytes>e__FixedBuffer'] = { -- table(f51b63c0)
+		['Methods'] = { -- table(a70445ce)
+		},
+		['Fields'] = { -- table(56c791a3)
+			['FixedElementField'] = { -- table(8b1ed07b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResHeroTrickTrainStep'] = { -- table(11e7bc8d)
 		['Methods'] = { -- table(827a669b)
@@ -162943,19 +168642,19 @@
 			},
 			['astStepPrevCondition_bytes'] = { -- table(658152a8)
 				['offset'] = 104,
-				['type'] = 'ResData.ResDT_HeroTrickTrainStepCondition',
+				['type'] = 'ResData.ResHeroTrickTrainStep.<astStepPrevCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroTrickTrainStepCondition',
 				['count'] = 3,
 				['size'] = 88,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroTrickTrainStep.<astStepPrevCondition_bytes>e__FixedBuffer',
 			},
 			['astStepCompleteCondition_bytes'] = { -- table(89bd37e6)
 				['offset'] = 368,
-				['type'] = 'ResData.ResDT_HeroTrickTrainStepCondition',
+				['type'] = 'ResData.ResHeroTrickTrainStep.<astStepCompleteCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroTrickTrainStepCondition',
 				['count'] = 3,
 				['size'] = 88,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroTrickTrainStep.<astStepCompleteCondition_bytes>e__FixedBuffer',
 			},
 			['stStepFailedCondition'] = { -- table(b0304391)
 				['offset'] = 632,
@@ -163045,9 +168744,9 @@
 			},
 			['astFinishCondition_bytes'] = { -- table(5d0b1b00)
 				['offset'] = 64,
-				['type'] = 'ResData.ResDT_AIInstructionFinishCondition',
+				['type'] = 'ResData.ResAIOverallSenseLanguage.<astFinishCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_AIInstructionFinishCondition',
 				['array'] = true,
-				['rawType'] = 'ResData.ResAIOverallSenseLanguage.<astFinishCondition_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 64,
@@ -163105,10 +168804,10 @@
 			},
 			['astCityBadgeSettle_bytes'] = { -- table(73dd370e)
 				['offset'] = 112,
-				['type'] = 'ResData.ResDT_CityBadgeSettle',
+				['type'] = 'ResData.ResEsportsCityBadge.<astCityBadgeSettle_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CityBadgeSettle',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResEsportsCityBadge.<astCityBadgeSettle_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 112,
@@ -163162,10 +168861,10 @@
 			},
 			['astAdditionReward_bytes'] = { -- table(f296518e)
 				['offset'] = 48,
-				['type'] = 'ResData.ResDT_AdditionReward',
+				['type'] = 'ResData.ResDT_GrowthBadgeReward.<astAdditionReward_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_AdditionReward',
 				['size'] = 56,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_GrowthBadgeReward.<astAdditionReward_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 48,
@@ -163195,9 +168894,9 @@
 			},
 			['astLocWeights_bytes'] = { -- table(b93830e3)
 				['offset'] = 8,
-				['type'] = 'ResData.ResDT_LocWeights',
+				['type'] = 'ResData.ResDT_CampLocWeights.<astLocWeights_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LocWeights',
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_CampLocWeights.<astLocWeights_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 8,
@@ -163316,6 +169015,17 @@
 		},
 		['MaxV'] = 136,
 	},
+	['ResData.ResBattleHintCfg.<DetailIntro_bytes>e__FixedBuffer'] = { -- table(21db986b)
+		['Methods'] = { -- table(a964e44d)
+		},
+		['Fields'] = { -- table(4ad3c5c)
+			['FixedElementField'] = { -- table(c454032a)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResBattleHintCfg'] = { -- table(6a2393d3)
 		['Methods'] = { -- table(924c2511)
 			['get_szBriefDesc'] = { -- table(5d33832)
@@ -163358,11 +169068,11 @@
 			},
 			['DetailIntro_bytes'] = { -- table(3d1a8191)
 				['offset'] = 52,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResBattleHintCfg.<DetailIntro_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResBattleHintCfg.<DetailIntro_bytes>e__FixedBuffer',
 			},
 			['strIdBriefDesc'] = { -- table(f2cd0f57)
 				['offset'] = 64,
@@ -163395,6 +169105,28 @@
 		},
 		['Fields'] = { -- table(7ef73540)
 			['FixedElementField'] = { -- table(ef4d2fd6)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResNewHeroPracticeTargetInfo.<astFriendlyHeroInfo_bytes>e__FixedBuffer'] = { -- table(152e3590)
+		['Methods'] = { -- table(7f1e05c6)
+		},
+		['Fields'] = { -- table(3c49837b)
+			['FixedElementField'] = { -- table(b9fb5ed3)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResNewHeroPracticeTargetInfo.<astTarget_bytes>e__FixedBuffer'] = { -- table(c1be1b7a)
+		['Methods'] = { -- table(fd3a5638)
+		},
+		['Fields'] = { -- table(dab8593d)
+			['FixedElementField'] = { -- table(7a3ab95d)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -163451,11 +169183,11 @@
 			},
 			['astTarget_bytes'] = { -- table(bf312dc2)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_NewHeroTarget',
+				['type'] = 'ResData.ResNewHeroPracticeTargetInfo.<astTarget_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_NewHeroTarget',
 				['count'] = 2,
 				['size'] = 40,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewHeroPracticeTargetInfo.<astTarget_bytes>e__FixedBuffer',
 			},
 			['bDeadRestart'] = { -- table(e0cd70f2)
 				['offset'] = 112,
@@ -163483,18 +169215,18 @@
 			},
 			['astFriendlyHeroInfo_bytes'] = { -- table(83c565bc)
 				['offset'] = 140,
-				['type'] = 'ResData.ResDT_PracticeHeroInfo',
+				['type'] = 'ResData.ResNewHeroPracticeTargetInfo.<astFriendlyHeroInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PracticeHeroInfo',
 				['count'] = 4,
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewHeroPracticeTargetInfo.<astFriendlyHeroInfo_bytes>e__FixedBuffer',
 			},
 			['astEnemyHeroInfo_bytes'] = { -- table(d504be91)
 				['offset'] = 188,
-				['type'] = 'ResData.ResDT_PracticeHeroInfo',
+				['type'] = 'ResData.ResNewHeroPracticeTargetInfo.<astEnemyHeroInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_PracticeHeroInfo',
 				['size'] = 12,
 				['array'] = true,
-				['rawType'] = 'ResData.ResNewHeroPracticeTargetInfo.<astEnemyHeroInfo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 188,
@@ -163588,13 +169320,35 @@
 			},
 			['astProfits_bytes'] = { -- table(1ad20cf5)
 				['offset'] = 72,
-				['type'] = 'ResData.ResDT_KeepSakeProfit',
+				['type'] = 'ResData.ResKeepSakeCfg.<astProfits_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_KeepSakeProfit',
 				['size'] = 88,
 				['array'] = true,
-				['rawType'] = 'ResData.ResKeepSakeCfg.<astProfits_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 72,
+	},
+	['ResData.ResAwakenSuitRecommendCfg.<EquipIDList_bytes>e__FixedBuffer'] = { -- table(9bc676a6)
+		['Methods'] = { -- table(25e12b64)
+		},
+		['Fields'] = { -- table(c9f4d71f)
+			['FixedElementField'] = { -- table(4ed6df3f)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResAwakenSuitRecommendCfg.<RecommendSymbolId_bytes>e__FixedBuffer'] = { -- table(ebf6ebd0)
+		['Methods'] = { -- table(e470168e)
+		},
+		['Fields'] = { -- table(67d7f831)
+			['FixedElementField'] = { -- table(3cbef619)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResAwakenSuitRecommendCfg.<astSlotList_bytes>e__FixedBuffer'] = { -- table(962d6c91)
 		['Methods'] = { -- table(3102efd3)
@@ -163657,25 +169411,25 @@
 			},
 			['astSlotList_bytes'] = { -- table(b4dc2e31)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDTAwakenSuitTalentInfo',
+				['type'] = 'ResData.ResAwakenSuitRecommendCfg.<astSlotList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDTAwakenSuitTalentInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResAwakenSuitRecommendCfg.<astSlotList_bytes>e__FixedBuffer',
 			},
 			['EquipIDList_bytes'] = { -- table(10faa84c)
 				['offset'] = 192,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResAwakenSuitRecommendCfg.<EquipIDList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 12,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAwakenSuitRecommendCfg.<EquipIDList_bytes>e__FixedBuffer',
 			},
 			['RecommendSymbolId_bytes'] = { -- table(44a2b7b2)
 				['offset'] = 240,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResAwakenSuitRecommendCfg.<RecommendSymbolId_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 30,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAwakenSuitRecommendCfg.<RecommendSymbolId_bytes>e__FixedBuffer',
 			},
 			['dwSkillID'] = { -- table(d541b8aa)
 				['offset'] = 360,
@@ -163733,9 +169487,9 @@
 			},
 			['astRankNo_bytes'] = { -- table(b5940a39)
 				['offset'] = 32,
-				['type'] = 'ResData.RESDT_RogueMowApolloRankNoDetail',
+				['type'] = 'ResData.ResRogueMowApolloRankReward.<astRankNo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.RESDT_RogueMowApolloRankNoDetail',
 				['array'] = true,
-				['rawType'] = 'ResData.ResRogueMowApolloRankReward.<astRankNo_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -163781,9 +169535,9 @@
 			},
 			['astUnlockCondition_bytes'] = { -- table(868ffdb9)
 				['offset'] = 28,
-				['type'] = 'ResData.ResPveUnlockCondition',
+				['type'] = 'ResData.ResPveUnlockConf.<astUnlockCondition_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResPveUnlockCondition',
 				['array'] = true,
-				['rawType'] = 'ResData.ResPveUnlockConf.<astUnlockCondition_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 28,
@@ -163837,9 +169591,9 @@
 			},
 			['astConditions_bytes'] = { -- table(b38edf90)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_HeroAcquisitionCondition',
+				['type'] = 'ResData.ResHeroAcquisitionCfg.<astConditions_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_HeroAcquisitionCondition',
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroAcquisitionCfg.<astConditions_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 32,
@@ -163873,12 +169627,23 @@
 			},
 			['astMatiralPlans_bytes'] = { -- table(8940456c)
 				['offset'] = 16,
-				['type'] = 'ResData.ResDT_LingBaoLotteryColorMatiralPlan',
+				['type'] = 'ResData.ResLingBaoLotteryColorPlanConf.<astMatiralPlans_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_LingBaoLotteryColorMatiralPlan',
 				['array'] = true,
-				['rawType'] = 'ResData.ResLingBaoLotteryColorPlanConf.<astMatiralPlans_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 16,
+	},
+	['ResData.ResDimensionMapGatherConf.<SceneEventID_bytes>e__FixedBuffer'] = { -- table(e027b391)
+		['Methods'] = { -- table(73db9d3f)
+		},
+		['Fields'] = { -- table(90ddeb02)
+			['FixedElementField'] = { -- table(431cb6e8)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDimensionMapGatherConf.<astTrigger_bytes>e__FixedBuffer'] = { -- table(9a1f2a82)
 		['Methods'] = { -- table(42324c8)
@@ -163945,11 +169710,11 @@
 			},
 			['SceneEventID_bytes'] = { -- table(bdc3d793)
 				['offset'] = 36,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDimensionMapGatherConf.<SceneEventID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionMapGatherConf.<SceneEventID_bytes>e__FixedBuffer',
 			},
 			['ullStartTime'] = { -- table(c77f075a)
 				['offset'] = 56,
@@ -164001,9 +169766,9 @@
 			},
 			['astTrigger_bytes'] = { -- table(142a457a)
 				['offset'] = 116,
-				['type'] = 'ResData.ResDT_DimensionMapGatherTriggerItem',
+				['type'] = 'ResData.ResDimensionMapGatherConf.<astTrigger_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_DimensionMapGatherTriggerItem',
 				['array'] = true,
-				['rawType'] = 'ResData.ResDimensionMapGatherConf.<astTrigger_bytes>e__FixedBuffer',
 			},
 			['dwActivityType'] = { -- table(440a03d2)
 				['offset'] = 164,
@@ -164060,6 +169825,28 @@
 		},
 		['Fields'] = { -- table(b7127e68)
 			['FixedElementField'] = { -- table(b12a557e)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroInscribeInfo.<astMilestoneInterval_bytes>e__FixedBuffer'] = { -- table(6e143ed1)
+		['Methods'] = { -- table(f4a39b2f)
+		},
+		['Fields'] = { -- table(6c66c9e6)
+			['FixedElementField'] = { -- table(ba571924)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResHeroInscribeInfo.<astMilestoneStage_bytes>e__FixedBuffer'] = { -- table(e85eb32e)
+		['Methods'] = { -- table(7c9e573c)
+		},
+		['Fields'] = { -- table(2f3fe37b)
+			['FixedElementField'] = { -- table(4c5c7ed3)
 				['offset'] = 8,
 				['type'] = 'System.Byte',
 			},
@@ -164192,19 +169979,19 @@
 			},
 			['astMilestoneStage_bytes'] = { -- table(9fb8bc28)
 				['offset'] = 152,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResHeroInscribeInfo.<astMilestoneStage_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroInscribeInfo.<astMilestoneStage_bytes>e__FixedBuffer',
 			},
 			['astMilestoneInterval_bytes'] = { -- table(f3a7dddb)
 				['offset'] = 160,
-				['type'] = 'ResData.ResDT_IntParamArrayNode',
+				['type'] = 'ResData.ResHeroInscribeInfo.<astMilestoneInterval_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_IntParamArrayNode',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroInscribeInfo.<astMilestoneInterval_bytes>e__FixedBuffer',
 			},
 			['dwMilestoneLimit'] = { -- table(4ac1d21c)
 				['offset'] = 172,
@@ -164216,9 +170003,9 @@
 			},
 			['astEffect_bytes'] = { -- table(5d5a709)
 				['offset'] = 184,
-				['type'] = 'ResData.ResDT_BattleInscribeEffect',
+				['type'] = 'ResData.ResHeroInscribeInfo.<astEffect_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_BattleInscribeEffect',
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroInscribeInfo.<astEffect_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 184,
@@ -164260,9 +170047,9 @@
 			},
 			['astBanHeroSkinList_bytes'] = { -- table(134b76b3)
 				['offset'] = 20,
-				['type'] = 'ResData.ResBanHeroSkinDetail',
+				['type'] = 'ResData.ResBanHeroSkin.<astBanHeroSkinList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResBanHeroSkinDetail',
 				['array'] = true,
-				['rawType'] = 'ResData.ResBanHeroSkin.<astBanHeroSkinList_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -164304,9 +170091,9 @@
 			},
 			['astConditions_bytes'] = { -- table(530874a4)
 				['offset'] = 20,
-				['type'] = 'ResData.ResDT_ResSacredAnimalDeadTeachingForHeroCondition',
+				['type'] = 'ResData.ResSacredAnimalDeadTeachingForHeroEvents.<astConditions_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ResSacredAnimalDeadTeachingForHeroCondition',
 				['array'] = true,
-				['rawType'] = 'ResData.ResSacredAnimalDeadTeachingForHeroEvents.<astConditions_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 20,
@@ -164352,12 +170139,34 @@
 			},
 			['astEffectparm_bytes'] = { -- table(7a0c6890)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_ResHeroPlayWikiSubMenu',
+				['type'] = 'ResData.ResHeroWiki.<astEffectparm_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ResHeroPlayWikiSubMenu',
 				['array'] = true,
-				['rawType'] = 'ResData.ResHeroWiki.<astEffectparm_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
+	},
+	['ResData.ResAwakenAchievementConfig.<TaskKeyProgressInBattle_bytes>e__FixedBuffer'] = { -- table(5466e40d)
+		['Methods'] = { -- table(1373ac67)
+		},
+		['Fields'] = { -- table(c36bacc2)
+			['FixedElementField'] = { -- table(fc6a78a8)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResAwakenAchievementConfig.<astEffectList_bytes>e__FixedBuffer'] = { -- table(764da040)
+		['Methods'] = { -- table(a2ab89ea)
+		},
+		['Fields'] = { -- table(c775a183)
+			['FixedElementField'] = { -- table(793191b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResAwakenAchievementConfig'] = { -- table(7de22684)
 		['Methods'] = { -- table(f9c51a7a)
@@ -164425,11 +170234,11 @@
 			},
 			['astEffectList_bytes'] = { -- table(ed33fae0)
 				['offset'] = 136,
-				['type'] = 'ResData.ResDT_AwakenAchievementEffectConfig',
+				['type'] = 'ResData.ResAwakenAchievementConfig.<astEffectList_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_AwakenAchievementEffectConfig',
 				['count'] = 5,
 				['size'] = 16,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAwakenAchievementConfig.<astEffectList_bytes>e__FixedBuffer',
 			},
 			['dwBuffid'] = { -- table(3b5d5bc2)
 				['offset'] = 216,
@@ -164449,11 +170258,11 @@
 			},
 			['TaskKeyProgressInBattle_bytes'] = { -- table(72f263bf)
 				['offset'] = 240,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResAwakenAchievementConfig.<TaskKeyProgressInBattle_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 2,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAwakenAchievementConfig.<TaskKeyProgressInBattle_bytes>e__FixedBuffer',
 			},
 			['dwTaskTargetProgress'] = { -- table(6e3e2825)
 				['offset'] = 248,
@@ -164469,6 +170278,17 @@
 			},
 		},
 		['MaxV'] = 256,
+	},
+	['ResData.ResJinLiPrivilegeDisplayInfo.<astLevelDisplayInfo_bytes>e__FixedBuffer'] = { -- table(8d45b30e)
+		['Methods'] = { -- table(d77c1e44)
+		},
+		['Fields'] = { -- table(ae1fd5d)
+			['FixedElementField'] = { -- table(73e1323d)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResJinLiPrivilegeDisplayInfo'] = { -- table(5d5ed715)
 		['Methods'] = { -- table(a4b813ab)
@@ -164504,11 +170324,11 @@
 			},
 			['astLevelDisplayInfo_bytes'] = { -- table(5334ccea)
 				['offset'] = 32,
-				['type'] = 'ResData.ResDT_JinLiLevelDisplayInfo',
+				['type'] = 'ResData.ResJinLiPrivilegeDisplayInfo.<astLevelDisplayInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_JinLiLevelDisplayInfo',
 				['count'] = 10,
 				['size'] = 152,
 				['array'] = true,
-				['rawType'] = 'ResData.ResJinLiPrivilegeDisplayInfo.<astLevelDisplayInfo_bytes>e__FixedBuffer',
 			},
 			['strIdParentTabName'] = { -- table(5574ce1c)
 				['offset'] = 1552,
@@ -164520,6 +170340,17 @@
 			},
 		},
 		['MaxV'] = 1560,
+	},
+	['ResData.ResGuishiWeaponCfg.<ActiveBuffID_bytes>e__FixedBuffer'] = { -- table(287ae450)
+		['Methods'] = { -- table(5d69f792)
+		},
+		['Fields'] = { -- table(3fb48435)
+			['FixedElementField'] = { -- table(73012ef5)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResGuishiWeaponCfg'] = { -- table(94a3281f)
 		['Methods'] = { -- table(e0c3bb01)
@@ -164547,11 +170378,11 @@
 			},
 			['ActiveBuffID_bytes'] = { -- table(f6b42106)
 				['offset'] = 76,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResGuishiWeaponCfg.<ActiveBuffID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuishiWeaponCfg.<ActiveBuffID_bytes>e__FixedBuffer',
 			},
 			['dwDropBuffID'] = { -- table(9d41efa0)
 				['offset'] = 88,
@@ -164559,6 +170390,17 @@
 			},
 		},
 		['MaxV'] = 88,
+	},
+	['ResData.ResDT_GuishiConsumableCommomCfg.<ActiveBuffID_bytes>e__FixedBuffer'] = { -- table(2dc03fea)
+		['Methods'] = { -- table(958113f0)
+		},
+		['Fields'] = { -- table(6c8833f1)
+			['FixedElementField'] = { -- table(631a12d9)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResDT_GuishiConsumableCommomCfg'] = { -- table(18a9e19)
 		['Methods'] = { -- table(4fa3347f)
@@ -164578,11 +170420,11 @@
 			},
 			['ActiveBuffID_bytes'] = { -- table(6aaae4d2)
 				['offset'] = 64,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResDT_GuishiConsumableCommomCfg.<ActiveBuffID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_GuishiConsumableCommomCfg.<ActiveBuffID_bytes>e__FixedBuffer',
 			},
 			['dwMaxUseCount'] = { -- table(72b4325b)
 				['offset'] = 76,
@@ -164652,9 +170494,9 @@
 			},
 			['astCampsHeroInfo_bytes'] = { -- table(72398f93)
 				['offset'] = 672,
-				['type'] = 'ResData.ResTrainCampHeroInfo',
+				['type'] = 'ResData.ResTrainLevelCfgInfo.<astCampsHeroInfo_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResTrainCampHeroInfo',
 				['array'] = true,
-				['rawType'] = 'ResData.ResTrainLevelCfgInfo.<astCampsHeroInfo_bytes>e__FixedBuffer',
 			},
 			['dwLevelSwitchID'] = { -- table(1b4b8e1f)
 				['offset'] = 792,
@@ -164763,6 +170605,17 @@
 		},
 		['MaxV'] = 936,
 	},
+	['ResData.ResAcntBattleLevelInfo.<RelationActivityMapID_bytes>e__FixedBuffer'] = { -- table(1b759b4d)
+		['Methods'] = { -- table(d8c116af)
+		},
+		['Fields'] = { -- table(49fc733e)
+			['FixedElementField'] = { -- table(28efc41c)
+				['offset'] = 8,
+				['type'] = 'System.UInt32',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResAcntBattleLevelInfo'] = { -- table(4392b6e)
 		['Methods'] = { -- table(5582a0e4)
 			['RelationActivityMapID'] = { -- table(95828b0c)
@@ -164801,11 +170654,11 @@
 			},
 			['RelationActivityMapID_bytes'] = { -- table(b135808f)
 				['offset'] = 1224,
-				['type'] = 'System.UInt32',
+				['type'] = 'ResData.ResAcntBattleLevelInfo.<RelationActivityMapID_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResAcntBattleLevelInfo.<RelationActivityMapID_bytes>e__FixedBuffer',
 			},
 			['dwNewbieGrowthUnlockType'] = { -- table(c76bcd61)
 				['offset'] = 1244,
@@ -164813,6 +170666,61 @@
 			},
 		},
 		['MaxV'] = 1244,
+	},
+	['ResData.ResCounterPartLevelInfo.<DefaultReviveCoin_bytes>e__FixedBuffer'] = { -- table(beec6f15)
+		['Methods'] = { -- table(36140143)
+		},
+		['Fields'] = { -- table(3c801620)
+			['FixedElementField'] = { -- table(cbe501f6)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCounterPartLevelInfo.<MixPay_bytes>e__FixedBuffer'] = { -- table(ba8ce1fc)
+		['Methods'] = { -- table(7ee4c102)
+		},
+		['Fields'] = { -- table(c0fc50b3)
+			['FixedElementField'] = { -- table(fb1bae2b)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCounterPartLevelInfo.<ReviveCoinUseLimit_bytes>e__FixedBuffer'] = { -- table(d56e3002)
+		['Methods'] = { -- table(73d691fc)
+		},
+		['Fields'] = { -- table(b659a10d)
+			['FixedElementField'] = { -- table(847a178d)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCounterPartLevelInfo.<ReviveCoupons_bytes>e__FixedBuffer'] = { -- table(29533d86)
+		['Methods'] = { -- table(7b2b2e20)
+		},
+		['Fields'] = { -- table(b7e7ffbb)
+			['FixedElementField'] = { -- table(29c9e413)
+				['offset'] = 8,
+				['type'] = 'System.Int32',
+			},
+		},
+		['MaxV'] = 8,
+	},
+	['ResData.ResCounterPartLevelInfo.<szAffixCnt_bytes>e__FixedBuffer'] = { -- table(b9cbb10)
+		['Methods'] = { -- table(dec82dee)
+		},
+		['Fields'] = { -- table(1d3cdb2b)
+			['FixedElementField'] = { -- table(ecadea3)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
 	},
 	['ResData.ResCounterPartLevelInfo'] = { -- table(50390eb9)
 		['Methods'] = { -- table(10f3630b)
@@ -164896,35 +170804,35 @@
 			},
 			['ReviveCoinUseLimit_bytes'] = { -- table(896edc46)
 				['offset'] = 1228,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResCounterPartLevelInfo.<ReviveCoinUseLimit_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCounterPartLevelInfo.<ReviveCoinUseLimit_bytes>e__FixedBuffer',
 			},
 			['DefaultReviveCoin_bytes'] = { -- table(703a337d)
 				['offset'] = 1244,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResCounterPartLevelInfo.<DefaultReviveCoin_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 4,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCounterPartLevelInfo.<DefaultReviveCoin_bytes>e__FixedBuffer',
 			},
 			['ReviveCoupons_bytes'] = { -- table(f555f6d8)
 				['offset'] = 1260,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResCounterPartLevelInfo.<ReviveCoupons_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCounterPartLevelInfo.<ReviveCoupons_bytes>e__FixedBuffer',
 			},
 			['MixPay_bytes'] = { -- table(3b8d3a24)
 				['offset'] = 1280,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResCounterPartLevelInfo.<MixPay_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['count'] = 5,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCounterPartLevelInfo.<MixPay_bytes>e__FixedBuffer',
 			},
 			['dwPreMapId'] = { -- table(952d0cc9)
 				['offset'] = 1300,
@@ -164932,11 +170840,11 @@
 			},
 			['szAffixCnt_bytes'] = { -- table(6c7cd88c)
 				['offset'] = 1304,
-				['type'] = 'System.Byte',
+				['type'] = 'ResData.ResCounterPartLevelInfo.<szAffixCnt_bytes>e__FixedBuffer',
+				['elem'] = 'System.Byte',
 				['count'] = 8,
 				['size'] = 1,
 				['array'] = true,
-				['rawType'] = 'ResData.ResCounterPartLevelInfo.<szAffixCnt_bytes>e__FixedBuffer',
 			},
 			['strIdMemoryPieceDrop'] = { -- table(7ecaf72c)
 				['offset'] = 1312,
@@ -165133,6 +171041,17 @@
 		},
 		['MaxV'] = 856,
 	},
+	['ResData.ResUGCLevelInfo.<OnlyUseUGCDatabinTableList_bytes>e__FixedBuffer'] = { -- table(f6af0c37)
+		['Methods'] = { -- table(a5a6de8d)
+		},
+		['Fields'] = { -- table(3c00cf60)
+			['FixedElementField'] = { -- table(9cc1e136)
+				['offset'] = 8,
+				['type'] = 'System.UInt16',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResUGCLevelInfo'] = { -- table(3e7dfaf9)
 		['Methods'] = { -- table(f637efcf)
 			['get_szLevelName'] = { -- table(c689f460)
@@ -165247,11 +171166,11 @@
 			},
 			['OnlyUseUGCDatabinTableList_bytes'] = { -- table(628e0671)
 				['offset'] = 946,
-				['type'] = 'System.UInt16',
+				['type'] = 'ResData.ResUGCLevelInfo.<OnlyUseUGCDatabinTableList_bytes>e__FixedBuffer',
+				['elem'] = 'System.UInt16',
 				['count'] = 10,
 				['size'] = 2,
 				['array'] = true,
-				['rawType'] = 'ResData.ResUGCLevelInfo.<OnlyUseUGCDatabinTableList_bytes>e__FixedBuffer',
 			},
 			['bUSGType'] = { -- table(ff7797c7)
 				['offset'] = 966,
@@ -165482,9 +171401,9 @@
 			},
 			['astGroupDetail_bytes'] = { -- table(bf6e1354)
 				['offset'] = 280,
-				['type'] = 'ResData.ResDT_NewbieConditionGroup',
+				['type'] = 'ResData.ResWealNewbie.<astGroupDetail_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_NewbieConditionGroup',
 				['array'] = true,
-				['rawType'] = 'ResData.ResWealNewbie.<astGroupDetail_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 280,
@@ -165523,6 +171442,17 @@
 		},
 		['MaxV'] = 8,
 	},
+	['ResData.ResDT_ModifyLocWeights.<astModifyParam_bytes>e__FixedBuffer'] = { -- table(e3532fc6)
+		['Methods'] = { -- table(be29af44)
+		},
+		['Fields'] = { -- table(c7f48a53)
+			['FixedElementField'] = { -- table(5e8a060b)
+				['offset'] = 8,
+				['type'] = 'System.Byte',
+			},
+		},
+		['MaxV'] = 8,
+	},
 	['ResData.ResDT_ModifyLocWeights'] = { -- table(f7f3d6f0)
 		['Methods'] = { -- table(2741af02)
 			['astModifyParam'] = { -- table(96e6a605)
@@ -165549,17 +171479,17 @@
 			},
 			['astModifyParam_bytes'] = { -- table(981af090)
 				['offset'] = 12,
-				['type'] = 'ResData.ResDT_ModifyParam',
+				['type'] = 'ResData.ResDT_ModifyLocWeights.<astModifyParam_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ModifyParam',
 				['count'] = 3,
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ModifyLocWeights.<astModifyParam_bytes>e__FixedBuffer',
 			},
 			['astCampWeights_bytes'] = { -- table(cca72719)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_CampLocWeights',
+				['type'] = 'ResData.ResDT_ModifyLocWeights.<astCampWeights_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CampLocWeights',
 				['array'] = true,
-				['rawType'] = 'ResData.ResDT_ModifyLocWeights.<astCampWeights_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 24,
@@ -165647,10 +171577,10 @@
 			},
 			['Params_bytes'] = { -- table(7ccc7694)
 				['offset'] = 100,
-				['type'] = 'System.Int32',
+				['type'] = 'ResData.ResGuishiDrugCfg.<Params_bytes>e__FixedBuffer',
+				['elem'] = 'System.Int32',
 				['size'] = 4,
 				['array'] = true,
-				['rawType'] = 'ResData.ResGuishiDrugCfg.<Params_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 100,
@@ -165715,15 +171645,15 @@
 			},
 			['astCampWeights_bytes'] = { -- table(eae6ebf9)
 				['offset'] = 24,
-				['type'] = 'ResData.ResDT_CampLocWeights',
+				['type'] = 'ResData.ResTreasureRefreshInfo.<astCampWeights_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_CampLocWeights',
 				['array'] = true,
-				['rawType'] = 'ResData.ResTreasureRefreshInfo.<astCampWeights_bytes>e__FixedBuffer',
 			},
 			['astNewCmpWeights_bytes'] = { -- table(327f9f04)
 				['offset'] = 344,
-				['type'] = 'ResData.ResDT_ModifyLocWeights',
+				['type'] = 'ResData.ResTreasureRefreshInfo.<astNewCmpWeights_bytes>e__FixedBuffer',
+				['elem'] = 'ResData.ResDT_ModifyLocWeights',
 				['array'] = true,
-				['rawType'] = 'ResData.ResTreasureRefreshInfo.<astNewCmpWeights_bytes>e__FixedBuffer',
 			},
 		},
 		['MaxV'] = 344,

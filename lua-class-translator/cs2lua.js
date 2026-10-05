@@ -44,6 +44,7 @@ function parseArgs(argv) {
     visibility: 'public', maxv: true, tableIds: true, quiet: false,
     statics: null,
     fixedBuffers: null,
+    dropWrappers: false,
   };
   const rest = [];
   for (let i = 0; i < argv.length; i++) {
@@ -64,6 +65,7 @@ function parseArgs(argv) {
       case '--statics': opts.statics = val(); break;
       case '--no-fixed-buffers': opts.fixedBuffers = false; break;
       case '--fixed-buffers': opts.fixedBuffers = true; break;
+      case '--drop-wrappers': opts.dropWrappers = true; break;
       case '--quiet': case '-q': opts.quiet = true; break;
       case '--help': case '-h': opts.help = true; break;
       default:
@@ -392,7 +394,7 @@ function resolveFixedBuffers(classes, onlyNames = null) {
 
         const elemType = acc ? acc.ret : null;
         if (!elemType) continue;
-        f.type = elemType;
+        f.elem = elemType;              // 注意：不动 f.type，保证输出与原来兼容
 
         const lay = typeLayout(elemType, classes, sizeOfType);
         const inferred = sizeOfType(elemType);
@@ -423,6 +425,7 @@ function resolveFixedBuffers(classes, onlyNames = null) {
           f.count = Math.floor(span / elemSize);
           f.span = span;
           f.padded = pad;
+          f.pad = pad;
           progress++;
           stat.drop.add(f.rawType);
           if (stat.samples.length < 3) stat.samples.push(`${cls.name}.${f.name} -> ${elemType}[${f.count}](尾部填充${pad})`);
@@ -450,7 +453,7 @@ function resolveFixedBuffers(classes, onlyNames = null) {
   for (const f of pending) {
     if (f.count) { stat.resolved++; continue; }
     stat.partial++;
-    if (f.type.endsWith('e__FixedBuffer')) stat.noAccessor++;
+    if (!f.elem) stat.noAccessor++;
     else if (f.rawSpan === null || f.rawSpan === undefined) stat.noSpan++;
     else if (!f.size) stat.noSize++;
     else stat.notDivisible++;
@@ -492,10 +495,12 @@ function emitDump(out, cls, opts) {
     out.push(`\t\t\t\t['offset'] = ${f.offset},`);
     out.push(`\t\t\t\t['type'] = ${luaQuote(f.type)},`);
     if (f.array) {
+      // 增量信息：type 保持原样（可能是包装类型），另给 elem/count/size，老工具不受影响
+      if (f.elem) out.push(`\t\t\t\t['elem'] = ${luaQuote(f.elem)},`);
       if (f.count !== undefined && f.count !== null) out.push(`\t\t\t\t['count'] = ${f.count},`);
       if (f.size !== undefined) out.push(`\t\t\t\t['size'] = ${f.size},`);
+      if (f.pad) out.push(`\t\t\t\t['pad'] = ${f.pad},`);
       out.push('\t\t\t\t[\'array\'] = true,');
-      out.push(`\t\t\t\t['rawType'] = ${luaQuote(f.rawType)},`);
     }
     out.push('\t\t\t},');
   }
@@ -635,7 +640,8 @@ function main() {
 
   for (const c of classes.values()) {
     if (!selected.has(c.name)) continue;                        // 按前缀过滤只影响输出
-    if (fixedStat && fixedStat.drop.has(c.name)) continue;      // 包装类型是编译器产物，不输出
+    // 默认保留包装类（保持与原始 dump 完全兼容）；要删掉用 --drop-wrappers
+    if (opts.dropWrappers && fixedStat && fixedStat.drop.has(c.name)) continue;
     kept++;
     const cls = { name: c.name, fields: [...c.fields.values()], methods: [...c.methods.values()] };
     outFields += cls.fields.length;
