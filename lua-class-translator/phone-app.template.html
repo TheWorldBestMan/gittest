@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>C# 转 Lua 表 + 中文对照</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; padding: 12px 12px 40px; font: 15px/1.55 system-ui, "Microsoft YaHei", sans-serif;
+         background: #14161a; color: #e6e8ec; }
+  h1 { font-size: 17px; margin: 4px 0 10px; }
+  .card { background: #1d2026; border: 1px solid #2b2f37; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+  #drop { border: 2px dashed #3c4450; border-radius: 12px; padding: 26px 12px;
+          text-align: center; color: #9aa4b2; font-size: 15px; }
+  #drop.hot { border-color: #4c8dff; background: #1b2430; color: #cfe0ff; }
+  #drop b { color: #7aa7ff; }
+  .row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+  .row label { color: #b9c0cc; }
+  input[type=text] { background: #14161a; color: #e6e8ec; border: 1px solid #333842; border-radius: 8px;
+                     padding: 7px 9px; width: 130px; font-size: 15px; }
+  input[type=checkbox] { width: 18px; height: 18px; }
+  button { border: 0; border-radius: 10px; padding: 11px 16px; font-size: 15px; font-weight: 600;
+           background: #2a2f38; color: #e6e8ec; }
+  button.primary { background: #2f6df6; color: #fff; }
+  button:disabled { opacity: .5; }
+  progress { width: 100%; height: 10px; }
+  #log { background: #101216; border: 1px solid #262a32; border-radius: 10px; padding: 10px;
+         max-height: 210px; overflow: auto; font: 12px/1.5 Consolas, monospace; color: #9fb0c6;
+         white-space: pre-wrap; margin: 10px 0 0; }
+  .out a { display: block; margin: 8px 0; padding: 12px; border-radius: 10px; background: #1f2a3a;
+           color: #9ec1ff; text-decoration: none; font-weight: 600; }
+  .hint { color: #8b93a1; font-size: 13px; }
+  .stat { color: #7fd18b; }
+</style>
+</head>
+<body>
+
+<h1>C# (.cs) → Lua 表 + 中文对照</h1>
+
+<div class="card">
+  <div id="drop">点这里选文件 <b>.cs</b>（或 .lua）<br>也可以直接把文件拖进来</div>
+  <input type="file" id="file" accept=".cs,.lua,.txt" style="display:none">
+</div>
+
+<div class="card">
+  <div class="row">
+    <label>只保留前缀</label>
+    <input type="text" id="prefix" value="ResData.">
+    <label><input type="checkbox" id="onlyPrefix" checked> 启用</label>
+  </div>
+  <div class="row">
+    <label><input type="checkbox" id="zh" checked> 生成中文对照 zh.lua</label>
+  </div>
+  <div class="row">
+    <label><input type="checkbox" id="zhDump"> 再生成一份中文版 dump（名字后加 \n 中文）</label>
+  </div>
+  <div class="row">
+    <label><input type="checkbox" id="keepWrapper" checked> 保留包装类（兼容旧工具，建议开）</label>
+  </div>
+  <div class="row">
+    <button class="primary" id="run" disabled>开始</button>
+    <span class="hint" id="fileName"></span>
+  </div>
+  <progress id="bar" max="100" value="0"></progress>
+  <pre id="log"></pre>
+</div>
+
+<div class="card out" id="outWrap" style="display:none">
+  <div><b>结果</b> <span class="hint">（点一下下载，安卓上会存到「下载」目录）</span></div>
+  <div id="out"></div>
+</div>
+
+<div class="card hint">
+  用法：<br>
+  1) 选 .cs → 点开始 → 下载 sgame.lua，把它放到
+  <code>/storage/emulated/0/com.tencent.tmgp.sgame5.lua</code><br>
+  2) 下载 zh.lua（可选）放到 <code>/storage/emulated/0/sgame_zh.lua</code><br>
+  3) 用「展开O」脚本展开，就能看到中文<br>
+  全部在本机浏览器里算，不联网、不上传。
+</div>
+
+<script id="glossary-data" type="application/json">/*__GLOSSARY__*/</script>
+
+<script>
+/* =========================================================================
+   1. 分词与翻译（与桌面版 glossary 规则一致）
+   ========================================================================= */
+const GLOSSARY = JSON.parse(document.getElementById('glossary-data').textContent);
+
+const splitCamel = (name) => name
+  .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+  .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+  .replace(/([A-Za-z])(\d)/g, '$1 $2')
+  .replace(/(\d)([A-Za-z])/g, '$1 $2')
+  .split(/[\s_\-]+/).filter(Boolean);
+
+const KEEP = new Set(GLOSSARY.keep || []);
+const LOOKUP = new Map();
+for (const [k, v] of Object.entries(GLOSSARY.words || {})) LOOKUP.set(k.toLowerCase(), v);
+const COMPOUNDS = GLOSSARY.compounds || {};
+const COMPOUND_KEYS = Object.keys(COMPOUNDS).map((k) => k.toLowerCase()).sort((a, b) => b.length - a.length);
+const PHRASES = GLOSSARY.phrases || {};
+
+function findCompound(name, lower, from) {
+  for (let i = from; i < name.length; i++) {
+    if (i !== 0 && !/[A-Z]/.test(name[i])) continue;
+    for (const k of COMPOUND_KEYS) {
+      if (!lower.startsWith(k, i)) continue;
+      const after = name[i + k.length] || '';
+      if (after && !/[A-Z0-9_]/.test(after)) continue;
+      return { start: i, key: k };
+    }
+  }
+  return null;
+}
+
+function segmentSimple(name) {
+  const out = [];
+  const lower = name.toLowerCase();
+  let i = 0;
+  while (i < name.length) {
+    const hit = findCompound(name, lower, i);
+    if (hit && hit.start === i) {
+      out.push({ raw: name.slice(i, i + hit.key.length), zh: COMPOUNDS[hit.key] });
+      i += hit.key.length;
+      continue;
+    }
+    const end = hit ? hit.start : name.length;
+    for (const t of splitCamel(name.slice(i, end))) out.push({ raw: t });
+    i = end;
+  }
+  return out;
+}
+
+function segment(name) {
+  if (!name.includes('.')) return segmentSimple(name);
+  const out = [];
+  name.split('.').forEach((part, i) => {
+    if (i > 0) out.push({ raw: '.', zh: '.' });
+    if (part) for (const t of segmentSimple(part)) out.push(t);
+  });
+  return out;
+}
+
+function translateName(name) {
+  if (PHRASES[name]) return PHRASES[name];
+  const parts = [];
+  for (const s of segment(name)) {
+    if (s.zh !== undefined) { parts.push(s.zh); continue; }
+    if (/^\d+$/.test(s.raw)) { parts.push(s.raw); continue; }
+    if (KEEP.has(s.raw)) { parts.push(s.raw); continue; }
+    const hit = LOOKUP.get(s.raw.toLowerCase());
+    parts.push(hit === undefined ? s.raw : hit);
+  }
+  return parts.join('');
+}
+
+/* =========================================================================
+   2. .cs -> lua 表（与桌面版 cs2lua.js 同一套规则）
+   ========================================================================= */
+
+const PRIMITIVE_SIZE = {
+  'System.Byte': 1, 'System.SByte': 1, 'System.Boolean': 1,
+  'System.Int16': 2, 'System.UInt16': 2, 'System.Char': 2,
+  'System.Int32': 4, 'System.UInt32': 4, 'System.Single': 4,
+  'System.Int64': 8, 'System.UInt64': 8, 'System.Double': 8,
+  'System.IntPtr': 8, 'System.UIntPtr': 8,
+};
+const MODIFIERS = new Set(['public', 'private', 'protected', 'internal', 'static', 'readonly',
+  'const', 'volatile', 'unsafe', 'new', 'sealed', 'override', 'abstract', 'virtual', 'extern', 'partial']);
+const DECL_KEYWORDS = [[' class ', 'class'], [' struct ', 'struct'], [' enum ', 'enum'], [' interface ', 'interface']];
+const isWrapperType = (t) => t.endsWith('e__FixedBuffer');
+
+function declMatch(line) {
+  let best = null;
+  for (const [k, kind] of DECL_KEYWORDS) {
+    const i = line.indexOf(k);
+    if (i !== -1 && (!best || i < best.at)) best = { at: i + k.length, kind };
+  }
+  return best;
+}
+function isClassDeclLine(line) {
+  if (!line) return false;
+  const c = line.charCodeAt(0);
+  if (c === 0x20 || c === 0x09 || c === 0x2f) return false;
+  return declMatch(line) !== null;
+}
+function parseClassLine(line) {
+  const first = line.slice(0, line.indexOf(' ') === -1 ? line.length : line.indexOf(' '));
+  if (first !== 'public') return null;                 // 与 parser.sh 一致：只认 public
+  const dm = declMatch(line);
+  if (!dm) return null;
+  let end = dm.at;
+  while (end < line.length && !' \t:'.includes(line[end])) end++;
+  const name = line.slice(dm.at, end);
+  return name ? { name, kind: dm.kind } : null;
+}
+function parseOffset(line, from) {
+  const p = line.indexOf('0x', from);
+  if (p === -1) return null;
+  let end = p + 2;
+  while (end < line.length && /[0-9a-fA-F]/.test(line[end])) end++;
+  if (end === p + 2) return null;
+  return parseInt(line.slice(p + 2, end), 16);
+}
+function parseFieldLine(decl) {
+  const eq = decl.indexOf(' = ');
+  if (eq !== -1) decl = decl.slice(0, eq);
+  const parts = decl.split(/\s+/).filter(Boolean);
+  if (parts.length < 2) return null;
+  const name = parts[parts.length - 1];
+  let i = 0;
+  while (i < parts.length - 1 && MODIFIERS.has(parts[i])) i++;
+  const type = parts.slice(i, parts.length - 1).join(' ');
+  return type && name ? { name, type } : null;
+}
+function parseMethodLine(decl) {
+  const paren = decl.indexOf('(');
+  const before = paren === -1 ? decl : decl.slice(0, paren);
+  const parts = before.split(/\s+/).filter(Boolean);
+  if (!parts.length) return null;
+  let i = 0;
+  while (i < parts.length - 1 && MODIFIERS.has(parts[i])) i++;
+  return { name: parts[parts.length - 1], ret: parts.slice(i, parts.length - 1).join(' ') };
+}
+
+const instFieldsOf = (cls) => [...cls.fields.values()].filter((f) => !f.isStatic).sort((a, b) => a.offset - b.offset);
+
+function typeLayout(type, classes, sizeOfType, seen = new Set()) {
+  if (PRIMITIVE_SIZE[type] !== undefined) {
+    const s = PRIMITIVE_SIZE[type];
+    return { size: s, align: s, min: 0 };
+  }
+  const c = classes.get(type);
+  if (!c) return /^System\./.test(type) ? { size: 8, align: 8, min: 0 } : null;
+  if (c.kind !== 'struct') return { size: 8, align: 8, min: 0 };
+  if (seen.has(type)) return null;
+  seen.add(type);
+  const inst = [...c.fields.values()].filter((f) => !f.isStatic);
+  if (!inst.length) return null;
+  let min = Infinity, end = 0, align = 1;
+  for (const f of inst) {
+    let s = null, a = 1;
+    if (f.array) {
+      if (f.count === undefined || f.count === null || !f.size) return null;
+      s = f.count * f.size;
+      a = f.size;
+    } else if (isWrapperType(f.type)) {
+      return null;
+    } else {
+      const t = typeLayout(f.type, classes, sizeOfType, new Set(seen));
+      if (!t) return null;
+      s = t.size;
+      a = t.align;
+    }
+    if (f.offset < min) min = f.offset;
+    if (f.offset + s > end) end = f.offset + s;
+    if (a > align) align = a;
+  }
+  if (end <= min) return null;
+  return { size: Math.ceil((end - min) / align) * align, align, min };
+}
+
+function buildSizeMap(classes) {
+  const sizeOf = new Map();
+  const fromParent = new Set();
+  const isValueStruct = (t) => { const c = classes.get(t); return c ? c.kind === 'struct' : false; };
+  const known = (t) => {
+    if (PRIMITIVE_SIZE[t] !== undefined) return PRIMITIVE_SIZE[t];
+    if (sizeOf.has(t)) return sizeOf.get(t).size;
+    if (isWrapperType(t)) return null;
+    const c = classes.get(t);
+    if (c) return c.kind === 'struct' ? null : 8;
+    return /^System\./.test(t) ? 8 : null;
+  };
+  for (let round = 0; round < 6; round++) {
+    let changed = 0;
+    for (const cls of classes.values()) {
+      const inst = instFieldsOf(cls);
+      for (let i = 0; i + 1 < inst.length; i++) {
+        const f = inst[i];
+        if (f.array || isWrapperType(f.type) || !isValueStruct(f.type)) continue;
+        const sz = inst[i + 1].offset - f.offset;
+        if (sz <= 0) continue;
+        const old = sizeOf.get(f.type);
+        if (!old || sz < old.size) { sizeOf.set(f.type, { size: sz, min: 0x8 }); fromParent.add(f.type); changed++; }
+      }
+      if (isWrapperType(cls.name) || fromParent.has(cls.name)) continue;
+      const lay = typeLayout(cls.name, classes, known);
+      if (lay && (!sizeOf.has(cls.name) || sizeOf.get(cls.name).size !== lay.size)) {
+        sizeOf.set(cls.name, { size: lay.size, min: lay.min });
+        changed++;
+      }
+    }
+    if (!changed) break;
+  }
+  return sizeOf;
+}
+
+function resolveFixedBuffers(classes) {
+  const stat = { total: 0, resolved: 0, partial: 0, noSpan: 0, noSize: 0 };
+  const pending = [];
+  for (let round = 0; round < 8; round++) {
+    const sizeOf = buildSizeMap(classes);
+    const sizeOfType = (t) => {
+      if (PRIMITIVE_SIZE[t] !== undefined) return PRIMITIVE_SIZE[t];
+      if (sizeOf.has(t)) return sizeOf.get(t).size;
+      if (isWrapperType(t)) return null;
+      const c = classes.get(t);
+      if (c) return c.kind === 'struct' ? null : 8;
+      return /^System\./.test(t) ? 8 : null;
+    };
+    let progress = 0;
+    for (const cls of classes.values()) {
+      const inst = instFieldsOf(cls);
+      const self = sizeOf.get(cls.name);
+      for (let i = 0; i < inst.length; i++) {
+        const f = inst[i];
+        if (isWrapperType(f.type)) {
+          f.array = true;
+          if (!f.fixedPending) { f.fixedPending = true; pending.push(f); }
+        }
+        if (!f.fixedPending || f.count) continue;
+        const m = /<(.+)_bytes>e__FixedBuffer$/.exec(f.type);
+        const base = m ? m[1] : f.name.replace(/_bytes$/, '');
+        const acc = cls.methods.get(base);
+        const next = inst[i + 1];
+        let span = next ? next.offset - f.offset : null;
+        if (span === null && self && self.min + self.size > f.offset) span = self.min + self.size - f.offset;
+        f.rawSpan = span;
+        const elemType = acc ? acc.ret : null;
+        if (!elemType) continue;
+        f.elem = elemType;
+        const lay = typeLayout(elemType, classes, sizeOfType);
+        const inferred = sizeOfType(elemType);
+        const candidates = [];
+        if (inferred) candidates.push(inferred);
+        if (lay) candidates.push(lay.size);
+        let elemSize = candidates.find((s) => s && span && span % s === 0) || null;
+        if (!elemSize && !span) elemSize = candidates[0] || null;
+        let pad = 0;
+        if (!elemSize && span) {
+          for (const s of candidates) {
+            if (!s) continue;
+            const rem = span % s;
+            if (rem > 0 && rem < 8) { elemSize = s; pad = rem; break; }
+          }
+        }
+        if (elemSize) f.size = elemSize;
+        if (span && elemSize && span % elemSize === 0) { f.count = span / elemSize; progress++; }
+        else if (span && elemSize && pad > 0) { f.count = Math.floor(span / elemSize); f.pad = pad; progress++; }
+      }
+    }
+    if (!progress) break;
+  }
+  stat.total = pending.length;
+  for (const f of pending) {
+    if (f.count) stat.resolved++;
+    else { stat.partial++; if (f.rawSpan == null) stat.noSpan++; else if (!f.size) stat.noSize++; }
+  }
+  return stat;
+}
+
+const luaQuote = (s) => "'" + String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\r?\n/g, '\\n') + "'";
+
+function emitDump(cls) {
+  const out = [];
+  out.push(`\t['${cls.name}'] = {`);
+  out.push('\t\t[\'Methods\'] = {');
+  for (const m of cls.methods.values()) {
+    out.push(`\t\t\t['${m.name}'] = {`);
+    out.push(`\t\t\t\t['offset'] = ${m.offset},`);
+    out.push(`\t\t\t\t['signature'] = ${luaQuote(m.signature)},`);
+    out.push('\t\t\t},');
+  }
+  out.push('\t\t},');
+  out.push('\t\t[\'Fields\'] = {');
+  for (const f of cls.fields.values()) {
+    out.push(`\t\t\t['${f.name}'] = {`);
+    out.push(`\t\t\t\t['offset'] = ${f.offset},`);
+    out.push(`\t\t\t\t['type'] = ${luaQuote(f.type)},`);
+    if (f.array) {
+      if (f.elem) out.push(`\t\t\t\t['elem'] = ${luaQuote(f.elem)},`);
+      if (f.count !== undefined && f.count !== null) out.push(`\t\t\t\t['count'] = ${f.count},`);
+      if (f.size !== undefined) out.push(`\t\t\t\t['size'] = ${f.size},`);
+      if (f.pad) out.push(`\t\t\t\t['pad'] = ${f.pad},`);
+      out.push('\t\t\t\t[\'array\'] = true,');
+    }
+    out.push('\t\t\t},');
+  }
+  out.push('\t\t},');
+  const max = [...cls.fields.values()].filter((f) => !f.isStatic).reduce((a, f) => Math.max(a, f.offset), 0);
+  out.push(`\t\t['MaxV'] = ${max},`);
+  out.push('\t},');
+  return out.join('\n');
+}
+
+async function convertCs(file, opts, post) {
+  const classes = new Map();
+  const selected = new Set();
+  let current = null, inFields = false, inMethods = false;
+  let scanned = 0, lineNo = 0, bytes = 0;
+
+  const handleLine = (line) => {
+    lineNo++;
+    if (isClassDeclLine(line)) {
+      inFields = false; inMethods = false; scanned++;
+      const parsed = parseClassLine(line);
+      if (!parsed) { current = null; return; }
+      let entry = classes.get(parsed.name);
+      if (!entry) {
+        entry = { name: parsed.name, kind: parsed.kind, fields: new Map(), methods: new Map() };
+        classes.set(parsed.name, entry);
+      }
+      if (!opts.onlyPrefix || parsed.name.startsWith(opts.prefix)) selected.add(parsed.name);
+      current = entry;
+      return;
+    }
+    if (!current) return;
+    if (line.charCodeAt(1) === 0x2f) {
+      if (line.startsWith('\t// Fields')) { inFields = true; inMethods = false; return; }
+      if (line.startsWith('\t// Methods')) { inMethods = true; inFields = false; return; }
+      return;
+    }
+    const sc = line.indexOf('; //');
+    if (sc === -1) return;
+    const off = parseOffset(line, sc);
+    if (off === null) return;
+    const decl = line.slice(0, sc).trim();
+    if (inFields) {
+      const f = parseFieldLine(decl);
+      if (!f) return;
+      const isStatic = /\bstatic\b|\bconst\b/.test(decl);
+      if (current.fields.has(f.name)) return;
+      current.fields.set(f.name, { name: f.name, type: f.type, offset: off, isStatic });
+    } else if (inMethods) {
+      const m = parseMethodLine(decl);
+      if (!m || current.methods.has(m.name)) return;
+      current.methods.set(m.name, { name: m.name, ret: m.ret, offset: off, signature: decl });
+    }
+  };
+
+  const reader = file.stream().pipeThrough(new TextDecoderStream()).getReader();
+  const size = file.size || 1;
+  let leftover = '';
+  for (;;) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    bytes += value.length;
+    const chunk = leftover + value;
+    let start = 0, idx;
+    while ((idx = chunk.indexOf('\n', start)) !== -1) {
+      let s = chunk.slice(start, idx);
+      if (s.endsWith('\r')) s = s.slice(0, -1);
+      handleLine(s);
+      start = idx + 1;
+    }
+    leftover = chunk.slice(start);
+    post(Math.min(70, Math.round((bytes / size) * 70)), `解析中 ${(bytes / 1048576).toFixed(1)} MB`);
+    await tick();
+  }
+  if (leftover) handleLine(leftover.replace(/\r$/, ''));
+
+  post(75, '解析包装数组…');
+  const stat = resolveFixedBuffers(classes);
+  await tick();
+
+  const out = ['{'];
+  let count = 0, fields = 0, methods = 0;
+  for (const cls of classes.values()) {
+    if (!selected.has(cls.name)) continue;
+    if (!opts.keepWrapper && isWrapperType(cls.name) && cls.fields.size === 0) continue;
+    count++; fields += cls.fields.size; methods += cls.methods.size;
+    out.push(emitDump(cls));
+    if (count % 400 === 0) { post(75 + Math.round((count / Math.max(1, selected.size)) * 20), `输出 ${count} 个类`); await tick(); }
+  }
+  out.push('}');
+  post(97, '完成');
+  return { text: out.join('\n') + '\n', count, fields, methods, scanned, stat };
+}
+
+/* =========================================================================
+   3. lua 表 -> 中文对照 zh.lua
+   ========================================================================= */
+function translateDump(text, post) {
+  const lines = text.split('\n');
+  const out = ['return {'];
+  let cls = null, section = null, inner = [], emitted = 0, fields = 0;
+  const flush = () => {
+    if (cls && inner.length) { out.push(`[${luaQuote(cls)}]={${inner.join(',')}},`); emitted++; }
+    inner = [];
+  };
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    let m = /^\t\['([^']+)'\] = \{/.exec(line);
+    if (m) { flush(); cls = m[1]; section = null; continue; }
+    if (!cls) continue;
+    m = /^\t\t\['(Fields|Methods)'\] = \{/.exec(line);
+    if (m) { section = m[1]; continue; }
+    m = /^\t\t\t\['([^']+)'\] = \{/.exec(line);
+    if (m && section) {
+      const name = m[1];
+      const zh = translateName(name);
+      if (zh && zh !== name) inner.push(`[${luaQuote(name)}]=${luaQuote(zh)}`);
+      fields++;
+      if (fields % 5000 === 0) { post(70 + Math.round((i / lines.length) * 28), `翻译 ${fields} 项`); }
+      continue;
+    }
+  }
+  flush();
+  out.push('}');
+  return { text: out.join('\n') + '\n', classes: emitted, fields };
+}
+
+/* =========================================================================
+   4. 页面交互
+   ========================================================================= */
+const $ = (id) => document.getElementById(id);
+const log = (s) => { const el = $('log'); el.textContent += s + '\n'; el.scrollTop = el.scrollHeight; };
+const post = (pct, msg) => { $('bar').value = pct; if (msg) log(msg); };
+const tick = () => new Promise((r) => setTimeout(r, 0));
+const mb = (n) => (n / 1048576).toFixed(2) + ' MB';
+
+let picked = null;
+
+$('drop').addEventListener('click', () => $('file').click());
+$('file').addEventListener('change', (e) => { if (e.target.files[0]) setFile(e.target.files[0]); });
+['dragenter', 'dragover'].forEach((ev) => $('drop').addEventListener(ev, (e) => {
+  e.preventDefault(); $('drop').classList.add('hot');
+}));
+['dragleave', 'drop'].forEach((ev) => $('drop').addEventListener(ev, () => $('drop').classList.remove('hot')));
+$('drop').addEventListener('drop', (e) => {
+  e.preventDefault();
+  if (e.dataTransfer.files[0]) setFile(e.dataTransfer.files[0]);
+});
+
+function setFile(f) {
+  picked = f;
+  $('fileName').textContent = `${f.name}  ${mb(f.size)}`;
+  $('run').disabled = false;
+  $('log').textContent = '';
+  log('已选择：' + f.name);
+}
+
+function offer(name, text, note) {
+  const blob = new Blob([text], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = name;
+  a.textContent = `⬇ ${name}  (${mb(blob.size)})  ${note || ''}`;
+  $('out').appendChild(a);
+  $('outWrap').style.display = '';
+}
+
+$('run').addEventListener('click', async () => {
+  if (!picked) return;
+  const btn = $('run');
+  btn.disabled = true;
+  $('out').innerHTML = '';
+  $('bar').value = 0;
+  try {
+    const isCs = /\.cs$/i.test(picked.name);
+    let dumpText;
+    if (isCs) {
+      log('开始解析 .cs …（大文件请耐心等）');
+      const t0 = Date.now();
+      const opts = {
+        onlyPrefix: $('onlyPrefix').checked,
+        prefix: $('prefix').value || 'ResData.',
+        keepWrapper: $('keepWrapper').checked,
+      };
+      const r = await convertCs(picked, opts, post);
+      dumpText = r.text;
+      log(`✔ 解析完成：${r.scanned} 个类定义 → 输出 ${r.count} 个类，字段 ${r.fields}，方法 ${r.methods}`);
+      log(`  包装数组：${r.stat.total} 个，解析出个数 ${r.stat.resolved} 个（推不出 ${r.stat.partial}）`);
+      log(`  耗时 ${((Date.now() - t0) / 1000).toFixed(1)} 秒`);
+      offer('sgame.lua', dumpText, '← 放到 /storage/emulated/0/com.tencent.tmgp.sgame5.lua');
+    } else {
+      dumpText = await picked.text();
+      log('已读入 lua 表：' + mb(dumpText.length));
+    }
+
+    if ($('zh').checked) {
+      log('生成中文对照 zh.lua …');
+      const z = translateDump(dumpText, post);
+      log(`✔ 中文对照：${z.classes} 个类 / ${z.fields} 个字段名`);
+      offer('zh.lua', z.text, '← 放到 /storage/emulated/0/sgame_zh.lua');
+    }
+    if ($('zhDump').checked) {
+      log('生成中文版 dump …');
+      const zhText = embedZh(dumpText);
+      offer('sgame_中文版.lua', zhText, '（键名不变，只是加了 [zh]）');
+    }
+    $('bar').value = 100;
+    log('全部完成 ✔');
+  } catch (e) {
+    log('✘ 出错：' + (e && e.message ? e.message : e));
+    log('  如果内存不够，试试缩小文件或改用 Termux 命令行方案。');
+  } finally {
+    btn.disabled = false;
+  }
+});
+
+// 中文版 dump：键名不动，只在每个表里插一行 ['zh']
+function embedZh(text) {
+  const lines = text.split('\n');
+  const out = [];
+  let inClass = false, section = null;
+  const zhOf = (name) => { const z = translateName(name); return z && z !== name ? z : null; };
+  for (const line of lines) {
+    out.push(line);
+    let m = /^\t\['([^']+)'\] = \{/.exec(line);
+    if (m) {
+      section = null;
+      inClass = true;
+      const zh = zhOf(m[1]);
+      if (zh) out.push(`\t\t['zh'] = '${zh.replace(/'/g, "\\'")}',`);
+      continue;
+    }
+    if (!inClass) continue;
+    m = /^\t\t\['(Fields|Methods)'\] = \{/.exec(line);
+    if (m) { section = m[1]; continue; }
+    m = /^\t\t\t\['([^']+)'\] = \{/.exec(line);
+    if (m && section) {
+      const zh = zhOf(m[1]);
+      if (zh) out.push(`\t\t\t\t['zh'] = '${zh.replace(/'/g, "\\'")}',`);
+    }
+  }
+  return out.join('\n');
+}
+</script>
+</body>
+</html>

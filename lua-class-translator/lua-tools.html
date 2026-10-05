@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>C# 转 Lua 表 + 中文对照</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; padding: 12px 12px 40px; font: 15px/1.55 system-ui, "Microsoft YaHei", sans-serif;
+         background: #14161a; color: #e6e8ec; }
+  h1 { font-size: 17px; margin: 4px 0 10px; }
+  .card { background: #1d2026; border: 1px solid #2b2f37; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+  #drop { border: 2px dashed #3c4450; border-radius: 12px; padding: 26px 12px;
+          text-align: center; color: #9aa4b2; font-size: 15px; }
+  #drop.hot { border-color: #4c8dff; background: #1b2430; color: #cfe0ff; }
+  #drop b { color: #7aa7ff; }
+  .row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+  .row label { color: #b9c0cc; }
+  input[type=text] { background: #14161a; color: #e6e8ec; border: 1px solid #333842; border-radius: 8px;
+                     padding: 7px 9px; width: 130px; font-size: 15px; }
+  input[type=checkbox] { width: 18px; height: 18px; }
+  button { border: 0; border-radius: 10px; padding: 11px 16px; font-size: 15px; font-weight: 600;
+           background: #2a2f38; color: #e6e8ec; }
+  button.primary { background: #2f6df6; color: #fff; }
+  button:disabled { opacity: .5; }
+  progress { width: 100%; height: 10px; }
+  #log { background: #101216; border: 1px solid #262a32; border-radius: 10px; padding: 10px;
+         max-height: 210px; overflow: auto; font: 12px/1.5 Consolas, monospace; color: #9fb0c6;
+         white-space: pre-wrap; margin: 10px 0 0; }
+  .out a { display: block; margin: 8px 0; padding: 12px; border-radius: 10px; background: #1f2a3a;
+           color: #9ec1ff; text-decoration: none; font-weight: 600; }
+  .hint { color: #8b93a1; font-size: 13px; }
+  .stat { color: #7fd18b; }
+</style>
+</head>
+<body>
+
+<h1>C# (.cs) → Lua 表 + 中文对照</h1>
+
+<div class="card">
+  <div id="drop">点这里选文件 <b>.cs</b>（或 .lua）<br>也可以直接把文件拖进来</div>
+  <input type="file" id="file" accept=".cs,.lua,.txt" style="display:none">
+</div>
+
+<div class="card">
+  <div class="row">
+    <label>只保留前缀</label>
+    <input type="text" id="prefix" value="ResData.">
+    <label><input type="checkbox" id="onlyPrefix" checked> 启用</label>
+  </div>
+  <div class="row">
+    <label><input type="checkbox" id="zh" checked> 生成中文对照 zh.lua</label>
+  </div>
+  <div class="row">
+    <label><input type="checkbox" id="zhDump"> 再生成一份中文版 dump（名字后加 \n 中文）</label>
+  </div>
+  <div class="row">
+    <label><input type="checkbox" id="keepWrapper" checked> 保留包装类（兼容旧工具，建议开）</label>
+  </div>
+  <div class="row">
+    <button class="primary" id="run" disabled>开始</button>
+    <span class="hint" id="fileName"></span>
+  </div>
+  <progress id="bar" max="100" value="0"></progress>
+  <pre id="log"></pre>
+</div>
+
+<div class="card out" id="outWrap" style="display:none">
+  <div><b>结果</b> <span class="hint">（点一下下载，安卓上会存到「下载」目录）</span></div>
+  <div id="out"></div>
+</div>
+
+<div class="card hint">
+  用法：<br>
+  1) 选 .cs → 点开始 → 下载 sgame.lua，把它放到
+  <code>/storage/emulated/0/com.tencent.tmgp.sgame5.lua</code><br>
+  2) 下载 zh.lua（可选）放到 <code>/storage/emulated/0/sgame_zh.lua</code><br>
+  3) 用「展开O」脚本展开，就能看到中文<br>
+  全部在本机浏览器里算，不联网、不上传。
+</div>
+
+<script id="glossary-data" type="application/json">{"words":{"":"","b":"","Abort":"中止","Absolute":"绝对","Absorb":"吸收","Absorbed":"已吸收","Acc":"加速","Accel":"加速","Accelerate":"加速","Acceleration":"加速度","Accum":"累积","Accumulate":"累积","Accurate":"精确","According":"依据","Activate":"激活","Active":"激活","Actor":"角色","Actors":"角色","Add":"添加","Adjust":"调整","Adv":"高级","Advanced":"高级","Affected":"受影响","Affix":"词缀","Agent":"代理","Age":"推进","Aid":"援助","Alert":"警戒","Align":"对齐","Alive":"存活","All":"全部","Along":"沿","Alpha":"透明度","Alternative":"备选","Always":"总是","Ambient":"环境","Anchor":"锚点","And":"和","Angle":"角度","Angular":"角","Anim":"动画","Animation":"动画","Animator":"动画器","Apply":"施加","Area":"区域","Armor":"护甲","Array":"数组","Around":"环绕","As":"作为","Assigned":"已分配","Attach":"附加","At":"在","Atk":"攻击","Atker":"攻击者","Attack":"攻击","Attachment":"附着","Attribute":"属性","Auto":"自动","Average":"平均","Awaken":"觉醒","Axis":"轴","Back":"返回","Badge":"徽章","Bahaviour":"行为","Ball":"球","Bar":"条","Base":"基础","Battle":"战斗","Be":"为","Beam":"光束","Bean":"豆","Beat":"节拍","Before":"之前","Behaviour":"行为","Behavior":"行为","Between":"之间","Bezier":"贝塞尔","Bg":"背景","Bian":"变","Bind":"绑定","Block":"阻挡","Blood":"血量","Blue":"蓝","Blueprint":"蓝图","Blur":"模糊","Boardcast":"广播","Boat":"船","Body":"躯体","Bone":"骨骼","Bool":"布尔","Born":"出生","Boss":"首领","Bounce":"弹跳","Bound":"边界","Bounds":"边界","Bounding":"包围盒","Box":"盒","Brake":"刹车","Branch":"分支","Break":"打断","Broadcast":"广播","Bubble":"气泡","Buffer":"缓冲","Buff":"增益","Buffs":"增益","Bullet":"子弹","Bullets":"子弹","Business":"业务","Button":"按钮","Btn":"按钮","By":"由","Cache":"缓存","Cacl":"计算","Cal":"计算","Calc":"计算","Calculate":"计算","Call":"调用","Camera":"相机","Camp":"阵营","Can":"可","Capsule":"胶囊","Captain":"队长","Career":"职业","Castable":"可释放","Catch":"捕获","Cell":"格子","Center":"中心","Chance":"概率","Change":"变更","Character":"角色","Charge":"蓄力","Charging":"蓄力中","Chase":"追击","Check":"检查","Checkable":"可检查","Chess":"棋盘","Chibi":"赤壁","Child":"子级","Choose":"选择","Chose":"选择","Circle":"圆形","City":"城市","Clear":"清除","Click":"点击","Client":"客户端","Clip":"剪辑","Clockwise":"顺时针","Close":"关闭","Cmd":"指令","Cnt":"计数","Coefficient":"系数","Coin":"金币","Collide":"碰撞","Collider":"碰撞体","Collision":"碰撞","Collect":"收集","Color":"颜色","Combo":"连击","Combine":"合并","Commercial":"商业","Common":"通用","Commond":"通用","Communication":"通信","Comp":"组件","Compare":"比较","Component":"组件","Concentrate":"集中","Condition":"条件","Conditional":"带条件","Conditioned":"有条件","Config":"配置","Confused":"混乱","Confusion":"混乱","Connect":"连接","Consume":"消耗","Content":"内容","Context":"上下文","Continue":"继续","Continuous":"持续","Continuously":"持续","Control":"控制","Controled":"受控","Controller":"控制器","Convert":"转换","Coord":"坐标","Coordinate":"坐标","Copy":"复制","Cost":"消耗","Count":"计数","Counter":"计数","Create":"创建","Creep":"小兵","Crik":"暴击","Cross":"交叉","Ctrl":"控制","Ctr":"计数","Cull":"剔除","Cur":"当前","Curr":"当前","Current":"当前","Curve":"曲线","Custom":"自定义","Cut":"切割","Cutoff":"截断","Cutscene":"过场动画","Damage":"伤害","Damaged":"受击","Dark":"暗","Data":"数据","Dead":"死亡","Death":"死亡","Debug":"调试","Dec":"减","Decay":"衰减","Decelerate":"减速","Deduplication":"去重","Default":"默认","Def":"防御","Degree":"程度","Deg":"度","Delay":"延迟","Delete":"删除","Delet":"删除","Delta":"增量","Demo":"演示","Depend":"依赖","Designated":"指定","Dest":"目标","Destory":"销毁","Destroy":"销毁","Destroyed":"已销毁","Destoryed":"已销毁","Detach":"分离","Detect":"检测","Detected":"已检测","Detection":"检测","Detail":"细节","Deviate":"偏移","Dialog":"对话","Diff":"差异","Diffuse":"漫反射","Digit":"数字","Dimension":"维度","Dir":"方向","Direct":"直接","Direction":"方向","Directional":"定向","Disable":"禁用","Disc":"圆盘","Disguise":"伪装","Dis":"否","Disappear":"消失","Discolor":"变色","Display":"显示","Dissolve":"溶解","Dist":"距离","Distance":"距离","Dither":"抖动","Do":"执行","Done":"完成","Donot":"不要","Dont":"不","Double":"双倍","Down":"下","Drag":"拖拽","Draged":"被拖拽","Dragon":"龙","Drift":"漂移","Dynamic":"动态","Each":"每个","Eanble":"启用","Economy":"经济","Edge":"边缘","Effect":"效果","Eff":"效果","Emit":"发射","Emission":"发射","Enable":"启用","Enabled":"启用","Encapsulate":"封装","Enemy":"敌方","Energy":"能量","Enhance":"增强","Enhanced":"增强","Enter":"进入","Entering":"进入中","Entity":"实体","Enum":"枚举","Env":"环境","Epicycle":"本轮","Equip":"装备","Equips":"装备","Eternal":"永恒","Euler":"欧拉","Evaluate":"求值","Evo":"进化","Evolution":"进化","Ex":"扩展","Exchange":"交换","Exclude":"排除","Exec":"执行","Excute":"执行","Exit":"退出","Expand":"扩展","Exp":"经验","Expose":"暴露","Exposing":"暴露","Exposure":"曝光","Express":"表达式","Expression":"表达式","Ext":"扩展","Extend":"延长","Extent":"范围","External":"外部","Extra":"额外","Eye":"眼睛","Factor":"系数","Fade":"淡入淡出","Fadeout":"淡出","Fake":"假","Fallback":"回退","Feature":"特性","Fetter":"羁绊","Field":"字段","Fight":"战斗","Filter":"过滤","Final":"最终","Find":"查找","Finish":"结束","First":"首个","Fit":"适配","Fixed":"固定","Flag":"标记","Flash":"闪烁","Flip":"翻转","Float":"浮点","Floating":"漂浮","Flush":"刷新","Fly":"飞行","Flying":"飞行","Focus":"焦点","Follow":"跟随","Followed":"被跟随","For":"用于","Force":"力","Forbid":"禁止","Form":"形态","Forward":"前向","Fow":"前向","Frame":"帧","Freeze":"冰冻","Freq":"频率","Fresnel":"菲涅尔","Friend":"友方","From":"从","Front":"前","Fu":"符","Func":"函数","Fuzzy":"模糊","Game":"游戏","Gather":"聚集","Gender":"性别","Generate":"生成","Generator":"生成器","Get":"获取","Ghost":"幽灵","Glow":"发光","Goal":"目标","Gold":"金币","Graph":"图","Grass":"草丛","Gravity":"重力","Grid":"网格","Ground":"地面","Group":"分组","Grow":"成长","Grown":"已成长","Growth":"成长","Guard":"守卫","Guide":"引导","Guild":"公会","Hand":"手","Hard":"硬","Has":"有","Head":"头部","Height":"高度","Help":"帮助","Hemophagia":"吸血","Herit":"继承","Hero":"英雄","Hexagon":"六边形","Hide":"隐藏","Hiding":"隐藏中","High":"高","Highest":"最高","Highlight":"高亮","Hit":"命中","Hold":"保持","Home":"基地","Honor":"荣誉","Horizon":"地平线","Horizontal":"水平","Host":"宿主","Hp":"生命值","Hurt":"伤害","Icon":"图标","Idle":"待机","If":"如果","Ignore":"忽略","Image":"图片","Img":"图片","Imme":"立即","Immediate":"立即","Immediately":"立即","Immobilize":"定身","Immune":"免疫","Immuned":"免疫","Immunity":"免疫","Impact":"冲击","Impluse":"冲量","Imposter":"伪装者","In":"内","Inc":"增","Income":"收益","Incomplete":"未完成","Increase":"增加","Increment":"增量","Indicate":"指示","Indicator":"指示器","Inertial":"惯性","Info":"信息","Inherit":"继承","Init":"初始化","Initial":"初始","Inner":"内","Input":"输入","Inscribe":"铭文","Inside":"内部","Inst":"实例","Instant":"立即","Instead":"改为","Instigator":"发起者","Intensity":"强度","Interact":"交互","Interactable":"可交互","Interactive":"交互","Intermittent":"间歇","Internal":"内部","Interpolation":"插值","Interrupt":"打断","Interval":"间隔","Inventory":"背包","Invade":"入侵","Invalid":"无效","Invincible":"无敌","Invincibility":"无敌","Invisible":"不可见","Is":"是否","Item":"道具","Joint":"关节","Joy":"摇杆","Joystick":"摇杆","Jungle":"野区","Just":"仅","Keep":"保持","Key":"键","Kill":"击杀","Killed":"被击杀","Landing":"落地","Lapse":"流逝","Last":"最后","Latency":"延迟","Layer":"层","Layers":"层","Layout":"布局","Leap":"跳跃","Learn":"学习","Leave":"离开","Left":"左","Len":"长度","Length":"长度","Lerp":"插值","Level":"等级","Life":"生命","Light":"光","Limit":"限制","Limited":"受限","Line":"线","Link":"链接","Linked":"已链接","Linking":"链接中","List":"列表","Listener":"监听器","Lit":"受光","Load":"加载","Loc":"位置","Local":"本地","Location":"位置","Lock":"锁定","Lod":"LOD","Log":"日志","Logic":"逻辑","Look":"朝向","Loop":"循环","Lossy":"有损","Low":"低","Lower":"下","Lowest":"最低","Luminous":"自发光","Magic":"魔法","Main":"主","Making":"制作","Management":"管理","Manager":"管理器","Map":"地图","Mark":"标记","Mask":"掩码","Mass":"质量","Master":"主","Mat":"材质","Match":"匹配","Matching":"匹配","Material":"材质","Mats":"材质","Max":"最大","Melee":"近战","Member":"成员","Merge":"合并","Mesh":"网格","Meshes":"网格","Message":"消息","Method":"方法","Mgr":"管理器","Mid":"中间","Min":"最小","Mini":"迷你","Minimap":"小地图","Mirror":"镜像","Mode":"模式","Model":"模型","Modify":"修改","Monster":"野怪","Monter":"野怪","Montage":"蒙太奇","More":"更多","Motion":"运动","Mount":"坐骑","Move":"移动","Moveable":"可移动","Movement":"移动","Moving":"移动中","Ms":"毫秒","Msg":"消息","Mul":"乘","Multi":"多重","Multiple":"多重","Multiplier":"乘数","Music":"音乐","Muti":"多重","My":"我的","Myself":"自己","Name":"名称","Names":"名称","Nav":"导航","Near":"附近","Nearest":"最近","Nearby":"附近","Nearst":"最近","Need":"需要","Needed":"所需","Negative":"负","Neighbor":"邻居","Nesting":"嵌套","Neutral":"中立","New":"新","Newbie":"新手","Next":"下一个","No":"无","Node":"节点","Non":"非","Nondisguised":"未伪装","Normal":"普通","Normalize":"归一化","Not":"非","Notify":"通知","Now":"当前","Ntf":"通知","Null":"空","Num":"数量","Number":"数字","Obj":"对象","Object":"对象","Observer":"观察者","Of":"的","Off":"关","Offset":"偏移","Offet":"偏移","Old":"旧","Once":"一次","On":"开","Only":"仅","Op":"操作","Open":"打开","Operate":"操作","Operation":"操作","Operator":"运算符","Opt":"可选","Optimization":"优化","Optimize":"优化","Or":"或","Order":"顺序","Organ":"器官","Org":"原始","Origin":"原点","Original":"原始","Originator":"发起者","Other":"其他","Out":"外","Outer":"外","Outline":"描边","Output":"输出","Outside":"外部","Over":"超过","Overall":"总体","Overlay":"叠加","Override":"覆盖","Overtime":"超时","Pack":"打包","Pair":"对","Panel":"面板","Para":"参数","Parabola":"抛物线","Parallel":"平行","Param":"参数","Parameter":"参数","Params":"参数","Parent":"父级","Part":"部件","Partical":"粒子","Particle":"粒子","Party":"队伍","Passive":"被动","Path":"路径","Paths":"路径","Pattern":"模式","Pause":"暂停","Pct":"百分比","Per":"每","Percent":"百分比","Perfect":"完美","Performance":"性能","Period":"周期","Periodic":"周期","Perioidc":"周期","Permanent":"永久","Pet":"宠物","Phantom":"幻影","Phase":"阶段","Physics":"物理","Pick":"拾取","Pix":"像素","Play":"播放","Player":"玩家","Playing":"播放中","Point":"点","Pointer":"指针","Popup":"弹窗","Portal":"传送门","Pos":"位置","Position":"位置","Power":"威力","Pre":"预","Precise":"精确","Predict":"预测","Prefab":"预制体","Preload":"预加载","Preset":"预设","Prev":"上一个","Print":"打印","Prior":"优先","Priority":"优先级","Probe":"探测","Process":"处理","Processor":"处理器","Progress":"进度","Project":"项目","Prop":"属性","Property":"属性","Protect":"保护","Punish":"惩罚","Puppet":"傀儡","Purge":"清除","Pursue":"追击","Put":"放置","Quality":"品质","Quick":"快速","Quit":"退出","Quat":"四元数","Radial":"径向","Radius":"半径","Raidus":"半径","Radiu":"半径","Rand":"随机","Random":"随机","Range":"范围","Ranking":"排行","Rate":"速率","Rates":"速率","Ratio":"比例","Raw":"原始","Raycast":"射线检测","Reach":"到达","Reachable":"可达","Real":"真实","Realtime":"实时","Rebounce":"反弹","Rebound":"反弹","Rebouce":"反弹","Receive":"接收","Rec":"记录","Record":"记录","Recorded":"已记录","Recover":"恢复","Rect":"矩形","Recursive":"递归","Recycle":"回收","Reduced":"被减少","Reduce":"减少","Reduction":"减少","Ref":"引用","Refer":"引用","Reference":"引用","Reflect":"反射","Refresh":"刷新","Region":"区域","Relative":"相对","Reload":"重载","Remain":"剩余","Remaining":"剩余","Remobuff":"移除增益","Remote":"远程","Remove":"移除","Render":"渲染","Renderer":"渲染器","Repeatedly":"重复","Replace":"替换","Replacement":"替换","Replay":"重放","Repressed":"压制","Res":"资源","Research":"研究","Reserve":"保留","Reset":"重置","Resist":"抗性","Resize":"调整尺寸","Resource":"资源","Rest":"其余","Restart":"重启","Restitution":"恢复系数","Restore":"恢复","Result":"结果","Resume":"恢复","Ret":"返回","Retrieve":"取回","Return":"返回","Reveal":"揭示","Revert":"还原","Revise":"修订","Revive":"复活","Rgb":"RGB","Rich":"富文本","Right":"右","Rmv":"移除","Road":"道路","Roll":"翻滚","Room":"房间","Root":"根","Rot":"旋转","Rotate":"旋转","Rotation":"旋转","Rough":"粗糙","Round":"圆","Route":"路线","Rule":"规则","Run":"运行","Sacred":"神圣","Sample":"采样","Same":"相同","Save":"保存","Saved":"已保存","Scale":"缩放","Scaler":"缩放器","Scaling":"缩放","Scene":"场景","Scope":"范围","Score":"得分","Screen":"屏幕","Script":"脚本","Search":"搜索","Sec":"秒","Second":"秒","Secondary":"次要","Sector":"扇形","Seek":"寻找","Select":"选择","Selection":"选择","Self":"自身","Send":"发送","Sensitivity":"灵敏度","Separate":"分离","Seq":"序列","Series":"系列","Set":"设置","Sets":"集合","Setting":"设置","Shader":"着色器","Shadow":"阴影","Shake":"抖动","Shape":"形状","Share":"共享","Shen":"神","Shield":"护盾","Shift":"偏移","Ship":"船","Shop":"商店","Show":"显示","Shuffle":"洗牌","Side":"侧","Sight":"视野","Signal":"信号","Silent":"静默","Simple":"简单","Single":"单个","Size":"尺寸","Skin":"皮肤","Skip":"跳过","Skill":"技能","Slerp":"球面插值","Slot":"槽位","SlotType":"槽位类型","Slow":"减速","Small":"小","Smart":"智能","Smooth":"平滑","Snapshot":"快照","Sneer":"嘲讽","Soft":"软","Soldier":"小兵","Sort":"排序","Sorting":"排序","Soul":"灵魂","Sound":"音效","Source":"来源","Spacing":"间距","Spawn":"生成","Spawner":"生成器","Spec":"规格","Special":"特殊","Specific":"指定","Speciel":"特殊","Specified":"指定","Specify":"指定","Specular":"高光","Speed":"速度","Spd":"速度","Spline":"样条曲线","Split":"分裂","Spread":"扩散","Spring":"弹簧","Sprite":"精灵","Sprint":"疾跑","Squad":"小队","Src":"来源","Stable":"稳定","Stage":"阶段","Stand":"站立","Standard":"标准","Start":"开始","Started":"已开始","State":"状态","Static":"静态","Statistic":"统计","Status":"状态","Stay":"停留","Steer":"转向","Step":"步长","Stick":"摇杆","Stolen":"被窃取","Stop":"停止","Strategy":"策略","Str":"字符串","Strength":"强度","Strengthen":"强化","Strict":"严格","String":"字符串","Style":"风格","Sub":"子","Substitution":"替换","Success":"成功","Suffix":"后缀","Suicide":"自杀","Sum":"总和","Summoner":"召唤师","Super":"超级","Survival":"生存","Sweep":"扫描","Switch":"切换","Switcher":"切换器","Swtich":"切换","Sync":"同步","Synch":"同步","Synchro":"同步","System":"系统","Tag":"标签","Tags":"标签","Talent":"天赋","Tame":"驯服","Tamed":"已驯服","Tap":"点击","Tar":"目标","Targe":"目标","Target":"目标","Targets":"目标","Task":"任务","Team":"队伍","Teammate":"队友","Teleport":"传送","Temp":"临时","Template":"模板","Ten":"十","Term":"项","Terminate":"终止","Test":"测试","Tex":"贴图","Text":"文本","Texture":"贴图","The":"该","Therapic":"治疗","Then":"然后","This":"该","Thousandth":"千分之一","Threshold":"阈值","Threhold":"阈值","Tick":"每帧","Tilt":"倾斜","Tilling":"平铺","Time":"时间","Timed":"限时","Timer":"计时器","Timing":"时机","Tint":"染色","Tip":"提示","Tips":"提示","Title":"标题","Tlog":"TLog日志","To":"到","Toggle":"切换","Together":"一起","Tolerance":"容差","Too":"过于","Top":"顶部","Total":"总计","Toward":"朝向","Tower":"防御塔","Trace":"追踪","Track":"追踪","Tracks":"轨道","Traget":"目标","Trail":"拖尾","Train":"训练","Training":"训练","Trajectory":"轨迹","Trans":"变换","Transfer":"转移","Transform":"变换","Transition":"过渡","Translate":"平移","Translation":"平移","Translucent":"半透明","Transmit":"传递","Trapezoid":"梯形","Treasure":"宝藏","Tree":"树","Tremble":"颤抖","Trigger":"触发","Triggered":"已触发","Trigonometric":"三角","Triiger":"触发","Tirgger":"触发","True":"真","Ts":"时间戳","Turn":"转向","Tutorial":"教程","Twin":"双","Two":"二","Type":"类型","Types":"类型","Un":"未","Unactive":"未激活","Underground":"地下","Unique":"唯一","Unit":"单位","Unkillable":"不死","Unlock":"解锁","Unoccupied":"空闲","Until":"直到","Up":"上","Update":"更新","Upper":"上","Use":"使用","Used":"已使用","User":"用户","Using":"使用","Utility":"工具","Utl":"工具","Valid":"有效","Validate":"校验","Val":"值","Value":"值","Values":"值","Vanguard":"先锋","Var":"变量","Variable":"变量","Vars":"变量","Vector":"向量","Vel":"速度","Velocity":"速度","Vertex":"顶点","Vertical":"垂直","Vibration":"震动","View":"视图","Vip":"VIP","Virtual":"虚拟","Visibility":"可见性","Visible":"可见","Visivle":"可见","Voice":"语音","Volume":"体积","Wait":"等待","Waiting":"等待","Walk":"行走","Walkable":"可行走","Wall":"墙","Watch":"观察","Water":"水","Wave":"波次","Way":"路径","Waypoint":"航点","Weapon":"武器","Weather":"天气","Weight":"权重","When":"当","While":"当","Whole":"整体","Width":"宽度","Widget":"控件","Win":"胜利","Window":"窗口","With":"与","Without":"不带","World":"世界","Zero":"零","Zone":"区域","Zoom":"缩放","Duration":"持续时间","Dying":"濒死","Adg":"ADG","Id":"ID","Ui":"UI","Hud":"HUD","Rtpc":"RTPC","Unity":"Unity","Gi":"GI","Ai":"AI","Hdr":"HDR","Ugc":"UGC","Xz":"XZ","Yz":"YZ","Guishi":"Guishi","Action":"动作","Actions":"动作","Activating":"激活中","Event":"事件","Int":"整数","CD":"冷却","Index":"索引","Probability":"概率","End":"结束","Abt":"中止","HD":"高清","Monitor":"监视器","Attacker":"攻击者","Space":"空间","Include":"包含","Ability":"能力","Attackable":"可攻击","Fileter":"过滤","Fliter":"过滤","Re":"重","After":"之后","Reverse":"反向","Vint":"整型","Arr":"数组","Bparam":"布尔参数","Obstacle":"障碍","Under":"下","Anims":"动画","Ep":"能量","Fix":"固定","Pt":"点","Watching":"观察","Affect":"影响","Arc":"弧","Cfg":"配置","Cfgid":"配置ID","Empty":"空","Evt":"事件","Txt":"文本","Animate":"动画","Awken":"觉醒","Cylinder":"圆柱","Dst":"目标","Fnl":"最终","Ugcproperty":"UGC属性","Acceler":"加速","Allow":"允许","Allowed":"允许","Ani":"动画","Bforbid":"禁止","Changed":"已变化","Controlled":"受控","CP":"战力","Dogpath":"寻路","Flg":"标记","Imm":"免疫","Release":"释放","Allies":"友军","Also":"也","Animal":"动物","Asset":"资源","Atals":"图集","Att":"属性","Avatar":"角色","Begin":"开始","Big":"大","Bit":"位","Both":"两者","BT":"行为树","Buller":"子弹","Calcel":"计算","Collisin":"碰撞","Collison":"碰撞","Collsion":"碰撞","Const":"常量","Contents":"内容","Continues":"持续","Continuesly":"持续","Cool":"冷却","Corner":"角落","Da":"大","Dao":"道","De":"减","Disppear":"消失","Distortion":"扭曲","Downgrade":"降级","Dura":"持续时间","Durational":"持续","Eliminated":"已淘汰","Globally":"全局","GO":"对象","Identical":"相同","Imitated":"模仿","Imumune":"免疫","Intersect":"相交","Intersects":"相交","Iparam":"整型参数","Markid":"标记ID","Monser":"野怪","Nodes":"节点","Obly":"仅","Observers":"观察者","Propertys":"属性","See":"见","Swept":"已扫描","Uvflow":"UV流动","Vec":"向量","Ye":"是","Zoffset":"Z偏移","Abs":"绝对","Accelerated":"已加速","Accerlerate":"加速","Acotr":"角色","AD":"物理","Adaptive":"自适应","Addition":"附加","Additional":"额外","Adjustable":"可调整","Aim":"瞄准","Ally":"友军","Alone":"单独","Amplification":"增幅","Amplitude":"振幅","AP":"法术","Approaching":"接近","Arrived":"已到达","Asix":"轴","Assiter":"助手","Atte":"攻击","Attemp":"尝试","Attenuation":"衰减","Avoid":"规避","Away":"远离","Barrage":"弹幕","Basics":"基础","Batchable":"可批处理","Belong":"属于","Beneficiary":"受益者","Binding":"绑定","Blend":"混合","Boundary":"边界","Boxsize":"盒子尺寸","Breath":"呼吸","Buffoperator":"增益运算","But":"但","Buy":"购买","Caller":"调用者","Camouflage":"伪装","Cancel":"取消","Cancle":"取消","Cannot":"无法","Carriage":"车厢","Carry":"携带","Certain":"特定","Chances":"概率","Changevalue":"变化值","Charing":"蓄力","Chat":"聊天","Checked":"已检查","Clamp":"钳制","Cld":"冷却","Closed":"关闭","Closest":"最近","Cmp":"比较","Com":"普通","Compensate":"补偿","Computer":"电脑","Consumable":"消耗品","Contains":"包含","Correct":"正确","Creator":"创建者","Crossover":"交叉","Ctx":"上下文","Cubic":"立方","Cus":"自定义","Cycle":"循环","Deceleration":"减速","Demand":"需求","Depth":"深度","Destruct":"销毁","Detecting":"检测中","Diaplay":"显示","Die":"死亡","Different":"不同","Directly":"直接","Disatance":"距离","Does":"是否","Dog":"狗","Drage":"拖拽","Early":"早期","Eequipment":"装备","Effected":"受影响","Effectype":"效果类型","Element":"元素","Enery":"能量","Error":"错误","Executing":"执行中","Existing":"已存在","Extant":"现存","Extral":"额外","Faceto":"朝向","Falloff":"衰减","Far":"远","Female":"女性","Finding":"查找","Fitting":"适配","Flags":"标记","Flow":"流动","Following":"跟随","Forbidden":"被禁止","Forbidding":"禁止","FOV":"视野角","Fps":"帧率","Free":"免费","Friendly":"友方","Frontstrength":"正面强度","FSM":"状态机","SM":"状态机","Global":"全局","GM":"管理员","Grade":"等级","Half":"一半","Hang":"挂起","Have":"有","Idx":"索引","Iem":"道具","Ind":"指示","Independent":"独立","Inertia":"惯性","Inject":"注入","Interruptted":"被打断","Intervals":"间隔","Intimacy":"亲密度","Intro":"开场","Involve":"涉及","Killable":"可击杀","Ladder":"天梯","Later":"之后","Least":"最小","Leaving":"离开","Lib":"库","Lift":"抬升","Lim":"限制","Long":"长","Magnitude":"幅值","Male":"男性","Marks":"标记","Menu":"菜单","Midway":"中途","Movable":"可移动","Navmesh":"导航网格","Normalized":"归一化","Nuff":"增益","Offst":"偏移","Ohter":"其他","Oter":"其他","Others":"其他","Oldest":"最旧","Ori":"原始","Outof":"超出","Overlapping":"重叠","Overwrite":"覆盖","P":"人","Percision":"精度","Perish":"消亡","Pic":"图片","Posisiton":"位置","Precision":"精度","Prism":"棱镜","Privilege":"特权","Raduis":"半径","Reached":"已到达","Recommend":"推荐","Recreate":"重建","Roate":"旋转","Row":"行","Rresh":"刷新","Samecamprestitution":"同阵营恢复系数","Sate":"状态","Segment":"分段","Sele":"选择","ResData":"资源数据","Rare":"稀有","dw":"","sz":"","ull":"","ll":"","st":"","CONF":"配置","TXTCONF":"文本配置","Conf":"配置","Err":"错误","PVP":"竞技","CLT":"客户端","SRV":"服务端","Svr":"服务端","dt":"数据表","Databin":"数据表","ast":"资源","REWARD":"奖励","REWARDS":"奖励","Reward":"奖励","Award":"奖励","AWARD":"奖励","BACKFLOW":"回流","Backflow":"回流","FARM":"农场","Farm":"农场","bytes":"字节","Desc":"描述","Description":"描述","ENTRANCE":"入口","Entrance":"入口","ENTRY":"入口","Entry":"入口","RANK":"排行","Rank":"排行","ACTIVITY":"活动","Activity":"活动","GRAY":"灰度","Gray":"灰度","SKILLFUNC":"技能功能","LINGBAO":"灵宝","WEAL":"福利","Weal":"福利","SUBTYPE":"子类型","SETTLE":"结算","Settle":"结算","SETTLEMENT":"结算","DOUDIZHU":"斗地主","MISC":"杂项","ESPORTS":"电竞","Esports":"电竞","MALL":"商城","Mall":"商城","COUNTRY":"国家","NATION":"国家","National":"全国","LOBBY":"大厅","Lobby":"大厅","HALL":"大厅","SEASON":"赛季","Season":"赛季","CAMPUS":"校园","COND":"条件","Cond":"条件","HOUSE":"家园","House":"家园","CARD":"卡牌","Card":"卡牌","NONE":"无","None":"无","SEASONREVIEW":"赛季回顾","VIBE":"氛围","TAB":"页签","Tab":"页签","INBATTLE":"对局中","MAHJONG":"麻将","VIOLATION":"违规","Violation":"违规","MVP":"MVP","PERREQUISITE":"前置条件","Prerequisite":"前置条件","GIFT":"礼包","Gift":"礼包","MAIL":"邮件","Mail":"邮件","GAMEPLAY":"玩法","Gameplay":"玩法","ENTERTAINMENT":"娱乐","DAILY":"每日","Daily":"每日","ACHIEVE":"成就","ACHIEVEMENT":"成就","Achievement":"成就","MUTATION":"变异","Mutation":"变异","Acnt":"账号","ACNT":"账号","STORY":"剧情","Story":"剧情","STAR":"星","Star":"星","APPEARANCE":"外观","Appearance":"外观","Url":"链接","URL":"链接","Fail":"失败","Failed":"失败","FAIL":"失败","DAY":"天","Day":"天","Days":"天数","Draw":"抽奖","LOTTERY":"抽奖","Lottery":"抽奖","LUCKYDRAW":"抽奖","ONE":"一","One":"一","WARMBATTLE":"热身赛","WARM":"热身","MMR":"MMR","SUIT":"套装","Suit":"套装","WEEK":"周","Week":"周","WEEKLY":"每周","Present":"礼物","PRESENT":"礼物","COMPLAINT":"举报","Complaint":"举报","REPORT":"举报","Report":"举报","JINLI":"锦鲤","MASTERMATCH":"大师赛","PLAT":"平台","Platform":"平台","Plat":"平台","PHOTO":"照片","Photo":"照片","Jump":"跳转","JUMP":"跳转","PERSONALISED":"个性化","BATTLEPASS":"战令","BP":"战令","NETWORKSTRATEGY":"网络策略","COMPETITION":"比赛","Competition":"比赛","SYMBOL":"铭文","Symbol":"铭文","Pool":"池","POOL":"池","TIMEOUT":"超时","Timeout":"超时","Already":"已","COMMANDER":"指挥官","Commander":"指挥官","YEAR":"年","Year":"年","INTERACTIVEOBJECT":"交互物","FIGHTVALUE":"战力","Gen":"生成","CHALLENGE":"挑战","Challenge":"挑战","SUBSCRIBE":"订阅","Subscribe":"订阅","SEASONALBUM":"赛季相册","BREAKINGNEWS":"快讯","Code":"码","INVITE":"邀请","Invite":"邀请","Full":"满","FULL":"满","JUDGE":"判定","TOKEN":"令牌","Token":"令牌","CARNIVAL":"嘉年华","CREDIT":"信誉","Credit":"信誉","PVPCOIN":"竞技币","BAG":"背包","Bag":"背包","PVPEXP":"竞技经验","ITEMTYPE":"道具类型","OFFLINE":"离线","Offline":"离线","Ban":"禁用","BAN":"禁用","DEVICE":"设备","Device":"设备","GAMECORE":"游戏核心","Pass":"通行证","PASS":"通行证","LOSE":"失败","Lose":"失败","AUTOCHESS":"自走棋","PRACTICE":"练习","Practice":"练习","REISSUE":"补发","TASKDISPLAY":"任务显示","COMMAND":"指令","WITHAI":"带AI","WITHOUTAI":"不带AI","QUESTION":"题目","Question":"题目","PREVIEW":"预览","Preview":"预览","BRAG":"炫耀","Brag":"炫耀","ASSIST":"助攻","MODULE":"模块","Batch":"批次","Red":"红","RED":"红","CATEGORY":"分类","Category":"分类","Price":"价格","SACREDANIMAL":"神兽","Lucky":"幸运","LUCK":"幸运","PROFICIENCY":"熟练度","Proficiency":"熟练度","Channel":"频道","CHANNEL":"频道","Channels":"频道","LABEL":"标签","Label":"标签","TRIAL":"试炼","Trial":"试炼","Trials":"试炼","CURRENCY":"货币","Currency":"货币","FUNCTION":"功能","Function":"功能","HEROBADGE":"英雄徽章","GROWTHBADGE":"成长徽章","LOADING":"加载","Loading":"加载","RELATION":"关系","Relation":"关系","Discount":"折扣","DISCOUNT":"折扣","TASKTYPE":"任务类型","TIMES":"次数","Times":"次数","HISTORY":"历史","History":"历史","Pay":"支付","PAY":"支付","SPECIALFUNCUNLOCKTYPE":"特殊功能解锁类型","Enough":"足够","GLOVAL":"全局","KOL":"KOL","TRANK":"战力榜","Exist":"存在","FACTORY":"工厂","HEROSKIN":"英雄皮肤","SHOPBUY":"商城购买","REASON":"原因","Reason":"原因","DROP":"掉落","Drop":"掉落","MACHINE":"机器","USAGE":"用途","Usage":"用途","WEAR":"穿戴","Wear":"穿戴","MISHU":"秘书","REDENVELOPE":"红包","CHGCREDIT":"信誉变化","PROJ":"项目","Proj":"项目","Unload":"卸载","INTERFACTION":"阵营交互","ROGUEMOW":"肉鸽割草","TAOSHA":"淘沙","INTERACTION":"交互","Interaction":"交互","NATIONALTIPS":"全国提示","WHITELIST":"白名单","ACCOMPANY":"陪伴","GENERAL":"通用","General":"通用","Hub":"中心","INTL":"国际","CHG":"变化","Chg":"变化","REMIND":"提醒","Ticket":"券","TICKET":"券","GAMEVIP":"游戏VIP","Rebate":"返利","REBATE":"返利","COMPOSE":"合成","Compose":"合成","Emoji":"表情","EMOJI":"表情","PERFEFT":"完美","Ss":"截图","WX":"微信","Table":"表","TABLE":"表","APOLLO":"Apollo","Apollo":"Apollo","Coupons":"点券","COUPONS":"点券","COUPON":"点券","MALICIOUS":"恶意","DIAMOND":"钻石","Diamond":"钻石","SOLO":"单人","Solo":"单人","Sale":"出售","SALE":"出售","TRICK":"技巧","Trick":"技巧","EXTERN":"外部","Extern":"外部","Req":"请求","REQ":"请求","RSP":"响应","SYSLANGUAGE":"系统语言","CONDCHG":"条件变化","PING":"延迟","KEYWORD":"关键词","TEAMFIGHT":"团战","BATTLEROYALE":"大逃杀","RCD":"记录","COLLECTION":"收集","Collection":"收集","FRAMECOMMAND":"帧指令","LOGIN":"登录","Login":"登录","Version":"版本","VERSION":"版本","CHECKIN":"签到","CROP":"裁剪","Crop":"裁剪","Join":"加入","JOIN":"加入","REDPOINT":"红点","REEVALUATE":"重新评估","Reevaluate":"重新评估","COMPLETE":"完成","Complete":"完成","NEWBIEGROWTH":"新手成长","REALAI":"真AI","Upgrade":"升级","UPGRADE":"升级","HOT":"热门","Hot":"热门","LANGUAGE":"语言","PLACEMENT":"定级","PVPKILLCNT":"击杀数","PVPKILL":"击杀","ANTICHEAT":"反外挂","DISCOVER":"发现","POSTITLE":"职位","Promotion":"晋级","PROMOTION":"晋级","SERVER":"服务器","Server":"服务器","SURRENDER":"投降","MEDAL":"勋章","Found":"找到","ONLINE":"在线","Album":"相册","ALBUM":"相册","MIDDLE":"中","RELY":"依赖","SUBTAB":"子页签","TEACHING":"教学","FUNCUNLOCK":"功能解锁","FUNCEFT":"技能效果","MOBA":"MOBA","Sys":"系统","SYS":"系统","VALFUNC":"数值功能","ULTIMATE":"终极","Ultimate":"终极","FAKEAI":"假AI","NOTACTIVEPAGE":"未激活页","PACKAGE":"礼包","Package":"礼包","CONFIRM":"确认","Confirm":"确认","DESK":"桌面","Desk":"桌面","EXPERIENCE":"经验","Experience":"经验","NOTICE":"公告","Notice":"公告","PANDORA":"Pandora","REVIEW":"回顾","Review":"回顾","Bin":"二进制","DIG":"挖掘","MILESTONE":"里程碑","Milestone":"里程碑","ACQUISITION":"获取","ANNIVERSARY":"周年","BANNER":"横幅","Banner":"横幅","Easy":"简单","NPC":"NPC","Npc":"NPC","WISH":"心愿","Wish":"心愿","RANKRAPID":"快速排行","RECORDER":"录制","DEFENSE":"防御","Defense":"防御","WARN":"警告","HOMEPAGE":"主页","RCMD":"推荐","Rcmd":"推荐","Rogue":"肉鸽","ISLAND":"岛屿","MONTH":"月","PROB":"概率","VOTE":"投票","BILLBOARD":"公告板","HANGUP":"挂机","LIKE":"点赞","Like":"点赞","CALENDAR":"日历","CONCLUSION":"结论","GUARANTEE":"保底","Guarantee":"保底","PRODUCT":"商品","Product":"商品","RECENT":"最近","Del":"删除","INITIALWARM":"初始热身","LEVELID":"等级ID","Page":"页","PAGE":"页","PERFORM":"表现","TARGETVAL":"目标值","MAXVALUE":"最大值","MINVALUE":"最小值","TEAMROOM":"队伍房间","STRANGER":"陌生人","FESTIVAL":"节日","PLUS":"加","DIFFICULTY":"难度","Difficulty":"难度","FAST":"快速","Fast":"快速","GREETING":"问候","HARVEST":"收获","Harvest":"收获","Support":"支持","SUPPORT":"支持","TEAMOPT":"队伍选项","OWN":"拥有","Own":"拥有","STG":"STG","EXPIRED":"过期","OVERDUE":"逾期","GOLDEN":"黄金","GOODS":"商品","Store":"商店","STORE":"商店","Bank":"银行","COMM":"通信","Comm":"通信","PROFIT":"收益","BONDING":"羁绊","BUILDING":"建筑","CLASS":"职业","Date":"日期","DATE":"日期","FACTION":"阵营","Illegal":"非法","GEM":"宝石","Points":"积分","POINTS":"积分","STATS":"统计","CANYON":"峡谷","Core":"核心","INSTRUCTION":"说明","POPULARITY":"人气","Popularity":"人气","PRESS":"按压","Queue":"队列","THEME":"主题","Theme":"主题","File":"文件","GAMEOVER":"游戏结束","RESPONSE":"响应","ANDROID":"Android","Android":"Android","COUNTDOWN":"倒计时","CRYSTAL":"水晶","EMOTION":"情绪","LV":"等级","Lv":"等级","Lvl":"等级","Memory":"内存","MEMORY":"内存","MONEY":"货币","Money":"货币","SILVER":"白银","STREAK":"连胜","KEEPSAKE":"纪念品","MAPPING":"映射","MOOD":"心情","Online":"在线","Outfit":"外观","OUTFIT":"外观","ROLE":"角色","Role":"角色","PUSH":"推送","SPEEDUP":"加速","ATTR":"属性","Attr":"属性","Attrs":"属性","BOT":"BOT","Chapter":"章节","IP":"IP","THREE":"三","Three":"三","FIVE":"五","Five":"五","TWO":"二","BLACK":"黑","Black":"黑","WHITE":"白","White":"白","POP":"弹窗","Pop":"弹窗","Act":"活动","ACT":"活动","DIARY":"日记","Case":"情况","Note":"说明","NOTE":"说明","Remark":"备注","Brief":"简介","Plan":"计划","PLAN":"计划","TASK":"任务","LIST":"列表","DATA":"数据","KEY":"键","NAME":"名称","Sidestrength":"侧面强度","Slid":"滑动","Slots":"槽位","Snap":"吸附","Spawned":"已生成","Speaker":"说话者","Speedoraccel":"速度或加速度","Spwan":"生成","Stat":"统计","Stealer":"窃取者","Strong":"强","Subsequent":"后续","Syn":"同步","Tmp":"临时","Trained":"已训练","Vanguardre":"先锋","Vdspeeds":"速度数组","Vi":"整型变量","Victim":"受害者","Video":"视频","Visbile":"可见","Waitingtime":"等待时间","Yes":"是"},"compounds":{"BianShen":"变身","ShenFu":"神符","Newbiekill":"新手击杀","JoyStick":"摇杆","IDs":"ID","VInt3":"整型向量3","TLog":"日志"},"phrases":{},"keep":["ADG","AGE","USG","OMG","RVO","RTPC","IK","UI","HUD","DUI","Mecanim","Playmaker","Guishi","ID","PVE","LCCD","XYZ","HDR","Unity","GI","UGC","XZ","YZ","AI","V","v","D","d","T","t","C","c","Y","y","W","w","A","a","L","l","R","r","U","u","X","x","Z","z","E","e","G","g","I","i","S","s","M","m","F","f","N","n","O","o","K","k","H","h"]}</script>
+
+<script>
+/* =========================================================================
+   1. 分词与翻译（与桌面版 glossary 规则一致）
+   ========================================================================= */
+const GLOSSARY = JSON.parse(document.getElementById('glossary-data').textContent);
+
+const splitCamel = (name) => name
+  .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+  .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+  .replace(/([A-Za-z])(\d)/g, '$1 $2')
+  .replace(/(\d)([A-Za-z])/g, '$1 $2')
+  .split(/[\s_\-]+/).filter(Boolean);
+
+const KEEP = new Set(GLOSSARY.keep || []);
+const LOOKUP = new Map();
+for (const [k, v] of Object.entries(GLOSSARY.words || {})) LOOKUP.set(k.toLowerCase(), v);
+const COMPOUNDS = GLOSSARY.compounds || {};
+const COMPOUND_KEYS = Object.keys(COMPOUNDS).map((k) => k.toLowerCase()).sort((a, b) => b.length - a.length);
+const PHRASES = GLOSSARY.phrases || {};
+
+function findCompound(name, lower, from) {
+  for (let i = from; i < name.length; i++) {
+    if (i !== 0 && !/[A-Z]/.test(name[i])) continue;
+    for (const k of COMPOUND_KEYS) {
+      if (!lower.startsWith(k, i)) continue;
+      const after = name[i + k.length] || '';
+      if (after && !/[A-Z0-9_]/.test(after)) continue;
+      return { start: i, key: k };
+    }
+  }
+  return null;
+}
+
+function segmentSimple(name) {
+  const out = [];
+  const lower = name.toLowerCase();
+  let i = 0;
+  while (i < name.length) {
+    const hit = findCompound(name, lower, i);
+    if (hit && hit.start === i) {
+      out.push({ raw: name.slice(i, i + hit.key.length), zh: COMPOUNDS[hit.key] });
+      i += hit.key.length;
+      continue;
+    }
+    const end = hit ? hit.start : name.length;
+    for (const t of splitCamel(name.slice(i, end))) out.push({ raw: t });
+    i = end;
+  }
+  return out;
+}
+
+function segment(name) {
+  if (!name.includes('.')) return segmentSimple(name);
+  const out = [];
+  name.split('.').forEach((part, i) => {
+    if (i > 0) out.push({ raw: '.', zh: '.' });
+    if (part) for (const t of segmentSimple(part)) out.push(t);
+  });
+  return out;
+}
+
+function translateName(name) {
+  if (PHRASES[name]) return PHRASES[name];
+  const parts = [];
+  for (const s of segment(name)) {
+    if (s.zh !== undefined) { parts.push(s.zh); continue; }
+    if (/^\d+$/.test(s.raw)) { parts.push(s.raw); continue; }
+    if (KEEP.has(s.raw)) { parts.push(s.raw); continue; }
+    const hit = LOOKUP.get(s.raw.toLowerCase());
+    parts.push(hit === undefined ? s.raw : hit);
+  }
+  return parts.join('');
+}
+
+/* =========================================================================
+   2. .cs -> lua 表（与桌面版 cs2lua.js 同一套规则）
+   ========================================================================= */
+
+const PRIMITIVE_SIZE = {
+  'System.Byte': 1, 'System.SByte': 1, 'System.Boolean': 1,
+  'System.Int16': 2, 'System.UInt16': 2, 'System.Char': 2,
+  'System.Int32': 4, 'System.UInt32': 4, 'System.Single': 4,
+  'System.Int64': 8, 'System.UInt64': 8, 'System.Double': 8,
+  'System.IntPtr': 8, 'System.UIntPtr': 8,
+};
+const MODIFIERS = new Set(['public', 'private', 'protected', 'internal', 'static', 'readonly',
+  'const', 'volatile', 'unsafe', 'new', 'sealed', 'override', 'abstract', 'virtual', 'extern', 'partial']);
+const DECL_KEYWORDS = [[' class ', 'class'], [' struct ', 'struct'], [' enum ', 'enum'], [' interface ', 'interface']];
+const isWrapperType = (t) => t.endsWith('e__FixedBuffer');
+
+function declMatch(line) {
+  let best = null;
+  for (const [k, kind] of DECL_KEYWORDS) {
+    const i = line.indexOf(k);
+    if (i !== -1 && (!best || i < best.at)) best = { at: i + k.length, kind };
+  }
+  return best;
+}
+function isClassDeclLine(line) {
+  if (!line) return false;
+  const c = line.charCodeAt(0);
+  if (c === 0x20 || c === 0x09 || c === 0x2f) return false;
+  return declMatch(line) !== null;
+}
+function parseClassLine(line) {
+  const first = line.slice(0, line.indexOf(' ') === -1 ? line.length : line.indexOf(' '));
+  if (first !== 'public') return null;                 // 与 parser.sh 一致：只认 public
+  const dm = declMatch(line);
+  if (!dm) return null;
+  let end = dm.at;
+  while (end < line.length && !' \t:'.includes(line[end])) end++;
+  const name = line.slice(dm.at, end);
+  return name ? { name, kind: dm.kind } : null;
+}
+function parseOffset(line, from) {
+  const p = line.indexOf('0x', from);
+  if (p === -1) return null;
+  let end = p + 2;
+  while (end < line.length && /[0-9a-fA-F]/.test(line[end])) end++;
+  if (end === p + 2) return null;
+  return parseInt(line.slice(p + 2, end), 16);
+}
+function parseFieldLine(decl) {
+  const eq = decl.indexOf(' = ');
+  if (eq !== -1) decl = decl.slice(0, eq);
+  const parts = decl.split(/\s+/).filter(Boolean);
+  if (parts.length < 2) return null;
+  const name = parts[parts.length - 1];
+  let i = 0;
+  while (i < parts.length - 1 && MODIFIERS.has(parts[i])) i++;
+  const type = parts.slice(i, parts.length - 1).join(' ');
+  return type && name ? { name, type } : null;
+}
+function parseMethodLine(decl) {
+  const paren = decl.indexOf('(');
+  const before = paren === -1 ? decl : decl.slice(0, paren);
+  const parts = before.split(/\s+/).filter(Boolean);
+  if (!parts.length) return null;
+  let i = 0;
+  while (i < parts.length - 1 && MODIFIERS.has(parts[i])) i++;
+  return { name: parts[parts.length - 1], ret: parts.slice(i, parts.length - 1).join(' ') };
+}
+
+const instFieldsOf = (cls) => [...cls.fields.values()].filter((f) => !f.isStatic).sort((a, b) => a.offset - b.offset);
+
+function typeLayout(type, classes, sizeOfType, seen = new Set()) {
+  if (PRIMITIVE_SIZE[type] !== undefined) {
+    const s = PRIMITIVE_SIZE[type];
+    return { size: s, align: s, min: 0 };
+  }
+  const c = classes.get(type);
+  if (!c) return /^System\./.test(type) ? { size: 8, align: 8, min: 0 } : null;
+  if (c.kind !== 'struct') return { size: 8, align: 8, min: 0 };
+  if (seen.has(type)) return null;
+  seen.add(type);
+  const inst = [...c.fields.values()].filter((f) => !f.isStatic);
+  if (!inst.length) return null;
+  let min = Infinity, end = 0, align = 1;
+  for (const f of inst) {
+    let s = null, a = 1;
+    if (f.array) {
+      if (f.count === undefined || f.count === null || !f.size) return null;
+      s = f.count * f.size;
+      a = f.size;
+    } else if (isWrapperType(f.type)) {
+      return null;
+    } else {
+      const t = typeLayout(f.type, classes, sizeOfType, new Set(seen));
+      if (!t) return null;
+      s = t.size;
+      a = t.align;
+    }
+    if (f.offset < min) min = f.offset;
+    if (f.offset + s > end) end = f.offset + s;
+    if (a > align) align = a;
+  }
+  if (end <= min) return null;
+  return { size: Math.ceil((end - min) / align) * align, align, min };
+}
+
+function buildSizeMap(classes) {
+  const sizeOf = new Map();
+  const fromParent = new Set();
+  const isValueStruct = (t) => { const c = classes.get(t); return c ? c.kind === 'struct' : false; };
+  const known = (t) => {
+    if (PRIMITIVE_SIZE[t] !== undefined) return PRIMITIVE_SIZE[t];
+    if (sizeOf.has(t)) return sizeOf.get(t).size;
+    if (isWrapperType(t)) return null;
+    const c = classes.get(t);
+    if (c) return c.kind === 'struct' ? null : 8;
+    return /^System\./.test(t) ? 8 : null;
+  };
+  for (let round = 0; round < 6; round++) {
+    let changed = 0;
+    for (const cls of classes.values()) {
+      const inst = instFieldsOf(cls);
+      for (let i = 0; i + 1 < inst.length; i++) {
+        const f = inst[i];
+        if (f.array || isWrapperType(f.type) || !isValueStruct(f.type)) continue;
+        const sz = inst[i + 1].offset - f.offset;
+        if (sz <= 0) continue;
+        const old = sizeOf.get(f.type);
+        if (!old || sz < old.size) { sizeOf.set(f.type, { size: sz, min: 0x8 }); fromParent.add(f.type); changed++; }
+      }
+      if (isWrapperType(cls.name) || fromParent.has(cls.name)) continue;
+      const lay = typeLayout(cls.name, classes, known);
+      if (lay && (!sizeOf.has(cls.name) || sizeOf.get(cls.name).size !== lay.size)) {
+        sizeOf.set(cls.name, { size: lay.size, min: lay.min });
+        changed++;
+      }
+    }
+    if (!changed) break;
+  }
+  return sizeOf;
+}
+
+function resolveFixedBuffers(classes) {
+  const stat = { total: 0, resolved: 0, partial: 0, noSpan: 0, noSize: 0 };
+  const pending = [];
+  for (let round = 0; round < 8; round++) {
+    const sizeOf = buildSizeMap(classes);
+    const sizeOfType = (t) => {
+      if (PRIMITIVE_SIZE[t] !== undefined) return PRIMITIVE_SIZE[t];
+      if (sizeOf.has(t)) return sizeOf.get(t).size;
+      if (isWrapperType(t)) return null;
+      const c = classes.get(t);
+      if (c) return c.kind === 'struct' ? null : 8;
+      return /^System\./.test(t) ? 8 : null;
+    };
+    let progress = 0;
+    for (const cls of classes.values()) {
+      const inst = instFieldsOf(cls);
+      const self = sizeOf.get(cls.name);
+      for (let i = 0; i < inst.length; i++) {
+        const f = inst[i];
+        if (isWrapperType(f.type)) {
+          f.array = true;
+          if (!f.fixedPending) { f.fixedPending = true; pending.push(f); }
+        }
+        if (!f.fixedPending || f.count) continue;
+        const m = /<(.+)_bytes>e__FixedBuffer$/.exec(f.type);
+        const base = m ? m[1] : f.name.replace(/_bytes$/, '');
+        const acc = cls.methods.get(base);
+        const next = inst[i + 1];
+        let span = next ? next.offset - f.offset : null;
+        if (span === null && self && self.min + self.size > f.offset) span = self.min + self.size - f.offset;
+        f.rawSpan = span;
+        const elemType = acc ? acc.ret : null;
+        if (!elemType) continue;
+        f.elem = elemType;
+        const lay = typeLayout(elemType, classes, sizeOfType);
+        const inferred = sizeOfType(elemType);
+        const candidates = [];
+        if (inferred) candidates.push(inferred);
+        if (lay) candidates.push(lay.size);
+        let elemSize = candidates.find((s) => s && span && span % s === 0) || null;
+        if (!elemSize && !span) elemSize = candidates[0] || null;
+        let pad = 0;
+        if (!elemSize && span) {
+          for (const s of candidates) {
+            if (!s) continue;
+            const rem = span % s;
+            if (rem > 0 && rem < 8) { elemSize = s; pad = rem; break; }
+          }
+        }
+        if (elemSize) f.size = elemSize;
+        if (span && elemSize && span % elemSize === 0) { f.count = span / elemSize; progress++; }
+        else if (span && elemSize && pad > 0) { f.count = Math.floor(span / elemSize); f.pad = pad; progress++; }
+      }
+    }
+    if (!progress) break;
+  }
+  stat.total = pending.length;
+  for (const f of pending) {
+    if (f.count) stat.resolved++;
+    else { stat.partial++; if (f.rawSpan == null) stat.noSpan++; else if (!f.size) stat.noSize++; }
+  }
+  return stat;
+}
+
+const luaQuote = (s) => "'" + String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\r?\n/g, '\\n') + "'";
+
+function emitDump(cls) {
+  const out = [];
+  out.push(`\t['${cls.name}'] = {`);
+  out.push('\t\t[\'Methods\'] = {');
+  for (const m of cls.methods.values()) {
+    out.push(`\t\t\t['${m.name}'] = {`);
+    out.push(`\t\t\t\t['offset'] = ${m.offset},`);
+    out.push(`\t\t\t\t['signature'] = ${luaQuote(m.signature)},`);
+    out.push('\t\t\t},');
+  }
+  out.push('\t\t},');
+  out.push('\t\t[\'Fields\'] = {');
+  for (const f of cls.fields.values()) {
+    out.push(`\t\t\t['${f.name}'] = {`);
+    out.push(`\t\t\t\t['offset'] = ${f.offset},`);
+    out.push(`\t\t\t\t['type'] = ${luaQuote(f.type)},`);
+    if (f.array) {
+      if (f.elem) out.push(`\t\t\t\t['elem'] = ${luaQuote(f.elem)},`);
+      if (f.count !== undefined && f.count !== null) out.push(`\t\t\t\t['count'] = ${f.count},`);
+      if (f.size !== undefined) out.push(`\t\t\t\t['size'] = ${f.size},`);
+      if (f.pad) out.push(`\t\t\t\t['pad'] = ${f.pad},`);
+      out.push('\t\t\t\t[\'array\'] = true,');
+    }
+    out.push('\t\t\t},');
+  }
+  out.push('\t\t},');
+  const max = [...cls.fields.values()].filter((f) => !f.isStatic).reduce((a, f) => Math.max(a, f.offset), 0);
+  out.push(`\t\t['MaxV'] = ${max},`);
+  out.push('\t},');
+  return out.join('\n');
+}
+
+async function convertCs(file, opts, post) {
+  const classes = new Map();
+  const selected = new Set();
+  let current = null, inFields = false, inMethods = false;
+  let scanned = 0, lineNo = 0, bytes = 0;
+
+  const handleLine = (line) => {
+    lineNo++;
+    if (isClassDeclLine(line)) {
+      inFields = false; inMethods = false; scanned++;
+      const parsed = parseClassLine(line);
+      if (!parsed) { current = null; return; }
+      let entry = classes.get(parsed.name);
+      if (!entry) {
+        entry = { name: parsed.name, kind: parsed.kind, fields: new Map(), methods: new Map() };
+        classes.set(parsed.name, entry);
+      }
+      if (!opts.onlyPrefix || parsed.name.startsWith(opts.prefix)) selected.add(parsed.name);
+      current = entry;
+      return;
+    }
+    if (!current) return;
+    if (line.charCodeAt(1) === 0x2f) {
+      if (line.startsWith('\t// Fields')) { inFields = true; inMethods = false; return; }
+      if (line.startsWith('\t// Methods')) { inMethods = true; inFields = false; return; }
+      return;
+    }
+    const sc = line.indexOf('; //');
+    if (sc === -1) return;
+    const off = parseOffset(line, sc);
+    if (off === null) return;
+    const decl = line.slice(0, sc).trim();
+    if (inFields) {
+      const f = parseFieldLine(decl);
+      if (!f) return;
+      const isStatic = /\bstatic\b|\bconst\b/.test(decl);
+      if (current.fields.has(f.name)) return;
+      current.fields.set(f.name, { name: f.name, type: f.type, offset: off, isStatic });
+    } else if (inMethods) {
+      const m = parseMethodLine(decl);
+      if (!m || current.methods.has(m.name)) return;
+      current.methods.set(m.name, { name: m.name, ret: m.ret, offset: off, signature: decl });
+    }
+  };
+
+  const reader = file.stream().pipeThrough(new TextDecoderStream()).getReader();
+  const size = file.size || 1;
+  let leftover = '';
+  for (;;) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    bytes += value.length;
+    const chunk = leftover + value;
+    let start = 0, idx;
+    while ((idx = chunk.indexOf('\n', start)) !== -1) {
+      let s = chunk.slice(start, idx);
+      if (s.endsWith('\r')) s = s.slice(0, -1);
+      handleLine(s);
+      start = idx + 1;
+    }
+    leftover = chunk.slice(start);
+    post(Math.min(70, Math.round((bytes / size) * 70)), `解析中 ${(bytes / 1048576).toFixed(1)} MB`);
+    await tick();
+  }
+  if (leftover) handleLine(leftover.replace(/\r$/, ''));
+
+  post(75, '解析包装数组…');
+  const stat = resolveFixedBuffers(classes);
+  await tick();
+
+  const out = ['{'];
+  let count = 0, fields = 0, methods = 0;
+  for (const cls of classes.values()) {
+    if (!selected.has(cls.name)) continue;
+    if (!opts.keepWrapper && isWrapperType(cls.name) && cls.fields.size === 0) continue;
+    count++; fields += cls.fields.size; methods += cls.methods.size;
+    out.push(emitDump(cls));
+    if (count % 400 === 0) { post(75 + Math.round((count / Math.max(1, selected.size)) * 20), `输出 ${count} 个类`); await tick(); }
+  }
+  out.push('}');
+  post(97, '完成');
+  return { text: out.join('\n') + '\n', count, fields, methods, scanned, stat };
+}
+
+/* =========================================================================
+   3. lua 表 -> 中文对照 zh.lua
+   ========================================================================= */
+function translateDump(text, post) {
+  const lines = text.split('\n');
+  const out = ['return {'];
+  let cls = null, section = null, inner = [], emitted = 0, fields = 0;
+  const flush = () => {
+    if (cls && inner.length) { out.push(`[${luaQuote(cls)}]={${inner.join(',')}},`); emitted++; }
+    inner = [];
+  };
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    let m = /^\t\['([^']+)'\] = \{/.exec(line);
+    if (m) { flush(); cls = m[1]; section = null; continue; }
+    if (!cls) continue;
+    m = /^\t\t\['(Fields|Methods)'\] = \{/.exec(line);
+    if (m) { section = m[1]; continue; }
+    m = /^\t\t\t\['([^']+)'\] = \{/.exec(line);
+    if (m && section) {
+      const name = m[1];
+      const zh = translateName(name);
+      if (zh && zh !== name) inner.push(`[${luaQuote(name)}]=${luaQuote(zh)}`);
+      fields++;
+      if (fields % 5000 === 0) { post(70 + Math.round((i / lines.length) * 28), `翻译 ${fields} 项`); }
+      continue;
+    }
+  }
+  flush();
+  out.push('}');
+  return { text: out.join('\n') + '\n', classes: emitted, fields };
+}
+
+/* =========================================================================
+   4. 页面交互
+   ========================================================================= */
+const $ = (id) => document.getElementById(id);
+const log = (s) => { const el = $('log'); el.textContent += s + '\n'; el.scrollTop = el.scrollHeight; };
+const post = (pct, msg) => { $('bar').value = pct; if (msg) log(msg); };
+const tick = () => new Promise((r) => setTimeout(r, 0));
+const mb = (n) => (n / 1048576).toFixed(2) + ' MB';
+
+let picked = null;
+
+$('drop').addEventListener('click', () => $('file').click());
+$('file').addEventListener('change', (e) => { if (e.target.files[0]) setFile(e.target.files[0]); });
+['dragenter', 'dragover'].forEach((ev) => $('drop').addEventListener(ev, (e) => {
+  e.preventDefault(); $('drop').classList.add('hot');
+}));
+['dragleave', 'drop'].forEach((ev) => $('drop').addEventListener(ev, () => $('drop').classList.remove('hot')));
+$('drop').addEventListener('drop', (e) => {
+  e.preventDefault();
+  if (e.dataTransfer.files[0]) setFile(e.dataTransfer.files[0]);
+});
+
+function setFile(f) {
+  picked = f;
+  $('fileName').textContent = `${f.name}  ${mb(f.size)}`;
+  $('run').disabled = false;
+  $('log').textContent = '';
+  log('已选择：' + f.name);
+}
+
+function offer(name, text, note) {
+  const blob = new Blob([text], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = name;
+  a.textContent = `⬇ ${name}  (${mb(blob.size)})  ${note || ''}`;
+  $('out').appendChild(a);
+  $('outWrap').style.display = '';
+}
+
+$('run').addEventListener('click', async () => {
+  if (!picked) return;
+  const btn = $('run');
+  btn.disabled = true;
+  $('out').innerHTML = '';
+  $('bar').value = 0;
+  try {
+    const isCs = /\.cs$/i.test(picked.name);
+    let dumpText;
+    if (isCs) {
+      log('开始解析 .cs …（大文件请耐心等）');
+      const t0 = Date.now();
+      const opts = {
+        onlyPrefix: $('onlyPrefix').checked,
+        prefix: $('prefix').value || 'ResData.',
+        keepWrapper: $('keepWrapper').checked,
+      };
+      const r = await convertCs(picked, opts, post);
+      dumpText = r.text;
+      log(`✔ 解析完成：${r.scanned} 个类定义 → 输出 ${r.count} 个类，字段 ${r.fields}，方法 ${r.methods}`);
+      log(`  包装数组：${r.stat.total} 个，解析出个数 ${r.stat.resolved} 个（推不出 ${r.stat.partial}）`);
+      log(`  耗时 ${((Date.now() - t0) / 1000).toFixed(1)} 秒`);
+      offer('sgame.lua', dumpText, '← 放到 /storage/emulated/0/com.tencent.tmgp.sgame5.lua');
+    } else {
+      dumpText = await picked.text();
+      log('已读入 lua 表：' + mb(dumpText.length));
+    }
+
+    if ($('zh').checked) {
+      log('生成中文对照 zh.lua …');
+      const z = translateDump(dumpText, post);
+      log(`✔ 中文对照：${z.classes} 个类 / ${z.fields} 个字段名`);
+      offer('zh.lua', z.text, '← 放到 /storage/emulated/0/sgame_zh.lua');
+    }
+    if ($('zhDump').checked) {
+      log('生成中文版 dump …');
+      const zhText = embedZh(dumpText);
+      offer('sgame_中文版.lua', zhText, '（键名不变，只是加了 [zh]）');
+    }
+    $('bar').value = 100;
+    log('全部完成 ✔');
+  } catch (e) {
+    log('✘ 出错：' + (e && e.message ? e.message : e));
+    log('  如果内存不够，试试缩小文件或改用 Termux 命令行方案。');
+  } finally {
+    btn.disabled = false;
+  }
+});
+
+// 中文版 dump：键名不动，只在每个表里插一行 ['zh']
+function embedZh(text) {
+  const lines = text.split('\n');
+  const out = [];
+  let inClass = false, section = null;
+  const zhOf = (name) => { const z = translateName(name); return z && z !== name ? z : null; };
+  for (const line of lines) {
+    out.push(line);
+    let m = /^\t\['([^']+)'\] = \{/.exec(line);
+    if (m) {
+      section = null;
+      inClass = true;
+      const zh = zhOf(m[1]);
+      if (zh) out.push(`\t\t['zh'] = '${zh.replace(/'/g, "\\'")}',`);
+      continue;
+    }
+    if (!inClass) continue;
+    m = /^\t\t\['(Fields|Methods)'\] = \{/.exec(line);
+    if (m) { section = m[1]; continue; }
+    m = /^\t\t\t\['([^']+)'\] = \{/.exec(line);
+    if (m && section) {
+      const zh = zhOf(m[1]);
+      if (zh) out.push(`\t\t\t\t['zh'] = '${zh.replace(/'/g, "\\'")}',`);
+    }
+  }
+  return out.join('\n');
+}
+</script>
+</body>
+</html>
