@@ -7,6 +7,29 @@
 
 把 `.cs` 或 `.lua` 拖进窗口就行，`.cs` 会先转表再自动翻译。
 
+## 用法零：手机（两种，都不用装 App）
+
+**A. 网页版（推荐）** —— [lua-tools.html](lua-tools.html)，单文件、纯本地、不联网、不上传。
+拷到手机用 Chrome 打开，选 `.cs` 就出 `sgame.lua` + `zh.lua`（还能勾选生成中文版 dump）。
+全部算法与桌面版一致，已做过逐键对比。
+
+```bash
+node build-phone-app.js     # 改完词典后重新打包（同时更新 github/index.html）
+```
+
+想直接从网址打开：把仓库推到 GitHub → Settings → Pages → 分支 `main`、目录 `/(root)` → Save，
+手机访问 `https://<用户名>.github.io/<仓库名>/lua-class-translator/github/`
+（`github/` 目录就是给 Pages 用的，里面是同一份页面）。
+
+**B. Termux 命令行** —— [termux-一键.sh](termux-一键.sh)，调用与桌面版完全相同的 Node 脚本，可批量处理：
+
+```bash
+pkg update && pkg install nodejs -y && termux-setup-storage
+bash ~/lua/termux-一键.sh              # 处理 /sdcard/Download 里的 .cs / .lua
+```
+
+手机方案的自检：`node test-phone-app.js`（与桌面版结果逐键对比）、`node test-phone-ui.js`（界面流程冒烟）。
+
 ## 用法一：桌面程序（推荐）
 
 双击 [翻译器.cmd](翻译器.cmd) 打开窗口 → 把文件拖到上面的方框 → 点「开始处理」。
