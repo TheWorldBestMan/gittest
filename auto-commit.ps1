@@ -21,7 +21,9 @@ function Write-Log([string]$message) {
 
 Set-Location -LiteralPath $repoPath
 
-git add -A 2>&1 | Out-Null
+# Do not stage this script's own runtime log. Otherwise every run sees the
+# previous log entry as a new change and creates another self-triggered commit.
+git add -A -- . ':(exclude)auto-commit.log' 2>&1 | Out-Null
 $staged = @(git diff --cached --name-only)
 
 if ($staged.Count -eq 0) {
